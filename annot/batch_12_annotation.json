@@ -1,0 +1,2117 @@
+[
+  {
+    "sample_id": 0,
+    "source": "a species of whale that was feared to be extinct has been found washed up on a west australian beach , giving scientists an opportunity to learn more about the mammal . \nthe omura 's whale was discovered on a remote exmouth beach , at the tip of the state 's north west cape , after tropical cyclone olwyn tore through the area last month . \nit is the first sighting of the species in wa and only the second in australia . \nidentifying the 5.68 m juvenile female was at first difficult for department of parks and wildlife staff , who eventually confirmed it was an omura 's whale with dna profiling . \nan omura 's whale was discovered on a remote exmouth beach in wa ( pictured ) . \nit left authorities confused as they struggled to identify the rare species\nenvironment minister albert jacob said the find was ` highly significant ' for whale scientists because very little was known about the species . \n` omura 's whale was only described in scientific journals for the first time in 2003 and is apparently restricted to tropical and subtropical waters , ' he said . \n` the knowledge we gain from this whale will help to improve field identification guides to better understand the whale 's regional distribution . ' \nthe species is usually found in indonesian waters , the philippines and the sea of japan . \nomura 's whales have a sleek body shape and several unique skeletal features , including 53 vertebrae and four digits on each pectoral fin . \nthe carcass has been buried and the skeleton will be recovered in a few years for further scientific investigation and possibly for public display in museums . \nthe omura 's is usually found in indonesian waters , the philippines and the sea of japan\nthe whale has a sleek body shape and several unique skeletal features , including 60 vertebrae",
+    "summary": " A juvenile female Omura's whale, a rare species believed to be restricted to tropical and subtropical waters, was found washed up on a remote Exmouth beach in Western Australia (WA). This is the first sighting of the species in WA and only the second in Australia. The identification was initially challenging for the Department of Parks and Wildlife staff, but DNA profiling confirmed it as an Omura's whale. The discovery is significant for whale scientists as very little is known about the species, which is usually found in Indonesian waters, the Philippines, and the Sea of Japan. The carcass has been buried, and the skeleton will be recovered in a few years for further scientific investigation and potential public display in museums. The Omura's whale has a sleek body shape and unique skeletal features, including 53 vertebrae and four digits on each pectoral fin.",
+    "annotations": [
+      {
+        "annot_id": 6,
+        "sample_id": 0,
+        "annotator": "b6bb5cc6df1d46aeb0e116d6a18cae2a",
+        "label": [
+          "Benign"
+        ],
+        "note": "The passage at one place mentions 53 and at another 60 vertebrae",
+        "annotator_name": "Suleman",
+        "summary_span": " including 53 vertebrae and four digits on each pectoral fin.",
+        "summary_start": 815,
+        "summary_end": 876
+      },
+      {
+        "annot_id": 13,
+        "sample_id": 0,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the summary is assuming wa refers to Western Australia",
+        "annotator_name": "Manveer",
+        "summary_span": "Western Australia (WA)",
+        "summary_start": 160,
+        "summary_end": 182
+      },
+      {
+        "annot_id": 14,
+        "sample_id": 0,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Questionable"
+        ],
+        "note": "summary doesn't acknowledge that the source says both 53 and 60.",
+        "annotator_name": "Manveer",
+        "summary_span": "53 vertebrae ",
+        "summary_start": 826,
+        "summary_end": 839
+      }
+    ],
+    "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "meta_hhemv1": 0.99469,
+    "meta_hhem-2.1": 0.91396,
+    "meta_hhem-2.1-english": 0.92085,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 91
+  },
+  {
+    "sample_id": 1,
+    "source": "a species of whale that was feared to be extinct has been found washed up on a west australian beach , giving scientists an opportunity to learn more about the mammal . \nthe omura 's whale was discovered on a remote exmouth beach , at the tip of the state 's north west cape , after tropical cyclone olwyn tore through the area last month . \nit is the first sighting of the species in wa and only the second in australia . \nidentifying the 5.68 m juvenile female was at first difficult for department of parks and wildlife staff , who eventually confirmed it was an omura 's whale with dna profiling . \nan omura 's whale was discovered on a remote exmouth beach in wa ( pictured ) . \nit left authorities confused as they struggled to identify the rare species\nenvironment minister albert jacob said the find was ` highly significant ' for whale scientists because very little was known about the species . \n` omura 's whale was only described in scientific journals for the first time in 2003 and is apparently restricted to tropical and subtropical waters , ' he said . \n` the knowledge we gain from this whale will help to improve field identification guides to better understand the whale 's regional distribution . ' \nthe species is usually found in indonesian waters , the philippines and the sea of japan . \nomura 's whales have a sleek body shape and several unique skeletal features , including 53 vertebrae and four digits on each pectoral fin . \nthe carcass has been buried and the skeleton will be recovered in a few years for further scientific investigation and possibly for public display in museums . \nthe omura 's is usually found in indonesian waters , the philippines and the sea of japan\nthe whale has a sleek body shape and several unique skeletal features , including 60 vertebrae",
+    "summary": " An Omura's whale, previously feared extinct, washed up on a remote Eighty-Eight Beach in Western Australia. This is the first sighting in the region and only the second in Australia. The discovery, made after Tropical Cyclone Olwyn, provided scientists with an opportunity to learn more about the species, which was only described in scientific journals in 2003. The whale, a juvenile female, has unique features such as 53 vertebrae and four digits on each pectoral fin. The carcass has been buried, and the skeleton will be recovered for further scientific investigation and potential public display. The species is usually found in Indonesian waters, the Philippines, and the Sea of Japan. \n\nNote: The passage mentions 60 vertebrae, but the correct number is 53. This has been corrected in the summary. \n\nSummary:\nA previously feared extinct Omura's whale washed up on a remote beach in Western Australia, providing scientists with a chance to learn more about the species. This is the first sighting in the region and only the second in Australia.",
+    "annotations": [
+      {
+        "annot_id": 3,
+        "sample_id": 1,
+        "annotator": "b6bb5cc6df1d46aeb0e116d6a18cae2a",
+        "label": [
+          "Unwanted"
+        ],
+        "note": "The beach's name is not mentioned.",
+        "annotator_name": "Suleman",
+        "summary_span": "washed up on a remote Eighty-Eight Beach in Western Australia",
+        "summary_start": 46,
+        "summary_end": 107,
+        "source_span": "a species of whale that was feared to be extinct has been found washed up on a west australian beach , giving scientists an opportunity to learn more about the mammal .",
+        "source_start": 0,
+        "source_end": 168
+      },
+      {
+        "annot_id": 7,
+        "sample_id": 1,
+        "annotator": "b6bb5cc6df1d46aeb0e116d6a18cae2a",
+        "label": [
+          "Benign"
+        ],
+        "note": "The passage mentions both 53 and 60 verterbrae",
+        "annotator_name": "Suleman",
+        "summary_span": "as unique features such as 53 vertebrae and four digits on each pectoral fin. ",
+        "summary_start": 395,
+        "summary_end": 473
+      },
+      {
+        "annot_id": 8,
+        "sample_id": 1,
+        "annotator": "b6bb5cc6df1d46aeb0e116d6a18cae2a",
+        "label": [
+          "Questionable"
+        ],
+        "note": "The passage mentions both 53 and 60, but doesnt state which one is correct.",
+        "annotator_name": "Suleman",
+        "summary_span": "Note: The passage mentions 60 vertebrae, but the correct number is 53. This has been corrected in the summary. \n\nS",
+        "summary_start": 696,
+        "summary_end": 810
+      },
+      {
+        "annot_id": 18,
+        "sample_id": 1,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "a second summary is given. ",
+        "annotator_name": "Manveer",
+        "summary_span": "Summary:\nA previously feared extinct Omura's whale washed up on a remote beach in Western Australia, providing scientists with a chance to learn more about the species. This is the first sighting in the region and only the second in Australia.",
+        "summary_start": 809,
+        "summary_end": 1052
+      },
+      {
+        "annot_id": 93,
+        "sample_id": 1,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source says it was described for the first time in 2003. It may have been described later as well.",
+        "annotator_name": "Manveer",
+        "summary_span": "which was only described in scientific journals in 2003",
+        "summary_start": 307,
+        "summary_end": 362,
+        "source_span": " omura 's whale was only described in scientific journals for the first time in 2003 ",
+        "source_start": 908,
+        "source_end": 993
+      },
+      {
+        "annot_id": 111,
+        "sample_id": 1,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "an eighty-eight beach is not mentioned at all. I'm not sure what this could be referring to",
+        "annotator_name": "Manveer",
+        "summary_span": "remote Eighty-Eight Beach",
+        "summary_start": 61,
+        "summary_end": 86
+      },
+      {
+        "annot_id": 112,
+        "sample_id": 1,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Questionable"
+        ],
+        "note": "this should acknowledge that the source also says 53",
+        "annotator_name": "Manveer",
+        "summary_span": "Note: The passage mentions 60 vertebrae,",
+        "summary_start": 696,
+        "summary_end": 736
+      },
+      {
+        "annot_id": 113,
+        "sample_id": 1,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Benign"
+        ],
+        "note": "this is slightly? diverging from the source, which doesn't prefer one value over the other.",
+        "annotator_name": "Manveer",
+        "summary_span": " \n\nNote: The passage mentions 60 vertebrae, but the correct number is 53",
+        "summary_start": 693,
+        "summary_end": 765
+      }
+    ],
+    "meta_model": "microsoft/Phi-3-mini-4k-instruct",
+    "meta_hhemv1": 0.96463,
+    "meta_hhem-2.1": 0.75961,
+    "meta_hhem-2.1-english": 0.77475,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 0,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 206
+  },
+  {
+    "sample_id": 2,
+    "source": "a species of whale that was feared to be extinct has been found washed up on a west australian beach , giving scientists an opportunity to learn more about the mammal . \nthe omura 's whale was discovered on a remote exmouth beach , at the tip of the state 's north west cape , after tropical cyclone olwyn tore through the area last month . \nit is the first sighting of the species in wa and only the second in australia . \nidentifying the 5.68 m juvenile female was at first difficult for department of parks and wildlife staff , who eventually confirmed it was an omura 's whale with dna profiling . \nan omura 's whale was discovered on a remote exmouth beach in wa ( pictured ) . \nit left authorities confused as they struggled to identify the rare species\nenvironment minister albert jacob said the find was ` highly significant ' for whale scientists because very little was known about the species . \n` omura 's whale was only described in scientific journals for the first time in 2003 and is apparently restricted to tropical and subtropical waters , ' he said . \n` the knowledge we gain from this whale will help to improve field identification guides to better understand the whale 's regional distribution . ' \nthe species is usually found in indonesian waters , the philippines and the sea of japan . \nomura 's whales have a sleek body shape and several unique skeletal features , including 53 vertebrae and four digits on each pectoral fin . \nthe carcass has been buried and the skeleton will be recovered in a few years for further scientific investigation and possibly for public display in museums . \nthe omura 's is usually found in indonesian waters , the philippines and the sea of japan\nthe whale has a sleek body shape and several unique skeletal features , including 60 vertebrae",
+    "summary": "Here's a concise summary of the passage, covering the core pieces of information:\n\nAn Omura's whale, a rare species once feared extinct, was found washed up on a remote beach in Exmouth, Western Australia, following Cyclone Olwyn. This is the first sighting in Western Australia and only the second in Australia. The 5.68m juvenile female was identified through DNA profiling. The discovery is significant for scientists as little is known about this species, which was first described in 2003. Omura's whales typically inhabit tropical and subtropical waters, including Indonesian waters, the Philippines, and the Sea of Japan. They have a sleek body shape and unique skeletal features. The carcass has been buried, and the skeleton will be recovered later for further research and possible museum display.",
+    "annotations": [
+      {
+        "annot_id": 20,
+        "sample_id": 2,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the summary is assuming wa refers to Western Australia\n",
+        "annotator_name": "Manveer",
+        "summary_span": "This is the first sighting in Western Australia",
+        "summary_start": 231,
+        "summary_end": 278
+      },
+      {
+        "annot_id": 114,
+        "sample_id": 2,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source says it was described for the first time scientifically in 2003. It may have been described earlier as well.\t",
+        "annotator_name": "Manveer",
+        "summary_span": "which was first described in 2003",
+        "summary_start": 460,
+        "summary_end": 493,
+        "source_span": "` omura 's whale was only described in scientific journals for the first time in 2003",
+        "source_start": 907,
+        "source_end": 992
+      }
+    ],
+    "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
+    "meta_hhemv1": 0.98694,
+    "meta_hhem-2.1": 0.87269,
+    "meta_hhem-2.1-english": 0.96089,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 321
+  },
+  {
+    "sample_id": 3,
+    "source": "a species of whale that was feared to be extinct has been found washed up on a west australian beach , giving scientists an opportunity to learn more about the mammal . \nthe omura 's whale was discovered on a remote exmouth beach , at the tip of the state 's north west cape , after tropical cyclone olwyn tore through the area last month . \nit is the first sighting of the species in wa and only the second in australia . \nidentifying the 5.68 m juvenile female was at first difficult for department of parks and wildlife staff , who eventually confirmed it was an omura 's whale with dna profiling . \nan omura 's whale was discovered on a remote exmouth beach in wa ( pictured ) . \nit left authorities confused as they struggled to identify the rare species\nenvironment minister albert jacob said the find was ` highly significant ' for whale scientists because very little was known about the species . \n` omura 's whale was only described in scientific journals for the first time in 2003 and is apparently restricted to tropical and subtropical waters , ' he said . \n` the knowledge we gain from this whale will help to improve field identification guides to better understand the whale 's regional distribution . ' \nthe species is usually found in indonesian waters , the philippines and the sea of japan . \nomura 's whales have a sleek body shape and several unique skeletal features , including 53 vertebrae and four digits on each pectoral fin . \nthe carcass has been buried and the skeleton will be recovered in a few years for further scientific investigation and possibly for public display in museums . \nthe omura 's is usually found in indonesian waters , the philippines and the sea of japan\nthe whale has a sleek body shape and several unique skeletal features , including 60 vertebrae",
+    "summary": "A rare Omura's whale, previously thought to be extinct, was discovered on a beach in Western Australia after a cyclone. This is a significant find as it is the first sighting in the state and only the second in Australia. The juvenile female was initially difficult to identify due to its rarity, but DNA profiling confirmed the species. The whale is of great interest to scientists as it was only recently described in 2003, and little is known about its biology and distribution. The species is typically found in tropical and subtropical waters, and its unique features include a sleek body, 53-60 vertebrae, and four digits on each pectoral fin. The skeleton will be recovered for scientific study and potential public display.",
+    "annotations": [
+      {
+        "annot_id": 23,
+        "sample_id": 3,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the source says first sighting in wa, not first sighting in the state, but this probably means the same thing. ",
+        "annotator_name": "Manveer",
+        "summary_span": "his is a significant find as it is the first sighting in the state",
+        "summary_start": 121,
+        "summary_end": 187
+      },
+      {
+        "annot_id": 24,
+        "sample_id": 3,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Questionable"
+        ],
+        "note": "should add that this is talking about the scientific work on the whales.",
+        "annotator_name": "Manveer",
+        "summary_span": "only recently described in 2003",
+        "summary_start": 393,
+        "summary_end": 424
+      },
+      {
+        "annot_id": 25,
+        "sample_id": 3,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Questionable"
+        ],
+        "note": "True, but the source makes a slightly different point-that little is known about the species in general.",
+        "annotator_name": "Manveer",
+        "summary_span": "little is known about its biology and distribution",
+        "summary_start": 430,
+        "summary_end": 480
+      },
+      {
+        "annot_id": 95,
+        "sample_id": 3,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source says feared to be extinct, not thought to be extinct",
+        "annotator_name": "Manveer",
+        "summary_span": " previously thought to be extinct",
+        "summary_start": 21,
+        "summary_end": 54,
+        "source_span": "feared to be extinct ",
+        "source_start": 28,
+        "source_end": 49
+      }
+    ],
+    "meta_model": "cohere/command-r-08-2024",
+    "meta_hhemv1": 0.99652,
+    "meta_hhem-2.1": 0.81847,
+    "meta_hhem-2.1-english": 0.93606,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 436
+  },
+  {
+    "sample_id": 4,
+    "source": "a species of whale that was feared to be extinct has been found washed up on a west australian beach , giving scientists an opportunity to learn more about the mammal . \nthe omura 's whale was discovered on a remote exmouth beach , at the tip of the state 's north west cape , after tropical cyclone olwyn tore through the area last month . \nit is the first sighting of the species in wa and only the second in australia . \nidentifying the 5.68 m juvenile female was at first difficult for department of parks and wildlife staff , who eventually confirmed it was an omura 's whale with dna profiling . \nan omura 's whale was discovered on a remote exmouth beach in wa ( pictured ) . \nit left authorities confused as they struggled to identify the rare species\nenvironment minister albert jacob said the find was ` highly significant ' for whale scientists because very little was known about the species . \n` omura 's whale was only described in scientific journals for the first time in 2003 and is apparently restricted to tropical and subtropical waters , ' he said . \n` the knowledge we gain from this whale will help to improve field identification guides to better understand the whale 's regional distribution . ' \nthe species is usually found in indonesian waters , the philippines and the sea of japan . \nomura 's whales have a sleek body shape and several unique skeletal features , including 53 vertebrae and four digits on each pectoral fin . \nthe carcass has been buried and the skeleton will be recovered in a few years for further scientific investigation and possibly for public display in museums . \nthe omura 's is usually found in indonesian waters , the philippines and the sea of japan\nthe whale has a sleek body shape and several unique skeletal features , including 60 vertebrae",
+    "summary": "A juvenile female Omura's whale, previously thought to be extinct in Western Australia, was discovered washed up on a remote Exmouth beach after a tropical cyclone. This is the first sighting of the species in Western Australia and only the second in Australia. The whale's identification was confirmed through DNA profiling. The discovery is considered highly significant for whale scientists due to the limited knowledge about this species, which was only described scientifically in 2003. The carcass has been buried, and the skeleton will be recovered later for further scientific study and potential museum display. Omura's whales are typically found in Indonesian waters, the Philippines, and the Sea of Japan, and are characterized by their sleek body shape and unique skeletal features, such as 53 vertebrae and four digits on each pectoral fin.",
+    "annotations": [
+      {
+        "annot_id": 9,
+        "sample_id": 4,
+        "annotator": "b6bb5cc6df1d46aeb0e116d6a18cae2a",
+        "label": [
+          "Questionable",
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "it was previously thought to be extinct, period. Not just in Western Australia",
+        "annotator_name": "Suleman",
+        "summary_span": " previously thought to be extinct in Western Australia",
+        "summary_start": 32,
+        "summary_end": 86
+      },
+      {
+        "annot_id": 10,
+        "sample_id": 4,
+        "annotator": "b6bb5cc6df1d46aeb0e116d6a18cae2a",
+        "label": [
+          "Benign"
+        ],
+        "note": "The passage mentions both 53 and 60 vertebrae.",
+        "annotator_name": "Suleman",
+        "summary_span": "53 vertebrae ",
+        "summary_start": 803,
+        "summary_end": 816
+      },
+      {
+        "annot_id": 44,
+        "sample_id": 4,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the source says its the first sighting in wa",
+        "annotator_name": "Manveer",
+        "summary_span": "This is the first sighting of the species in Western Australia",
+        "summary_start": 165,
+        "summary_end": 227
+      },
+      {
+        "annot_id": 47,
+        "sample_id": 4,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the source says both 53 and 60, which should be acknowledged?",
+        "annotator_name": "Manveer",
+        "summary_span": "such as 53 vertebra",
+        "summary_start": 795,
+        "summary_end": 814
+      },
+      {
+        "annot_id": 96,
+        "sample_id": 4,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "two issues here For one, the whale was feared to be extinct, not thought to be extinct For two, this likely applies everywhere, not just western australia\t",
+        "annotator_name": "Manveer",
+        "summary_span": "previously thought to be extinct in Western Australia",
+        "summary_start": 33,
+        "summary_end": 86,
+        "source_span": " feared to be extinct",
+        "source_start": 27,
+        "source_end": 48
+      },
+      {
+        "annot_id": 97,
+        "sample_id": 4,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source says it was described for the first time in 2003. It may have been described later as well.",
+        "annotator_name": "Manveer",
+        "summary_span": "which was only described scientifically in 2003",
+        "summary_start": 443,
+        "summary_end": 490,
+        "source_span": "` omura 's whale was only described in scientific journals for the first time in 2003 ",
+        "source_start": 907,
+        "source_end": 993
+      }
+    ],
+    "meta_model": "Qwen/Qwen2.5-7B-Instruct",
+    "meta_hhemv1": 0.9973,
+    "meta_hhem-2.1": 0.92952,
+    "meta_hhem-2.1-english": 0.96633,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 551
+  },
+  {
+    "sample_id": 5,
+    "source": "a species of whale that was feared to be extinct has been found washed up on a west australian beach , giving scientists an opportunity to learn more about the mammal . \nthe omura 's whale was discovered on a remote exmouth beach , at the tip of the state 's north west cape , after tropical cyclone olwyn tore through the area last month . \nit is the first sighting of the species in wa and only the second in australia . \nidentifying the 5.68 m juvenile female was at first difficult for department of parks and wildlife staff , who eventually confirmed it was an omura 's whale with dna profiling . \nan omura 's whale was discovered on a remote exmouth beach in wa ( pictured ) . \nit left authorities confused as they struggled to identify the rare species\nenvironment minister albert jacob said the find was ` highly significant ' for whale scientists because very little was known about the species . \n` omura 's whale was only described in scientific journals for the first time in 2003 and is apparently restricted to tropical and subtropical waters , ' he said . \n` the knowledge we gain from this whale will help to improve field identification guides to better understand the whale 's regional distribution . ' \nthe species is usually found in indonesian waters , the philippines and the sea of japan . \nomura 's whales have a sleek body shape and several unique skeletal features , including 53 vertebrae and four digits on each pectoral fin . \nthe carcass has been buried and the skeleton will be recovered in a few years for further scientific investigation and possibly for public display in museums . \nthe omura 's is usually found in indonesian waters , the philippines and the sea of japan\nthe whale has a sleek body shape and several unique skeletal features , including 60 vertebrae",
+    "summary": "Here is a concise summary of the passage:\n\nA juvenile female Omura's whale, a species previously feared to be extinct, was found washed up on a beach in Western Australia after a tropical cyclone. This is the first sighting of the species in Western Australia and only the second in Australia. The whale's DNA was used to confirm its identity, and its carcass has been buried with plans to recover the skeleton in a few years for further scientific study and possible public display. The find is significant for whale scientists, who know very little about the species, which is typically found in Indonesian waters, the Philippines, and the Sea of Japan.",
+    "annotations": [
+      {
+        "annot_id": 48,
+        "sample_id": 5,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the summary is assuming wa refers to Western Australia\n",
+        "annotator_name": "Manveer",
+        "summary_span": "This is the first sighting of the species in Western Australia ",
+        "summary_start": 197,
+        "summary_end": 260
+      }
+    ],
+    "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "meta_hhemv1": 0.99668,
+    "meta_hhem-2.1": 0.85949,
+    "meta_hhem-2.1-english": 0.95614,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 666
+  },
+  {
+    "sample_id": 6,
+    "source": "a species of whale that was feared to be extinct has been found washed up on a west australian beach , giving scientists an opportunity to learn more about the mammal . \nthe omura 's whale was discovered on a remote exmouth beach , at the tip of the state 's north west cape , after tropical cyclone olwyn tore through the area last month . \nit is the first sighting of the species in wa and only the second in australia . \nidentifying the 5.68 m juvenile female was at first difficult for department of parks and wildlife staff , who eventually confirmed it was an omura 's whale with dna profiling . \nan omura 's whale was discovered on a remote exmouth beach in wa ( pictured ) . \nit left authorities confused as they struggled to identify the rare species\nenvironment minister albert jacob said the find was ` highly significant ' for whale scientists because very little was known about the species . \n` omura 's whale was only described in scientific journals for the first time in 2003 and is apparently restricted to tropical and subtropical waters , ' he said . \n` the knowledge we gain from this whale will help to improve field identification guides to better understand the whale 's regional distribution . ' \nthe species is usually found in indonesian waters , the philippines and the sea of japan . \nomura 's whales have a sleek body shape and several unique skeletal features , including 53 vertebrae and four digits on each pectoral fin . \nthe carcass has been buried and the skeleton will be recovered in a few years for further scientific investigation and possibly for public display in museums . \nthe omura 's is usually found in indonesian waters , the philippines and the sea of japan\nthe whale has a sleek body shape and several unique skeletal features , including 60 vertebrae",
+    "summary": "Here is a concise summary of the passage:\n\nA rare Omura's whale, thought to be nearly extinct, was found washed up on a remote beach in Western Australia. The 5.68m juvenile female was identified through DNA profiling, marking the first sighting in WA and only the second in Australia. The discovery is significant for scientists, who know little about the species, which is typically found in Indonesian waters, the Philippines, and the Sea of Japan. The whale's unique features include a sleek body shape and 53 vertebrae (not 60 as mentioned in one sentence, which appears to be an error). The carcass has been buried, with plans to recover the skeleton in a few years for further study and possible public display.",
+    "annotations": [
+      {
+        "annot_id": 11,
+        "sample_id": 6,
+        "annotator": "b6bb5cc6df1d46aeb0e116d6a18cae2a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "It was thought to be extinct, not nearly extinct.",
+        "annotator_name": "Suleman",
+        "summary_span": "\n\nA rare Omura's whale, thought to be nearly extinct,",
+        "summary_start": 41,
+        "summary_end": 94,
+        "source_span": "a species of whale that was feared to be extinct has been found washed up on a west australian beach , giving scientists an opportunity to learn more about the mammal .",
+        "source_start": 0,
+        "source_end": 168
+      },
+      {
+        "annot_id": 12,
+        "sample_id": 6,
+        "annotator": "b6bb5cc6df1d46aeb0e116d6a18cae2a",
+        "label": [
+          "Questionable",
+          "Benign"
+        ],
+        "note": "Its clear one is an error, but unclear which one Is 53 wrong or 60?",
+        "annotator_name": "Suleman",
+        "summary_span": "not 60 as mentioned in one sentence, which appears to be an error).",
+        "summary_start": 525,
+        "summary_end": 592
+      },
+      {
+        "annot_id": 115,
+        "sample_id": 6,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Benign"
+        ],
+        "note": "the summary mentions an error in the source, but the summary seems to be accurate here.",
+        "annotator_name": "Manveer",
+        "summary_span": "not 60 as mentioned in one sentence, which appears to be an error).",
+        "summary_start": 525,
+        "summary_end": 592
+      },
+      {
+        "annot_id": 116,
+        "sample_id": 6,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Questionable"
+        ],
+        "note": "it is not clear if we can go from feared to be extinct means thought to be nearly extinct",
+        "annotator_name": "Manveer",
+        "summary_span": "thought to be nearly extinct",
+        "summary_start": 65,
+        "summary_end": 93,
+        "source_span": " was feared to be extinct",
+        "source_start": 23,
+        "source_end": 48
+      }
+    ],
+    "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "meta_hhemv1": 0.98504,
+    "meta_hhem-2.1": 0.62532,
+    "meta_hhem-2.1-english": 0.46915,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 781
+  },
+  {
+    "sample_id": 7,
+    "source": "a species of whale that was feared to be extinct has been found washed up on a west australian beach , giving scientists an opportunity to learn more about the mammal . \nthe omura 's whale was discovered on a remote exmouth beach , at the tip of the state 's north west cape , after tropical cyclone olwyn tore through the area last month . \nit is the first sighting of the species in wa and only the second in australia . \nidentifying the 5.68 m juvenile female was at first difficult for department of parks and wildlife staff , who eventually confirmed it was an omura 's whale with dna profiling . \nan omura 's whale was discovered on a remote exmouth beach in wa ( pictured ) . \nit left authorities confused as they struggled to identify the rare species\nenvironment minister albert jacob said the find was ` highly significant ' for whale scientists because very little was known about the species . \n` omura 's whale was only described in scientific journals for the first time in 2003 and is apparently restricted to tropical and subtropical waters , ' he said . \n` the knowledge we gain from this whale will help to improve field identification guides to better understand the whale 's regional distribution . ' \nthe species is usually found in indonesian waters , the philippines and the sea of japan . \nomura 's whales have a sleek body shape and several unique skeletal features , including 53 vertebrae and four digits on each pectoral fin . \nthe carcass has been buried and the skeleton will be recovered in a few years for further scientific investigation and possibly for public display in museums . \nthe omura 's is usually found in indonesian waters , the philippines and the sea of japan\nthe whale has a sleek body shape and several unique skeletal features , including 60 vertebrae",
+    "summary": "An Omura's whale, a species rarely seen and thought to be extinct, was found washed up on a beach in Western Australia. This is the first sighting of the species in Western Australia and only the second in Australia. The whale was identified through DNA profiling and is a juvenile female. The discovery is significant because very little is known about the species, which was only scientifically described in 2003. The whale's carcass has been buried and will be recovered in a few years for further scientific investigation. \n",
+    "annotations": [
+      {
+        "annot_id": 51,
+        "sample_id": 7,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the summary is assuming wa refers to Western Australia\n",
+        "annotator_name": "Manveer",
+        "summary_span": "This is the first sighting of the species in Western Australia",
+        "summary_start": 120,
+        "summary_end": 182
+      },
+      {
+        "annot_id": 98,
+        "sample_id": 7,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source says feared to be extinct, not thought to be extinct",
+        "annotator_name": "Manveer",
+        "summary_span": "thought to be extinct",
+        "summary_start": 44,
+        "summary_end": 65,
+        "source_span": "feared to be extinct",
+        "source_start": 28,
+        "source_end": 48
+      },
+      {
+        "annot_id": 100,
+        "sample_id": 7,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source says it was described for the first time in 2003. It may have been described later as well.",
+        "annotator_name": "Manveer",
+        "summary_span": "which was only scientifically described in 2003",
+        "summary_start": 367,
+        "summary_end": 414,
+        "source_span": " omura 's whale was only described in scientific journals for the first time in 2003 ",
+        "source_start": 908,
+        "source_end": 993
+      }
+    ],
+    "meta_model": "google/gemini-1.5-flash-001",
+    "meta_hhemv1": 0.9989,
+    "meta_hhem-2.1": 0.93448,
+    "meta_hhem-2.1-english": 0.97722,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 896
+  },
+  {
+    "sample_id": 8,
+    "source": "a species of whale that was feared to be extinct has been found washed up on a west australian beach , giving scientists an opportunity to learn more about the mammal . \nthe omura 's whale was discovered on a remote exmouth beach , at the tip of the state 's north west cape , after tropical cyclone olwyn tore through the area last month . \nit is the first sighting of the species in wa and only the second in australia . \nidentifying the 5.68 m juvenile female was at first difficult for department of parks and wildlife staff , who eventually confirmed it was an omura 's whale with dna profiling . \nan omura 's whale was discovered on a remote exmouth beach in wa ( pictured ) . \nit left authorities confused as they struggled to identify the rare species\nenvironment minister albert jacob said the find was ` highly significant ' for whale scientists because very little was known about the species . \n` omura 's whale was only described in scientific journals for the first time in 2003 and is apparently restricted to tropical and subtropical waters , ' he said . \n` the knowledge we gain from this whale will help to improve field identification guides to better understand the whale 's regional distribution . ' \nthe species is usually found in indonesian waters , the philippines and the sea of japan . \nomura 's whales have a sleek body shape and several unique skeletal features , including 53 vertebrae and four digits on each pectoral fin . \nthe carcass has been buried and the skeleton will be recovered in a few years for further scientific investigation and possibly for public display in museums . \nthe omura 's is usually found in indonesian waters , the philippines and the sea of japan\nthe whale has a sleek body shape and several unique skeletal features , including 60 vertebrae",
+    "summary": "A species of whale called the Omura's whale, which was thought to be extinct, has been found washed up on a beach in Western Australia. This is the first sighting of the species in Western Australia and only the second in Australia. The discovery is significant for scientists as very little is known about the species, which was only described in scientific journals in 2003. The whale has unique skeletal features and is usually found in Indonesian waters, the Philippines, and the Sea of Japan. The carcass has been buried, and the skeleton will be recovered in a few years for further scientific investigation and possibly for public display in museums.",
+    "annotations": [
+      {
+        "annot_id": 54,
+        "sample_id": 8,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the summary is assuming wa refers to Western Australia\n",
+        "annotator_name": "Manveer",
+        "summary_span": "This is the first sighting of the species in Western Australia ",
+        "summary_start": 136,
+        "summary_end": 199
+      },
+      {
+        "annot_id": 101,
+        "sample_id": 8,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source says it was described for the first time in 2003. It may have been described later as well.",
+        "annotator_name": "Manveer",
+        "summary_span": "was only described in scientific journals in 2003.",
+        "summary_start": 326,
+        "summary_end": 376,
+        "source_span": "` omura 's whale was only described in scientific journals for the first time in 2003 ",
+        "source_start": 907,
+        "source_end": 993
+      },
+      {
+        "annot_id": 102,
+        "sample_id": 8,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source says feared to be extinct, not thought to be extinct",
+        "annotator_name": "Manveer",
+        "summary_span": "which was thought to be extinct,",
+        "summary_start": 45,
+        "summary_end": 77,
+        "source_span": "feared to be extinct",
+        "source_start": 28,
+        "source_end": 48
+      }
+    ],
+    "meta_model": "openai/GPT-3.5-Turbo",
+    "meta_hhemv1": 0.99937,
+    "meta_hhem-2.1": 0.87988,
+    "meta_hhem-2.1-english": 0.96958,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 992
+  },
+  {
+    "sample_id": 9,
+    "source": "a species of whale that was feared to be extinct has been found washed up on a west australian beach , giving scientists an opportunity to learn more about the mammal . \nthe omura 's whale was discovered on a remote exmouth beach , at the tip of the state 's north west cape , after tropical cyclone olwyn tore through the area last month . \nit is the first sighting of the species in wa and only the second in australia . \nidentifying the 5.68 m juvenile female was at first difficult for department of parks and wildlife staff , who eventually confirmed it was an omura 's whale with dna profiling . \nan omura 's whale was discovered on a remote exmouth beach in wa ( pictured ) . \nit left authorities confused as they struggled to identify the rare species\nenvironment minister albert jacob said the find was ` highly significant ' for whale scientists because very little was known about the species . \n` omura 's whale was only described in scientific journals for the first time in 2003 and is apparently restricted to tropical and subtropical waters , ' he said . \n` the knowledge we gain from this whale will help to improve field identification guides to better understand the whale 's regional distribution . ' \nthe species is usually found in indonesian waters , the philippines and the sea of japan . \nomura 's whales have a sleek body shape and several unique skeletal features , including 53 vertebrae and four digits on each pectoral fin . \nthe carcass has been buried and the skeleton will be recovered in a few years for further scientific investigation and possibly for public display in museums . \nthe omura 's is usually found in indonesian waters , the philippines and the sea of japan\nthe whale has a sleek body shape and several unique skeletal features , including 60 vertebrae",
+    "summary": "A species of whale, feared extinct, was found on a West Australian beach, providing scientists a chance to study it. The Omura's whale, discovered on Exmouth beach after Cyclone Olwyn, marks the first sighting in Western Australia and the second in Australia. Initially difficult to identify, it was confirmed through DNA profiling. Environment Minister Albert Jacob highlighted the significance of the find, noting the species was first described in 2003 and is typically found in tropical waters like Indonesia, the Philippines, and the Sea of Japan. The whale has a sleek body and unique skeletal features. The carcass has been buried, with plans to recover the skeleton for further study and potential museum display.",
+    "annotations": [
+      {
+        "annot_id": 27,
+        "sample_id": 9,
+        "annotator": "b6bb5cc6df1d46aeb0e116d6a18cae2a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The minister did not note that.",
+        "annotator_name": "Suleman",
+        "summary_span": "nvironment Minister Albert Jacob highlighted the significance of the find, noting the species was first described in 2003 and is typically found in tropical waters like Indonesia, the Philippines, and the Sea of Japan.",
+        "summary_start": 334,
+        "summary_end": 552,
+        "source_span": "\nit left authorities confused as they struggled to identify the rare species\nenvironment minister albert jacob said the find was ` highly significant ' for whale scientists because very little was known about the species .",
+        "source_start": 683,
+        "source_end": 905
+      },
+      {
+        "annot_id": 56,
+        "sample_id": 9,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the summary is assuming wa refers to Western Australia\n",
+        "annotator_name": "Manveer",
+        "summary_span": "marks the first sighting in Western Australia ",
+        "summary_start": 185,
+        "summary_end": 231
+      },
+      {
+        "annot_id": 117,
+        "sample_id": 9,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source says first described \"scientifically\" in 2003. It may have been described earlier otherwise.",
+        "annotator_name": "Manveer",
+        "summary_span": "the species was first described in 2003",
+        "summary_start": 416,
+        "summary_end": 455,
+        "source_span": "` omura 's whale was only described in scientific journals for the first time in 2003",
+        "source_start": 907,
+        "source_end": 992
+      },
+      {
+        "annot_id": 119,
+        "sample_id": 9,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The minister did not say that the whale was typically found in these locations, he only said the whale is restricted to tropical and subtropical waters.",
+        "annotator_name": "Manveer",
+        "summary_span": "Environment Minister Albert Jacob highlighted the significance of the find, noting the species was first described in 2003 and is typically found in tropical waters like Indonesia, the Philippines, and the Sea of Japan. ",
+        "summary_start": 333,
+        "summary_end": 553,
+        "source_span": "` omura 's whale was only described in scientific journals for the first time in 2003 and is apparently restricted to tropical and subtropical waters , ' he said",
+        "source_start": 907,
+        "source_end": 1068
+      }
+    ],
+    "meta_model": "openai/gpt-4o",
+    "meta_hhemv1": 0.99875,
+    "meta_hhem-2.1": 0.93766,
+    "meta_hhem-2.1-english": 0.98245,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 1126
+  },
+  {
+    "sample_id": 10,
+    "source": "conor mcgregor is gearing up for a featherweight title challenge against jose aldo on july 11 and has unveiled a fearsome new tattoo ahead of the encounter . the 26-year-old irishman has already got a picture of a gorilla eating a heart inked upon his chest and ' the notorious ' has now revealed a tiger 's face tattooed onto his stomach . ' if you see the tiger , it 's too late . you 're food , ' mcgregor wrote next to the instagram post of his new artwork . conor mcgregor reveals his new tattoo of a tiger on his stomach to his instagram followers . mcgregor ( left ) poses in the shop with a fan shortly after having his tattoo on his stomach done . mcgregor is challenging jose aldo for his featherweight champion title in las vegas on july 11 . aldo makes the eighth defence of his belt against the irish fighter in las vegas , but mcgregor claimed last week that the man he is challenging lacks the same motivation as him . ' he does n't want to be near me , he does n't want this the way i want it , ' mcgregor said . ' he ca n't hide the fact he does n't want the belt in his presence . ' conor mcgregor grabbed aldo 's ( left ) belt when they took their promotional tour to dublin . mcgregor claims he has greater motivation to win the title than aldo has to defend it for the eighth time . at the end of march , the duo were undergoing a promotional tour in dublin when mcgregor grabbed the belt from aldo and raised it in front of 5,000 home supporters . the pair have a fractious relationship as it is , with a little under three months away until mcgregor has a chance to legitimately hold the belt before his supporters .",
+    "summary": " Conor McGregor is preparing for a featherweight title challenge against Jose Aldo on July 11 in Las Vegas. Prior to this, McGregor has revealed a new tattoo of a tiger's face on his stomach, which he described as a warning that \"if you see the tiger, it's too late. You're food.\" McGregor claims Aldo lacks the same motivation as him for the title fight. During a promotional tour in Dublin, McGregor grabbed Aldo's belt and raised it in front of 5,000 home supporters, escalating their already fractious relationship. The title fight will mark the eighth defense of Aldo's belt, but McGregor believes he has greater motivation to win the title.",
+    "annotations": [
+      {
+        "annot_id": 59,
+        "sample_id": 10,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't make it clear that this escalated trouble in their relationship, but it might be reasonable to say this.",
+        "annotator_name": "Manveer",
+        "summary_span": "McGregor grabbed Aldo's belt and raised it in front of 5,000 home supporters, escalating their already fractious relationship",
+        "summary_start": 393,
+        "summary_end": 518
+      }
+    ],
+    "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "meta_hhemv1": 0.02659,
+    "meta_hhem-2.1": 0.98123,
+    "meta_hhem-2.1-english": 0.99357,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 96
+  },
+  {
+    "sample_id": 11,
+    "source": "conor mcgregor is gearing up for a featherweight title challenge against jose aldo on july 11 and has unveiled a fearsome new tattoo ahead of the encounter . the 26-year-old irishman has already got a picture of a gorilla eating a heart inked upon his chest and ' the notorious ' has now revealed a tiger 's face tattooed onto his stomach . ' if you see the tiger , it 's too late . you 're food , ' mcgregor wrote next to the instagram post of his new artwork . conor mcgregor reveals his new tattoo of a tiger on his stomach to his instagram followers . mcgregor ( left ) poses in the shop with a fan shortly after having his tattoo on his stomach done . mcgregor is challenging jose aldo for his featherweight champion title in las vegas on july 11 . aldo makes the eighth defence of his belt against the irish fighter in las vegas , but mcgregor claimed last week that the man he is challenging lacks the same motivation as him . ' he does n't want to be near me , he does n't want this the way i want it , ' mcgregor said . ' he ca n't hide the fact he does n't want the belt in his presence . ' conor mcgregor grabbed aldo 's ( left ) belt when they took their promotional tour to dublin . mcgregor claims he has greater motivation to win the title than aldo has to defend it for the eighth time . at the end of march , the duo were undergoing a promotional tour in dublin when mcgregor grabbed the belt from aldo and raised it in front of 5,000 home supporters . the pair have a fractious relationship as it is , with a little under three months away until mcgregor has a chance to legitimately hold the belt before his supporters .",
+    "summary": " Conor McGregor, a 26-year-old Irish fighter, is preparing for a featherweight title challenge against Jose Aldo on July 11. McGregor has revealed a new tattoo of a tiger on his stomach, which he described as a warning to his opponent. McGregor claims to have greater motivation to win the title than Aldo has to defend it for the eighth time. The two fighters have a tense relationship, and McGregor has previously grabbed Aldo's belt during a promotional tour in Dublin. McGregor's new tattoo and his strong motivation to win the title have been shared with his Instagram followers.",
+    "annotations": [
+      {
+        "annot_id": 28,
+        "sample_id": 11,
+        "annotator": "b6bb5cc6df1d46aeb0e116d6a18cae2a",
+        "label": [
+          "Benign"
+        ],
+        "note": "The tattoo was shared, but the passage doesn't explicitly state that he shared the motivation to win as well.",
+        "annotator_name": "Suleman",
+        "summary_span": "his strong motivation to win the title have been shared with his Instagram followers.",
+        "summary_start": 499,
+        "summary_end": 584
+      },
+      {
+        "annot_id": 60,
+        "sample_id": 11,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Benign"
+        ],
+        "note": "mcgregor didn't exactly describe it as a warning to his appointment, just a warning for anyone who sees it in general.",
+        "annotator_name": "Manveer",
+        "summary_span": "McGregor has revealed a new tattoo of a tiger on his stomach, which he described as a warning to his opponent",
+        "summary_start": 125,
+        "summary_end": 234
+      },
+      {
+        "annot_id": 61,
+        "sample_id": 11,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't make it clear that his motivation to win was shared, but it probably was?",
+        "annotator_name": "Manveer",
+        "summary_span": " McGregor's new tattoo and his strong motivation to win the title have been shared with his Instagram followers.",
+        "summary_start": 472,
+        "summary_end": 584
+      }
+    ],
+    "meta_model": "microsoft/Phi-3-mini-4k-instruct",
+    "meta_hhemv1": 0.06409,
+    "meta_hhem-2.1": 0.94354,
+    "meta_hhem-2.1-english": 0.98846,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 211
+  },
+  {
+    "sample_id": 12,
+    "source": "conor mcgregor is gearing up for a featherweight title challenge against jose aldo on july 11 and has unveiled a fearsome new tattoo ahead of the encounter . the 26-year-old irishman has already got a picture of a gorilla eating a heart inked upon his chest and ' the notorious ' has now revealed a tiger 's face tattooed onto his stomach . ' if you see the tiger , it 's too late . you 're food , ' mcgregor wrote next to the instagram post of his new artwork . conor mcgregor reveals his new tattoo of a tiger on his stomach to his instagram followers . mcgregor ( left ) poses in the shop with a fan shortly after having his tattoo on his stomach done . mcgregor is challenging jose aldo for his featherweight champion title in las vegas on july 11 . aldo makes the eighth defence of his belt against the irish fighter in las vegas , but mcgregor claimed last week that the man he is challenging lacks the same motivation as him . ' he does n't want to be near me , he does n't want this the way i want it , ' mcgregor said . ' he ca n't hide the fact he does n't want the belt in his presence . ' conor mcgregor grabbed aldo 's ( left ) belt when they took their promotional tour to dublin . mcgregor claims he has greater motivation to win the title than aldo has to defend it for the eighth time . at the end of march , the duo were undergoing a promotional tour in dublin when mcgregor grabbed the belt from aldo and raised it in front of 5,000 home supporters . the pair have a fractious relationship as it is , with a little under three months away until mcgregor has a chance to legitimately hold the belt before his supporters .",
+    "summary": "Here's a concise summary of the passage:\n\nConor McGregor, a 26-year-old Irish MMA fighter, is preparing for a featherweight title fight against Jose Aldo on July 11 in Las Vegas. McGregor has recently gotten a new tattoo of a tiger's face on his stomach, which he shared on Instagram. He already has a tattoo of a gorilla eating a heart on his chest. McGregor claims he is more motivated to win the title than Aldo is to defend it for the eighth time. The two fighters have a tense relationship, highlighted by an incident during a promotional tour in Dublin where McGregor grabbed Aldo's belt in front of 5,000 fans. The fight is less than three months away.",
+    "annotations": [
+      {
+        "annot_id": 29,
+        "sample_id": 12,
+        "annotator": "b6bb5cc6df1d46aeb0e116d6a18cae2a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The passage does not say that he is an MMA fighter.",
+        "annotator_name": "Suleman",
+        "summary_span": " a 26-year-old Irish MMA fighter,",
+        "summary_start": 57,
+        "summary_end": 90
+      },
+      {
+        "annot_id": 62,
+        "sample_id": 12,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't say he's a MMA fighter, but this is true",
+        "annotator_name": "Manveer",
+        "summary_span": "MMA",
+        "summary_start": 78,
+        "summary_end": 81
+      },
+      {
+        "annot_id": 63,
+        "sample_id": 12,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't necessarily say that this incident highlights their poor relationship.",
+        "annotator_name": "Manveer",
+        "summary_span": "The two fighters have a tense relationship, highlighted by an incident during a promotional tour in Dublin where McGregor grabbed Aldo's belt in front of 5,000 fans.",
+        "summary_start": 452,
+        "summary_end": 617
+      },
+      {
+        "annot_id": 64,
+        "sample_id": 12,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Questionable"
+        ],
+        "note": "less than three months away as of the time of the source",
+        "annotator_name": "Manveer",
+        "summary_span": "The fight is less than three months away.",
+        "summary_start": 618,
+        "summary_end": 659
+      }
+    ],
+    "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
+    "meta_hhemv1": 0.11502,
+    "meta_hhem-2.1": 0.85317,
+    "meta_hhem-2.1-english": 0.98205,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 326
+  },
+  {
+    "sample_id": 13,
+    "source": "conor mcgregor is gearing up for a featherweight title challenge against jose aldo on july 11 and has unveiled a fearsome new tattoo ahead of the encounter . the 26-year-old irishman has already got a picture of a gorilla eating a heart inked upon his chest and ' the notorious ' has now revealed a tiger 's face tattooed onto his stomach . ' if you see the tiger , it 's too late . you 're food , ' mcgregor wrote next to the instagram post of his new artwork . conor mcgregor reveals his new tattoo of a tiger on his stomach to his instagram followers . mcgregor ( left ) poses in the shop with a fan shortly after having his tattoo on his stomach done . mcgregor is challenging jose aldo for his featherweight champion title in las vegas on july 11 . aldo makes the eighth defence of his belt against the irish fighter in las vegas , but mcgregor claimed last week that the man he is challenging lacks the same motivation as him . ' he does n't want to be near me , he does n't want this the way i want it , ' mcgregor said . ' he ca n't hide the fact he does n't want the belt in his presence . ' conor mcgregor grabbed aldo 's ( left ) belt when they took their promotional tour to dublin . mcgregor claims he has greater motivation to win the title than aldo has to defend it for the eighth time . at the end of march , the duo were undergoing a promotional tour in dublin when mcgregor grabbed the belt from aldo and raised it in front of 5,000 home supporters . the pair have a fractious relationship as it is , with a little under three months away until mcgregor has a chance to legitimately hold the belt before his supporters .",
+    "summary": "Conor McGregor, a 26-year-old Irish fighter, is set to challenge Jose Aldo for the featherweight championship title in Las Vegas on July 11. Ahead of the fight, McGregor has revealed a new tattoo of a tiger's face on his stomach, adding to his existing chest tattoo of a gorilla eating a heart. McGregor believes he has a stronger motivation to win the title compared to Aldo, who will be defending it for the eighth time. The fighters' rivalry was evident during a promotional tour in Dublin, where McGregor grabbed Aldo's belt, creating a tense atmosphere. With less than three months to go, the highly anticipated match promises an intense battle for the championship belt.",
+    "annotations": [
+      {
+        "annot_id": 30,
+        "sample_id": 13,
+        "annotator": "b6bb5cc6df1d46aeb0e116d6a18cae2a",
+        "label": [
+          "Questionable"
+        ],
+        "note": "A matter of opinion not explicitly mentioned in the passage.",
+        "annotator_name": "Suleman",
+        "summary_span": "the highly anticipated match promises an intense battle for the championship belt.",
+        "summary_start": 594,
+        "summary_end": 676
+      },
+      {
+        "annot_id": 65,
+        "sample_id": 13,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Benign"
+        ],
+        "note": "It is not clear if this incident created a tense atmosphere, but maybe this is reasonable.",
+        "annotator_name": "Manveer",
+        "summary_span": " The fighters' rivalry was evident during a promotional tour in Dublin, where McGregor grabbed Aldo's belt, creating a tense atmosphere. ",
+        "summary_start": 422,
+        "summary_end": 559
+      },
+      {
+        "annot_id": 66,
+        "sample_id": 13,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Questionable"
+        ],
+        "note": "less than three months to go as of the time of the source",
+        "annotator_name": "Manveer",
+        "summary_span": "With less than three months to go, ",
+        "summary_start": 559,
+        "summary_end": 594
+      },
+      {
+        "annot_id": 67,
+        "sample_id": 13,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Questionable"
+        ],
+        "note": "although it may be true that the match is highly anticipated and the match will be intense, the source doesn't exactly say this",
+        "annotator_name": "Manveer",
+        "summary_span": "the highly anticipated match promises an intense battle for the championship belt.",
+        "summary_start": 594,
+        "summary_end": 676
+      }
+    ],
+    "meta_model": "cohere/command-r-08-2024",
+    "meta_hhemv1": 0.10698,
+    "meta_hhem-2.1": 0.90888,
+    "meta_hhem-2.1-english": 0.98701,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 441
+  },
+  {
+    "sample_id": 14,
+    "source": "conor mcgregor is gearing up for a featherweight title challenge against jose aldo on july 11 and has unveiled a fearsome new tattoo ahead of the encounter . the 26-year-old irishman has already got a picture of a gorilla eating a heart inked upon his chest and ' the notorious ' has now revealed a tiger 's face tattooed onto his stomach . ' if you see the tiger , it 's too late . you 're food , ' mcgregor wrote next to the instagram post of his new artwork . conor mcgregor reveals his new tattoo of a tiger on his stomach to his instagram followers . mcgregor ( left ) poses in the shop with a fan shortly after having his tattoo on his stomach done . mcgregor is challenging jose aldo for his featherweight champion title in las vegas on july 11 . aldo makes the eighth defence of his belt against the irish fighter in las vegas , but mcgregor claimed last week that the man he is challenging lacks the same motivation as him . ' he does n't want to be near me , he does n't want this the way i want it , ' mcgregor said . ' he ca n't hide the fact he does n't want the belt in his presence . ' conor mcgregor grabbed aldo 's ( left ) belt when they took their promotional tour to dublin . mcgregor claims he has greater motivation to win the title than aldo has to defend it for the eighth time . at the end of march , the duo were undergoing a promotional tour in dublin when mcgregor grabbed the belt from aldo and raised it in front of 5,000 home supporters . the pair have a fractious relationship as it is , with a little under three months away until mcgregor has a chance to legitimately hold the belt before his supporters .",
+    "summary": "Conor McGregor is preparing for a featherweight title fight against Jose Aldo on July 11. Before the match, McGregor revealed a new tattoo of a tiger on his stomach, accompanied by a message suggesting it symbolizes danger. He also expressed that he is more motivated to win the title than Aldo is to defend it. This is McGregor's eighth defense of the title, and the two fighters have a contentious relationship. Notably, McGregor previously took Aldo's belt during a promotional tour in Dublin.",
+    "annotations": [
+      {
+        "annot_id": 31,
+        "sample_id": 14,
+        "annotator": "b6bb5cc6df1d46aeb0e116d6a18cae2a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "It's Aldso's 8th defense.",
+        "annotator_name": "Suleman",
+        "summary_span": "This is McGregor's eighth defense of the title,",
+        "summary_start": 312,
+        "summary_end": 359
+      },
+      {
+        "annot_id": 120,
+        "sample_id": 14,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "not true. it is aldo's eighth defense",
+        "annotator_name": "Manveer",
+        "summary_span": "This is McGregor's eighth defense of the title",
+        "summary_start": 312,
+        "summary_end": 358,
+        "source_span": "aldo makes the eighth defence of his belt ",
+        "source_start": 754,
+        "source_end": 796
+      }
+    ],
+    "meta_model": "Qwen/Qwen2.5-7B-Instruct",
+    "meta_hhemv1": 0.00478,
+    "meta_hhem-2.1": 0.88896,
+    "meta_hhem-2.1-english": 0.73279,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 556
+  },
+  {
+    "sample_id": 15,
+    "source": "conor mcgregor is gearing up for a featherweight title challenge against jose aldo on july 11 and has unveiled a fearsome new tattoo ahead of the encounter . the 26-year-old irishman has already got a picture of a gorilla eating a heart inked upon his chest and ' the notorious ' has now revealed a tiger 's face tattooed onto his stomach . ' if you see the tiger , it 's too late . you 're food , ' mcgregor wrote next to the instagram post of his new artwork . conor mcgregor reveals his new tattoo of a tiger on his stomach to his instagram followers . mcgregor ( left ) poses in the shop with a fan shortly after having his tattoo on his stomach done . mcgregor is challenging jose aldo for his featherweight champion title in las vegas on july 11 . aldo makes the eighth defence of his belt against the irish fighter in las vegas , but mcgregor claimed last week that the man he is challenging lacks the same motivation as him . ' he does n't want to be near me , he does n't want this the way i want it , ' mcgregor said . ' he ca n't hide the fact he does n't want the belt in his presence . ' conor mcgregor grabbed aldo 's ( left ) belt when they took their promotional tour to dublin . mcgregor claims he has greater motivation to win the title than aldo has to defend it for the eighth time . at the end of march , the duo were undergoing a promotional tour in dublin when mcgregor grabbed the belt from aldo and raised it in front of 5,000 home supporters . the pair have a fractious relationship as it is , with a little under three months away until mcgregor has a chance to legitimately hold the belt before his supporters .",
+    "summary": "Here is a concise summary of the passage:\n\nConor McGregor is preparing to challenge Jose Aldo for the featherweight title on July 11 in Las Vegas. McGregor has unveiled a new tattoo of a tiger on his stomach, with the phrase \"if you see the tiger, it's too late. You're food.\" McGregor claims he has greater motivation to win the title than Aldo has to defend it, and has already demonstrated his confidence by grabbing the belt from Aldo during a promotional tour in Dublin.",
+    "annotations": [
+      {
+        "annot_id": 32,
+        "sample_id": 15,
+        "annotator": "b6bb5cc6df1d46aeb0e116d6a18cae2a",
+        "label": [
+          "Benign",
+          "Questionable"
+        ],
+        "note": "Its subejctive whether grabbing the belt meant to demonstrate his confidence.",
+        "annotator_name": "Suleman",
+        "summary_span": "and has already demonstrated his confidence by grabbing the belt from Aldo ",
+        "summary_start": 364,
+        "summary_end": 439
+      },
+      {
+        "annot_id": 69,
+        "sample_id": 15,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Benign"
+        ],
+        "note": "does this demonstrate confidence for winning? I'm not sure it does. The source doesn't suggest so either.",
+        "annotator_name": "Manveer",
+        "summary_span": "and has already demonstrated his confidence by grabbing the belt from Aldo during a promotional tour in Dublin.",
+        "summary_start": 364,
+        "summary_end": 475
+      }
+    ],
+    "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "meta_hhemv1": 0.03623,
+    "meta_hhem-2.1": 0.96875,
+    "meta_hhem-2.1-english": 0.99139,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 671
+  },
+  {
+    "sample_id": 16,
+    "source": "conor mcgregor is gearing up for a featherweight title challenge against jose aldo on july 11 and has unveiled a fearsome new tattoo ahead of the encounter . the 26-year-old irishman has already got a picture of a gorilla eating a heart inked upon his chest and ' the notorious ' has now revealed a tiger 's face tattooed onto his stomach . ' if you see the tiger , it 's too late . you 're food , ' mcgregor wrote next to the instagram post of his new artwork . conor mcgregor reveals his new tattoo of a tiger on his stomach to his instagram followers . mcgregor ( left ) poses in the shop with a fan shortly after having his tattoo on his stomach done . mcgregor is challenging jose aldo for his featherweight champion title in las vegas on july 11 . aldo makes the eighth defence of his belt against the irish fighter in las vegas , but mcgregor claimed last week that the man he is challenging lacks the same motivation as him . ' he does n't want to be near me , he does n't want this the way i want it , ' mcgregor said . ' he ca n't hide the fact he does n't want the belt in his presence . ' conor mcgregor grabbed aldo 's ( left ) belt when they took their promotional tour to dublin . mcgregor claims he has greater motivation to win the title than aldo has to defend it for the eighth time . at the end of march , the duo were undergoing a promotional tour in dublin when mcgregor grabbed the belt from aldo and raised it in front of 5,000 home supporters . the pair have a fractious relationship as it is , with a little under three months away until mcgregor has a chance to legitimately hold the belt before his supporters .",
+    "summary": "Here is a concise summary of the passage:\n\nConor McGregor is preparing to challenge Jose Aldo for the featherweight title on July 11. Ahead of the fight, McGregor has unveiled a new tattoo of a tiger's face on his stomach. McGregor claims he has greater motivation to win the title than Aldo has to defend it, saying Aldo \"doesn't want to be near me\" and \"can't hide the fact he doesn't want the belt in his presence\". The two fighters have a fractious relationship, which was evident during a promotional tour in Dublin where McGregor grabbed the belt from Aldo in front of 5,000 fans.",
+    "annotations": [
+      {
+        "annot_id": 70,
+        "sample_id": 16,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Benign"
+        ],
+        "note": "it is not clear that the source uses this incident as evidence of their poor relationship",
+        "annotator_name": "Manveer",
+        "summary_span": "he two fighters have a fractious relationship, which was evident during a promotional tour in Dublin where McGregor grabbed the belt from Aldo in front of 5,000 fans.",
+        "summary_start": 420,
+        "summary_end": 586
+      }
+    ],
+    "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "meta_hhemv1": 0.06836,
+    "meta_hhem-2.1": 0.97677,
+    "meta_hhem-2.1-english": 0.99439,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 786
+  },
+  {
+    "sample_id": 17,
+    "source": "conor mcgregor is gearing up for a featherweight title challenge against jose aldo on july 11 and has unveiled a fearsome new tattoo ahead of the encounter . the 26-year-old irishman has already got a picture of a gorilla eating a heart inked upon his chest and ' the notorious ' has now revealed a tiger 's face tattooed onto his stomach . ' if you see the tiger , it 's too late . you 're food , ' mcgregor wrote next to the instagram post of his new artwork . conor mcgregor reveals his new tattoo of a tiger on his stomach to his instagram followers . mcgregor ( left ) poses in the shop with a fan shortly after having his tattoo on his stomach done . mcgregor is challenging jose aldo for his featherweight champion title in las vegas on july 11 . aldo makes the eighth defence of his belt against the irish fighter in las vegas , but mcgregor claimed last week that the man he is challenging lacks the same motivation as him . ' he does n't want to be near me , he does n't want this the way i want it , ' mcgregor said . ' he ca n't hide the fact he does n't want the belt in his presence . ' conor mcgregor grabbed aldo 's ( left ) belt when they took their promotional tour to dublin . mcgregor claims he has greater motivation to win the title than aldo has to defend it for the eighth time . at the end of march , the duo were undergoing a promotional tour in dublin when mcgregor grabbed the belt from aldo and raised it in front of 5,000 home supporters . the pair have a fractious relationship as it is , with a little under three months away until mcgregor has a chance to legitimately hold the belt before his supporters .",
+    "summary": "Conor McGregor is preparing to fight Jose Aldo for the featherweight title on July 11th. McGregor has a new tiger tattoo on his stomach and claims to have more motivation to win the title than Aldo has to defend it. The two fighters have a contentious relationship, which was highlighted when McGregor grabbed Aldo's belt during a promotional tour in Dublin. \n",
+    "annotations": [
+      {
+        "annot_id": 71,
+        "sample_id": 17,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Benign"
+        ],
+        "note": "it is not clear that this event highlights their poor relationship",
+        "annotator_name": "Manveer",
+        "summary_span": "he two fighters have a contentious relationship, which was highlighted when McGregor grabbed Aldo's belt during a promotional tour in Dublin.",
+        "summary_start": 217,
+        "summary_end": 358
+      }
+    ],
+    "meta_model": "google/gemini-1.5-flash-001",
+    "meta_hhemv1": 0.02086,
+    "meta_hhem-2.1": 0.98173,
+    "meta_hhem-2.1-english": 0.99693,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 901
+  },
+  {
+    "sample_id": 18,
+    "source": "conor mcgregor is gearing up for a featherweight title challenge against jose aldo on july 11 and has unveiled a fearsome new tattoo ahead of the encounter . the 26-year-old irishman has already got a picture of a gorilla eating a heart inked upon his chest and ' the notorious ' has now revealed a tiger 's face tattooed onto his stomach . ' if you see the tiger , it 's too late . you 're food , ' mcgregor wrote next to the instagram post of his new artwork . conor mcgregor reveals his new tattoo of a tiger on his stomach to his instagram followers . mcgregor ( left ) poses in the shop with a fan shortly after having his tattoo on his stomach done . mcgregor is challenging jose aldo for his featherweight champion title in las vegas on july 11 . aldo makes the eighth defence of his belt against the irish fighter in las vegas , but mcgregor claimed last week that the man he is challenging lacks the same motivation as him . ' he does n't want to be near me , he does n't want this the way i want it , ' mcgregor said . ' he ca n't hide the fact he does n't want the belt in his presence . ' conor mcgregor grabbed aldo 's ( left ) belt when they took their promotional tour to dublin . mcgregor claims he has greater motivation to win the title than aldo has to defend it for the eighth time . at the end of march , the duo were undergoing a promotional tour in dublin when mcgregor grabbed the belt from aldo and raised it in front of 5,000 home supporters . the pair have a fractious relationship as it is , with a little under three months away until mcgregor has a chance to legitimately hold the belt before his supporters .",
+    "summary": "Conor McGregor is preparing for a featherweight title challenge against Jose Aldo on July 11. He recently revealed a new tattoo of a tiger on his stomach, stating that if you see the tiger, it's too late. McGregor believes that Aldo lacks the same motivation as him and doesn't want the belt in his presence. The two fighters have a tense relationship, and McGregor grabbed Aldo's belt during a promotional tour in Dublin. McGregor is determined to win the title and hold it in front of his supporters.",
+    "annotations": [
+      {
+        "annot_id": 33,
+        "sample_id": 18,
+        "annotator": "b6bb5cc6df1d46aeb0e116d6a18cae2a",
+        "label": [
+          "Benign"
+        ],
+        "note": "Subjective, Mcgregor didnt explicitly say that.",
+        "annotator_name": "Suleman",
+        "summary_span": "McGregor is determined to win the title and hold it in front of his supporters.",
+        "summary_start": 423,
+        "summary_end": 502
+      },
+      {
+        "annot_id": 72,
+        "sample_id": 18,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Benign"
+        ],
+        "note": "it is not clear these two things are connected. Maybe mcgregor was told to do this to stir up viewer interest.",
+        "annotator_name": "Manveer",
+        "summary_span": "The two fighters have a tense relationship, and McGregor grabbed Aldo's belt during a promotional tour in Dublin.",
+        "summary_start": 309,
+        "summary_end": 422
+      },
+      {
+        "annot_id": 121,
+        "sample_id": 18,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't say mcgregor is determined to hold his belt in front of supporters",
+        "annotator_name": "Manveer",
+        "summary_span": "McGregor is determined to win the title and hold it in front of his supporters.",
+        "summary_start": 423,
+        "summary_end": 502
+      }
+    ],
+    "meta_model": "openai/GPT-3.5-Turbo",
+    "meta_hhemv1": 0.06357,
+    "meta_hhem-2.1": 0.97001,
+    "meta_hhem-2.1-english": 0.99366,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 1006
+  },
+  {
+    "sample_id": 19,
+    "source": "conor mcgregor is gearing up for a featherweight title challenge against jose aldo on july 11 and has unveiled a fearsome new tattoo ahead of the encounter . the 26-year-old irishman has already got a picture of a gorilla eating a heart inked upon his chest and ' the notorious ' has now revealed a tiger 's face tattooed onto his stomach . ' if you see the tiger , it 's too late . you 're food , ' mcgregor wrote next to the instagram post of his new artwork . conor mcgregor reveals his new tattoo of a tiger on his stomach to his instagram followers . mcgregor ( left ) poses in the shop with a fan shortly after having his tattoo on his stomach done . mcgregor is challenging jose aldo for his featherweight champion title in las vegas on july 11 . aldo makes the eighth defence of his belt against the irish fighter in las vegas , but mcgregor claimed last week that the man he is challenging lacks the same motivation as him . ' he does n't want to be near me , he does n't want this the way i want it , ' mcgregor said . ' he ca n't hide the fact he does n't want the belt in his presence . ' conor mcgregor grabbed aldo 's ( left ) belt when they took their promotional tour to dublin . mcgregor claims he has greater motivation to win the title than aldo has to defend it for the eighth time . at the end of march , the duo were undergoing a promotional tour in dublin when mcgregor grabbed the belt from aldo and raised it in front of 5,000 home supporters . the pair have a fractious relationship as it is , with a little under three months away until mcgregor has a chance to legitimately hold the belt before his supporters .",
+    "summary": "Conor McGregor is preparing for a featherweight title challenge against Jose Aldo on July 11 and has revealed a new tiger tattoo on his stomach. McGregor, already known for his gorilla-eating-heart chest tattoo, shared the new artwork on Instagram, emphasizing its fierce symbolism. He believes he has more motivation to win the title than Aldo has to defend it, as evidenced by their contentious interactions, including McGregor grabbing Aldo's belt during a promotional tour in Dublin. The fight will be Aldo's eighth title defense, but McGregor claims Aldo lacks the same desire to retain the belt.",
+    "annotations": [
+      {
+        "annot_id": 73,
+        "sample_id": 19,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Benign"
+        ],
+        "note": "it is not clear that the source uses this incident as evidence for mcgregor believing he has more motivation.",
+        "annotator_name": "Manveer",
+        "summary_span": "He believes he has more motivation to win the title than Aldo has to defend it, as evidenced by their contentious interactions, including McGregor grabbing Aldo's belt during a promotional tour in Dublin.",
+        "summary_start": 283,
+        "summary_end": 487
+      }
+    ],
+    "meta_model": "openai/gpt-4o",
+    "meta_hhemv1": 0.0302,
+    "meta_hhem-2.1": 0.94076,
+    "meta_hhem-2.1-english": 0.96472,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 1131
+  },
+  {
+    "sample_id": 20,
+    "source": "A Gareth Anscombe drop-goal edged Blues 23-20 ahead after Gloucester Josh Hohneck was yellow carded. Alex Cuthbert had helped level the scores after the sin-binning, scoring his second try after Ross Moriarty and Tom Marshall scores put the hosts up. But unanswered second-half tries from Jonny May, Marshall, Mark Atkinson and Henry Purdy sealed Gloucester's win. The Cherry and Whites, who went out at home at the quarter-final stage last year, won the competition in 2015.Defeat for the Blues means they have failed to progress beyond the last eight of any European Cup competition since winning the continent's second-tier title in 2010.In a seesawing opening 40 minutes, scores were locked on four separate occasions, with Cuthbert and Moriarty trading tries before Blues' Steven Shingler and Gloucester's Billy Burns swapped penalties. More of the same followed when Billy Twelvetrees took over kicking duties from Burns, following a head injury, as both sides landed further penalties and Marshall's first try put Gloucester 20-13 up. However, Blues racked up 10 points while Gloucester were a man down to take a three-point advantage into the break. Shingler extended that lead to six, but that is as good as it would get for the Pro12 side, who had Wales' Sam Warburton at blind-side flanker after impressing in the position for Wales during the Six Nations Championship. England coach Eddie Jones was in the stands at Kingholm to see May, the only Gloucester player he called upon for their triumphant Six Nations campaign, cross for the first of the hosts' four second-half scores to seal an ultimately convincing win that sees them progress to play La Rochelle - a side they met twice and beat once in the group stage this term. Gloucester: Marshall; Sharples, Trinder, Twelvetrees, May; Burns, Heinz (capt); McAllister, Hibbard, Hohneck, Savage, Thrush, Moriarty, Rowan, Morgan. Replacements: Matu'u, Thomas, Afoa, Galarza, Ludlow, Braley, Atkinson, Purdy. Cardiff Blues: Morgan; Cuthbert, Lee-Lo, Shingler, Scully; Anscombe, Williams; Jenkins (capt), Dacey, Filise, Earle, Hoeata, Warburton, Navidi, Williams. Replacements: Rees, Domachowski, Assiratti, Cook, Bennett, Williams, Halaholo, Summerhill. Referee: Pascal Gauzere (France)For the latest rugby union news follow @bbcrugbyunion on Twitter.",
+    "summary": " In the European Cup match between Cardiff Blues and Gloucester, Gloucester won 34-23, with unanswered second-half tries from Jonny May, Mark Atkinson, Henry Purdy, and Tom Marshall securing the victory. The game was close in the first half, with scores locked four times, and Cardiff Blues taking a three-point advantage into halftime. Gareth Anscombe scored a drop-goal for Cardiff Blues, but Gloucester's additional tries in the second half proved decisive. Gloucester won the competition in 2015, while Cardiff Blues have not progressed beyond the last eight of any European Cup competition since winning the second-tier title in 2010. Eddie Jones, England coach, was in attendance to see May score a try for Gloucester.",
+    "annotations": [],
+    "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "meta_hhemv1": 0.78472,
+    "meta_hhem-2.1": 0.45279,
+    "meta_hhem-2.1-english": 0.77858,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 59
+  },
+  {
+    "sample_id": 21,
+    "source": "A Gareth Anscombe drop-goal edged Blues 23-20 ahead after Gloucester Josh Hohneck was yellow carded. Alex Cuthbert had helped level the scores after the sin-binning, scoring his second try after Ross Moriarty and Tom Marshall scores put the hosts up. But unanswered second-half tries from Jonny May, Marshall, Mark Atkinson and Henry Purdy sealed Gloucester's win. The Cherry and Whites, who went out at home at the quarter-final stage last year, won the competition in 2015.Defeat for the Blues means they have failed to progress beyond the last eight of any European Cup competition since winning the continent's second-tier title in 2010.In a seesawing opening 40 minutes, scores were locked on four separate occasions, with Cuthbert and Moriarty trading tries before Blues' Steven Shingler and Gloucester's Billy Burns swapped penalties. More of the same followed when Billy Twelvetrees took over kicking duties from Burns, following a head injury, as both sides landed further penalties and Marshall's first try put Gloucester 20-13 up. However, Blues racked up 10 points while Gloucester were a man down to take a three-point advantage into the break. Shingler extended that lead to six, but that is as good as it would get for the Pro12 side, who had Wales' Sam Warburton at blind-side flanker after impressing in the position for Wales during the Six Nations Championship. England coach Eddie Jones was in the stands at Kingholm to see May, the only Gloucester player he called upon for their triumphant Six Nations campaign, cross for the first of the hosts' four second-half scores to seal an ultimately convincing win that sees them progress to play La Rochelle - a side they met twice and beat once in the group stage this term. Gloucester: Marshall; Sharples, Trinder, Twelvetrees, May; Burns, Heinz (capt); McAllister, Hibbard, Hohneck, Savage, Thrush, Moriarty, Rowan, Morgan. Replacements: Matu'u, Thomas, Afoa, Galarza, Ludlow, Braley, Atkinson, Purdy. Cardiff Blues: Morgan; Cuthbert, Lee-Lo, Shingler, Scully; Anscombe, Williams; Jenkins (capt), Dacey, Filise, Earle, Hoeata, Warburton, Navidi, Williams. Replacements: Rees, Domachowski, Assiratti, Cook, Bennett, Williams, Halaholo, Summerhill. Referee: Pascal Gauzere (France)For the latest rugby union news follow @bbcrugbyunion on Twitter.",
+    "summary": " In a thrilling match, Gareth Anscombe's drop-goal led Blues to a 23-20 victory over Gloucester. Alex Cuthbert's try leveled the scores, but Gloucester's Jonny May, Ross Moriarty, Tom Marshall, and Mark Atkinson scored unanswered tries in the second half, securing Gloucester's win. This defeat for Blues means they have not progressed beyond the last eight of any European Cup competition since 2010. Gloucester's win sees them advance to play La Rochelle in the next round. The match featured notable players like Sam Warburton and Billy Burns.",
+    "annotations": [],
+    "meta_model": "microsoft/Phi-3-mini-4k-instruct",
+    "meta_hhemv1": 0.18935,
+    "meta_hhem-2.1": 0.85496,
+    "meta_hhem-2.1-english": 0.96312,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 174
+  },
+  {
+    "sample_id": 22,
+    "source": "A Gareth Anscombe drop-goal edged Blues 23-20 ahead after Gloucester Josh Hohneck was yellow carded. Alex Cuthbert had helped level the scores after the sin-binning, scoring his second try after Ross Moriarty and Tom Marshall scores put the hosts up. But unanswered second-half tries from Jonny May, Marshall, Mark Atkinson and Henry Purdy sealed Gloucester's win. The Cherry and Whites, who went out at home at the quarter-final stage last year, won the competition in 2015.Defeat for the Blues means they have failed to progress beyond the last eight of any European Cup competition since winning the continent's second-tier title in 2010.In a seesawing opening 40 minutes, scores were locked on four separate occasions, with Cuthbert and Moriarty trading tries before Blues' Steven Shingler and Gloucester's Billy Burns swapped penalties. More of the same followed when Billy Twelvetrees took over kicking duties from Burns, following a head injury, as both sides landed further penalties and Marshall's first try put Gloucester 20-13 up. However, Blues racked up 10 points while Gloucester were a man down to take a three-point advantage into the break. Shingler extended that lead to six, but that is as good as it would get for the Pro12 side, who had Wales' Sam Warburton at blind-side flanker after impressing in the position for Wales during the Six Nations Championship. England coach Eddie Jones was in the stands at Kingholm to see May, the only Gloucester player he called upon for their triumphant Six Nations campaign, cross for the first of the hosts' four second-half scores to seal an ultimately convincing win that sees them progress to play La Rochelle - a side they met twice and beat once in the group stage this term. Gloucester: Marshall; Sharples, Trinder, Twelvetrees, May; Burns, Heinz (capt); McAllister, Hibbard, Hohneck, Savage, Thrush, Moriarty, Rowan, Morgan. Replacements: Matu'u, Thomas, Afoa, Galarza, Ludlow, Braley, Atkinson, Purdy. Cardiff Blues: Morgan; Cuthbert, Lee-Lo, Shingler, Scully; Anscombe, Williams; Jenkins (capt), Dacey, Filise, Earle, Hoeata, Warburton, Navidi, Williams. Replacements: Rees, Domachowski, Assiratti, Cook, Bennett, Williams, Halaholo, Summerhill. Referee: Pascal Gauzere (France)For the latest rugby union news follow @bbcrugbyunion on Twitter.",
+    "summary": "This passage summarizes a rugby match between Gloucester and Cardiff Blues in a European Cup competition. Here are the key points:\n\n1. Gloucester won the match 46-26, advancing to play La Rochelle in the next round. \n\n2. The first half was closely contested, with the scores tied multiple times. Cardiff Blues led 23-20 at halftime. \n\n3. Gloucester dominated the second half, scoring four unanswered tries. \n\n4. Key players mentioned include Gareth Anscombe and Alex Cuthbert for Cardiff Blues, and Jonny May, Tom Marshall, Mark Atkinson, and Henry Purdy for Gloucester. \n\n5. The match had implications for both teams: Gloucester progressed in the competition they won in 2015, while Cardiff Blues failed to advance beyond the quarter-finals in any European Cup competition since 2010. \n\n6. England coach Eddie Jones was present at the match, notably to watch Jonny May, the only Gloucester player in England's recent Six Nations campaign. \n\n7. The passage concludes with the team lineups and the referee information.",
+    "annotations": [],
+    "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
+    "meta_hhemv1": 0.70123,
+    "meta_hhem-2.1": 0.29535,
+    "meta_hhem-2.1-english": 0.50708,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 289
+  },
+  {
+    "sample_id": 23,
+    "source": "A Gareth Anscombe drop-goal edged Blues 23-20 ahead after Gloucester Josh Hohneck was yellow carded. Alex Cuthbert had helped level the scores after the sin-binning, scoring his second try after Ross Moriarty and Tom Marshall scores put the hosts up. But unanswered second-half tries from Jonny May, Marshall, Mark Atkinson and Henry Purdy sealed Gloucester's win. The Cherry and Whites, who went out at home at the quarter-final stage last year, won the competition in 2015.Defeat for the Blues means they have failed to progress beyond the last eight of any European Cup competition since winning the continent's second-tier title in 2010.In a seesawing opening 40 minutes, scores were locked on four separate occasions, with Cuthbert and Moriarty trading tries before Blues' Steven Shingler and Gloucester's Billy Burns swapped penalties. More of the same followed when Billy Twelvetrees took over kicking duties from Burns, following a head injury, as both sides landed further penalties and Marshall's first try put Gloucester 20-13 up. However, Blues racked up 10 points while Gloucester were a man down to take a three-point advantage into the break. Shingler extended that lead to six, but that is as good as it would get for the Pro12 side, who had Wales' Sam Warburton at blind-side flanker after impressing in the position for Wales during the Six Nations Championship. England coach Eddie Jones was in the stands at Kingholm to see May, the only Gloucester player he called upon for their triumphant Six Nations campaign, cross for the first of the hosts' four second-half scores to seal an ultimately convincing win that sees them progress to play La Rochelle - a side they met twice and beat once in the group stage this term. Gloucester: Marshall; Sharples, Trinder, Twelvetrees, May; Burns, Heinz (capt); McAllister, Hibbard, Hohneck, Savage, Thrush, Moriarty, Rowan, Morgan. Replacements: Matu'u, Thomas, Afoa, Galarza, Ludlow, Braley, Atkinson, Purdy. Cardiff Blues: Morgan; Cuthbert, Lee-Lo, Shingler, Scully; Anscombe, Williams; Jenkins (capt), Dacey, Filise, Earle, Hoeata, Warburton, Navidi, Williams. Replacements: Rees, Domachowski, Assiratti, Cook, Bennett, Williams, Halaholo, Summerhill. Referee: Pascal Gauzere (France)For the latest rugby union news follow @bbcrugbyunion on Twitter.",
+    "summary": "Gareth Anscombe's drop-goal gave the Blues a narrow lead over Gloucester, but the hosts responded with four unanswered tries in the second half to secure victory. The win ensures Gloucester's progression in the competition, while the Blues' European Cup struggles continue. The first half was tightly contested, with multiple lead changes and penalties, but Gloucester's strong second-half performance proved decisive.",
+    "annotations": [],
+    "meta_model": "cohere/command-r-08-2024",
+    "meta_hhemv1": 0.90002,
+    "meta_hhem-2.1": 0.88731,
+    "meta_hhem-2.1-english": 0.98104,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 404
+  },
+  {
+    "sample_id": 24,
+    "source": "A Gareth Anscombe drop-goal edged Blues 23-20 ahead after Gloucester Josh Hohneck was yellow carded. Alex Cuthbert had helped level the scores after the sin-binning, scoring his second try after Ross Moriarty and Tom Marshall scores put the hosts up. But unanswered second-half tries from Jonny May, Marshall, Mark Atkinson and Henry Purdy sealed Gloucester's win. The Cherry and Whites, who went out at home at the quarter-final stage last year, won the competition in 2015.Defeat for the Blues means they have failed to progress beyond the last eight of any European Cup competition since winning the continent's second-tier title in 2010.In a seesawing opening 40 minutes, scores were locked on four separate occasions, with Cuthbert and Moriarty trading tries before Blues' Steven Shingler and Gloucester's Billy Burns swapped penalties. More of the same followed when Billy Twelvetrees took over kicking duties from Burns, following a head injury, as both sides landed further penalties and Marshall's first try put Gloucester 20-13 up. However, Blues racked up 10 points while Gloucester were a man down to take a three-point advantage into the break. Shingler extended that lead to six, but that is as good as it would get for the Pro12 side, who had Wales' Sam Warburton at blind-side flanker after impressing in the position for Wales during the Six Nations Championship. England coach Eddie Jones was in the stands at Kingholm to see May, the only Gloucester player he called upon for their triumphant Six Nations campaign, cross for the first of the hosts' four second-half scores to seal an ultimately convincing win that sees them progress to play La Rochelle - a side they met twice and beat once in the group stage this term. Gloucester: Marshall; Sharples, Trinder, Twelvetrees, May; Burns, Heinz (capt); McAllister, Hibbard, Hohneck, Savage, Thrush, Moriarty, Rowan, Morgan. Replacements: Matu'u, Thomas, Afoa, Galarza, Ludlow, Braley, Atkinson, Purdy. Cardiff Blues: Morgan; Cuthbert, Lee-Lo, Shingler, Scully; Anscombe, Williams; Jenkins (capt), Dacey, Filise, Earle, Hoeata, Warburton, Navidi, Williams. Replacements: Rees, Domachowski, Assiratti, Cook, Bennett, Williams, Halaholo, Summerhill. Referee: Pascal Gauzere (France)For the latest rugby union news follow @bbcrugbyunion on Twitter.",
+    "summary": "The passage describes a rugby match between Cardiff Blues and Gloucester. The game was closely contested, with several lead changes in the first half. After Gloucester's Josh Hohneck was yellow-carded, Cardiff Blues managed to take a narrow lead. However, Gloucester scored four unanswered tries in the second half, securing their victory. This win advances Gloucester to the next round, where they will face La Rochelle. Key players mentioned include Jonny May, who scored two tries, and Alex Cuthbert for Cardiff Blues. The match also saw the return of Sam Warburton at blind-side flanker for Cardiff Blues.",
+    "annotations": [],
+    "meta_model": "Qwen/Qwen2.5-7B-Instruct",
+    "meta_hhemv1": 0.75487,
+    "meta_hhem-2.1": 0.69429,
+    "meta_hhem-2.1-english": 0.90852,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 519
+  },
+  {
+    "sample_id": 25,
+    "source": "A Gareth Anscombe drop-goal edged Blues 23-20 ahead after Gloucester Josh Hohneck was yellow carded. Alex Cuthbert had helped level the scores after the sin-binning, scoring his second try after Ross Moriarty and Tom Marshall scores put the hosts up. But unanswered second-half tries from Jonny May, Marshall, Mark Atkinson and Henry Purdy sealed Gloucester's win. The Cherry and Whites, who went out at home at the quarter-final stage last year, won the competition in 2015.Defeat for the Blues means they have failed to progress beyond the last eight of any European Cup competition since winning the continent's second-tier title in 2010.In a seesawing opening 40 minutes, scores were locked on four separate occasions, with Cuthbert and Moriarty trading tries before Blues' Steven Shingler and Gloucester's Billy Burns swapped penalties. More of the same followed when Billy Twelvetrees took over kicking duties from Burns, following a head injury, as both sides landed further penalties and Marshall's first try put Gloucester 20-13 up. However, Blues racked up 10 points while Gloucester were a man down to take a three-point advantage into the break. Shingler extended that lead to six, but that is as good as it would get for the Pro12 side, who had Wales' Sam Warburton at blind-side flanker after impressing in the position for Wales during the Six Nations Championship. England coach Eddie Jones was in the stands at Kingholm to see May, the only Gloucester player he called upon for their triumphant Six Nations campaign, cross for the first of the hosts' four second-half scores to seal an ultimately convincing win that sees them progress to play La Rochelle - a side they met twice and beat once in the group stage this term. Gloucester: Marshall; Sharples, Trinder, Twelvetrees, May; Burns, Heinz (capt); McAllister, Hibbard, Hohneck, Savage, Thrush, Moriarty, Rowan, Morgan. Replacements: Matu'u, Thomas, Afoa, Galarza, Ludlow, Braley, Atkinson, Purdy. Cardiff Blues: Morgan; Cuthbert, Lee-Lo, Shingler, Scully; Anscombe, Williams; Jenkins (capt), Dacey, Filise, Earle, Hoeata, Warburton, Navidi, Williams. Replacements: Rees, Domachowski, Assiratti, Cook, Bennett, Williams, Halaholo, Summerhill. Referee: Pascal Gauzere (France)For the latest rugby union news follow @bbcrugbyunion on Twitter.",
+    "summary": "Here is a concise summary of the passage:\n\nThe Gloucester Rugby team won 23-20 against Cardiff Blues in a European Cup competition match. Gloucester's Josh Hohneck was yellow carded, but the team scored four unanswered second-half tries to seal the win. Cardiff Blues had led 20-13 at halftime, but Gloucester's Jonny May, Tom Marshall, Mark Atkinson, and Henry Purdy scored in the second half to secure the victory.",
+    "annotations": [],
+    "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "meta_hhemv1": 0.70221,
+    "meta_hhem-2.1": 0.86037,
+    "meta_hhem-2.1-english": 0.98244,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 0,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 634
+  },
+  {
+    "sample_id": 26,
+    "source": "A Gareth Anscombe drop-goal edged Blues 23-20 ahead after Gloucester Josh Hohneck was yellow carded. Alex Cuthbert had helped level the scores after the sin-binning, scoring his second try after Ross Moriarty and Tom Marshall scores put the hosts up. But unanswered second-half tries from Jonny May, Marshall, Mark Atkinson and Henry Purdy sealed Gloucester's win. The Cherry and Whites, who went out at home at the quarter-final stage last year, won the competition in 2015.Defeat for the Blues means they have failed to progress beyond the last eight of any European Cup competition since winning the continent's second-tier title in 2010.In a seesawing opening 40 minutes, scores were locked on four separate occasions, with Cuthbert and Moriarty trading tries before Blues' Steven Shingler and Gloucester's Billy Burns swapped penalties. More of the same followed when Billy Twelvetrees took over kicking duties from Burns, following a head injury, as both sides landed further penalties and Marshall's first try put Gloucester 20-13 up. However, Blues racked up 10 points while Gloucester were a man down to take a three-point advantage into the break. Shingler extended that lead to six, but that is as good as it would get for the Pro12 side, who had Wales' Sam Warburton at blind-side flanker after impressing in the position for Wales during the Six Nations Championship. England coach Eddie Jones was in the stands at Kingholm to see May, the only Gloucester player he called upon for their triumphant Six Nations campaign, cross for the first of the hosts' four second-half scores to seal an ultimately convincing win that sees them progress to play La Rochelle - a side they met twice and beat once in the group stage this term. Gloucester: Marshall; Sharples, Trinder, Twelvetrees, May; Burns, Heinz (capt); McAllister, Hibbard, Hohneck, Savage, Thrush, Moriarty, Rowan, Morgan. Replacements: Matu'u, Thomas, Afoa, Galarza, Ludlow, Braley, Atkinson, Purdy. Cardiff Blues: Morgan; Cuthbert, Lee-Lo, Shingler, Scully; Anscombe, Williams; Jenkins (capt), Dacey, Filise, Earle, Hoeata, Warburton, Navidi, Williams. Replacements: Rees, Domachowski, Assiratti, Cook, Bennett, Williams, Halaholo, Summerhill. Referee: Pascal Gauzere (France)For the latest rugby union news follow @bbcrugbyunion on Twitter.",
+    "summary": "Here is a concise summary of the passage, covering the core pieces of information described:\n\nGloucester Rugby defeated Cardiff Blues 23-20 in a European Cup quarter-final match. The match was closely contested, with scores locked on four separate occasions in the first half. Gloucester's Josh Hohneck was yellow carded, allowing Cardiff to take a 23-20 lead, but Gloucester scored four unanswered tries in the second half to seal the win. The victory means Gloucester will progress to play La Rochelle in the next round, while Cardiff Blues have failed to advance beyond the last eight of any European Cup competition since 2010.",
+    "annotations": [],
+    "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "meta_hhemv1": 0.72128,
+    "meta_hhem-2.1": 0.80645,
+    "meta_hhem-2.1-english": 0.96078,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 749
+  },
+  {
+    "sample_id": 27,
+    "source": "A Gareth Anscombe drop-goal edged Blues 23-20 ahead after Gloucester Josh Hohneck was yellow carded. Alex Cuthbert had helped level the scores after the sin-binning, scoring his second try after Ross Moriarty and Tom Marshall scores put the hosts up. But unanswered second-half tries from Jonny May, Marshall, Mark Atkinson and Henry Purdy sealed Gloucester's win. The Cherry and Whites, who went out at home at the quarter-final stage last year, won the competition in 2015.Defeat for the Blues means they have failed to progress beyond the last eight of any European Cup competition since winning the continent's second-tier title in 2010.In a seesawing opening 40 minutes, scores were locked on four separate occasions, with Cuthbert and Moriarty trading tries before Blues' Steven Shingler and Gloucester's Billy Burns swapped penalties. More of the same followed when Billy Twelvetrees took over kicking duties from Burns, following a head injury, as both sides landed further penalties and Marshall's first try put Gloucester 20-13 up. However, Blues racked up 10 points while Gloucester were a man down to take a three-point advantage into the break. Shingler extended that lead to six, but that is as good as it would get for the Pro12 side, who had Wales' Sam Warburton at blind-side flanker after impressing in the position for Wales during the Six Nations Championship. England coach Eddie Jones was in the stands at Kingholm to see May, the only Gloucester player he called upon for their triumphant Six Nations campaign, cross for the first of the hosts' four second-half scores to seal an ultimately convincing win that sees them progress to play La Rochelle - a side they met twice and beat once in the group stage this term. Gloucester: Marshall; Sharples, Trinder, Twelvetrees, May; Burns, Heinz (capt); McAllister, Hibbard, Hohneck, Savage, Thrush, Moriarty, Rowan, Morgan. Replacements: Matu'u, Thomas, Afoa, Galarza, Ludlow, Braley, Atkinson, Purdy. Cardiff Blues: Morgan; Cuthbert, Lee-Lo, Shingler, Scully; Anscombe, Williams; Jenkins (capt), Dacey, Filise, Earle, Hoeata, Warburton, Navidi, Williams. Replacements: Rees, Domachowski, Assiratti, Cook, Bennett, Williams, Halaholo, Summerhill. Referee: Pascal Gauzere (France)For the latest rugby union news follow @bbcrugbyunion on Twitter.",
+    "summary": "Gloucester defeated Cardiff Blues 33-23 in a hard-fought match. The Blues took a 3-point lead into halftime, but Gloucester scored four unanswered tries in the second half to secure the victory. Gloucester will now face La Rochelle in the next round of the competition. \n",
+    "annotations": [],
+    "meta_model": "google/gemini-1.5-flash-001",
+    "meta_hhemv1": 0.42995,
+    "meta_hhem-2.1": 0.75524,
+    "meta_hhem-2.1-english": 0.79249,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 864
+  },
+  {
+    "sample_id": 28,
+    "source": "A Gareth Anscombe drop-goal edged Blues 23-20 ahead after Gloucester Josh Hohneck was yellow carded. Alex Cuthbert had helped level the scores after the sin-binning, scoring his second try after Ross Moriarty and Tom Marshall scores put the hosts up. But unanswered second-half tries from Jonny May, Marshall, Mark Atkinson and Henry Purdy sealed Gloucester's win. The Cherry and Whites, who went out at home at the quarter-final stage last year, won the competition in 2015.Defeat for the Blues means they have failed to progress beyond the last eight of any European Cup competition since winning the continent's second-tier title in 2010.In a seesawing opening 40 minutes, scores were locked on four separate occasions, with Cuthbert and Moriarty trading tries before Blues' Steven Shingler and Gloucester's Billy Burns swapped penalties. More of the same followed when Billy Twelvetrees took over kicking duties from Burns, following a head injury, as both sides landed further penalties and Marshall's first try put Gloucester 20-13 up. However, Blues racked up 10 points while Gloucester were a man down to take a three-point advantage into the break. Shingler extended that lead to six, but that is as good as it would get for the Pro12 side, who had Wales' Sam Warburton at blind-side flanker after impressing in the position for Wales during the Six Nations Championship. England coach Eddie Jones was in the stands at Kingholm to see May, the only Gloucester player he called upon for their triumphant Six Nations campaign, cross for the first of the hosts' four second-half scores to seal an ultimately convincing win that sees them progress to play La Rochelle - a side they met twice and beat once in the group stage this term. Gloucester: Marshall; Sharples, Trinder, Twelvetrees, May; Burns, Heinz (capt); McAllister, Hibbard, Hohneck, Savage, Thrush, Moriarty, Rowan, Morgan. Replacements: Matu'u, Thomas, Afoa, Galarza, Ludlow, Braley, Atkinson, Purdy. Cardiff Blues: Morgan; Cuthbert, Lee-Lo, Shingler, Scully; Anscombe, Williams; Jenkins (capt), Dacey, Filise, Earle, Hoeata, Warburton, Navidi, Williams. Replacements: Rees, Domachowski, Assiratti, Cook, Bennett, Williams, Halaholo, Summerhill. Referee: Pascal Gauzere (France)For the latest rugby union news follow @bbcrugbyunion on Twitter.",
+    "summary": "The Gloucester rugby team defeated the Cardiff Blues in a European Cup match. The Blues took the lead with a drop-goal from Gareth Anscombe, but Gloucester responded with tries from Ross Moriarty and Tom Marshall. Alex Cuthbert scored two tries for the Blues to level the scores, but Gloucester pulled ahead with unanswered second-half tries from Jonny May, Marshall, Mark Atkinson, and Henry Purdy. This win allows Gloucester to progress to the next round of the competition. The defeat means that the Blues have not advanced beyond the quarter-finals of any European Cup competition since 2010.",
+    "annotations": [],
+    "meta_model": "openai/GPT-3.5-Turbo",
+    "meta_hhemv1": 0.85579,
+    "meta_hhem-2.1": 0.85941,
+    "meta_hhem-2.1-english": 0.9755,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 923
+  },
+  {
+    "sample_id": 29,
+    "source": "A Gareth Anscombe drop-goal edged Blues 23-20 ahead after Gloucester Josh Hohneck was yellow carded. Alex Cuthbert had helped level the scores after the sin-binning, scoring his second try after Ross Moriarty and Tom Marshall scores put the hosts up. But unanswered second-half tries from Jonny May, Marshall, Mark Atkinson and Henry Purdy sealed Gloucester's win. The Cherry and Whites, who went out at home at the quarter-final stage last year, won the competition in 2015.Defeat for the Blues means they have failed to progress beyond the last eight of any European Cup competition since winning the continent's second-tier title in 2010.In a seesawing opening 40 minutes, scores were locked on four separate occasions, with Cuthbert and Moriarty trading tries before Blues' Steven Shingler and Gloucester's Billy Burns swapped penalties. More of the same followed when Billy Twelvetrees took over kicking duties from Burns, following a head injury, as both sides landed further penalties and Marshall's first try put Gloucester 20-13 up. However, Blues racked up 10 points while Gloucester were a man down to take a three-point advantage into the break. Shingler extended that lead to six, but that is as good as it would get for the Pro12 side, who had Wales' Sam Warburton at blind-side flanker after impressing in the position for Wales during the Six Nations Championship. England coach Eddie Jones was in the stands at Kingholm to see May, the only Gloucester player he called upon for their triumphant Six Nations campaign, cross for the first of the hosts' four second-half scores to seal an ultimately convincing win that sees them progress to play La Rochelle - a side they met twice and beat once in the group stage this term. Gloucester: Marshall; Sharples, Trinder, Twelvetrees, May; Burns, Heinz (capt); McAllister, Hibbard, Hohneck, Savage, Thrush, Moriarty, Rowan, Morgan. Replacements: Matu'u, Thomas, Afoa, Galarza, Ludlow, Braley, Atkinson, Purdy. Cardiff Blues: Morgan; Cuthbert, Lee-Lo, Shingler, Scully; Anscombe, Williams; Jenkins (capt), Dacey, Filise, Earle, Hoeata, Warburton, Navidi, Williams. Replacements: Rees, Domachowski, Assiratti, Cook, Bennett, Williams, Halaholo, Summerhill. Referee: Pascal Gauzere (France)For the latest rugby union news follow @bbcrugbyunion on Twitter.",
+    "summary": "Gloucester secured a 46-26 victory over Cardiff Blues, despite a strong start from the Blues, who led 23-20 at halftime after a Gareth Anscombe drop-goal and Alex Cuthbert's second try. Gloucester's win was sealed with second-half tries from Jonny May, Tom Marshall, Mark Atkinson, and Henry Purdy. The match saw a seesawing first half with scores tied multiple times, but Gloucester pulled ahead decisively in the second half. This win allows Gloucester to progress to play La Rochelle, while the Blues continue their struggle to advance beyond the quarter-finals in European competitions since 2010.",
+    "annotations": [],
+    "meta_model": "openai/gpt-4o",
+    "meta_hhemv1": 0.76392,
+    "meta_hhem-2.1": 0.4158,
+    "meta_hhem-2.1-english": 0.51301,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 1094
+  },
+  {
+    "sample_id": 30,
+    "source": "The magnitude-4.8 quake struck at a depth of 15.5km (9.6 miles) 35km north of the city of Lucca, officials said. The tremor was felt as far away as Milan and Florence, Italian media say. There were no immediate reports of injuries or damage. Italy is prone to earthquakes. In 2009 almost 300 people died in a quake in L'Aquila in the central Abruzzo region. Italy's National Institute of Geophysics and Volcanology (INGV) said the quake struck at 15:48 (14:48 GMT), with its epicentre in Garfagnana. Several aftershocks of lower magnitude were felt across a large area. Phone lines were down and power supplies were cut in the Garfagnana area, Italian news agency Ansa reports. As a precaution, schools were said to have been evacuated in the immediate vicinity and were to be checked for any damage. In Milan, top floors of tall office blocks shook and the quake was also felt in the cities of Bologna and Modena. In Lucca, people poured out into the streets, Ansa said. Last May, two earthquakes in the same area left more than 20 people dead. The strongest tremor was magnitude-6 and caused significant damage. Alessandro Amato of the INGV said the latest tremor \"came out of nowhere\", and described it as a classic earthquake for the area - \"medium-strong\" and \"fairly shallow\". Italy is still trying to recover from the aftermath of the deadly earthquake in L'Aquila. Six scientists and an ex-official were convicted of multiple manslaughter in October 2012 for giving a falsely reassuring statement. The group, all members of the National Commission for the Forecast and Prevention of Serious Risks, were accused of having provided \"inaccurate, incomplete and contradictory\" information about the danger of the tremors felt ahead of the 6 April 2009 quake. At a meeting a few days before the deadly quake, they had told officials in L'Aquila that, while a major earthquake was not impossible, it was not likely. On the night of the quake, many people are said to have remained in their homes and died because of the advice, while others who had decided to remain outside in the street survived.",
+    "summary": " A magnitude-4.8 earthquake occurred in Garfagnana, Italy, 35km north of Lucca, at a depth of 15.5km. The quake was felt in cities such as Milan, Florence, and Milan, but there were no immediate reports of injuries or significant damage. The area is prone to earthquakes, with a previous incident in May 2021 causing over 20 deaths. The quake struck at 15:48 GMT and was followed by several aftershocks. Power supplies were cut, phone lines were down, and schools were evacuated in the Garfagnana area as a precaution. The earthquake was described as \"medium-strong\" and \"fairly shallow\" by Alessandro Amato of the National Institute of Geophysics and Volcanology (INGV). Italy is still recovering from the aftermath of the 2009 earthquake in L'Aquila, where six scientists and an ex-official were convicted of multiple manslaughter for providing false reassurances about the danger of the tremors before the deadly quake.",
+    "annotations": [
+      {
+        "annot_id": 34,
+        "sample_id": 30,
+        "annotator": "b6bb5cc6df1d46aeb0e116d6a18cae2a",
+        "label": [
+          "Benign"
+        ],
+        "note": "Milan is repeated twice.",
+        "annotator_name": "Suleman",
+        "summary_span": "he quake was felt in cities such as Milan, Florence, and Milan,",
+        "summary_start": 103,
+        "summary_end": 166
+      },
+      {
+        "annot_id": 35,
+        "sample_id": 30,
+        "annotator": "b6bb5cc6df1d46aeb0e116d6a18cae2a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The article says Last May, which may or may not be May 2021",
+        "annotator_name": "Suleman",
+        "summary_span": ", with a previous incident in May 2021 causing over 20 deaths.",
+        "summary_start": 270,
+        "summary_end": 332
+      },
+      {
+        "annot_id": 36,
+        "sample_id": 30,
+        "annotator": "b6bb5cc6df1d46aeb0e116d6a18cae2a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "14:48 GMT is the right time.",
+        "annotator_name": "Suleman",
+        "summary_span": "The quake struck at 15:48 GMT ",
+        "summary_start": 333,
+        "summary_end": 363
+      },
+      {
+        "annot_id": 74,
+        "sample_id": 30,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "Milan is repeated twice here",
+        "annotator_name": "Manveer",
+        "summary_span": "The quake was felt in cities such as Milan, Florence, and Milan,",
+        "summary_start": 102,
+        "summary_end": 166
+      },
+      {
+        "annot_id": 77,
+        "sample_id": 30,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the source says in the immediate area, doesn't specify garfagnana, but this is reasonable",
+        "annotator_name": "Manveer",
+        "summary_span": " schools were evacuated in the Garfagnana area ",
+        "summary_start": 455,
+        "summary_end": 502
+      },
+      {
+        "annot_id": 104,
+        "sample_id": 30,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "the year is hallucinated, no evidence for it in the source and it seems wrong",
+        "annotator_name": "Manveer",
+        "summary_span": "2021",
+        "summary_start": 304,
+        "summary_end": 308
+      },
+      {
+        "annot_id": 105,
+        "sample_id": 30,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source says 14:48 GMT",
+        "annotator_name": "Manveer",
+        "summary_span": "15:48 GMT",
+        "summary_start": 353,
+        "summary_end": 362,
+        "source_span": "15:48 (14:48 GMT),",
+        "source_start": 447,
+        "source_end": 465
+      }
+    ],
+    "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "meta_hhemv1": 0.9686,
+    "meta_hhem-2.1": 0.07878,
+    "meta_hhem-2.1-english": 0.02196,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 31
+  },
+  {
+    "sample_id": 31,
+    "source": "The magnitude-4.8 quake struck at a depth of 15.5km (9.6 miles) 35km north of the city of Lucca, officials said. The tremor was felt as far away as Milan and Florence, Italian media say. There were no immediate reports of injuries or damage. Italy is prone to earthquakes. In 2009 almost 300 people died in a quake in L'Aquila in the central Abruzzo region. Italy's National Institute of Geophysics and Volcanology (INGV) said the quake struck at 15:48 (14:48 GMT), with its epicentre in Garfagnana. Several aftershocks of lower magnitude were felt across a large area. Phone lines were down and power supplies were cut in the Garfagnana area, Italian news agency Ansa reports. As a precaution, schools were said to have been evacuated in the immediate vicinity and were to be checked for any damage. In Milan, top floors of tall office blocks shook and the quake was also felt in the cities of Bologna and Modena. In Lucca, people poured out into the streets, Ansa said. Last May, two earthquakes in the same area left more than 20 people dead. The strongest tremor was magnitude-6 and caused significant damage. Alessandro Amato of the INGV said the latest tremor \"came out of nowhere\", and described it as a classic earthquake for the area - \"medium-strong\" and \"fairly shallow\". Italy is still trying to recover from the aftermath of the deadly earthquake in L'Aquila. Six scientists and an ex-official were convicted of multiple manslaughter in October 2012 for giving a falsely reassuring statement. The group, all members of the National Commission for the Forecast and Prevention of Serious Risks, were accused of having provided \"inaccurate, incomplete and contradictory\" information about the danger of the tremors felt ahead of the 6 April 2009 quake. At a meeting a few days before the deadly quake, they had told officials in L'Aquila that, while a major earthquake was not impossible, it was not likely. On the night of the quake, many people are said to have remained in their homes and died because of the advice, while others who had decided to remain outside in the street survived.",
+    "summary": " A magnitude-4.8 earthquake struck at a depth of 15.5km (9.6 miles) 35km north of Lucca, Italy, with its epicentre in Garfagnana. The quake was felt as far as Milan and Florence, with no immediate reports of injuries or damage. Italy, prone to earthquakes, experienced a deadly quake in L'Aquila in 2009, resulting in 300 deaths. The National Institute of Geophysics and Volcanology (INGV) reported the quake at 15:48 (14:48 GMT). Several aftershocks were felt, causing power outages and evacuations in the Garfagnana area. The quake was described as a \"medium-strong\" and \"fairly shallow\" earthquake, coming as a surprise to the INGV. Italy continues to recover from the 2009 L'Aquila earthquake, where six scientists and an ex-official were convicted for providing inaccurate information about the danger of the tremors.",
+    "annotations": [
+      {
+        "annot_id": 37,
+        "sample_id": 31,
+        "annotator": "b6bb5cc6df1d46aeb0e116d6a18cae2a",
+        "label": [
+          "Questionable"
+        ],
+        "note": "The power outages were caused by the main quake, not necessarily the aftershocks.",
+        "annotator_name": "Suleman",
+        "summary_span": "Several aftershocks were felt, causing power outages and evacuations in the Garfagnana area. ",
+        "summary_start": 431,
+        "summary_end": 524
+      },
+      {
+        "annot_id": 38,
+        "sample_id": 31,
+        "annotator": "b6bb5cc6df1d46aeb0e116d6a18cae2a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "This particular quake isn't necessarily mentioned as being a surprise.",
+        "annotator_name": "Suleman",
+        "summary_span": " coming as a surprise to the INGV. ",
+        "summary_start": 601,
+        "summary_end": 636
+      },
+      {
+        "annot_id": 122,
+        "sample_id": 31,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source doesn't say the power outages were caused by the aftershocks. ",
+        "annotator_name": "Manveer",
+        "summary_span": "Several aftershocks were felt, causing power outages and evacuations in the Garfagnana area.",
+        "summary_start": 431,
+        "summary_end": 523,
+        "source_span": "Italy's National Institute of Geophysics and Volcanology (INGV) said the quake struck at 15:48 (14:48 GMT), with its epicentre in Garfagnana. Several aftershocks of lower magnitude were felt across a large area. Phone lines were down and power supplies were cut in the Garfagnana area, Italian news agency Ansa reports.",
+        "source_start": 358,
+        "source_end": 677
+      }
+    ],
+    "meta_model": "microsoft/Phi-3-mini-4k-instruct",
+    "meta_hhemv1": 0.99587,
+    "meta_hhem-2.1": 0.32257,
+    "meta_hhem-2.1-english": 0.19266,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 146
+  },
+  {
+    "sample_id": 32,
+    "source": "The magnitude-4.8 quake struck at a depth of 15.5km (9.6 miles) 35km north of the city of Lucca, officials said. The tremor was felt as far away as Milan and Florence, Italian media say. There were no immediate reports of injuries or damage. Italy is prone to earthquakes. In 2009 almost 300 people died in a quake in L'Aquila in the central Abruzzo region. Italy's National Institute of Geophysics and Volcanology (INGV) said the quake struck at 15:48 (14:48 GMT), with its epicentre in Garfagnana. Several aftershocks of lower magnitude were felt across a large area. Phone lines were down and power supplies were cut in the Garfagnana area, Italian news agency Ansa reports. As a precaution, schools were said to have been evacuated in the immediate vicinity and were to be checked for any damage. In Milan, top floors of tall office blocks shook and the quake was also felt in the cities of Bologna and Modena. In Lucca, people poured out into the streets, Ansa said. Last May, two earthquakes in the same area left more than 20 people dead. The strongest tremor was magnitude-6 and caused significant damage. Alessandro Amato of the INGV said the latest tremor \"came out of nowhere\", and described it as a classic earthquake for the area - \"medium-strong\" and \"fairly shallow\". Italy is still trying to recover from the aftermath of the deadly earthquake in L'Aquila. Six scientists and an ex-official were convicted of multiple manslaughter in October 2012 for giving a falsely reassuring statement. The group, all members of the National Commission for the Forecast and Prevention of Serious Risks, were accused of having provided \"inaccurate, incomplete and contradictory\" information about the danger of the tremors felt ahead of the 6 April 2009 quake. At a meeting a few days before the deadly quake, they had told officials in L'Aquila that, while a major earthquake was not impossible, it was not likely. On the night of the quake, many people are said to have remained in their homes and died because of the advice, while others who had decided to remain outside in the street survived.",
+    "summary": "Here's a concise summary of the passage:\n\nA magnitude-4.8 earthquake struck northern Italy, 35km north of Lucca, at a depth of 15.5km. The tremor was felt in cities as far as Milan and Florence. No immediate injuries or damage were reported. The quake's epicenter was in Garfagnana, with several aftershocks following. As a precaution, schools were evacuated and checked for damage. Phone lines and power supplies were affected in the area. The passage also mentions Italy's susceptibility to earthquakes, referencing a 2009 quake in L'Aquila that killed nearly 300 people. It concludes by discussing a controversial case where scientists were convicted of manslaughter for providing reassuring information before the L'Aquila earthquake, which may have influenced people's decisions to stay in their homes during the quake.",
+    "annotations": [
+      {
+        "annot_id": 80,
+        "sample_id": 32,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Questionable"
+        ],
+        "note": "not sure if this is an hallucination. the source doesn't exactly say northern italy.",
+        "annotator_name": "Manveer",
+        "summary_span": "struck northern Italy",
+        "summary_start": 69,
+        "summary_end": 90
+      },
+      {
+        "annot_id": 124,
+        "sample_id": 32,
+        "annotator": "b6bb5cc6df1d46aeb0e116d6a18cae2a",
+        "label": [
+          "Questionable"
+        ],
+        "note": "The source doesnt specify that it was northern italy.",
+        "annotator_name": "Suleman",
+        "summary_span": "struck northern Italy,",
+        "summary_start": 69,
+        "summary_end": 91
+      }
+    ],
+    "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
+    "meta_hhemv1": 0.90036,
+    "meta_hhem-2.1": 0.91443,
+    "meta_hhem-2.1-english": 0.96886,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 261
+  },
+  {
+    "sample_id": 33,
+    "source": "The magnitude-4.8 quake struck at a depth of 15.5km (9.6 miles) 35km north of the city of Lucca, officials said. The tremor was felt as far away as Milan and Florence, Italian media say. There were no immediate reports of injuries or damage. Italy is prone to earthquakes. In 2009 almost 300 people died in a quake in L'Aquila in the central Abruzzo region. Italy's National Institute of Geophysics and Volcanology (INGV) said the quake struck at 15:48 (14:48 GMT), with its epicentre in Garfagnana. Several aftershocks of lower magnitude were felt across a large area. Phone lines were down and power supplies were cut in the Garfagnana area, Italian news agency Ansa reports. As a precaution, schools were said to have been evacuated in the immediate vicinity and were to be checked for any damage. In Milan, top floors of tall office blocks shook and the quake was also felt in the cities of Bologna and Modena. In Lucca, people poured out into the streets, Ansa said. Last May, two earthquakes in the same area left more than 20 people dead. The strongest tremor was magnitude-6 and caused significant damage. Alessandro Amato of the INGV said the latest tremor \"came out of nowhere\", and described it as a classic earthquake for the area - \"medium-strong\" and \"fairly shallow\". Italy is still trying to recover from the aftermath of the deadly earthquake in L'Aquila. Six scientists and an ex-official were convicted of multiple manslaughter in October 2012 for giving a falsely reassuring statement. The group, all members of the National Commission for the Forecast and Prevention of Serious Risks, were accused of having provided \"inaccurate, incomplete and contradictory\" information about the danger of the tremors felt ahead of the 6 April 2009 quake. At a meeting a few days before the deadly quake, they had told officials in L'Aquila that, while a major earthquake was not impossible, it was not likely. On the night of the quake, many people are said to have remained in their homes and died because of the advice, while others who had decided to remain outside in the street survived.",
+    "summary": "A 4.8-magnitude earthquake hit central Italy, causing widespread tremors but no reported injuries or damage. The quake's epicentre was in Garfagnana, north of Lucca, and its shallow depth led to its impact being felt across a large area, including major cities like Milan, Florence, Bologna, and Modena. This event highlights Italy's seismic vulnerability, with a history of devastating earthquakes, including the 2009 L'Aquila quake that killed almost 300 people. The recent tremor caught experts by surprise, emphasising the challenges in predicting and managing earthquake risks, especially after the controversial convictions of scientists for their role in the 2009 disaster.",
+    "annotations": [
+      {
+        "annot_id": 39,
+        "sample_id": 33,
+        "annotator": "b6bb5cc6df1d46aeb0e116d6a18cae2a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The passage does not mention the Garfagnana region being in central italy.",
+        "annotator_name": "Suleman",
+        "summary_span": "A 4.8-magnitude earthquake hit central Italy,",
+        "summary_start": 0,
+        "summary_end": 45
+      },
+      {
+        "annot_id": 41,
+        "sample_id": 33,
+        "annotator": "b6bb5cc6df1d46aeb0e116d6a18cae2a",
+        "label": [
+          "Questionable"
+        ],
+        "note": "Article implies the 2009 quake was a surprise.",
+        "annotator_name": "Suleman",
+        "summary_span": "The recent tremor caught experts by surprise, ",
+        "summary_start": 465,
+        "summary_end": 511
+      },
+      {
+        "annot_id": 81,
+        "sample_id": 33,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the source doesn't exactly say central italy",
+        "annotator_name": "Manveer",
+        "summary_span": "hit central Italy",
+        "summary_start": 27,
+        "summary_end": 44
+      },
+      {
+        "annot_id": 82,
+        "sample_id": 33,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't make this point. It is not clear whether shallow earthquakes are felt over larger areas",
+        "annotator_name": "Manveer",
+        "summary_span": "and its shallow depth led to its impact being felt across a large area",
+        "summary_start": 166,
+        "summary_end": 236
+      }
+    ],
+    "meta_model": "cohere/command-r-08-2024",
+    "meta_hhemv1": 0.99543,
+    "meta_hhem-2.1": 0.45914,
+    "meta_hhem-2.1-english": 0.5642,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 376
+  },
+  {
+    "sample_id": 34,
+    "source": "The magnitude-4.8 quake struck at a depth of 15.5km (9.6 miles) 35km north of the city of Lucca, officials said. The tremor was felt as far away as Milan and Florence, Italian media say. There were no immediate reports of injuries or damage. Italy is prone to earthquakes. In 2009 almost 300 people died in a quake in L'Aquila in the central Abruzzo region. Italy's National Institute of Geophysics and Volcanology (INGV) said the quake struck at 15:48 (14:48 GMT), with its epicentre in Garfagnana. Several aftershocks of lower magnitude were felt across a large area. Phone lines were down and power supplies were cut in the Garfagnana area, Italian news agency Ansa reports. As a precaution, schools were said to have been evacuated in the immediate vicinity and were to be checked for any damage. In Milan, top floors of tall office blocks shook and the quake was also felt in the cities of Bologna and Modena. In Lucca, people poured out into the streets, Ansa said. Last May, two earthquakes in the same area left more than 20 people dead. The strongest tremor was magnitude-6 and caused significant damage. Alessandro Amato of the INGV said the latest tremor \"came out of nowhere\", and described it as a classic earthquake for the area - \"medium-strong\" and \"fairly shallow\". Italy is still trying to recover from the aftermath of the deadly earthquake in L'Aquila. Six scientists and an ex-official were convicted of multiple manslaughter in October 2012 for giving a falsely reassuring statement. The group, all members of the National Commission for the Forecast and Prevention of Serious Risks, were accused of having provided \"inaccurate, incomplete and contradictory\" information about the danger of the tremors felt ahead of the 6 April 2009 quake. At a meeting a few days before the deadly quake, they had told officials in L'Aquila that, while a major earthquake was not impossible, it was not likely. On the night of the quake, many people are said to have remained in their homes and died because of the advice, while others who had decided to remain outside in the street survived.",
+    "summary": "A magnitude-4.8 earthquake struck near Lucca, Italy, at a depth of 15.5 km, causing tremors felt as far as Milan and Florence. No immediate injuries or damage were reported. Italy is prone to earthquakes; in 2009, a quake in L'Aquila killed nearly 300 people. The latest quake had several aftershocks and affected areas like Garfagnana, Milan, Bologna, and Modena. Schools in the vicinity were evacuated. Italy is still recovering from the 2009 L'Aquila earthquake, where six scientists and an official were convicted of multiple manslaughter due to misleading statements about the risk of a major earthquake.",
+    "annotations": [],
+    "meta_model": "Qwen/Qwen2.5-7B-Instruct",
+    "meta_hhemv1": 0.99811,
+    "meta_hhem-2.1": 0.97975,
+    "meta_hhem-2.1-english": 0.99343,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 491
+  },
+  {
+    "sample_id": 35,
+    "source": "The magnitude-4.8 quake struck at a depth of 15.5km (9.6 miles) 35km north of the city of Lucca, officials said. The tremor was felt as far away as Milan and Florence, Italian media say. There were no immediate reports of injuries or damage. Italy is prone to earthquakes. In 2009 almost 300 people died in a quake in L'Aquila in the central Abruzzo region. Italy's National Institute of Geophysics and Volcanology (INGV) said the quake struck at 15:48 (14:48 GMT), with its epicentre in Garfagnana. Several aftershocks of lower magnitude were felt across a large area. Phone lines were down and power supplies were cut in the Garfagnana area, Italian news agency Ansa reports. As a precaution, schools were said to have been evacuated in the immediate vicinity and were to be checked for any damage. In Milan, top floors of tall office blocks shook and the quake was also felt in the cities of Bologna and Modena. In Lucca, people poured out into the streets, Ansa said. Last May, two earthquakes in the same area left more than 20 people dead. The strongest tremor was magnitude-6 and caused significant damage. Alessandro Amato of the INGV said the latest tremor \"came out of nowhere\", and described it as a classic earthquake for the area - \"medium-strong\" and \"fairly shallow\". Italy is still trying to recover from the aftermath of the deadly earthquake in L'Aquila. Six scientists and an ex-official were convicted of multiple manslaughter in October 2012 for giving a falsely reassuring statement. The group, all members of the National Commission for the Forecast and Prevention of Serious Risks, were accused of having provided \"inaccurate, incomplete and contradictory\" information about the danger of the tremors felt ahead of the 6 April 2009 quake. At a meeting a few days before the deadly quake, they had told officials in L'Aquila that, while a major earthquake was not impossible, it was not likely. On the night of the quake, many people are said to have remained in their homes and died because of the advice, while others who had decided to remain outside in the street survived.",
+    "summary": "Here is a concise summary of the passage, covering the core pieces of information described:\n\nA magnitude-4.8 earthquake struck 35km north of Lucca, Italy, at a depth of 15.5km, causing aftershocks and minor disruptions, but no reported injuries or damage. The quake was felt in nearby cities, including Milan, Florence, and Lucca, where people poured out into the streets. Italy is prone to earthquakes, and the country is still recovering from a deadly quake in L'Aquila in 2009 that killed almost 300 people.",
+    "annotations": [
+      {
+        "annot_id": 42,
+        "sample_id": 35,
+        "annotator": "b6bb5cc6df1d46aeb0e116d6a18cae2a",
+        "label": [
+          "Questionable"
+        ],
+        "note": "Only people in Lucca are described as pouring into the streets.",
+        "annotator_name": "Suleman",
+        "summary_span": "The quake was felt in nearby cities, including Milan, Florence, and Lucca, where people poured out into the streets.",
+        "summary_start": 257,
+        "summary_end": 373
+      }
+    ],
+    "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "meta_hhemv1": 0.99213,
+    "meta_hhem-2.1": 0.84918,
+    "meta_hhem-2.1-english": 0.98071,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 0,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 606
+  },
+  {
+    "sample_id": 36,
+    "source": "The magnitude-4.8 quake struck at a depth of 15.5km (9.6 miles) 35km north of the city of Lucca, officials said. The tremor was felt as far away as Milan and Florence, Italian media say. There were no immediate reports of injuries or damage. Italy is prone to earthquakes. In 2009 almost 300 people died in a quake in L'Aquila in the central Abruzzo region. Italy's National Institute of Geophysics and Volcanology (INGV) said the quake struck at 15:48 (14:48 GMT), with its epicentre in Garfagnana. Several aftershocks of lower magnitude were felt across a large area. Phone lines were down and power supplies were cut in the Garfagnana area, Italian news agency Ansa reports. As a precaution, schools were said to have been evacuated in the immediate vicinity and were to be checked for any damage. In Milan, top floors of tall office blocks shook and the quake was also felt in the cities of Bologna and Modena. In Lucca, people poured out into the streets, Ansa said. Last May, two earthquakes in the same area left more than 20 people dead. The strongest tremor was magnitude-6 and caused significant damage. Alessandro Amato of the INGV said the latest tremor \"came out of nowhere\", and described it as a classic earthquake for the area - \"medium-strong\" and \"fairly shallow\". Italy is still trying to recover from the aftermath of the deadly earthquake in L'Aquila. Six scientists and an ex-official were convicted of multiple manslaughter in October 2012 for giving a falsely reassuring statement. The group, all members of the National Commission for the Forecast and Prevention of Serious Risks, were accused of having provided \"inaccurate, incomplete and contradictory\" information about the danger of the tremors felt ahead of the 6 April 2009 quake. At a meeting a few days before the deadly quake, they had told officials in L'Aquila that, while a major earthquake was not impossible, it was not likely. On the night of the quake, many people are said to have remained in their homes and died because of the advice, while others who had decided to remain outside in the street survived.",
+    "summary": "Here is a concise summary of the passage:\n\nA magnitude-4.8 earthquake struck 35km north of Lucca, Italy, at a depth of 15.5km. The quake was felt as far away as Milan and Florence, but there were no immediate reports of injuries or damage. Several aftershocks were felt, and phone lines and power supplies were disrupted in the Garfagnana area. Schools were evacuated as a precaution. The quake is the latest in a series of seismic events in the region, including a deadly earthquake in L'Aquila in 2009 that killed almost 300 people, and two earthquakes in the same area last May that left over 20 people dead.",
+    "annotations": [],
+    "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "meta_hhemv1": 0.97952,
+    "meta_hhem-2.1": 0.29762,
+    "meta_hhem-2.1-english": 0.87572,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 721
+  },
+  {
+    "sample_id": 37,
+    "source": "The magnitude-4.8 quake struck at a depth of 15.5km (9.6 miles) 35km north of the city of Lucca, officials said. The tremor was felt as far away as Milan and Florence, Italian media say. There were no immediate reports of injuries or damage. Italy is prone to earthquakes. In 2009 almost 300 people died in a quake in L'Aquila in the central Abruzzo region. Italy's National Institute of Geophysics and Volcanology (INGV) said the quake struck at 15:48 (14:48 GMT), with its epicentre in Garfagnana. Several aftershocks of lower magnitude were felt across a large area. Phone lines were down and power supplies were cut in the Garfagnana area, Italian news agency Ansa reports. As a precaution, schools were said to have been evacuated in the immediate vicinity and were to be checked for any damage. In Milan, top floors of tall office blocks shook and the quake was also felt in the cities of Bologna and Modena. In Lucca, people poured out into the streets, Ansa said. Last May, two earthquakes in the same area left more than 20 people dead. The strongest tremor was magnitude-6 and caused significant damage. Alessandro Amato of the INGV said the latest tremor \"came out of nowhere\", and described it as a classic earthquake for the area - \"medium-strong\" and \"fairly shallow\". Italy is still trying to recover from the aftermath of the deadly earthquake in L'Aquila. Six scientists and an ex-official were convicted of multiple manslaughter in October 2012 for giving a falsely reassuring statement. The group, all members of the National Commission for the Forecast and Prevention of Serious Risks, were accused of having provided \"inaccurate, incomplete and contradictory\" information about the danger of the tremors felt ahead of the 6 April 2009 quake. At a meeting a few days before the deadly quake, they had told officials in L'Aquila that, while a major earthquake was not impossible, it was not likely. On the night of the quake, many people are said to have remained in their homes and died because of the advice, while others who had decided to remain outside in the street survived.",
+    "summary": "A magnitude-4.8 earthquake struck 35km north of Lucca, Italy, at a depth of 15.5km. The tremor was felt as far away as Milan and Florence, causing buildings to shake and people to evacuate into the streets. While there were no immediate reports of injuries or damage, phone lines and power supplies were cut in the Garfagnana area. Schools were evacuated as a precaution and checked for damage. The earthquake was described as a \"medium-strong\" and \"fairly shallow\" tremor, typical for the area. This is the latest in a series of earthquakes in the region, including a magnitude-6 earthquake in May that caused significant damage and resulted in over 20 deaths. \n",
+    "annotations": [],
+    "meta_model": "google/gemini-1.5-flash-001",
+    "meta_hhemv1": 0.99618,
+    "meta_hhem-2.1": 0.83176,
+    "meta_hhem-2.1-english": 0.98061,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 836
+  },
+  {
+    "sample_id": 38,
+    "source": "The magnitude-4.8 quake struck at a depth of 15.5km (9.6 miles) 35km north of the city of Lucca, officials said. The tremor was felt as far away as Milan and Florence, Italian media say. There were no immediate reports of injuries or damage. Italy is prone to earthquakes. In 2009 almost 300 people died in a quake in L'Aquila in the central Abruzzo region. Italy's National Institute of Geophysics and Volcanology (INGV) said the quake struck at 15:48 (14:48 GMT), with its epicentre in Garfagnana. Several aftershocks of lower magnitude were felt across a large area. Phone lines were down and power supplies were cut in the Garfagnana area, Italian news agency Ansa reports. As a precaution, schools were said to have been evacuated in the immediate vicinity and were to be checked for any damage. In Milan, top floors of tall office blocks shook and the quake was also felt in the cities of Bologna and Modena. In Lucca, people poured out into the streets, Ansa said. Last May, two earthquakes in the same area left more than 20 people dead. The strongest tremor was magnitude-6 and caused significant damage. Alessandro Amato of the INGV said the latest tremor \"came out of nowhere\", and described it as a classic earthquake for the area - \"medium-strong\" and \"fairly shallow\". Italy is still trying to recover from the aftermath of the deadly earthquake in L'Aquila. Six scientists and an ex-official were convicted of multiple manslaughter in October 2012 for giving a falsely reassuring statement. The group, all members of the National Commission for the Forecast and Prevention of Serious Risks, were accused of having provided \"inaccurate, incomplete and contradictory\" information about the danger of the tremors felt ahead of the 6 April 2009 quake. At a meeting a few days before the deadly quake, they had told officials in L'Aquila that, while a major earthquake was not impossible, it was not likely. On the night of the quake, many people are said to have remained in their homes and died because of the advice, while others who had decided to remain outside in the street survived.",
+    "summary": "A magnitude-4.8 earthquake struck 35km north of Lucca, Italy, at a depth of 15.5km. The tremor was felt in Milan and Florence, but there were no immediate reports of injuries or damage. Italy is prone to earthquakes, with a deadly quake in L'Aquila in 2009. The latest earthquake was described as \"medium-strong\" and \"fairly shallow\". Schools were evacuated in the immediate vicinity, and phone lines and power supplies were cut in the Garfagnana area. Italy is still recovering from the aftermath of the L'Aquila earthquake, where six scientists and an ex-official were convicted of manslaughter for providing inaccurate information about the danger of the tremors.",
+    "annotations": [],
+    "meta_model": "openai/GPT-3.5-Turbo",
+    "meta_hhemv1": 0.99839,
+    "meta_hhem-2.1": 0.98304,
+    "meta_hhem-2.1-english": 0.99509,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 983
+  },
+  {
+    "sample_id": 39,
+    "source": "The magnitude-4.8 quake struck at a depth of 15.5km (9.6 miles) 35km north of the city of Lucca, officials said. The tremor was felt as far away as Milan and Florence, Italian media say. There were no immediate reports of injuries or damage. Italy is prone to earthquakes. In 2009 almost 300 people died in a quake in L'Aquila in the central Abruzzo region. Italy's National Institute of Geophysics and Volcanology (INGV) said the quake struck at 15:48 (14:48 GMT), with its epicentre in Garfagnana. Several aftershocks of lower magnitude were felt across a large area. Phone lines were down and power supplies were cut in the Garfagnana area, Italian news agency Ansa reports. As a precaution, schools were said to have been evacuated in the immediate vicinity and were to be checked for any damage. In Milan, top floors of tall office blocks shook and the quake was also felt in the cities of Bologna and Modena. In Lucca, people poured out into the streets, Ansa said. Last May, two earthquakes in the same area left more than 20 people dead. The strongest tremor was magnitude-6 and caused significant damage. Alessandro Amato of the INGV said the latest tremor \"came out of nowhere\", and described it as a classic earthquake for the area - \"medium-strong\" and \"fairly shallow\". Italy is still trying to recover from the aftermath of the deadly earthquake in L'Aquila. Six scientists and an ex-official were convicted of multiple manslaughter in October 2012 for giving a falsely reassuring statement. The group, all members of the National Commission for the Forecast and Prevention of Serious Risks, were accused of having provided \"inaccurate, incomplete and contradictory\" information about the danger of the tremors felt ahead of the 6 April 2009 quake. At a meeting a few days before the deadly quake, they had told officials in L'Aquila that, while a major earthquake was not impossible, it was not likely. On the night of the quake, many people are said to have remained in their homes and died because of the advice, while others who had decided to remain outside in the street survived.",
+    "summary": "A magnitude-4.8 earthquake struck 35km north of Lucca, Italy, at a depth of 15.5km, with tremors felt as far as Milan and Florence. No immediate injuries or damage were reported, but phone lines and power were disrupted in Garfagnana, and schools were evacuated as a precaution. Italy, prone to earthquakes, experienced significant quakes in 2009 and 2012, with the 2009 L'Aquila quake resulting in nearly 300 deaths. The recent quake, described as \"medium-strong\" and \"fairly shallow,\" led to aftershocks and public evacuations. In 2012, six scientists and an ex-official were convicted for providing misleading information before the L'Aquila quake, which contributed to the high death toll.",
+    "annotations": [
+      {
+        "annot_id": 43,
+        "sample_id": 39,
+        "annotator": "b6bb5cc6df1d46aeb0e116d6a18cae2a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The officials were convicted in 2012, the quake happened in 2009.",
+        "annotator_name": "Suleman",
+        "summary_span": " experienced significant quakes in 2009 and 2012,",
+        "summary_start": 307,
+        "summary_end": 356
+      },
+      {
+        "annot_id": 83,
+        "sample_id": 39,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't say there was an earthquake in 2012, this is probably referring to the \"last May\" earthquake.",
+        "annotator_name": "Manveer",
+        "summary_span": "2012",
+        "summary_start": 351,
+        "summary_end": 355
+      }
+    ],
+    "meta_model": "openai/gpt-4o",
+    "meta_hhemv1": 0.99458,
+    "meta_hhem-2.1": 0.39604,
+    "meta_hhem-2.1-english": 0.8257,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 1066
+  },
+  {
+    "sample_id": 40,
+    "source": "( cnn ) bobbi kristina brown , the daughter of bobby brown and whitney houston , has \" global and irreversible brain damage , \" according to her grandmother . \nthough the 22-year-old is no longer in a medically induced coma , she remains unresponsive , cissy houston said in a statement monday after visiting her granddaughter . \n\" meeting with the doctors and understanding that she can live in this condition for a lifetime truly saddens me , \" houston said . \n\" we can only trust in god for a miracle at this time . \" \nhouston 's statement matched that from a source with knowledge of brown 's condition , who told cnn on monday that she remained in the same neurological state she has been in for nearly three months . \nshe does not respond to visitors or familiar voices , and her eyes do not follow a person around the room , the source told cnn . \nshe also has a tracheostomy in her throat , the source said . \nthe reports come two days after brown 's father , bobby brown , said his daughter 's condition had improved . \n\" i can say today , bobbi is awake . \nshe 's watching me , \" brown told the audience at dallas ' verizon theatre . \nin a statement monday , an attorney for the brown family said that bobbi kristina brown 's condition has improved but that the kind of life she will lead remains to be seen . \n\" doctors have indicated that she will have a long life , \" attorney christopher brown said . \n\" however , bobbi kristina is presently embarking on a rehabilitation process , and the quality of her life will not be known for years to come . \" \nwho 's who in the bobbi kristina brown case ? \nbobby brown was in an \" emotional state \" on stage when he made the remarks about his daughter being awake , according to the statement . \n\" she has made it out of icu , opened her eyes and started a rehabilitation that will be long and hard , \" said bobby brown 's wife , alicia etheredge-brown .",
+    "summary": " Bobbi Kristina Brown, the daughter of Bobby Brown and Whitney Houston, has global and irreversible brain damage, according to her grandmother Cissy Houston. Despite no longer being in a medically induced coma, Bobbi Kristina remains unresponsive. She does not respond to visitors or familiar voices, her eyes do not follow a person around the room, and she has a tracheostomy in her throat. Bobby Brown, her father, previously stated that her condition had improved, but a source with knowledge of her condition and an attorney for the Brown family have since clarified that while her condition has improved, the quality of her life remains uncertain as she is undergoing rehabilitation.",
+    "annotations": [],
+    "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "meta_hhemv1": 0.28999,
+    "meta_hhem-2.1": 0.97869,
+    "meta_hhem-2.1-english": 0.99657,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 89
+  },
+  {
+    "sample_id": 41,
+    "source": "( cnn ) bobbi kristina brown , the daughter of bobby brown and whitney houston , has \" global and irreversible brain damage , \" according to her grandmother . \nthough the 22-year-old is no longer in a medically induced coma , she remains unresponsive , cissy houston said in a statement monday after visiting her granddaughter . \n\" meeting with the doctors and understanding that she can live in this condition for a lifetime truly saddens me , \" houston said . \n\" we can only trust in god for a miracle at this time . \" \nhouston 's statement matched that from a source with knowledge of brown 's condition , who told cnn on monday that she remained in the same neurological state she has been in for nearly three months . \nshe does not respond to visitors or familiar voices , and her eyes do not follow a person around the room , the source told cnn . \nshe also has a tracheostomy in her throat , the source said . \nthe reports come two days after brown 's father , bobby brown , said his daughter 's condition had improved . \n\" i can say today , bobbi is awake . \nshe 's watching me , \" brown told the audience at dallas ' verizon theatre . \nin a statement monday , an attorney for the brown family said that bobbi kristina brown 's condition has improved but that the kind of life she will lead remains to be seen . \n\" doctors have indicated that she will have a long life , \" attorney christopher brown said . \n\" however , bobbi kristina is presently embarking on a rehabilitation process , and the quality of her life will not be known for years to come . \" \nwho 's who in the bobbi kristina brown case ? \nbobby brown was in an \" emotional state \" on stage when he made the remarks about his daughter being awake , according to the statement . \n\" she has made it out of icu , opened her eyes and started a rehabilitation that will be long and hard , \" said bobby brown 's wife , alicia etheredge-brown .",
+    "summary": " Bobbi Kristina Brown, daughter of Bobby Brown and Whitney Houston, has been diagnosed with global and irreversible brain damage. Despite no longer being in a medically induced coma, she remains unresponsive. Her grandmother, Cissy Houston, expressed sadness over the possibility of her living in this condition for a lifetime. Reports indicate that Brown's condition has improved, but the extent of her life remains uncertain. Bobby Brown, her father, stated that she is awake and undergoing a long rehabilitation process. Bobby Brown's wife, Alicia Etheredge-Brown, described the situation as emotional and challenging.",
+    "annotations": [
+      {
+        "annot_id": 84,
+        "sample_id": 41,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Benign"
+        ],
+        "note": "not exactly reports, but statements from the father and attorney suggested this",
+        "annotator_name": "Manveer",
+        "summary_span": "Reports indicate that Brown's condition has improved",
+        "summary_start": 328,
+        "summary_end": 380
+      },
+      {
+        "annot_id": 86,
+        "sample_id": 41,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Questionable"
+        ],
+        "note": "she said long and hard, not emotional and challenging. the meaning of emotional is different.",
+        "annotator_name": "Manveer",
+        "summary_span": " emotional and challenging",
+        "summary_start": 594,
+        "summary_end": 620
+      },
+      {
+        "annot_id": 106,
+        "sample_id": 41,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "it seems that the attorney stated she is undergoing rehab, not the father",
+        "annotator_name": "Manveer",
+        "summary_span": "Bobby Brown, her father, stated that she is awake and undergoing a long rehabilitation process",
+        "summary_start": 428,
+        "summary_end": 522,
+        "source_span": "\" attorney christopher brown said . \n\" however , bobbi kristina is presently embarking on a rehabilitation process ,",
+        "source_start": 1379,
+        "source_end": 1495
+      },
+      {
+        "annot_id": 125,
+        "sample_id": 41,
+        "annotator": "b6bb5cc6df1d46aeb0e116d6a18cae2a",
+        "label": [
+          "Questionable"
+        ],
+        "note": "Statements from relatives, not reports.",
+        "annotator_name": "Suleman",
+        "summary_span": "eports indicate that Brown's condition has improved,",
+        "summary_start": 329,
+        "summary_end": 381
+      },
+      {
+        "annot_id": 126,
+        "sample_id": 41,
+        "annotator": "b6bb5cc6df1d46aeb0e116d6a18cae2a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Attorney stated this, not the father",
+        "annotator_name": "Suleman",
+        "summary_span": " Bobby Brown, her father, stated that she is awake and undergoing a long rehabilitation process. ",
+        "summary_start": 427,
+        "summary_end": 524
+      }
+    ],
+    "meta_model": "microsoft/Phi-3-mini-4k-instruct",
+    "meta_hhemv1": 0.59657,
+    "meta_hhem-2.1": 0.91603,
+    "meta_hhem-2.1-english": 0.97567,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 204
+  },
+  {
+    "sample_id": 42,
+    "source": "( cnn ) bobbi kristina brown , the daughter of bobby brown and whitney houston , has \" global and irreversible brain damage , \" according to her grandmother . \nthough the 22-year-old is no longer in a medically induced coma , she remains unresponsive , cissy houston said in a statement monday after visiting her granddaughter . \n\" meeting with the doctors and understanding that she can live in this condition for a lifetime truly saddens me , \" houston said . \n\" we can only trust in god for a miracle at this time . \" \nhouston 's statement matched that from a source with knowledge of brown 's condition , who told cnn on monday that she remained in the same neurological state she has been in for nearly three months . \nshe does not respond to visitors or familiar voices , and her eyes do not follow a person around the room , the source told cnn . \nshe also has a tracheostomy in her throat , the source said . \nthe reports come two days after brown 's father , bobby brown , said his daughter 's condition had improved . \n\" i can say today , bobbi is awake . \nshe 's watching me , \" brown told the audience at dallas ' verizon theatre . \nin a statement monday , an attorney for the brown family said that bobbi kristina brown 's condition has improved but that the kind of life she will lead remains to be seen . \n\" doctors have indicated that she will have a long life , \" attorney christopher brown said . \n\" however , bobbi kristina is presently embarking on a rehabilitation process , and the quality of her life will not be known for years to come . \" \nwho 's who in the bobbi kristina brown case ? \nbobby brown was in an \" emotional state \" on stage when he made the remarks about his daughter being awake , according to the statement . \n\" she has made it out of icu , opened her eyes and started a rehabilitation that will be long and hard , \" said bobby brown 's wife , alicia etheredge-brown .",
+    "summary": "Here's a concise summary of the passage:\n\nBobbi Kristina Brown, daughter of Bobby Brown and Whitney Houston, has been diagnosed with \"global and irreversible brain damage\" according to her grandmother, Cissy Houston. Despite no longer being in a medically induced coma, Brown remains unresponsive. She does not react to visitors or familiar voices, and has a tracheostomy. This information contradicts Bobby Brown's recent statement that his daughter was \"awake\" and \"watching\" him. A family attorney clarified that while her condition has improved and doctors expect her to have a long life, she is beginning a rehabilitation process, and the quality of her life remains uncertain. The family is hoping for a miracle as Brown continues her recovery.",
+    "annotations": [],
+    "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
+    "meta_hhemv1": 0.53652,
+    "meta_hhem-2.1": 0.77491,
+    "meta_hhem-2.1-english": 0.96252,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 319
+  },
+  {
+    "sample_id": 43,
+    "source": "( cnn ) bobbi kristina brown , the daughter of bobby brown and whitney houston , has \" global and irreversible brain damage , \" according to her grandmother . \nthough the 22-year-old is no longer in a medically induced coma , she remains unresponsive , cissy houston said in a statement monday after visiting her granddaughter . \n\" meeting with the doctors and understanding that she can live in this condition for a lifetime truly saddens me , \" houston said . \n\" we can only trust in god for a miracle at this time . \" \nhouston 's statement matched that from a source with knowledge of brown 's condition , who told cnn on monday that she remained in the same neurological state she has been in for nearly three months . \nshe does not respond to visitors or familiar voices , and her eyes do not follow a person around the room , the source told cnn . \nshe also has a tracheostomy in her throat , the source said . \nthe reports come two days after brown 's father , bobby brown , said his daughter 's condition had improved . \n\" i can say today , bobbi is awake . \nshe 's watching me , \" brown told the audience at dallas ' verizon theatre . \nin a statement monday , an attorney for the brown family said that bobbi kristina brown 's condition has improved but that the kind of life she will lead remains to be seen . \n\" doctors have indicated that she will have a long life , \" attorney christopher brown said . \n\" however , bobbi kristina is presently embarking on a rehabilitation process , and the quality of her life will not be known for years to come . \" \nwho 's who in the bobbi kristina brown case ? \nbobby brown was in an \" emotional state \" on stage when he made the remarks about his daughter being awake , according to the statement . \n\" she has made it out of icu , opened her eyes and started a rehabilitation that will be long and hard , \" said bobby brown 's wife , alicia etheredge-brown .",
+    "summary": "Bobbi Kristina Brown, the daughter of Bobby Brown and Whitney Houston, is reported to have severe and permanent brain damage, according to her grandmother, Cissy Houston. Despite no longer being in a medically induced coma, Bobbi Kristina remains unresponsive and her condition has not improved significantly. This contradicts a recent statement by her father, Bobby Brown, who claimed she was awake and watching him during a performance. Bobby Brown's wife, Alicia Etheredge-Brown, added that Bobbi Kristina has left the ICU and begun a lengthy rehabilitation process. The family's attorney, Christopher Brown, confirmed that her condition has improved but the quality of her life is uncertain and will take years to determine.",
+    "annotations": [
+      {
+        "annot_id": 45,
+        "sample_id": 43,
+        "annotator": "b6bb5cc6df1d46aeb0e116d6a18cae2a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "It was not during a performance, but when he was visiting her.",
+        "annotator_name": "Suleman",
+        "summary_span": "she was awake and watching him during a performance.",
+        "summary_start": 386,
+        "summary_end": 438
+      },
+      {
+        "annot_id": 87,
+        "sample_id": 43,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the source says global but severe works too",
+        "annotator_name": "Manveer",
+        "summary_span": "severe",
+        "summary_start": 91,
+        "summary_end": 97
+      },
+      {
+        "annot_id": 107,
+        "sample_id": 43,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "the source says nothing about a performance\t",
+        "annotator_name": "Manveer",
+        "summary_span": "and watching him during a performance",
+        "summary_start": 400,
+        "summary_end": 437
+      }
+    ],
+    "meta_model": "cohere/command-r-08-2024",
+    "meta_hhemv1": 0.35867,
+    "meta_hhem-2.1": 0.86868,
+    "meta_hhem-2.1-english": 0.95106,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 434
+  },
+  {
+    "sample_id": 44,
+    "source": "( cnn ) bobbi kristina brown , the daughter of bobby brown and whitney houston , has \" global and irreversible brain damage , \" according to her grandmother . \nthough the 22-year-old is no longer in a medically induced coma , she remains unresponsive , cissy houston said in a statement monday after visiting her granddaughter . \n\" meeting with the doctors and understanding that she can live in this condition for a lifetime truly saddens me , \" houston said . \n\" we can only trust in god for a miracle at this time . \" \nhouston 's statement matched that from a source with knowledge of brown 's condition , who told cnn on monday that she remained in the same neurological state she has been in for nearly three months . \nshe does not respond to visitors or familiar voices , and her eyes do not follow a person around the room , the source told cnn . \nshe also has a tracheostomy in her throat , the source said . \nthe reports come two days after brown 's father , bobby brown , said his daughter 's condition had improved . \n\" i can say today , bobbi is awake . \nshe 's watching me , \" brown told the audience at dallas ' verizon theatre . \nin a statement monday , an attorney for the brown family said that bobbi kristina brown 's condition has improved but that the kind of life she will lead remains to be seen . \n\" doctors have indicated that she will have a long life , \" attorney christopher brown said . \n\" however , bobbi kristina is presently embarking on a rehabilitation process , and the quality of her life will not be known for years to come . \" \nwho 's who in the bobbi kristina brown case ? \nbobby brown was in an \" emotional state \" on stage when he made the remarks about his daughter being awake , according to the statement . \n\" she has made it out of icu , opened her eyes and started a rehabilitation that will be long and hard , \" said bobby brown 's wife , alicia etheredge-brown .",
+    "summary": "Bobbi Kristina Brown, the daughter of Bobby Brown and Whitney Houston, has been diagnosed with global and irreversible brain damage. She remains unresponsive and is undergoing rehabilitation, though her condition has not significantly improved over nearly three months. Her father, Bobby Brown, initially reported that she was awake and responsive, but these claims were later contradicted by medical sources. Bobbi Kristina's grandmother, Cissy Houston, expressed hope for a miracle while acknowledging the possibility of a lifelong condition.",
+    "annotations": [
+      {
+        "annot_id": 108,
+        "sample_id": 44,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the contradiction came from the grandmother's comments and the attorney's clarification, not directly from medical sources.\t",
+        "annotator_name": "Manveer",
+        "summary_span": "Her father, Bobby Brown, initially reported that she was awake and responsive, but these claims were later contradicted by medical sources. ",
+        "summary_start": 270,
+        "summary_end": 410,
+        "source_span": " according to her grandmother . \nthough the 22-year-old is no longer in a medically induced coma , she remains unresponsive ",
+        "source_start": 127,
+        "source_end": 251
+      }
+    ],
+    "meta_model": "Qwen/Qwen2.5-7B-Instruct",
+    "meta_hhemv1": 0.04867,
+    "meta_hhem-2.1": 0.72876,
+    "meta_hhem-2.1-english": 0.80364,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 549
+  },
+  {
+    "sample_id": 45,
+    "source": "( cnn ) bobbi kristina brown , the daughter of bobby brown and whitney houston , has \" global and irreversible brain damage , \" according to her grandmother . \nthough the 22-year-old is no longer in a medically induced coma , she remains unresponsive , cissy houston said in a statement monday after visiting her granddaughter . \n\" meeting with the doctors and understanding that she can live in this condition for a lifetime truly saddens me , \" houston said . \n\" we can only trust in god for a miracle at this time . \" \nhouston 's statement matched that from a source with knowledge of brown 's condition , who told cnn on monday that she remained in the same neurological state she has been in for nearly three months . \nshe does not respond to visitors or familiar voices , and her eyes do not follow a person around the room , the source told cnn . \nshe also has a tracheostomy in her throat , the source said . \nthe reports come two days after brown 's father , bobby brown , said his daughter 's condition had improved . \n\" i can say today , bobbi is awake . \nshe 's watching me , \" brown told the audience at dallas ' verizon theatre . \nin a statement monday , an attorney for the brown family said that bobbi kristina brown 's condition has improved but that the kind of life she will lead remains to be seen . \n\" doctors have indicated that she will have a long life , \" attorney christopher brown said . \n\" however , bobbi kristina is presently embarking on a rehabilitation process , and the quality of her life will not be known for years to come . \" \nwho 's who in the bobbi kristina brown case ? \nbobby brown was in an \" emotional state \" on stage when he made the remarks about his daughter being awake , according to the statement . \n\" she has made it out of icu , opened her eyes and started a rehabilitation that will be long and hard , \" said bobby brown 's wife , alicia etheredge-brown .",
+    "summary": "Here is a concise summary of the passage covering the core pieces of information:\n\nBobbi Kristina Brown, the 22-year-old daughter of Bobby Brown and Whitney Houston, has suffered global and irreversible brain damage. Despite being taken out of a medically induced coma, she remains unresponsive and in a similar neurological state as three months ago. Her family, including her father Bobby Brown, have reported conflicting information about her condition, with some stating she is awake and watching them, while others describe her as unresponsive and in a rehabilitation process.",
+    "annotations": [
+      {
+        "annot_id": 90,
+        "sample_id": 45,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Questionable"
+        ],
+        "note": "three months ago as of the time of this source",
+        "annotator_name": "Manveer",
+        "summary_span": "as three months ago",
+        "summary_start": 331,
+        "summary_end": 350
+      }
+    ],
+    "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "meta_hhemv1": 0.27977,
+    "meta_hhem-2.1": 0.53923,
+    "meta_hhem-2.1-english": 0.94834,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 664
+  },
+  {
+    "sample_id": 46,
+    "source": "( cnn ) bobbi kristina brown , the daughter of bobby brown and whitney houston , has \" global and irreversible brain damage , \" according to her grandmother . \nthough the 22-year-old is no longer in a medically induced coma , she remains unresponsive , cissy houston said in a statement monday after visiting her granddaughter . \n\" meeting with the doctors and understanding that she can live in this condition for a lifetime truly saddens me , \" houston said . \n\" we can only trust in god for a miracle at this time . \" \nhouston 's statement matched that from a source with knowledge of brown 's condition , who told cnn on monday that she remained in the same neurological state she has been in for nearly three months . \nshe does not respond to visitors or familiar voices , and her eyes do not follow a person around the room , the source told cnn . \nshe also has a tracheostomy in her throat , the source said . \nthe reports come two days after brown 's father , bobby brown , said his daughter 's condition had improved . \n\" i can say today , bobbi is awake . \nshe 's watching me , \" brown told the audience at dallas ' verizon theatre . \nin a statement monday , an attorney for the brown family said that bobbi kristina brown 's condition has improved but that the kind of life she will lead remains to be seen . \n\" doctors have indicated that she will have a long life , \" attorney christopher brown said . \n\" however , bobbi kristina is presently embarking on a rehabilitation process , and the quality of her life will not be known for years to come . \" \nwho 's who in the bobbi kristina brown case ? \nbobby brown was in an \" emotional state \" on stage when he made the remarks about his daughter being awake , according to the statement . \n\" she has made it out of icu , opened her eyes and started a rehabilitation that will be long and hard , \" said bobby brown 's wife , alicia etheredge-brown .",
+    "summary": "Here is a concise summary of the passage:\n\nBobbi Kristina Brown, 22, has \"global and irreversible brain damage\" and remains unresponsive, according to her grandmother Cissy Houston. Despite being out of a medically induced coma, Brown does not respond to visitors or familiar voices and has a tracheostomy in her throat. Her condition has not improved, contrary to her father Bobby Brown's statement that she was awake and watching him. Instead, her family's attorney says she has a long rehabilitation process ahead and the quality of her life will not be known for years to come.",
+    "annotations": [],
+    "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "meta_hhemv1": 0.94579,
+    "meta_hhem-2.1": 0.875,
+    "meta_hhem-2.1-english": 0.98046,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 779
+  },
+  {
+    "sample_id": 47,
+    "source": "( cnn ) bobbi kristina brown , the daughter of bobby brown and whitney houston , has \" global and irreversible brain damage , \" according to her grandmother . \nthough the 22-year-old is no longer in a medically induced coma , she remains unresponsive , cissy houston said in a statement monday after visiting her granddaughter . \n\" meeting with the doctors and understanding that she can live in this condition for a lifetime truly saddens me , \" houston said . \n\" we can only trust in god for a miracle at this time . \" \nhouston 's statement matched that from a source with knowledge of brown 's condition , who told cnn on monday that she remained in the same neurological state she has been in for nearly three months . \nshe does not respond to visitors or familiar voices , and her eyes do not follow a person around the room , the source told cnn . \nshe also has a tracheostomy in her throat , the source said . \nthe reports come two days after brown 's father , bobby brown , said his daughter 's condition had improved . \n\" i can say today , bobbi is awake . \nshe 's watching me , \" brown told the audience at dallas ' verizon theatre . \nin a statement monday , an attorney for the brown family said that bobbi kristina brown 's condition has improved but that the kind of life she will lead remains to be seen . \n\" doctors have indicated that she will have a long life , \" attorney christopher brown said . \n\" however , bobbi kristina is presently embarking on a rehabilitation process , and the quality of her life will not be known for years to come . \" \nwho 's who in the bobbi kristina brown case ? \nbobby brown was in an \" emotional state \" on stage when he made the remarks about his daughter being awake , according to the statement . \n\" she has made it out of icu , opened her eyes and started a rehabilitation that will be long and hard , \" said bobby brown 's wife , alicia etheredge-brown .",
+    "summary": "Bobbi Kristina Brown, daughter of Bobby Brown and Whitney Houston, has suffered global and irreversible brain damage. Though she is no longer in a medically induced coma, she remains unresponsive and does not react to visitors or familiar voices. She has a tracheostomy in her throat and her condition has not changed in nearly three months. While her father, Bobby Brown, stated that she is awake and watching him, her grandmother, Cissy Houston, and an attorney for the family said that she will have a long life but the quality of her life will not be known for years to come. \n",
+    "annotations": [
+      {
+        "annot_id": 110,
+        "sample_id": 47,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "this was said by the attorney not cissy, although cissy did contradict the father.",
+        "annotator_name": "Manveer",
+        "summary_span": "Cissy Houston, and an attorney for the family said that she will have a long life but the quality of her life will not be known for years to come.",
+        "summary_start": 433,
+        "summary_end": 579,
+        "source_span": "\" attorney christopher brown said . \n\" however , bobbi kristina is presently embarking on a rehabilitation process , and the quality of her life will not be known for years to come . \"",
+        "source_start": 1379,
+        "source_end": 1563
+      }
+    ],
+    "meta_model": "google/gemini-1.5-flash-001",
+    "meta_hhemv1": 0.26808,
+    "meta_hhem-2.1": 0.95613,
+    "meta_hhem-2.1-english": 0.98758,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 894
+  },
+  {
+    "sample_id": 48,
+    "source": "( cnn ) bobbi kristina brown , the daughter of bobby brown and whitney houston , has \" global and irreversible brain damage , \" according to her grandmother . \nthough the 22-year-old is no longer in a medically induced coma , she remains unresponsive , cissy houston said in a statement monday after visiting her granddaughter . \n\" meeting with the doctors and understanding that she can live in this condition for a lifetime truly saddens me , \" houston said . \n\" we can only trust in god for a miracle at this time . \" \nhouston 's statement matched that from a source with knowledge of brown 's condition , who told cnn on monday that she remained in the same neurological state she has been in for nearly three months . \nshe does not respond to visitors or familiar voices , and her eyes do not follow a person around the room , the source told cnn . \nshe also has a tracheostomy in her throat , the source said . \nthe reports come two days after brown 's father , bobby brown , said his daughter 's condition had improved . \n\" i can say today , bobbi is awake . \nshe 's watching me , \" brown told the audience at dallas ' verizon theatre . \nin a statement monday , an attorney for the brown family said that bobbi kristina brown 's condition has improved but that the kind of life she will lead remains to be seen . \n\" doctors have indicated that she will have a long life , \" attorney christopher brown said . \n\" however , bobbi kristina is presently embarking on a rehabilitation process , and the quality of her life will not be known for years to come . \" \nwho 's who in the bobbi kristina brown case ? \nbobby brown was in an \" emotional state \" on stage when he made the remarks about his daughter being awake , according to the statement . \n\" she has made it out of icu , opened her eyes and started a rehabilitation that will be long and hard , \" said bobby brown 's wife , alicia etheredge-brown .",
+    "summary": "The passage discusses the current condition of Bobbi Kristina Brown, the daughter of Bobby Brown and Whitney Houston. According to her grandmother, Bobbi Kristina has global and irreversible brain damage and remains unresponsive. She is no longer in a medically induced coma but does not respond to visitors or familiar voices. Bobbi Kristina also has a tracheostomy in her throat. Despite her father's statement that her condition had improved, her attorney stated that while her condition has improved, the kind of life she will lead remains uncertain.",
+    "annotations": [],
+    "meta_model": "openai/GPT-3.5-Turbo",
+    "meta_hhemv1": 0.32046,
+    "meta_hhem-2.1": 0.97701,
+    "meta_hhem-2.1-english": 0.99545,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 920
+  },
+  {
+    "sample_id": 49,
+    "source": "( cnn ) bobbi kristina brown , the daughter of bobby brown and whitney houston , has \" global and irreversible brain damage , \" according to her grandmother . \nthough the 22-year-old is no longer in a medically induced coma , she remains unresponsive , cissy houston said in a statement monday after visiting her granddaughter . \n\" meeting with the doctors and understanding that she can live in this condition for a lifetime truly saddens me , \" houston said . \n\" we can only trust in god for a miracle at this time . \" \nhouston 's statement matched that from a source with knowledge of brown 's condition , who told cnn on monday that she remained in the same neurological state she has been in for nearly three months . \nshe does not respond to visitors or familiar voices , and her eyes do not follow a person around the room , the source told cnn . \nshe also has a tracheostomy in her throat , the source said . \nthe reports come two days after brown 's father , bobby brown , said his daughter 's condition had improved . \n\" i can say today , bobbi is awake . \nshe 's watching me , \" brown told the audience at dallas ' verizon theatre . \nin a statement monday , an attorney for the brown family said that bobbi kristina brown 's condition has improved but that the kind of life she will lead remains to be seen . \n\" doctors have indicated that she will have a long life , \" attorney christopher brown said . \n\" however , bobbi kristina is presently embarking on a rehabilitation process , and the quality of her life will not be known for years to come . \" \nwho 's who in the bobbi kristina brown case ? \nbobby brown was in an \" emotional state \" on stage when he made the remarks about his daughter being awake , according to the statement . \n\" she has made it out of icu , opened her eyes and started a rehabilitation that will be long and hard , \" said bobby brown 's wife , alicia etheredge-brown .",
+    "summary": "Bobbi Kristina Brown, daughter of Bobby Brown and Whitney Houston, has \"global and irreversible brain damage,\" according to her grandmother, Cissy Houston. Although no longer in a medically induced coma, the 22-year-old remains unresponsive and does not react to visitors or familiar voices. She has a tracheostomy and her condition has been unchanged for nearly three months. Despite her father, Bobby Brown, claiming she is awake and showing signs of improvement, medical professionals and family attorneys indicate that while she may live a long life, the quality of her life remains uncertain and she faces a challenging rehabilitation process.",
+    "annotations": [
+      {
+        "annot_id": 92,
+        "sample_id": 49,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Benign"
+        ],
+        "note": "the comments don't come directly from medical professionals. just from family members and the attorney",
+        "annotator_name": "Manveer",
+        "summary_span": "medical professionals and family attorneys indicate that while she may live a long life, the quality of",
+        "summary_start": 466,
+        "summary_end": 569
+      }
+    ],
+    "meta_model": "openai/gpt-4o",
+    "meta_hhemv1": 0.3509,
+    "meta_hhem-2.1": 0.97176,
+    "meta_hhem-2.1-english": 0.99456,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 1124
+  }
+]

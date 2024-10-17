@@ -1,0 +1,3415 @@
+[
+  {
+    "sample_id": 0,
+    "source": "UKIP, which won May's election, spent £2,956,737, while the Tories' campaign expenditure was £2,980,815,The Lib Dems spent £1,580,575 and lost all but one of their MEPs - Labour, which came second, spent £1,027,339.The figures cover the campaign period from 23 January to polling day, 22 May. UKIP's campaign spending works out at 68p for each of their 4,376,635 votes. For Labour it is 26p per vote, the Conservatives 79p and the Lib Dems, who lost 11 of their 12 MEPs, £1.45. The Green Party, which came fourth, spent £534,249 on its campaign - 43p for each of its 1,255,573 votes. Including the SNP's £267,372, the six highest-spending parties spent a total of £9,347,087 on campaigning, the Electoral Commission said. All but Labour spent more than they did during the 2009 European election campaign.",
+    "summary": " In the provided passage, the core pieces of information are campaign expenditures for several political parties in the UK's May election for the European Parliament. UKIP spent the most at £2,956,737, followed by the Conservatives at £2,980,815, Labour at £1,027,339, Lib Dems at £1,580,575, and the Green Party at £534,249. The Lib Dems lost all but one of their MEPs, while Labour came second. The spending per vote for each party was UKIP at 68p, Labour at 26p, Conservatives at 79p, Lib Dems at £1.45, and the Green Party at 43p. The six highest-spending parties collectively spent £9,347,087 on campaigning, and all but Labour spent more than they did during the 2009 European election campaign.",
+    "annotations": [
+      {
+        "annot_id": 2,
+        "sample_id": 0,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Benign"
+        ],
+        "note": "world knowledge for the conservative part torie",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "UKIP spent the most at £2,956,737, followed by the Conservatives at £2,980,815, Labour at £1,027,339, Lib Dems at £1,580,575, and the Green Party at £534,249.",
+        "summary_start": 167,
+        "summary_end": 325,
+        "source_span": "UKIP, which won May's election, spent £2,956,737, while the Tories' campaign expenditure was £2,980,815,The Lib Dems spent £1,580,575 and lost all but one of their MEPs - Labour, which came second, spent £1,027,339.The figures cover the campaign period from 23 January to polling day, 22 May.",
+        "source_start": 0,
+        "source_end": 292
+      },
+      {
+        "annot_id": 58,
+        "sample_id": 0,
+        "annotator": "a304df93bb674faab4f73b38948fff75",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "Tories spent 2,980,815 which is more that what UKIP spent",
+        "annotator_name": "New User",
+        "summary_span": "UKIP spent the most at £2,956,737",
+        "summary_start": 167,
+        "summary_end": 200
+      },
+      {
+        "annot_id": 157,
+        "sample_id": 0,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the European Parliament is not mentioned",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "the European Parliament",
+        "summary_start": 142,
+        "summary_end": 165
+      },
+      {
+        "annot_id": 158,
+        "sample_id": 0,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the Tories spent the most",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "UKIP spent the most at £2,956,737",
+        "summary_start": 167,
+        "summary_end": 200,
+        "source_span": "UKIP, which won May's election, spent £2,956,737, while the Tories' campaign expenditure was £2,980,815,The Lib Dems spent £1,580,575 and lost all but one of their MEPs - Labour, which came second, spent £1,027,339.The figures cover the campaign period from 23 January to polling day, 22 May.",
+        "source_start": 0,
+        "source_end": 292
+      },
+      {
+        "annot_id": 187,
+        "sample_id": 0,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Questionable"
+        ],
+        "note": "Some world knowledge might be needed to connect that tories=conservatives. Although, this could possibly be assumed from the source.",
+        "annotator_name": "Manveer",
+        "summary_span": "Conservatives",
+        "summary_start": 218,
+        "summary_end": 231
+      },
+      {
+        "annot_id": 250,
+        "sample_id": 0,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The passage does not say this is for European Parliament\t",
+        "annotator_name": "Manveer",
+        "summary_span": "UK's May election for the European Parliament. ",
+        "summary_start": 120,
+        "summary_end": 167
+      },
+      {
+        "annot_id": 251,
+        "sample_id": 0,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "This is nonsense. UKIP did not spend the most. 2956737 < 2980815\t",
+        "annotator_name": "Manveer",
+        "summary_span": "UKIP spent the most at £2,956,737, followed by the Conservatives at £2,980,815,",
+        "summary_start": 167,
+        "summary_end": 246,
+        "source_span": "UKIP, which won May's election, spent £2,956,737, while the Tories' campaign expenditure was £2,980,815,",
+        "source_start": 0,
+        "source_end": 104
+      }
+    ],
+    "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "meta_hhemv1": 0.67967,
+    "meta_hhem-2.1": 0.95119,
+    "meta_hhem-2.1-english": 0.98363,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 62
+  },
+  {
+    "sample_id": 1,
+    "source": "UKIP, which won May's election, spent £2,956,737, while the Tories' campaign expenditure was £2,980,815,The Lib Dems spent £1,580,575 and lost all but one of their MEPs - Labour, which came second, spent £1,027,339.The figures cover the campaign period from 23 January to polling day, 22 May. UKIP's campaign spending works out at 68p for each of their 4,376,635 votes. For Labour it is 26p per vote, the Conservatives 79p and the Lib Dems, who lost 11 of their 12 MEPs, £1.45. The Green Party, which came fourth, spent £534,249 on its campaign - 43p for each of its 1,255,573 votes. Including the SNP's £267,372, the six highest-spending parties spent a total of £9,347,087 on campaigning, the Electoral Commission said. All but Labour spent more than they did during the 2009 European election campaign.",
+    "summary": " UKIP, the winning party in May's election, spent £2,956,737, while the Conservatives spent £2,980,815. The Liberal Democrats spent £1,580,575 and lost all but one of their MEPs. Labour, the second-place party, spent £1,027,339. UKIP's campaign spending was 68p per vote, Labour's was 26p, the Conservatives' was 79p, and the Lib Dems' was £1.45 per vote. The Green Party spent £534,249 (43p per vote) and the SNP spent £267,372. The six highest-spending parties spent a total of £9,347,087, with all but Labour spending more than in the 2009 European election campaign. The campaign period was from 23 January to polling day, 22 May.",
+    "annotations": [
+      {
+        "annot_id": 3,
+        "sample_id": 1,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Benign"
+        ],
+        "note": "world knowledge for the conservative party",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "UKIP, the winning party in May's election, spent £2,956,737, while the Conservatives spent £2,980,815. The Liberal Democrats spent £1,580,575 and lost all but one of their MEPs. ",
+        "summary_start": 1,
+        "summary_end": 179,
+        "source_span": "UKIP, which won May's election, spent £2,956,737, while the Tories' campaign expenditure was £2,980,815,The Lib Dems spent £1,580,575 and lost all but one of their MEPs - Labour, which came second, spent £1,027,339.The figures cover the campaign period from 23 January to polling day, 22 May.",
+        "source_start": 0,
+        "source_end": 292
+      },
+      {
+        "annot_id": 188,
+        "sample_id": 1,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Questionable"
+        ],
+        "note": "Some world knowledge might be needed to connect that tories=conservatives. Although, this could possibly be assumed from the source.",
+        "annotator_name": "Manveer",
+        "summary_span": "Conservatives",
+        "summary_start": 72,
+        "summary_end": 85
+      }
+    ],
+    "meta_model": "microsoft/Phi-3-mini-4k-instruct",
+    "meta_hhemv1": 0.99551,
+    "meta_hhem-2.1": 0.96806,
+    "meta_hhem-2.1-english": 0.99444,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 177
+  },
+  {
+    "sample_id": 2,
+    "source": "UKIP, which won May's election, spent £2,956,737, while the Tories' campaign expenditure was £2,980,815,The Lib Dems spent £1,580,575 and lost all but one of their MEPs - Labour, which came second, spent £1,027,339.The figures cover the campaign period from 23 January to polling day, 22 May. UKIP's campaign spending works out at 68p for each of their 4,376,635 votes. For Labour it is 26p per vote, the Conservatives 79p and the Lib Dems, who lost 11 of their 12 MEPs, £1.45. The Green Party, which came fourth, spent £534,249 on its campaign - 43p for each of its 1,255,573 votes. Including the SNP's £267,372, the six highest-spending parties spent a total of £9,347,087 on campaigning, the Electoral Commission said. All but Labour spent more than they did during the 2009 European election campaign.",
+    "summary": "Here's a concise summary of the passage:\n\nThe passage details campaign spending for the May European Parliament elections in the UK. UKIP, the winning party, spent £2,956,737, slightly less than the Conservatives at £2,980,815. Labour, which came second, spent £1,027,339, while the Liberal Democrats spent £1,580,575 but lost all but one of their MEPs. The Green Party, finishing fourth, spent £534,249. When calculated per vote received, UKIP spent 68p, Labour 26p, Conservatives 79p, and Lib Dems £1.45. The top six highest-spending parties, including the SNP, spent a total of £9,347,087. All parties except Labour increased their spending compared to the 2009 European election campaign.",
+    "annotations": [
+      {
+        "annot_id": 4,
+        "sample_id": 2,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Benign"
+        ],
+        "note": "no information about the conservatives",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "UKIP, the winning party, spent £2,956,737, slightly less than the Conservatives at £2,980,815.",
+        "summary_start": 133,
+        "summary_end": 227,
+        "source_span": "UKIP, which won May's election, spent £2,956,737, while the Tories' campaign expenditure was £2,980,815,The Lib Dems spent £1,580,575 and lost all but one of their MEPs - Labour, which came second, spent £1,027,339.The figures cover the campaign period from 23 January to polling day, 22 May.",
+        "source_start": 0,
+        "source_end": 292
+      },
+      {
+        "annot_id": 189,
+        "sample_id": 2,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Questionable"
+        ],
+        "note": "Some world knowledge might be needed to connect that tories=conservatives. Although, this could possibly be assumed from the source.",
+        "annotator_name": "Manveer",
+        "summary_span": "Conservatives",
+        "summary_start": 199,
+        "summary_end": 212
+      },
+      {
+        "annot_id": 252,
+        "sample_id": 2,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source doesn't mention the european parliament\t",
+        "annotator_name": "Manveer",
+        "summary_span": "May European Parliament elections in the UK",
+        "summary_start": 88,
+        "summary_end": 131
+      }
+    ],
+    "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
+    "meta_hhemv1": 0.80157,
+    "meta_hhem-2.1": 0.72288,
+    "meta_hhem-2.1-english": 0.92387,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 292
+  },
+  {
+    "sample_id": 3,
+    "source": "UKIP, which won May's election, spent £2,956,737, while the Tories' campaign expenditure was £2,980,815,The Lib Dems spent £1,580,575 and lost all but one of their MEPs - Labour, which came second, spent £1,027,339.The figures cover the campaign period from 23 January to polling day, 22 May. UKIP's campaign spending works out at 68p for each of their 4,376,635 votes. For Labour it is 26p per vote, the Conservatives 79p and the Lib Dems, who lost 11 of their 12 MEPs, £1.45. The Green Party, which came fourth, spent £534,249 on its campaign - 43p for each of its 1,255,573 votes. Including the SNP's £267,372, the six highest-spending parties spent a total of £9,347,087 on campaigning, the Electoral Commission said. All but Labour spent more than they did during the 2009 European election campaign.",
+    "summary": "The passage details the campaign expenditure of several UK political parties during the 2014 European Parliament election. UKIP, the winning party, spent nearly £3 million, closely followed by the Tories. The Lib Dems, despite spending over £1.5 million, lost most of their MEPs. Labour, in second place, spent just over £1 million, making it the most cost-effective campaign in terms of cost per vote. The Green Party and SNP also spent significantly less than the top two parties. All parties, except Labour, increased their spending compared to the 2009 election.",
+    "annotations": [
+      {
+        "annot_id": 5,
+        "sample_id": 3,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "no information about the year 2014",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "The passage details the campaign expenditure of several UK political parties during the 2014 European Parliament election.",
+        "summary_start": 0,
+        "summary_end": 122
+      },
+      {
+        "annot_id": 63,
+        "sample_id": 3,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Questionable"
+        ],
+        "note": "although true, it is a bit changed",
+        "annotator_name": "Manveer",
+        "summary_span": " £3 million",
+        "summary_start": 160,
+        "summary_end": 171
+      },
+      {
+        "annot_id": 65,
+        "sample_id": 3,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Questionable"
+        ],
+        "note": "signifcantly less is subjective, the green party spent more per vote than labour",
+        "annotator_name": "Manveer",
+        "summary_span": "spent significantly less ",
+        "summary_start": 432,
+        "summary_end": 457
+      },
+      {
+        "annot_id": 159,
+        "sample_id": 3,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Tories spent more",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "closely followed by the Tories",
+        "summary_start": 173,
+        "summary_end": 203,
+        "source_span": "UKIP, which won May's election, spent £2,956,737, while the Tories' campaign expenditure was £2,980,815,The Lib Dems spent £1,580,575 and lost all but one of their MEPs - Labour, which came second, spent £1,027,339.The figures cover the campaign period from 23 January to polling day, 22 May.",
+        "source_start": 0,
+        "source_end": 292
+      },
+      {
+        "annot_id": 219,
+        "sample_id": 3,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't give the year",
+        "annotator_name": "Manveer",
+        "summary_span": "2014",
+        "summary_start": 88,
+        "summary_end": 92
+      },
+      {
+        "annot_id": 253,
+        "sample_id": 3,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "This is nonsense. UKIP did not spend the most. 2956737 < 2980815",
+        "annotator_name": "Manveer",
+        "summary_span": "UKIP, the winning party, spent nearly £3 million, closely followed by the Tories",
+        "summary_start": 123,
+        "summary_end": 203,
+        "source_span": "UKIP, which won May's election, spent £2,956,737, while the Tories' campaign expenditure was £2,980,815",
+        "source_start": 0,
+        "source_end": 103
+      }
+    ],
+    "meta_model": "cohere/command-r-08-2024",
+    "meta_hhemv1": 0.39727,
+    "meta_hhem-2.1": 0.20524,
+    "meta_hhem-2.1-english": 0.05722,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 407
+  },
+  {
+    "sample_id": 4,
+    "source": "UKIP, which won May's election, spent £2,956,737, while the Tories' campaign expenditure was £2,980,815,The Lib Dems spent £1,580,575 and lost all but one of their MEPs - Labour, which came second, spent £1,027,339.The figures cover the campaign period from 23 January to polling day, 22 May. UKIP's campaign spending works out at 68p for each of their 4,376,635 votes. For Labour it is 26p per vote, the Conservatives 79p and the Lib Dems, who lost 11 of their 12 MEPs, £1.45. The Green Party, which came fourth, spent £534,249 on its campaign - 43p for each of its 1,255,573 votes. Including the SNP's £267,372, the six highest-spending parties spent a total of £9,347,087 on campaigning, the Electoral Commission said. All but Labour spent more than they did during the 2009 European election campaign.",
+    "summary": "The passage summarizes the campaign expenditures of various political parties in the UK for the European election in May. UKIP spent the most at £2,956,737, followed by the Conservatives (£2,980,815), Labour (£1,027,339), and the Liberal Democrats (£1,580,575). The Green Party spent £534,249, and the SNP spent £267,372. The total expenditure by these six parties was £9,347,087. Compared to the 2009 election, all parties except Labour spent more money. UKIP's spending was 68p per vote, the Conservatives 79p, Labour 26p, and the Lib Dems £1.45 per vote. The Lib Dems lost most of their seats, while UKIP won.",
+    "annotations": [
+      {
+        "annot_id": 6,
+        "sample_id": 4,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Benign"
+        ],
+        "note": "no information about torie == conservatives",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "UKIP spent the most at £2,956,737, followed by the Conservatives (£2,980,815), Labour (£1,027,339), and the Liberal Democrats (£1,580,575).",
+        "summary_start": 122,
+        "summary_end": 261,
+        "source_span": "UKIP, which won May's election, spent £2,956,737, while the Tories' campaign expenditure was £2,980,815,The Lib Dems spent £1,580,575 and lost all but one of their MEPs - Labour, which came second, spent £1,027,339.The figures cover the campaign period from 23 January to polling day, 22 May.",
+        "source_start": 0,
+        "source_end": 292
+      },
+      {
+        "annot_id": 160,
+        "sample_id": 4,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Torie spent the most",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "UKIP spent the most at £2,956,737",
+        "summary_start": 122,
+        "summary_end": 155,
+        "source_span": "UKIP, which won May's election, spent £2,956,737, while the Tories' campaign expenditure was £2,980,815,The Lib Dems spent £1,580,575 and lost all but one of their MEPs - Labour, which came second, spent £1,027,339.The figures cover the campaign period from 23 January to polling day, 22 May.",
+        "source_start": 0,
+        "source_end": 292
+      },
+      {
+        "annot_id": 191,
+        "sample_id": 4,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Questionable"
+        ],
+        "note": "Some world knowledge might be needed to connect that tories=conservatives. Although, this could possibly be assumed from the source.",
+        "annotator_name": "Manveer",
+        "summary_span": "Conservatives",
+        "summary_start": 173,
+        "summary_end": 186
+      },
+      {
+        "annot_id": 254,
+        "sample_id": 4,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "This is nonsense. UKIP did not spend the most. 2956737 < 2980815",
+        "annotator_name": "Manveer",
+        "summary_span": "UKIP spent the most at £2,956,737, followed by the Conservatives (£2,980,815)",
+        "summary_start": 122,
+        "summary_end": 199,
+        "source_span": "UKIP, which won May's election, spent £2,956,737, while the Tories' campaign expenditure was £2,980,815,",
+        "source_start": 0,
+        "source_end": 104
+      }
+    ],
+    "meta_model": "Qwen/Qwen2.5-7B-Instruct",
+    "meta_hhemv1": 0.91572,
+    "meta_hhem-2.1": 0.90503,
+    "meta_hhem-2.1-english": 0.97001,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 522
+  },
+  {
+    "sample_id": 5,
+    "source": "UKIP, which won May's election, spent £2,956,737, while the Tories' campaign expenditure was £2,980,815,The Lib Dems spent £1,580,575 and lost all but one of their MEPs - Labour, which came second, spent £1,027,339.The figures cover the campaign period from 23 January to polling day, 22 May. UKIP's campaign spending works out at 68p for each of their 4,376,635 votes. For Labour it is 26p per vote, the Conservatives 79p and the Lib Dems, who lost 11 of their 12 MEPs, £1.45. The Green Party, which came fourth, spent £534,249 on its campaign - 43p for each of its 1,255,573 votes. Including the SNP's £267,372, the six highest-spending parties spent a total of £9,347,087 on campaigning, the Electoral Commission said. All but Labour spent more than they did during the 2009 European election campaign.",
+    "summary": "Here is a concise summary of the passage:\n\nThe UK's main parties spent a total of £9,347,087 on their European election campaigns. The Conservative party spent the most (£2,980,815), followed by UKIP (£2,956,737), the Liberal Democrats (£1,580,575), and Labour (£1,027,339). The cost per vote varied significantly between parties, ranging from 26p for Labour to £1.45 for the Liberal Democrats.",
+    "annotations": [
+      {
+        "annot_id": 7,
+        "sample_id": 5,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Benign"
+        ],
+        "note": "no information about the Conservative party",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "The Conservative party spent the most (£2,980,815), followed by UKIP (£2,956,737), the Liberal Democrats (£1,580,575), and Labour (£1,027,339).",
+        "summary_start": 131,
+        "summary_end": 274,
+        "source_span": "UKIP, which won May's election, spent £2,956,737, while the Tories' campaign expenditure was £2,980,815,The Lib Dems spent £1,580,575 and lost all but one of their MEPs - Labour, which came second, spent £1,027,339.The figures cover the campaign period from 23 January to polling day, 22 May.",
+        "source_start": 0,
+        "source_end": 292
+      },
+      {
+        "annot_id": 193,
+        "sample_id": 5,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Questionable"
+        ],
+        "note": "Some world knowledge might be needed to connect that tories=conservatives. Although, this could possibly be assumed from the source.",
+        "annotator_name": "Manveer",
+        "summary_span": "Conservative",
+        "summary_start": 135,
+        "summary_end": 147
+      }
+    ],
+    "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "meta_hhemv1": 0.82909,
+    "meta_hhem-2.1": 0.90078,
+    "meta_hhem-2.1-english": 0.96706,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 637
+  },
+  {
+    "sample_id": 6,
+    "source": "UKIP, which won May's election, spent £2,956,737, while the Tories' campaign expenditure was £2,980,815,The Lib Dems spent £1,580,575 and lost all but one of their MEPs - Labour, which came second, spent £1,027,339.The figures cover the campaign period from 23 January to polling day, 22 May. UKIP's campaign spending works out at 68p for each of their 4,376,635 votes. For Labour it is 26p per vote, the Conservatives 79p and the Lib Dems, who lost 11 of their 12 MEPs, £1.45. The Green Party, which came fourth, spent £534,249 on its campaign - 43p for each of its 1,255,573 votes. Including the SNP's £267,372, the six highest-spending parties spent a total of £9,347,087 on campaigning, the Electoral Commission said. All but Labour spent more than they did during the 2009 European election campaign.",
+    "summary": "Here is a concise summary of the passage, covering the core pieces of information described:\n\nThe passage reports on the campaign expenditure of major UK parties in the May European election. The spending figures are: UKIP (£2,956,737), Tories (£2,980,815), Lib Dems (£1,580,575), Labour (£1,027,339), and Green Party (£534,249). The figures translate to a cost per vote of 68p for UKIP, 26p for Labour, 79p for the Conservatives, and £1.45 for the Lib Dems. The six highest-spending parties spent a total of £9,347,087, with all but Labour spending more than in the 2009 European election campaign.",
+    "annotations": [],
+    "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "meta_hhemv1": 0.95245,
+    "meta_hhem-2.1": 0.88443,
+    "meta_hhem-2.1-english": 0.97759,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 752
+  },
+  {
+    "sample_id": 7,
+    "source": "UKIP, which won May's election, spent £2,956,737, while the Tories' campaign expenditure was £2,980,815,The Lib Dems spent £1,580,575 and lost all but one of their MEPs - Labour, which came second, spent £1,027,339.The figures cover the campaign period from 23 January to polling day, 22 May. UKIP's campaign spending works out at 68p for each of their 4,376,635 votes. For Labour it is 26p per vote, the Conservatives 79p and the Lib Dems, who lost 11 of their 12 MEPs, £1.45. The Green Party, which came fourth, spent £534,249 on its campaign - 43p for each of its 1,255,573 votes. Including the SNP's £267,372, the six highest-spending parties spent a total of £9,347,087 on campaigning, the Electoral Commission said. All but Labour spent more than they did during the 2009 European election campaign.",
+    "summary": "The UKIP, Tories, Lib Dems, Labour, Green Party, and SNP spent a total of £9,347,087 on campaigning for the 2014 European election. The UKIP spent the most at £2,956,737, followed by the Tories at £2,980,815. The Lib Dems spent £1,580,575, Labour spent £1,027,339, the Green Party spent £534,249, and the SNP spent £267,372. All parties except Labour spent more than they did in the 2009 European election. \n",
+    "annotations": [
+      {
+        "annot_id": 8,
+        "sample_id": 7,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "no information about 2014 election",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "The UKIP, Tories, Lib Dems, Labour, Green Party, and SNP spent a total of £9,347,087 on campaigning for the 2014 European election.",
+        "summary_start": 0,
+        "summary_end": 131
+      },
+      {
+        "annot_id": 222,
+        "sample_id": 7,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "2014 is not mentioned in the source",
+        "annotator_name": "Manveer",
+        "summary_span": "2014",
+        "summary_start": 108,
+        "summary_end": 112
+      },
+      {
+        "annot_id": 255,
+        "sample_id": 7,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "This is nonsense. UKIP did not spend the most. 2956737 < 2980815\n",
+        "annotator_name": "Manveer",
+        "summary_span": "The UKIP spent the most at £2,956,737, followed by the Tories at £2,980,815",
+        "summary_start": 132,
+        "summary_end": 207,
+        "source_span": "UKIP, which won May's election, spent £2,956,737, while the Tories' campaign expenditure was £2,980,815,",
+        "source_start": 0,
+        "source_end": 104
+      }
+    ],
+    "meta_model": "google/gemini-1.5-flash-001",
+    "meta_hhemv1": 0.46696,
+    "meta_hhem-2.1": 0.90222,
+    "meta_hhem-2.1-english": 0.96537,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 867
+  },
+  {
+    "sample_id": 8,
+    "source": "UKIP, which won May's election, spent £2,956,737, while the Tories' campaign expenditure was £2,980,815,The Lib Dems spent £1,580,575 and lost all but one of their MEPs - Labour, which came second, spent £1,027,339.The figures cover the campaign period from 23 January to polling day, 22 May. UKIP's campaign spending works out at 68p for each of their 4,376,635 votes. For Labour it is 26p per vote, the Conservatives 79p and the Lib Dems, who lost 11 of their 12 MEPs, £1.45. The Green Party, which came fourth, spent £534,249 on its campaign - 43p for each of its 1,255,573 votes. Including the SNP's £267,372, the six highest-spending parties spent a total of £9,347,087 on campaigning, the Electoral Commission said. All but Labour spent more than they did during the 2009 European election campaign.",
+    "summary": "The passage provides information on the campaign expenditures of various political parties in the UK for the European election. UKIP spent £2,956,737, the Tories spent £2,980,815, the Lib Dems spent £1,580,575, Labour spent £1,027,339, and the Green Party spent £534,249. The figures cover the campaign period from 23 January to polling day, 22 May. The passage also mentions the cost per vote for each party, with UKIP spending 68p per vote, Labour spending 26p per vote, the Conservatives spending 79p per vote, and the Lib Dems spending £1.45 per vote. The six highest-spending parties, including the SNP, spent a total of £9,347,087 on campaigning, with all parties except Labour spending more than they did in the 2009 European election campaign.",
+    "annotations": [],
+    "meta_model": "openai/GPT-3.5-Turbo",
+    "meta_hhemv1": 0.94403,
+    "meta_hhem-2.1": 0.95248,
+    "meta_hhem-2.1-english": 0.98879,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 988
+  },
+  {
+    "sample_id": 9,
+    "source": "UKIP, which won May's election, spent £2,956,737, while the Tories' campaign expenditure was £2,980,815,The Lib Dems spent £1,580,575 and lost all but one of their MEPs - Labour, which came second, spent £1,027,339.The figures cover the campaign period from 23 January to polling day, 22 May. UKIP's campaign spending works out at 68p for each of their 4,376,635 votes. For Labour it is 26p per vote, the Conservatives 79p and the Lib Dems, who lost 11 of their 12 MEPs, £1.45. The Green Party, which came fourth, spent £534,249 on its campaign - 43p for each of its 1,255,573 votes. Including the SNP's £267,372, the six highest-spending parties spent a total of £9,347,087 on campaigning, the Electoral Commission said. All but Labour spent more than they did during the 2009 European election campaign.",
+    "summary": "In the recent election, UKIP, which won, spent £2,956,737, while the Tories spent £2,980,815. The Lib Dems spent £1,580,575 and lost all but one of their MEPs, and Labour, which came second, spent £1,027,339. The campaign period was from 23 January to 22 May. UKIP's spending was 68p per vote, Labour's 26p, the Conservatives' 79p, and the Lib Dems' £1.45. The Green Party spent £534,249, or 43p per vote. Including the SNP's £267,372, the top six parties spent a total of £9,347,087. All but Labour spent more than in the 2009 European election campaign.",
+    "annotations": [],
+    "meta_model": "openai/gpt-4o",
+    "meta_hhemv1": 0.98989,
+    "meta_hhem-2.1": 0.94177,
+    "meta_hhem-2.1-english": 0.99305,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 1097
+  },
+  {
+    "sample_id": 10,
+    "source": "The star will play Mrs Potts, the housekeeper magically transformed into a teapot whom Dame Angela Lansbury voiced in the 1991 animated version of the film. Fellow Oscar-winner Kevin Kline has also signed on to play Maurice, the father of the 'Beauty' character Belle. The film will be released in US cinemas on 17 March 2017.It was announced in January that Harry Potter star Emma Watson had been cast as Belle. It was subsequently confirmed that Downton Abbey's Dan Stevens will play the Beast and that Luke Evans will co-star as the villainous Gaston. Josh Gad, who voiced Olaf the snowman in Disney's animated hit Frozen, is also on board as Gaston's sidekick LeFou. Bill Condon, director of Dreamgirls and the last two Twilight films, will direct the movie, which begins filming at Shepperton Studios in May.",
+    "summary": " The passage describes a live-action remake of the Disney film \"Beauty and the Beast.\" Emma Watson has been cast as Belle, Dan Stevens as the Beast, and Luke Evans as Gaston. Kevin Kline will play Maurice, the father of Belle, and Harry Potter star Emma Thompson will play Mrs. Potts, the teapot character voiced by Dame Angela Lansbury in the 1991 animated version. Josh Gad will voice Gaston's sidekick LeFou. The film is set to be released in US cinemas on 17 March 2017 and will begin filming at Shepperton Studios in May, with Bill Condon directing.",
+    "annotations": [
+      {
+        "annot_id": 9,
+        "sample_id": 10,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Benign"
+        ],
+        "note": "no information about the name of the film \"Beauty and the Beast\"",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "The passage describes a live-action remake of the Disney film \"Beauty and the Beast.\"",
+        "summary_start": 1,
+        "summary_end": 86,
+        "source_span": "Fellow Oscar-winner Kevin Kline has also signed on to play Maurice, the father of the 'Beauty' character Belle. The film will be released in US cinemas on 17 March 2017.It was announced in January that Harry Potter star Emma Watson had been cast as Belle. It was subsequently confirmed that Downton Abbey's Dan Stevens will play the Beast and that Luke Evans will co-star as the villainous Gaston.",
+        "source_start": 157,
+        "source_end": 554
+      },
+      {
+        "annot_id": 10,
+        "sample_id": 10,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Benign"
+        ],
+        "note": "no information about emma thompson",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Harry Potter star Emma Thompson will play Mrs. Potts",
+        "summary_start": 231,
+        "summary_end": 283,
+        "source_span": "The star will play Mrs Potts, the housekeeper magically transformed into a teapot whom Dame Angela Lansbury voiced in the 1991 animated version of the film.",
+        "source_start": 0,
+        "source_end": 156
+      },
+      {
+        "annot_id": 70,
+        "sample_id": 10,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "this can be inferred, but the source doesn't mention the name of the film",
+        "annotator_name": "Manveer",
+        "summary_span": "of the Disney film \"Beauty and the Beast.\" ",
+        "summary_start": 44,
+        "summary_end": 87
+      },
+      {
+        "annot_id": 72,
+        "sample_id": 10,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "will he voice lefou or play lefou?",
+        "annotator_name": "Manveer",
+        "summary_span": "will voice Gaston's sidekick LeFou",
+        "summary_start": 376,
+        "summary_end": 410
+      },
+      {
+        "annot_id": 161,
+        "sample_id": 10,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "not mentioned about live-action remake",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "live-action remake",
+        "summary_start": 25,
+        "summary_end": 43
+      },
+      {
+        "annot_id": 195,
+        "sample_id": 10,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "The source doesn't say it's for a live-action remake, but this can be assumed perhaps with world knowledge that the movie already exists and the new movie in the source is being filmed. ",
+        "annotator_name": "Manveer",
+        "summary_span": "The passage describes a live-action remake of the Disney film",
+        "summary_start": 1,
+        "summary_end": 62
+      },
+      {
+        "annot_id": 223,
+        "sample_id": 10,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't say emma thompson is playing Mrs. Potts, but a google search confirms this. ",
+        "annotator_name": "Manveer",
+        "summary_span": "Harry Potter star Emma Thompson will play Mrs. Potts,",
+        "summary_start": 231,
+        "summary_end": 284
+      }
+    ],
+    "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "meta_hhemv1": 0.63013,
+    "meta_hhem-2.1": 0.47958,
+    "meta_hhem-2.1-english": 0.77425,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 64
+  },
+  {
+    "sample_id": 11,
+    "source": "The star will play Mrs Potts, the housekeeper magically transformed into a teapot whom Dame Angela Lansbury voiced in the 1991 animated version of the film. Fellow Oscar-winner Kevin Kline has also signed on to play Maurice, the father of the 'Beauty' character Belle. The film will be released in US cinemas on 17 March 2017.It was announced in January that Harry Potter star Emma Watson had been cast as Belle. It was subsequently confirmed that Downton Abbey's Dan Stevens will play the Beast and that Luke Evans will co-star as the villainous Gaston. Josh Gad, who voiced Olaf the snowman in Disney's animated hit Frozen, is also on board as Gaston's sidekick LeFou. Bill Condon, director of Dreamgirls and the last two Twilight films, will direct the movie, which begins filming at Shepperton Studios in May.",
+    "summary": " The upcoming film features Emma Watson as Belle, with Harry Potter star Emma Watson, Dan Stevens from Downton Abbey, Luke Evans, and Josh Gad in supporting roles. Kevin Kline will play Maurice, and the star will portray Mrs. Potts, a character previously voiced by Dame Angela Lansbury in the 1991 animated version. The film, directed by Bill Condon, will be released in US cinemas on March 17, 2017, and will begin filming at Shepperton Studios in May.",
+    "annotations": [
+      {
+        "annot_id": 73,
+        "sample_id": 11,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Questionable"
+        ],
+        "note": "is the beast a supporting role?",
+        "annotator_name": "Manveer",
+        "summary_span": "Dan Stevens from Downton Abbey, Luke Evans, and Josh Gad in supporting roles",
+        "summary_start": 86,
+        "summary_end": 162
+      },
+      {
+        "annot_id": 162,
+        "sample_id": 11,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "not mentioned in supporting roles",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "in supporting roles",
+        "summary_start": 143,
+        "summary_end": 162
+      }
+    ],
+    "meta_model": "microsoft/Phi-3-mini-4k-instruct",
+    "meta_hhemv1": 0.93369,
+    "meta_hhem-2.1": 0.88214,
+    "meta_hhem-2.1-english": 0.98412,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 179
+  },
+  {
+    "sample_id": 12,
+    "source": "The star will play Mrs Potts, the housekeeper magically transformed into a teapot whom Dame Angela Lansbury voiced in the 1991 animated version of the film. Fellow Oscar-winner Kevin Kline has also signed on to play Maurice, the father of the 'Beauty' character Belle. The film will be released in US cinemas on 17 March 2017.It was announced in January that Harry Potter star Emma Watson had been cast as Belle. It was subsequently confirmed that Downton Abbey's Dan Stevens will play the Beast and that Luke Evans will co-star as the villainous Gaston. Josh Gad, who voiced Olaf the snowman in Disney's animated hit Frozen, is also on board as Gaston's sidekick LeFou. Bill Condon, director of Dreamgirls and the last two Twilight films, will direct the movie, which begins filming at Shepperton Studios in May.",
+    "summary": "Here's a concise summary of the passage:\n\nThe passage discusses casting details for a new film adaptation of \"Beauty and the Beast.\" Emma Thompson will play Mrs Potts, a role previously voiced by Angela Lansbury in the 1991 animated version. Kevin Kline will play Maurice, Belle's father. Emma Watson has been cast as Belle, with Dan Stevens as the Beast and Luke Evans as Gaston. Josh Gad will play LeFou, Gaston's sidekick. Bill Condon will direct the film, which starts production at Shepperton Studios in May and is set for US release on March 17, 2017.",
+    "annotations": [
+      {
+        "annot_id": 11,
+        "sample_id": 12,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Benign"
+        ],
+        "note": "no information about the name \"Beauty and the Beast\"",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "The passage discusses casting details for a new film adaptation of \"Beauty and the Beast.\"",
+        "summary_start": 42,
+        "summary_end": 132,
+        "source_span": "The film will be released in US cinemas on 17 March 2017.It was announced in January that Harry Potter star Emma Watson had been cast as Belle.",
+        "source_start": 269,
+        "source_end": 412
+      },
+      {
+        "annot_id": 12,
+        "sample_id": 12,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Benign"
+        ],
+        "note": "no information about Emma Thompson",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Emma Thompson will play Mrs Potts",
+        "summary_start": 133,
+        "summary_end": 166,
+        "source_span": "The star will play Mrs Potts, the housekeeper magically transformed into a teapot whom Dame Angela Lansbury voiced in the 1991 animated version of the film.",
+        "source_start": 0,
+        "source_end": 156
+      },
+      {
+        "annot_id": 80,
+        "sample_id": 12,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't name the film",
+        "annotator_name": "Manveer",
+        "summary_span": "\"Beauty and the Beast.\"",
+        "summary_start": 109,
+        "summary_end": 132
+      },
+      {
+        "annot_id": 224,
+        "sample_id": 12,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't say emma thompson is playing Mrs. Potts, but a google search confirms this. ",
+        "annotator_name": "Manveer",
+        "summary_span": "Emma Thompson will play Mrs Potts,",
+        "summary_start": 133,
+        "summary_end": 167
+      }
+    ],
+    "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
+    "meta_hhemv1": 0.69868,
+    "meta_hhem-2.1": 0.89411,
+    "meta_hhem-2.1-english": 0.97036,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 294
+  },
+  {
+    "sample_id": 13,
+    "source": "The star will play Mrs Potts, the housekeeper magically transformed into a teapot whom Dame Angela Lansbury voiced in the 1991 animated version of the film. Fellow Oscar-winner Kevin Kline has also signed on to play Maurice, the father of the 'Beauty' character Belle. The film will be released in US cinemas on 17 March 2017.It was announced in January that Harry Potter star Emma Watson had been cast as Belle. It was subsequently confirmed that Downton Abbey's Dan Stevens will play the Beast and that Luke Evans will co-star as the villainous Gaston. Josh Gad, who voiced Olaf the snowman in Disney's animated hit Frozen, is also on board as Gaston's sidekick LeFou. Bill Condon, director of Dreamgirls and the last two Twilight films, will direct the movie, which begins filming at Shepperton Studios in May.",
+    "summary": "Emma Watson will star as Belle in the live-action remake of Beauty and the Beast, alongside Dan Stevens as the Beast, Kevin Kline as Belle's father Maurice, and Emma Thompson as Mrs. Potts. The film, directed by Bill Condon, will feature a talented cast including Luke Evans as Gaston, Josh Gad as LeFou, and will be released in US cinemas in March 2017.",
+    "annotations": [
+      {
+        "annot_id": 13,
+        "sample_id": 13,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Benign"
+        ],
+        "note": "no name about Beauty and the Beast",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Emma Watson will star as Belle in the live-action remake of Beauty and the Beast",
+        "summary_start": 0,
+        "summary_end": 80,
+        "source_span": "The film will be released in US cinemas on 17 March 2017.It was announced in January that Harry Potter star Emma Watson had been cast as Belle.",
+        "source_start": 269,
+        "source_end": 412
+      },
+      {
+        "annot_id": 14,
+        "sample_id": 13,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Benign"
+        ],
+        "note": "no info for Emma Thompson",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Emma Thompson as Mrs. Potts",
+        "summary_start": 161,
+        "summary_end": 188,
+        "source_span": "The star will play Mrs Potts, the housekeeper magically transformed into a teapot whom Dame Angela Lansbury voiced in the 1991 animated version of the film.",
+        "source_start": 0,
+        "source_end": 156
+      },
+      {
+        "annot_id": 82,
+        "sample_id": 13,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't name the film",
+        "annotator_name": "Manveer",
+        "summary_span": " Beauty and the Beast,",
+        "summary_start": 59,
+        "summary_end": 81
+      },
+      {
+        "annot_id": 163,
+        "sample_id": 13,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "not mentioned",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "live-action remake",
+        "summary_start": 38,
+        "summary_end": 56
+      },
+      {
+        "annot_id": 196,
+        "sample_id": 13,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "The source doesn't say it's for a live-action remake, but this can be assumed perhaps with world knowledge that the movie already exists and the new movie in the source is being filmed. ",
+        "annotator_name": "Manveer",
+        "summary_span": " live-action remake",
+        "summary_start": 37,
+        "summary_end": 56
+      },
+      {
+        "annot_id": 225,
+        "sample_id": 13,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't say emma thompson is playing Mrs. Potts, but a google search confirms this. ",
+        "annotator_name": "Manveer",
+        "summary_span": "Emma Thompson as Mrs. Potts",
+        "summary_start": 161,
+        "summary_end": 188
+      }
+    ],
+    "meta_model": "cohere/command-r-08-2024",
+    "meta_hhemv1": 0.49044,
+    "meta_hhem-2.1": 0.72946,
+    "meta_hhem-2.1-english": 0.66883,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 409
+  },
+  {
+    "sample_id": 14,
+    "source": "The star will play Mrs Potts, the housekeeper magically transformed into a teapot whom Dame Angela Lansbury voiced in the 1991 animated version of the film. Fellow Oscar-winner Kevin Kline has also signed on to play Maurice, the father of the 'Beauty' character Belle. The film will be released in US cinemas on 17 March 2017.It was announced in January that Harry Potter star Emma Watson had been cast as Belle. It was subsequently confirmed that Downton Abbey's Dan Stevens will play the Beast and that Luke Evans will co-star as the villainous Gaston. Josh Gad, who voiced Olaf the snowman in Disney's animated hit Frozen, is also on board as Gaston's sidekick LeFou. Bill Condon, director of Dreamgirls and the last two Twilight films, will direct the movie, which begins filming at Shepperton Studios in May.",
+    "summary": "The passage describes the casting and release details for a new live-action adaptation of \"Beauty and the Beast.\" Key points include:\n- Emma Watson will play Belle. \n- Dan Stevens will play the Beast. \n- Luke Evans will play Gaston. \n- Josh Gad will play LeFou. \n- Kevin Kline and the star playing Mrs. Potts (transformed from a teapot) are also cast. \n- Bill Condon is directing. \n- Filming starts in May 2016, with a release date of March 17, 2017.",
+    "annotations": [
+      {
+        "annot_id": 15,
+        "sample_id": 14,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Benign"
+        ],
+        "note": "no info for Beauty and Beast",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "The passage describes the casting and release details for a new live-action adaptation of \"Beauty and the Beast.\"",
+        "summary_start": 0,
+        "summary_end": 113,
+        "source_span": "The film will be released in US cinemas on 17 March 2017.It was announced in January that Harry Potter star Emma Watson had been cast as Belle.",
+        "source_start": 269,
+        "source_end": 412
+      },
+      {
+        "annot_id": 16,
+        "sample_id": 14,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Benign"
+        ],
+        "note": "no info for 2016 the year",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Filming starts in May 2016, with a release date of March 17, 2017.",
+        "summary_start": 384,
+        "summary_end": 450,
+        "source_span": "Bill Condon, director of Dreamgirls and the last two Twilight films, will direct the movie, which begins filming at Shepperton Studios in May.",
+        "source_start": 671,
+        "source_end": 813
+      },
+      {
+        "annot_id": 84,
+        "sample_id": 14,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't name the film",
+        "annotator_name": "Manveer",
+        "summary_span": "\"Beauty and the Beast.\"",
+        "summary_start": 90,
+        "summary_end": 113
+      },
+      {
+        "annot_id": 90,
+        "sample_id": 14,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Questionable"
+        ],
+        "note": "this is just the US cinema release date",
+        "annotator_name": "Manveer",
+        "summary_span": "with a release date of March 17, 2017",
+        "summary_start": 412,
+        "summary_end": 449
+      },
+      {
+        "annot_id": 164,
+        "sample_id": 14,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "not mentioned",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "live-action adaptation",
+        "summary_start": 64,
+        "summary_end": 86
+      },
+      {
+        "annot_id": 197,
+        "sample_id": 14,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "The source doesn't say it's for a live-action remake, but this can be assumed perhaps with world knowledge that the movie already exists and the new movie in the source is being filmed. ",
+        "annotator_name": "Manveer",
+        "summary_span": "live-action adaptation ",
+        "summary_start": 64,
+        "summary_end": 87
+      },
+      {
+        "annot_id": 198,
+        "sample_id": 14,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the year isn't in the source, but can perhaps be assumed",
+        "annotator_name": "Manveer",
+        "summary_span": "2016",
+        "summary_start": 406,
+        "summary_end": 410
+      }
+    ],
+    "meta_model": "Qwen/Qwen2.5-7B-Instruct",
+    "meta_hhemv1": 0.32052,
+    "meta_hhem-2.1": 0.44579,
+    "meta_hhem-2.1-english": 0.75138,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 524
+  },
+  {
+    "sample_id": 15,
+    "source": "The star will play Mrs Potts, the housekeeper magically transformed into a teapot whom Dame Angela Lansbury voiced in the 1991 animated version of the film. Fellow Oscar-winner Kevin Kline has also signed on to play Maurice, the father of the 'Beauty' character Belle. The film will be released in US cinemas on 17 March 2017.It was announced in January that Harry Potter star Emma Watson had been cast as Belle. It was subsequently confirmed that Downton Abbey's Dan Stevens will play the Beast and that Luke Evans will co-star as the villainous Gaston. Josh Gad, who voiced Olaf the snowman in Disney's animated hit Frozen, is also on board as Gaston's sidekick LeFou. Bill Condon, director of Dreamgirls and the last two Twilight films, will direct the movie, which begins filming at Shepperton Studios in May.",
+    "summary": "Here is a concise summary of the passage:\n\nThe live-action film adaptation of Beauty and the Beast will feature Emma Watson as Belle, Dan Stevens as the Beast, and Luke Evans as Gaston. Josh Gad will play LeFou, Gaston's sidekick. The film will be released on March 17, 2017, and will be directed by Bill Condon, with Kevin Kline and Emma Thompson (as Mrs. Potts) also starring.",
+    "annotations": [
+      {
+        "annot_id": 17,
+        "sample_id": 15,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Benign"
+        ],
+        "note": "no beauty and beast",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "The live-action film adaptation of Beauty and the Beast",
+        "summary_start": 43,
+        "summary_end": 98,
+        "source_span": "The film will be released in US cinemas on 17 March 2017.It was announced in January that Harry Potter star Emma Watson had been cast as Belle.",
+        "source_start": 269,
+        "source_end": 412
+      },
+      {
+        "annot_id": 18,
+        "sample_id": 15,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Benign"
+        ],
+        "note": "no emma thompson",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Emma Thompson (as Mrs. Potts)",
+        "summary_start": 334,
+        "summary_end": 363,
+        "source_span": "The star will play Mrs Potts, the housekeeper magically transformed into a teapot whom Dame Angela Lansbury voiced in the 1991 animated version of the film.",
+        "source_start": 0,
+        "source_end": 156
+      },
+      {
+        "annot_id": 87,
+        "sample_id": 15,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't name the film",
+        "annotator_name": "Manveer",
+        "summary_span": "Beauty and the Beast",
+        "summary_start": 78,
+        "summary_end": 98
+      },
+      {
+        "annot_id": 89,
+        "sample_id": 15,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Questionable"
+        ],
+        "note": "this is just the US cinema release date",
+        "annotator_name": "Manveer",
+        "summary_span": "he film will be released on March 17, 2017",
+        "summary_start": 232,
+        "summary_end": 274
+      },
+      {
+        "annot_id": 166,
+        "sample_id": 15,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "not mentioned",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "live-action film",
+        "summary_start": 47,
+        "summary_end": 63
+      },
+      {
+        "annot_id": 199,
+        "sample_id": 15,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "The source doesn't say it's for a live-action remake, but this can be assumed perhaps with world knowledge that the movie already exists and the new movie in the source is being filmed. ",
+        "annotator_name": "Manveer",
+        "summary_span": "live-action film adaptation",
+        "summary_start": 47,
+        "summary_end": 74
+      },
+      {
+        "annot_id": 226,
+        "sample_id": 15,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't say emma thompson is playing Mrs. Potts, but a google search confirms this. ",
+        "annotator_name": "Manveer",
+        "summary_span": "Emma Thompson (as Mrs. Potts) ",
+        "summary_start": 334,
+        "summary_end": 364
+      }
+    ],
+    "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "meta_hhemv1": 0.24302,
+    "meta_hhem-2.1": 0.69065,
+    "meta_hhem-2.1-english": 0.82513,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 639
+  },
+  {
+    "sample_id": 16,
+    "source": "The star will play Mrs Potts, the housekeeper magically transformed into a teapot whom Dame Angela Lansbury voiced in the 1991 animated version of the film. Fellow Oscar-winner Kevin Kline has also signed on to play Maurice, the father of the 'Beauty' character Belle. The film will be released in US cinemas on 17 March 2017.It was announced in January that Harry Potter star Emma Watson had been cast as Belle. It was subsequently confirmed that Downton Abbey's Dan Stevens will play the Beast and that Luke Evans will co-star as the villainous Gaston. Josh Gad, who voiced Olaf the snowman in Disney's animated hit Frozen, is also on board as Gaston's sidekick LeFou. Bill Condon, director of Dreamgirls and the last two Twilight films, will direct the movie, which begins filming at Shepperton Studios in May.",
+    "summary": "Here is a concise summary of the passage:\n\nThe live-action remake of Beauty and the Beast will be released in US cinemas on March 17, 2017. The cast includes Emma Watson as Belle, Dan Stevens as the Beast, Luke Evans as Gaston, Josh Gad as LeFou, Kevin Kline as Maurice, and an unnamed star as Mrs Potts. Bill Condon will direct the film, which begins filming at Shepperton Studios in May.",
+    "annotations": [
+      {
+        "annot_id": 19,
+        "sample_id": 16,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Benign"
+        ],
+        "note": "no beauty and beast",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "The live-action remake of Beauty and the Beast ",
+        "summary_start": 43,
+        "summary_end": 90,
+        "source_span": "The film will be released in US cinemas on 17 March 2017.It was announced in January that Harry Potter star Emma Watson had been cast as Belle.",
+        "source_start": 269,
+        "source_end": 412
+      },
+      {
+        "annot_id": 91,
+        "sample_id": 16,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't name the film",
+        "annotator_name": "Manveer",
+        "summary_span": "Beauty and the Beast ",
+        "summary_start": 69,
+        "summary_end": 90
+      },
+      {
+        "annot_id": 167,
+        "sample_id": 16,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "not mentioned",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "live-action remake",
+        "summary_start": 47,
+        "summary_end": 65
+      },
+      {
+        "annot_id": 200,
+        "sample_id": 16,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "The source doesn't say it's for a live-action remake, but this can be assumed perhaps with world knowledge that the movie already exists and the new movie in the source is being filmed. ",
+        "annotator_name": "Manveer",
+        "summary_span": "live-action remake",
+        "summary_start": 47,
+        "summary_end": 65
+      }
+    ],
+    "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "meta_hhemv1": 0.22218,
+    "meta_hhem-2.1": 0.59059,
+    "meta_hhem-2.1-english": 0.85011,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 754
+  },
+  {
+    "sample_id": 17,
+    "source": "The star will play Mrs Potts, the housekeeper magically transformed into a teapot whom Dame Angela Lansbury voiced in the 1991 animated version of the film. Fellow Oscar-winner Kevin Kline has also signed on to play Maurice, the father of the 'Beauty' character Belle. The film will be released in US cinemas on 17 March 2017.It was announced in January that Harry Potter star Emma Watson had been cast as Belle. It was subsequently confirmed that Downton Abbey's Dan Stevens will play the Beast and that Luke Evans will co-star as the villainous Gaston. Josh Gad, who voiced Olaf the snowman in Disney's animated hit Frozen, is also on board as Gaston's sidekick LeFou. Bill Condon, director of Dreamgirls and the last two Twilight films, will direct the movie, which begins filming at Shepperton Studios in May.",
+    "summary": "The live-action adaptation of Disney's Beauty and the Beast will star Emma Watson as Belle, Dan Stevens as the Beast, and Luke Evans as Gaston. The film will also feature Kevin Kline as Maurice, Josh Gad as LeFou, and Emma Thompson as Mrs. Potts. The film is directed by Bill Condon and will be released in US cinemas on March 17, 2017. \n",
+    "annotations": [
+      {
+        "annot_id": 20,
+        "sample_id": 17,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Benign"
+        ],
+        "note": "no beauty and the beast",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Disney's Beauty and the Beast",
+        "summary_start": 30,
+        "summary_end": 59,
+        "source_span": "The film will be released in US cinemas on 17 March 2017.It was announced in January that Harry Potter star Emma Watson had been cast as Belle.",
+        "source_start": 269,
+        "source_end": 412
+      },
+      {
+        "annot_id": 21,
+        "sample_id": 17,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Benign"
+        ],
+        "note": "no emma thompson",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Emma Thompson as Mrs. Potts",
+        "summary_start": 218,
+        "summary_end": 245,
+        "source_span": "The star will play Mrs Potts, the housekeeper magically transformed into a teapot whom Dame Angela Lansbury voiced in the 1991 animated version of the film.",
+        "source_start": 0,
+        "source_end": 156
+      },
+      {
+        "annot_id": 94,
+        "sample_id": 17,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't name the film",
+        "annotator_name": "Manveer",
+        "summary_span": "Beauty and the Beast ",
+        "summary_start": 39,
+        "summary_end": 60
+      },
+      {
+        "annot_id": 168,
+        "sample_id": 17,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "not mentioned",
+        "annotator_name": "Yujia Tang",
+        "summary_span": " live-action adaptation ",
+        "summary_start": 3,
+        "summary_end": 27
+      },
+      {
+        "annot_id": 201,
+        "sample_id": 17,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "The source doesn't say it's for a live-action remake, but this can be assumed perhaps with world knowledge that the movie already exists and the new movie in the source is being filmed. ",
+        "annotator_name": "Manveer",
+        "summary_span": "live-action adaptation",
+        "summary_start": 4,
+        "summary_end": 26
+      },
+      {
+        "annot_id": 227,
+        "sample_id": 17,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't say emma thompson is playing Mrs. Potts, but a google search confirms this. ",
+        "annotator_name": "Manveer",
+        "summary_span": "Emma Thompson as Mrs. Potts",
+        "summary_start": 218,
+        "summary_end": 245
+      }
+    ],
+    "meta_model": "google/gemini-1.5-flash-001",
+    "meta_hhemv1": 0.44258,
+    "meta_hhem-2.1": 0.44808,
+    "meta_hhem-2.1-english": 0.48035,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 869
+  },
+  {
+    "sample_id": 18,
+    "source": "The star will play Mrs Potts, the housekeeper magically transformed into a teapot whom Dame Angela Lansbury voiced in the 1991 animated version of the film. Fellow Oscar-winner Kevin Kline has also signed on to play Maurice, the father of the 'Beauty' character Belle. The film will be released in US cinemas on 17 March 2017.It was announced in January that Harry Potter star Emma Watson had been cast as Belle. It was subsequently confirmed that Downton Abbey's Dan Stevens will play the Beast and that Luke Evans will co-star as the villainous Gaston. Josh Gad, who voiced Olaf the snowman in Disney's animated hit Frozen, is also on board as Gaston's sidekick LeFou. Bill Condon, director of Dreamgirls and the last two Twilight films, will direct the movie, which begins filming at Shepperton Studios in May.",
+    "summary": "The passage describes the casting and production details of the upcoming live-action adaptation of the film \"Beauty and the Beast.\" It mentions that Emma Watson will play Belle, Dan Stevens will play the Beast, and Luke Evans will play Gaston. Other cast members include Kevin Kline, who will play Maurice, and Josh Gad, who will play LeFou. The film will be directed by Bill Condon and is set to be released in US cinemas on March 17, 2017. Filming will begin in May at Shepperton Studios.",
+    "annotations": [
+      {
+        "annot_id": 22,
+        "sample_id": 18,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Benign"
+        ],
+        "note": "no beauty and the beast",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "\"Beauty and the Beast.\"",
+        "summary_start": 108,
+        "summary_end": 131,
+        "source_span": "The film will be released in US cinemas on 17 March 2017.It was announced in January that Harry Potter star Emma Watson had been cast as Belle.",
+        "source_start": 269,
+        "source_end": 412
+      },
+      {
+        "annot_id": 97,
+        "sample_id": 18,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't name the film",
+        "annotator_name": "Manveer",
+        "summary_span": "\"Beauty and the Beast.",
+        "summary_start": 108,
+        "summary_end": 130
+      },
+      {
+        "annot_id": 169,
+        "sample_id": 18,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "not mentioned",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "live-action adaptation",
+        "summary_start": 73,
+        "summary_end": 95
+      },
+      {
+        "annot_id": 202,
+        "sample_id": 18,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "The source doesn't say it's for a live-action remake, but this can be assumed perhaps with world knowledge that the movie already exists and the new movie in the source is being filmed. ",
+        "annotator_name": "Manveer",
+        "summary_span": "live-action adaptation",
+        "summary_start": 73,
+        "summary_end": 95
+      }
+    ],
+    "meta_model": "openai/GPT-3.5-Turbo",
+    "meta_hhemv1": 0.65917,
+    "meta_hhem-2.1": 0.94335,
+    "meta_hhem-2.1-english": 0.9789,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 985
+  },
+  {
+    "sample_id": 19,
+    "source": "The star will play Mrs Potts, the housekeeper magically transformed into a teapot whom Dame Angela Lansbury voiced in the 1991 animated version of the film. Fellow Oscar-winner Kevin Kline has also signed on to play Maurice, the father of the 'Beauty' character Belle. The film will be released in US cinemas on 17 March 2017.It was announced in January that Harry Potter star Emma Watson had been cast as Belle. It was subsequently confirmed that Downton Abbey's Dan Stevens will play the Beast and that Luke Evans will co-star as the villainous Gaston. Josh Gad, who voiced Olaf the snowman in Disney's animated hit Frozen, is also on board as Gaston's sidekick LeFou. Bill Condon, director of Dreamgirls and the last two Twilight films, will direct the movie, which begins filming at Shepperton Studios in May.",
+    "summary": "The passage discusses the casting and release details of a live-action adaptation of \"Beauty and the Beast.\" The star will play Mrs. Potts, originally voiced by Angela Lansbury in the 1991 animated film. Kevin Kline will play Maurice, Belle's father. The film is set to release in US cinemas on 17 March 2017. Emma Watson has been cast as Belle, Dan Stevens as the Beast, and Luke Evans as Gaston. Josh Gad will play Gaston's sidekick LeFou. Bill Condon will direct the movie, with filming starting at Shepperton Studios in May.",
+    "annotations": [
+      {
+        "annot_id": 23,
+        "sample_id": 19,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Benign"
+        ],
+        "note": "no beauty and the beast",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Beauty and the Beast",
+        "summary_start": 86,
+        "summary_end": 106,
+        "source_span": "The film will be released in US cinemas on 17 March 2017.It was announced in January that Harry Potter star Emma Watson had been cast as Belle.",
+        "source_start": 269,
+        "source_end": 412
+      },
+      {
+        "annot_id": 99,
+        "sample_id": 19,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't name the film",
+        "annotator_name": "Manveer",
+        "summary_span": "Beauty and the Beast.\" ",
+        "summary_start": 86,
+        "summary_end": 109
+      },
+      {
+        "annot_id": 170,
+        "sample_id": 19,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "not mentioned",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "live-action adaptation",
+        "summary_start": 59,
+        "summary_end": 81
+      },
+      {
+        "annot_id": 203,
+        "sample_id": 19,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "The source doesn't say it's for a live-action remake, but this can be assumed perhaps with world knowledge that the movie already exists and the new movie in the source is being filmed. ",
+        "annotator_name": "Manveer",
+        "summary_span": "live-action adaptation",
+        "summary_start": 59,
+        "summary_end": 81
+      }
+    ],
+    "meta_model": "openai/gpt-4o",
+    "meta_hhemv1": 0.48185,
+    "meta_hhem-2.1": 0.92187,
+    "meta_hhem-2.1-english": 0.98105,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 1099
+  },
+  {
+    "sample_id": 20,
+    "source": "Dorothy Ann Willis Richards ( September 1 , 1933 -- September 13 , 2006 ) was an American politician and the 45th Governor of Texas from 1991 to 1995 . A Democrat , she first came to national attention as the state treasurer of Texas , when she delivered the keynote address at the 1988 Democratic National Convention . Richards served as the 45th Governor of Texas from 1991 to 1995 and was defeated for re-election in 1994 by George W. Bush . Richards was the second female governor of Texas , and was frequently noted in the media for her outspoken feminism and her one-liners . Ann Richards ( October 1 , 1935 -- April 1 , 1982 ) was an American jazz singer and the wife of pianist Stan Kenton .",
+    "summary": " Ann Richards, born September 1, 1933, served as the 45th Governor of Texas from 1991 to 1995. She was a Democrat and the second female governor of Texas. Prior to her governorship, she gained national attention as the state treasurer of Texas, delivering the keynote address at the 1988 Democratic National Convention. She was defeated for re-election in 1994 by George W. Bush. Ann Richards is not the same person as the governor; Ann Richards, born October 1, 1935, was an American jazz singer and the wife of pianist Stan Kenton. The latter Ann Richards passed away in April 1982.",
+    "annotations": [
+      {
+        "annot_id": 100,
+        "sample_id": 20,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "Not sure if it is appropriate to shorten her name this way",
+        "annotator_name": "Manveer",
+        "summary_span": "Ann Richards,",
+        "summary_start": 1,
+        "summary_end": 14
+      }
+    ],
+    "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "meta_hhemv1": 0.4193,
+    "meta_hhem-2.1": 0.93139,
+    "meta_hhem-2.1-english": 0.93347,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 5
+  },
+  {
+    "sample_id": 21,
+    "source": "Dorothy Ann Willis Richards ( September 1 , 1933 -- September 13 , 2006 ) was an American politician and the 45th Governor of Texas from 1991 to 1995 . A Democrat , she first came to national attention as the state treasurer of Texas , when she delivered the keynote address at the 1988 Democratic National Convention . Richards served as the 45th Governor of Texas from 1991 to 1995 and was defeated for re-election in 1994 by George W. Bush . Richards was the second female governor of Texas , and was frequently noted in the media for her outspoken feminism and her one-liners . Ann Richards ( October 1 , 1935 -- April 1 , 1982 ) was an American jazz singer and the wife of pianist Stan Kenton .",
+    "summary": " Dorothy Ann Willis Richards (September 1, 1933 - September 13, 2006) was an American politician and the 45th Governor of Texas from 1991 to 1995. A Democrat, she gained national attention as the state treasurer of Texas and delivered the keynote address at the 1988 Democratic National Convention. Richards was the second female governor of Texas, known for her outspoken feminism and one-liners. She was defeated for re-election in 1994 by George W. Bush. Ann Richards (October 1, 1935 - April 1, 1982) was an American jazz singer and the wife of pianist Stan Kenton. The passage does not seem to connect Ann Richards to Dorothy Ann Willis Richards.",
+    "annotations": [],
+    "meta_model": "microsoft/Phi-3-mini-4k-instruct",
+    "meta_hhemv1": 0.557,
+    "meta_hhem-2.1": 0.75262,
+    "meta_hhem-2.1-english": 0.97079,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 120
+  },
+  {
+    "sample_id": 22,
+    "source": "Dorothy Ann Willis Richards ( September 1 , 1933 -- September 13 , 2006 ) was an American politician and the 45th Governor of Texas from 1991 to 1995 . A Democrat , she first came to national attention as the state treasurer of Texas , when she delivered the keynote address at the 1988 Democratic National Convention . Richards served as the 45th Governor of Texas from 1991 to 1995 and was defeated for re-election in 1994 by George W. Bush . Richards was the second female governor of Texas , and was frequently noted in the media for her outspoken feminism and her one-liners . Ann Richards ( October 1 , 1935 -- April 1 , 1982 ) was an American jazz singer and the wife of pianist Stan Kenton .",
+    "summary": "Here's a concise summary of the passage, covering the core pieces of information:\n\nDorothy Ann Willis Richards was an American Democratic politician who served as the 45th Governor of Texas from 1991 to 1995. She gained national attention as the state treasurer of Texas when she delivered the keynote address at the 1988 Democratic National Convention. Richards was the second female governor of Texas and was known for her outspoken feminism and memorable one-liners. She lost her re-election bid in 1994 to George W. Bush. The passage also briefly mentions another Ann Richards, an American jazz singer who was married to pianist Stan Kenton.",
+    "annotations": [],
+    "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
+    "meta_hhemv1": 0.91679,
+    "meta_hhem-2.1": 0.83349,
+    "meta_hhem-2.1-english": 0.95268,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 235
+  },
+  {
+    "sample_id": 23,
+    "source": "Dorothy Ann Willis Richards ( September 1 , 1933 -- September 13 , 2006 ) was an American politician and the 45th Governor of Texas from 1991 to 1995 . A Democrat , she first came to national attention as the state treasurer of Texas , when she delivered the keynote address at the 1988 Democratic National Convention . Richards served as the 45th Governor of Texas from 1991 to 1995 and was defeated for re-election in 1994 by George W. Bush . Richards was the second female governor of Texas , and was frequently noted in the media for her outspoken feminism and her one-liners . Ann Richards ( October 1 , 1935 -- April 1 , 1982 ) was an American jazz singer and the wife of pianist Stan Kenton .",
+    "summary": "Dorothy Ann Willis Richards, an American politician, served as the 45th Governor of Texas from 1991 to 1995. She was the second female governor of Texas and known for her feminism and wit. Prior to her governorship, she gained national attention as the state treasurer of Texas, delivering the keynote address at the 1988 Democratic National Convention. She was defeated for re-election by George W. Bush in 1994. Another Ann Richards, an American jazz singer, was married to pianist Stan Kenton and passed away in 1982.",
+    "annotations": [
+      {
+        "annot_id": 101,
+        "sample_id": 23,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Questionable"
+        ],
+        "note": "she was known for her one-liners. Not exactly her wit",
+        "annotator_name": "Manveer",
+        "summary_span": " and wit",
+        "summary_start": 179,
+        "summary_end": 187
+      },
+      {
+        "annot_id": 171,
+        "sample_id": 23,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "one-liners not wit",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "and wit",
+        "summary_start": 180,
+        "summary_end": 187,
+        "source_span": "Richards was the second female governor of Texas , and was frequently noted in the media for her outspoken feminism and her one-liners .",
+        "source_start": 445,
+        "source_end": 581
+      }
+    ],
+    "meta_model": "cohere/command-r-08-2024",
+    "meta_hhemv1": 0.99844,
+    "meta_hhem-2.1": 0.88481,
+    "meta_hhem-2.1-english": 0.96098,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 350
+  },
+  {
+    "sample_id": 24,
+    "source": "Dorothy Ann Willis Richards ( September 1 , 1933 -- September 13 , 2006 ) was an American politician and the 45th Governor of Texas from 1991 to 1995 . A Democrat , she first came to national attention as the state treasurer of Texas , when she delivered the keynote address at the 1988 Democratic National Convention . Richards served as the 45th Governor of Texas from 1991 to 1995 and was defeated for re-election in 1994 by George W. Bush . Richards was the second female governor of Texas , and was frequently noted in the media for her outspoken feminism and her one-liners . Ann Richards ( October 1 , 1935 -- April 1 , 1982 ) was an American jazz singer and the wife of pianist Stan Kenton .",
+    "summary": "The passage provides information about Dorothy Ann Willis Richards, who served as the 45th Governor of Texas from 1991 to 1995. She was a Democrat and the second female governor of Texas, known for her feminism and memorable quotes. Richards gained national recognition as the state treasurer of Texas when she gave the keynote address at the 1988 Democratic National Convention. She lost her bid for re-election in 1994 to George W. Bush. The passage also mentions that Ann Richards, likely Dorothy's mother or another individual with the same name, was an American jazz singer married to pianist Stan Kenton, who lived from October 1, 1935, to April 1, 1982.",
+    "annotations": [
+      {
+        "annot_id": 25,
+        "sample_id": 24,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "no info for her mother's name",
+        "annotator_name": "Yujia Tang",
+        "summary_span": " The passage also mentions that Ann Richards, likely Dorothy's mother or another individual with the same name,",
+        "summary_start": 439,
+        "summary_end": 550
+      },
+      {
+        "annot_id": 256,
+        "sample_id": 24,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "this is nonsense. this ann richards was born after the first one",
+        "annotator_name": "Manveer",
+        "summary_span": "The passage also mentions that Ann Richards, likely Dorothy's mother",
+        "summary_start": 440,
+        "summary_end": 508,
+        "source_span": "October 1 , 1935",
+        "source_start": 597,
+        "source_end": 613
+      }
+    ],
+    "meta_model": "Qwen/Qwen2.5-7B-Instruct",
+    "meta_hhemv1": 0.96436,
+    "meta_hhem-2.1": 0.47843,
+    "meta_hhem-2.1-english": 0.54424,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 465
+  },
+  {
+    "sample_id": 25,
+    "source": "Dorothy Ann Willis Richards ( September 1 , 1933 -- September 13 , 2006 ) was an American politician and the 45th Governor of Texas from 1991 to 1995 . A Democrat , she first came to national attention as the state treasurer of Texas , when she delivered the keynote address at the 1988 Democratic National Convention . Richards served as the 45th Governor of Texas from 1991 to 1995 and was defeated for re-election in 1994 by George W. Bush . Richards was the second female governor of Texas , and was frequently noted in the media for her outspoken feminism and her one-liners . Ann Richards ( October 1 , 1935 -- April 1 , 1982 ) was an American jazz singer and the wife of pianist Stan Kenton .",
+    "summary": "Here is a concise summary of the passage:\n\nDorothy Ann Willis Richards was a Democrat who served as the 45th Governor of Texas from 1991 to 1995, becoming the second female governor of Texas. She was known for her outspoken feminism and one-liners, and was defeated in re-election by George W. Bush in 1994.",
+    "annotations": [],
+    "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "meta_hhemv1": 0.99541,
+    "meta_hhem-2.1": 0.93393,
+    "meta_hhem-2.1-english": 0.98054,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 580
+  },
+  {
+    "sample_id": 26,
+    "source": "Dorothy Ann Willis Richards ( September 1 , 1933 -- September 13 , 2006 ) was an American politician and the 45th Governor of Texas from 1991 to 1995 . A Democrat , she first came to national attention as the state treasurer of Texas , when she delivered the keynote address at the 1988 Democratic National Convention . Richards served as the 45th Governor of Texas from 1991 to 1995 and was defeated for re-election in 1994 by George W. Bush . Richards was the second female governor of Texas , and was frequently noted in the media for her outspoken feminism and her one-liners . Ann Richards ( October 1 , 1935 -- April 1 , 1982 ) was an American jazz singer and the wife of pianist Stan Kenton .",
+    "summary": "Here is a concise summary of the passage:\n\nDorothy Ann Willis Richards was a Democrat who served as the 45th Governor of Texas from 1991 to 1995. She first gained national attention as state treasurer with her keynote address at the 1988 Democratic National Convention. Richards was defeated by George W. Bush in 1994 and was known for her outspoken feminism and notable one-liners.",
+    "annotations": [],
+    "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "meta_hhemv1": 0.9903,
+    "meta_hhem-2.1": 0.89575,
+    "meta_hhem-2.1-english": 0.99583,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 695
+  },
+  {
+    "sample_id": 27,
+    "source": "Dorothy Ann Willis Richards ( September 1 , 1933 -- September 13 , 2006 ) was an American politician and the 45th Governor of Texas from 1991 to 1995 . A Democrat , she first came to national attention as the state treasurer of Texas , when she delivered the keynote address at the 1988 Democratic National Convention . Richards served as the 45th Governor of Texas from 1991 to 1995 and was defeated for re-election in 1994 by George W. Bush . Richards was the second female governor of Texas , and was frequently noted in the media for her outspoken feminism and her one-liners . Ann Richards ( October 1 , 1935 -- April 1 , 1982 ) was an American jazz singer and the wife of pianist Stan Kenton .",
+    "summary": "Dorothy Ann Willis Richards was the 45th Governor of Texas from 1991 to 1995. She was a Democrat who gained national attention as the state treasurer of Texas when she delivered the keynote address at the 1988 Democratic National Convention. She was defeated for re-election in 1994 by George W. Bush. Richards was the second female governor of Texas and was known for her outspoken feminism and her one-liners. \n",
+    "annotations": [],
+    "meta_model": "google/gemini-1.5-flash-001",
+    "meta_hhemv1": 0.99947,
+    "meta_hhem-2.1": 0.93872,
+    "meta_hhem-2.1-english": 0.99675,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 810
+  },
+  {
+    "sample_id": 28,
+    "source": "Dorothy Ann Willis Richards ( September 1 , 1933 -- September 13 , 2006 ) was an American politician and the 45th Governor of Texas from 1991 to 1995 . A Democrat , she first came to national attention as the state treasurer of Texas , when she delivered the keynote address at the 1988 Democratic National Convention . Richards served as the 45th Governor of Texas from 1991 to 1995 and was defeated for re-election in 1994 by George W. Bush . Richards was the second female governor of Texas , and was frequently noted in the media for her outspoken feminism and her one-liners . Ann Richards ( October 1 , 1935 -- April 1 , 1982 ) was an American jazz singer and the wife of pianist Stan Kenton .",
+    "summary": "The passage provides information about two different individuals named Ann Richards. The first Ann Richards mentioned is Dorothy Ann Willis Richards, who was an American politician and the 45th Governor of Texas from 1991 to 1995. She gained national attention as the state treasurer of Texas and was known for her outspoken feminism and one-liners. She was defeated for re-election in 1994 by George W. Bush. The second Ann Richards mentioned is an American jazz singer and the wife of pianist Stan Kenton.",
+    "annotations": [
+      {
+        "annot_id": 104,
+        "sample_id": 28,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Questionable"
+        ],
+        "note": "it is questionable to shorten the name of the first person to Ann Richards",
+        "annotator_name": "Manveer",
+        "summary_span": "two different individuals named Ann Richards",
+        "summary_start": 39,
+        "summary_end": 83
+      }
+    ],
+    "meta_model": "openai/GPT-3.5-Turbo",
+    "meta_hhemv1": 0.96935,
+    "meta_hhem-2.1": 0.93737,
+    "meta_hhem-2.1-english": 0.98361,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 939
+  },
+  {
+    "sample_id": 29,
+    "source": "Dorothy Ann Willis Richards ( September 1 , 1933 -- September 13 , 2006 ) was an American politician and the 45th Governor of Texas from 1991 to 1995 . A Democrat , she first came to national attention as the state treasurer of Texas , when she delivered the keynote address at the 1988 Democratic National Convention . Richards served as the 45th Governor of Texas from 1991 to 1995 and was defeated for re-election in 1994 by George W. Bush . Richards was the second female governor of Texas , and was frequently noted in the media for her outspoken feminism and her one-liners . Ann Richards ( October 1 , 1935 -- April 1 , 1982 ) was an American jazz singer and the wife of pianist Stan Kenton .",
+    "summary": "Dorothy Ann Willis Richards (1933-2006) was an American politician and the 45th Governor of Texas from 1991 to 1995. A Democrat, she gained national attention as the state treasurer of Texas and delivered the keynote address at the 1988 Democratic National Convention. She was the second female governor of Texas and was known for her outspoken feminism and one-liners. She was defeated for re-election in 1994 by George W. Bush. Ann Richards (1935-1982) was an American jazz singer and the wife of pianist Stan Kenton.",
+    "annotations": [],
+    "meta_model": "openai/gpt-4o",
+    "meta_hhemv1": 0.99866,
+    "meta_hhem-2.1": 0.91616,
+    "meta_hhem-2.1-english": 0.9909,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 1040
+  },
+  {
+    "sample_id": 30,
+    "source": "The star will play Mrs Potts, the housekeeper magically transformed into a teapot whom Dame Angela Lansbury voiced in the 1991 animated version of the film. Fellow Oscar-winner Kevin Kline has also signed on to play Maurice, the father of the 'Beauty' character Belle. The film will be released in US cinemas on 17 March 2017. It was announced in January that Harry Potter star Emma Watson had been cast as Belle. It was subsequently confirmed that Downton Abbey's Dan Stevens will play the Beast and that Luke Evans will co-star as the villainous Gaston. Josh Gad, who voiced Olaf the snowman in Disney's animated hit Frozen, is also on board as Gaston's sidekick LeFou. Bill Condon, director of Dreamgirls and the last two Twilight films, will direct the movie, which begins filming at Shepperton Studios in May.",
+    "summary": " The passage describes an upcoming live-action adaptation of the Disney film \"Beauty and the Beast.\" Emma Watson has been cast as Belle, Dan Stevens as the Beast, Luke Evans as Gaston, and Josh Gad as Gaston's sidekick LeFou. Kevin Kline will play Maurice, the father of Belle, and the star will portray Mrs. Potts, the housekeeper magically transformed into a teapot. The film is set to be released in US cinemas on 17 March 2017, and Bill Condon, director of Dreamgirls and the last two Twilight films, will direct the movie, which will begin filming at Shepperton Studios in May.",
+    "annotations": [
+      {
+        "annot_id": 27,
+        "sample_id": 30,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Benign"
+        ],
+        "note": "no information about the beauty and the beast",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "\"Beauty and the Beast.",
+        "summary_start": 77,
+        "summary_end": 99,
+        "source_span": "The film will be released in US cinemas on 17 March 2017.",
+        "source_start": 269,
+        "source_end": 326
+      },
+      {
+        "annot_id": 106,
+        "sample_id": 30,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't name the film",
+        "annotator_name": "Manveer",
+        "summary_span": " Disney film \"Beauty and the Beast.\"",
+        "summary_start": 64,
+        "summary_end": 100
+      },
+      {
+        "annot_id": 172,
+        "sample_id": 30,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "not mentioned",
+        "annotator_name": "Yujia Tang",
+        "summary_span": " live-action adaptation",
+        "summary_start": 34,
+        "summary_end": 57
+      },
+      {
+        "annot_id": 205,
+        "sample_id": 30,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "\tThe source doesn't say it's for a live-action remake, but this can be assumed perhaps with world knowledge that the movie already exists and the new movie in the source is being filmed.",
+        "annotator_name": "Manveer",
+        "summary_span": "live-action adaptation ",
+        "summary_start": 35,
+        "summary_end": 58
+      }
+    ],
+    "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "meta_hhemv1": 0.64009,
+    "meta_hhem-2.1": 0.91988,
+    "meta_hhem-2.1-english": 0.97908,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 41
+  },
+  {
+    "sample_id": 31,
+    "source": "The star will play Mrs Potts, the housekeeper magically transformed into a teapot whom Dame Angela Lansbury voiced in the 1991 animated version of the film. Fellow Oscar-winner Kevin Kline has also signed on to play Maurice, the father of the 'Beauty' character Belle. The film will be released in US cinemas on 17 March 2017. It was announced in January that Harry Potter star Emma Watson had been cast as Belle. It was subsequently confirmed that Downton Abbey's Dan Stevens will play the Beast and that Luke Evans will co-star as the villainous Gaston. Josh Gad, who voiced Olaf the snowman in Disney's animated hit Frozen, is also on board as Gaston's sidekick LeFou. Bill Condon, director of Dreamgirls and the last two Twilight films, will direct the movie, which begins filming at Shepperton Studios in May.",
+    "summary": " The upcoming film features Emma Watson as Belle, Dan Stevens as the Beast, and Luke Evans as Gaston, with Harry Potter star Emma Watson, Downton Abbey's Dan Stevens, and Frozen's Josh Gad in supporting roles. Oscar-winner Kevin Kline will play Maurice, and the film will be directed by Bill Condon. The movie, based on the 1991 animated version, will be released in US cinemas on March 17, 2017.",
+    "annotations": [],
+    "meta_model": "microsoft/Phi-3-mini-4k-instruct",
+    "meta_hhemv1": 0.97867,
+    "meta_hhem-2.1": 0.87093,
+    "meta_hhem-2.1-english": 0.9672,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 156
+  },
+  {
+    "sample_id": 32,
+    "source": "The star will play Mrs Potts, the housekeeper magically transformed into a teapot whom Dame Angela Lansbury voiced in the 1991 animated version of the film. Fellow Oscar-winner Kevin Kline has also signed on to play Maurice, the father of the 'Beauty' character Belle. The film will be released in US cinemas on 17 March 2017. It was announced in January that Harry Potter star Emma Watson had been cast as Belle. It was subsequently confirmed that Downton Abbey's Dan Stevens will play the Beast and that Luke Evans will co-star as the villainous Gaston. Josh Gad, who voiced Olaf the snowman in Disney's animated hit Frozen, is also on board as Gaston's sidekick LeFou. Bill Condon, director of Dreamgirls and the last two Twilight films, will direct the movie, which begins filming at Shepperton Studios in May.",
+    "summary": "Here's a concise summary of the passage:\n\nThe passage discusses casting details for a new film adaptation of \"Beauty and the Beast.\" Emma Thompson will play Mrs Potts, and Kevin Kline will play Maurice. Emma Watson has been cast as Belle, Dan Stevens as the Beast, and Luke Evans as Gaston. Josh Gad will play LeFou. Bill Condon will direct the film, which starts production in May at Shepperton Studios. The movie is scheduled for release in US cinemas on March 17, 2017.",
+    "annotations": [
+      {
+        "annot_id": 28,
+        "sample_id": 32,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Benign"
+        ],
+        "note": "no beauty and the beast",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Beauty and the Beast.",
+        "summary_start": 110,
+        "summary_end": 131,
+        "source_span": "The film will be released in US cinemas on 17 March 2017.",
+        "source_start": 269,
+        "source_end": 326
+      },
+      {
+        "annot_id": 29,
+        "sample_id": 32,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Benign"
+        ],
+        "note": "no emma thompson",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Emma Thompson will play Mrs Potts",
+        "summary_start": 133,
+        "summary_end": 166,
+        "source_span": "Fellow Oscar-winner Kevin Kline has also signed on to play Maurice, the father of the 'Beauty' character Belle.",
+        "source_start": 157,
+        "source_end": 268
+      },
+      {
+        "annot_id": 107,
+        "sample_id": 32,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't name the film",
+        "annotator_name": "Manveer",
+        "summary_span": "\"Beauty and the Beast.\"",
+        "summary_start": 109,
+        "summary_end": 132
+      },
+      {
+        "annot_id": 229,
+        "sample_id": 32,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't say emma thompson is playing Mrs. Potts, but a google search confirms this.",
+        "annotator_name": "Manveer",
+        "summary_span": "Emma Thompson will play Mrs Potts",
+        "summary_start": 133,
+        "summary_end": 166
+      }
+    ],
+    "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
+    "meta_hhemv1": 0.61029,
+    "meta_hhem-2.1": 0.86336,
+    "meta_hhem-2.1-english": 0.97333,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 271
+  },
+  {
+    "sample_id": 33,
+    "source": "The star will play Mrs Potts, the housekeeper magically transformed into a teapot whom Dame Angela Lansbury voiced in the 1991 animated version of the film. Fellow Oscar-winner Kevin Kline has also signed on to play Maurice, the father of the 'Beauty' character Belle. The film will be released in US cinemas on 17 March 2017. It was announced in January that Harry Potter star Emma Watson had been cast as Belle. It was subsequently confirmed that Downton Abbey's Dan Stevens will play the Beast and that Luke Evans will co-star as the villainous Gaston. Josh Gad, who voiced Olaf the snowman in Disney's animated hit Frozen, is also on board as Gaston's sidekick LeFou. Bill Condon, director of Dreamgirls and the last two Twilight films, will direct the movie, which begins filming at Shepperton Studios in May.",
+    "summary": "Emma Watson will star as Belle in the live-action remake of Beauty and the Beast, alongside Dan Stevens as the Beast, Kevin Kline as Belle's father Maurice, and Emma Thompson as Mrs. Potts. The film, directed by Bill Condon, will also feature Luke Evans as Gaston, Josh Gad as LeFou, and will be released in US cinemas in March 2017.",
+    "annotations": [
+      {
+        "annot_id": 30,
+        "sample_id": 33,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Benign"
+        ],
+        "note": "no beauty and the beast",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Beauty and the Beast",
+        "summary_start": 60,
+        "summary_end": 80,
+        "source_span": "The film will be released in US cinemas on 17 March 2017.",
+        "source_start": 269,
+        "source_end": 326
+      },
+      {
+        "annot_id": 31,
+        "sample_id": 33,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Benign"
+        ],
+        "note": "no emma thompson",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Emma Thompson as Mrs. Potts.",
+        "summary_start": 161,
+        "summary_end": 189,
+        "source_span": "Fellow Oscar-winner Kevin Kline has also signed on to play Maurice, the father of the 'Beauty' character Belle.",
+        "source_start": 157,
+        "source_end": 268
+      },
+      {
+        "annot_id": 110,
+        "sample_id": 33,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't name the film",
+        "annotator_name": "Manveer",
+        "summary_span": "Beauty and the Beast,",
+        "summary_start": 60,
+        "summary_end": 81
+      },
+      {
+        "annot_id": 173,
+        "sample_id": 33,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "not mentioned",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "live-action remake",
+        "summary_start": 38,
+        "summary_end": 56
+      },
+      {
+        "annot_id": 206,
+        "sample_id": 33,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "\tThe source doesn't say it's for a live-action remake, but this can be assumed perhaps with world knowledge that the movie already exists and the new movie in the source is being filmed.",
+        "annotator_name": "Manveer",
+        "summary_span": "live-action remake ",
+        "summary_start": 38,
+        "summary_end": 57
+      },
+      {
+        "annot_id": 230,
+        "sample_id": 33,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't say emma thompson is playing Mrs. Potts, but a google search confirms this.",
+        "annotator_name": "Manveer",
+        "summary_span": "Emma Thompson as Mrs. Potts.",
+        "summary_start": 161,
+        "summary_end": 189
+      }
+    ],
+    "meta_model": "cohere/command-r-08-2024",
+    "meta_hhemv1": 0.45141,
+    "meta_hhem-2.1": 0.72295,
+    "meta_hhem-2.1-english": 0.81015,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 386
+  },
+  {
+    "sample_id": 34,
+    "source": "The star will play Mrs Potts, the housekeeper magically transformed into a teapot whom Dame Angela Lansbury voiced in the 1991 animated version of the film. Fellow Oscar-winner Kevin Kline has also signed on to play Maurice, the father of the 'Beauty' character Belle. The film will be released in US cinemas on 17 March 2017. It was announced in January that Harry Potter star Emma Watson had been cast as Belle. It was subsequently confirmed that Downton Abbey's Dan Stevens will play the Beast and that Luke Evans will co-star as the villainous Gaston. Josh Gad, who voiced Olaf the snowman in Disney's animated hit Frozen, is also on board as Gaston's sidekick LeFou. Bill Condon, director of Dreamgirls and the last two Twilight films, will direct the movie, which begins filming at Shepperton Studios in May.",
+    "summary": "The passage describes the casting and release details for a new live-action adaptation of \"Beauty and the Beast.\" Key points include:\n- Emma Watson will play Belle. \n- Dan Stevens will play the Beast. \n- Luke Evans will play Gaston. \n- Josh Gad will play LeFou. \n- Kevin Kline and the star playing Mrs. Potts (transformed from a teapot) are also cast. \n- Bill Condon is directing. \n- Filming starts in May 2016, with a release date of March 17, 2017.",
+    "annotations": [
+      {
+        "annot_id": 32,
+        "sample_id": 34,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Benign"
+        ],
+        "note": "no beauty and the beast",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Beauty and the Beast.",
+        "summary_start": 91,
+        "summary_end": 112,
+        "source_span": "The film will be released in US cinemas on 17 March 2017.",
+        "source_start": 269,
+        "source_end": 326
+      },
+      {
+        "annot_id": 33,
+        "sample_id": 34,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Benign"
+        ],
+        "note": "no 2016",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Filming starts in May 2016",
+        "summary_start": 384,
+        "summary_end": 410,
+        "source_span": "Bill Condon, director of Dreamgirls and the last two Twilight films, will direct the movie, which begins filming at Shepperton Studios in May.",
+        "source_start": 672,
+        "source_end": 814
+      },
+      {
+        "annot_id": 113,
+        "sample_id": 34,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't name the film",
+        "annotator_name": "Manveer",
+        "summary_span": "Beauty and the Beast.\"",
+        "summary_start": 91,
+        "summary_end": 113
+      },
+      {
+        "annot_id": 114,
+        "sample_id": 34,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the source doesn't say 2016",
+        "annotator_name": "Manveer",
+        "summary_span": "Filming starts in May 2016,",
+        "summary_start": 384,
+        "summary_end": 411
+      },
+      {
+        "annot_id": 174,
+        "sample_id": 34,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "not mentioned",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "live-action adaptation",
+        "summary_start": 64,
+        "summary_end": 86
+      },
+      {
+        "annot_id": 207,
+        "sample_id": 34,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "\tThe source doesn't say it's for a live-action remake, but this can be assumed perhaps with world knowledge that the movie already exists and the new movie in the source is being filmed.",
+        "annotator_name": "Manveer",
+        "summary_span": "ive-action adaptation ",
+        "summary_start": 65,
+        "summary_end": 87
+      },
+      {
+        "annot_id": 231,
+        "sample_id": 34,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Questionable"
+        ],
+        "note": "this is just the US release date",
+        "annotator_name": "Manveer",
+        "summary_span": "with a release date of March 17, 2017.",
+        "summary_start": 412,
+        "summary_end": 450
+      }
+    ],
+    "meta_model": "Qwen/Qwen2.5-7B-Instruct",
+    "meta_hhemv1": 0.31187,
+    "meta_hhem-2.1": 0.49988,
+    "meta_hhem-2.1-english": 0.83326,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 501
+  },
+  {
+    "sample_id": 35,
+    "source": "The star will play Mrs Potts, the housekeeper magically transformed into a teapot whom Dame Angela Lansbury voiced in the 1991 animated version of the film. Fellow Oscar-winner Kevin Kline has also signed on to play Maurice, the father of the 'Beauty' character Belle. The film will be released in US cinemas on 17 March 2017. It was announced in January that Harry Potter star Emma Watson had been cast as Belle. It was subsequently confirmed that Downton Abbey's Dan Stevens will play the Beast and that Luke Evans will co-star as the villainous Gaston. Josh Gad, who voiced Olaf the snowman in Disney's animated hit Frozen, is also on board as Gaston's sidekick LeFou. Bill Condon, director of Dreamgirls and the last two Twilight films, will direct the movie, which begins filming at Shepperton Studios in May.",
+    "summary": "Here is a concise summary of the passage:\n\nThe live-action film adaptation of Beauty and the Beast has announced its cast, including Emma Watson as Belle, Dan Stevens as the Beast, Luke Evans as Gaston, and Josh Gad as LeFou. Kevin Kline will play Maurice, Belle's father, and Emma Thompson will play Mrs Potts, the housekeeper transformed into a teapot. The film will be released on March 17, 2017, and is directed by Bill Condon.",
+    "annotations": [
+      {
+        "annot_id": 34,
+        "sample_id": 35,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Benign"
+        ],
+        "note": "no beauty and the beast",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Beauty and the Beast ",
+        "summary_start": 78,
+        "summary_end": 99,
+        "source_span": "The film will be released in US cinemas on 17 March 2017.",
+        "source_start": 269,
+        "source_end": 326
+      },
+      {
+        "annot_id": 35,
+        "sample_id": 35,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Benign"
+        ],
+        "note": "no emma thompson",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Emma Thompson will play Mrs Potts",
+        "summary_start": 277,
+        "summary_end": 310,
+        "source_span": "The star will play Mrs Potts, the housekeeper magically transformed into a teapot whom Dame Angela Lansbury voiced in the 1991 animated version of the film.",
+        "source_start": 0,
+        "source_end": 156
+      },
+      {
+        "annot_id": 116,
+        "sample_id": 35,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't name the film",
+        "annotator_name": "Manveer",
+        "summary_span": "Beauty and the Beast ",
+        "summary_start": 78,
+        "summary_end": 99
+      },
+      {
+        "annot_id": 175,
+        "sample_id": 35,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "not mentioned",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "live-action film adaptation",
+        "summary_start": 47,
+        "summary_end": 74
+      },
+      {
+        "annot_id": 208,
+        "sample_id": 35,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "\tThe source doesn't say it's for a live-action remake, but this can be assumed perhaps with world knowledge that the movie already exists and the new movie in the source is being filmed.",
+        "annotator_name": "Manveer",
+        "summary_span": " live-action film adaptation",
+        "summary_start": 46,
+        "summary_end": 74
+      },
+      {
+        "annot_id": 232,
+        "sample_id": 35,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Questionable"
+        ],
+        "note": "this is just the US release date",
+        "annotator_name": "Manveer",
+        "summary_span": "The film will be released on March 17, 2017",
+        "summary_start": 355,
+        "summary_end": 398
+      },
+      {
+        "annot_id": 233,
+        "sample_id": 35,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't say emma thompson is playing Mrs. Potts, but a google search confirms this.",
+        "annotator_name": "Manveer",
+        "summary_span": "Emma Thompson will play Mrs Potts",
+        "summary_start": 277,
+        "summary_end": 310
+      }
+    ],
+    "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "meta_hhemv1": 0.18874,
+    "meta_hhem-2.1": 0.48972,
+    "meta_hhem-2.1-english": 0.72576,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 616
+  },
+  {
+    "sample_id": 36,
+    "source": "The star will play Mrs Potts, the housekeeper magically transformed into a teapot whom Dame Angela Lansbury voiced in the 1991 animated version of the film. Fellow Oscar-winner Kevin Kline has also signed on to play Maurice, the father of the 'Beauty' character Belle. The film will be released in US cinemas on 17 March 2017. It was announced in January that Harry Potter star Emma Watson had been cast as Belle. It was subsequently confirmed that Downton Abbey's Dan Stevens will play the Beast and that Luke Evans will co-star as the villainous Gaston. Josh Gad, who voiced Olaf the snowman in Disney's animated hit Frozen, is also on board as Gaston's sidekick LeFou. Bill Condon, director of Dreamgirls and the last two Twilight films, will direct the movie, which begins filming at Shepperton Studios in May.",
+    "summary": "Here is a concise summary of the passage:\n\nThe live-action adaptation of Beauty and the Beast will star Emma Watson as Belle, Dan Stevens as the Beast, and Luke Evans as Gaston. The film will also feature Emma Thompson as Mrs Potts, Kevin Kline as Maurice, and Josh Gad as LeFou. Bill Condon will direct the movie, which is set to begin filming in May at Shepperton Studios and will be released in US cinemas on 17 March 2017.",
+    "annotations": [
+      {
+        "annot_id": 36,
+        "sample_id": 36,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Benign"
+        ],
+        "note": "no beauty and the beast",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Beauty and the Beast ",
+        "summary_start": 73,
+        "summary_end": 94,
+        "source_span": "The film will be released in US cinemas on 17 March 2017.",
+        "source_start": 269,
+        "source_end": 326
+      },
+      {
+        "annot_id": 37,
+        "sample_id": 36,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Benign"
+        ],
+        "note": "no emma thompson",
+        "annotator_name": "Yujia Tang",
+        "summary_span": " Emma Thompson as Mrs Potts",
+        "summary_start": 204,
+        "summary_end": 231,
+        "source_span": "The star will play Mrs Potts, the housekeeper magically transformed into a teapot whom Dame Angela Lansbury voiced in the 1991 animated version of the film.",
+        "source_start": 0,
+        "source_end": 156
+      },
+      {
+        "annot_id": 121,
+        "sample_id": 36,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't name the film",
+        "annotator_name": "Manveer",
+        "summary_span": "Beauty and the Beast ",
+        "summary_start": 73,
+        "summary_end": 94
+      },
+      {
+        "annot_id": 176,
+        "sample_id": 36,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "not mentioned",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "live-action adaptation",
+        "summary_start": 47,
+        "summary_end": 69
+      },
+      {
+        "annot_id": 209,
+        "sample_id": 36,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "\tThe source doesn't say it's for a live-action remake, but this can be assumed perhaps with world knowledge that the movie already exists and the new movie in the source is being filmed.",
+        "annotator_name": "Manveer",
+        "summary_span": "live-action adaptation",
+        "summary_start": 47,
+        "summary_end": 69
+      },
+      {
+        "annot_id": 234,
+        "sample_id": 36,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't say emma thompson is playing Mrs. Potts, but a google search confirms this.",
+        "annotator_name": "Manveer",
+        "summary_span": "Emma Thompson as Mrs Potts",
+        "summary_start": 205,
+        "summary_end": 231
+      }
+    ],
+    "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "meta_hhemv1": 0.46048,
+    "meta_hhem-2.1": 0.69786,
+    "meta_hhem-2.1-english": 0.14026,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 731
+  },
+  {
+    "sample_id": 37,
+    "source": "The star will play Mrs Potts, the housekeeper magically transformed into a teapot whom Dame Angela Lansbury voiced in the 1991 animated version of the film. Fellow Oscar-winner Kevin Kline has also signed on to play Maurice, the father of the 'Beauty' character Belle. The film will be released in US cinemas on 17 March 2017. It was announced in January that Harry Potter star Emma Watson had been cast as Belle. It was subsequently confirmed that Downton Abbey's Dan Stevens will play the Beast and that Luke Evans will co-star as the villainous Gaston. Josh Gad, who voiced Olaf the snowman in Disney's animated hit Frozen, is also on board as Gaston's sidekick LeFou. Bill Condon, director of Dreamgirls and the last two Twilight films, will direct the movie, which begins filming at Shepperton Studios in May.",
+    "summary": "The live-action adaptation of Disney's Beauty and the Beast will be released on March 17, 2017. Emma Watson will play Belle, Dan Stevens will play the Beast, and Luke Evans will play Gaston. The film will also feature Kevin Kline as Maurice, Josh Gad as LeFou, and Emma Thompson as Mrs. Potts.  Bill Condon will direct the film, which will begin filming in May. \n",
+    "annotations": [
+      {
+        "annot_id": 38,
+        "sample_id": 37,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Benign"
+        ],
+        "note": "no beauty and the beast",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Beauty and the Beast",
+        "summary_start": 39,
+        "summary_end": 59,
+        "source_span": "The film will be released in US cinemas on 17 March 2017.",
+        "source_start": 269,
+        "source_end": 326
+      },
+      {
+        "annot_id": 39,
+        "sample_id": 37,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Benign"
+        ],
+        "note": "no emma thompson",
+        "annotator_name": "Yujia Tang",
+        "summary_span": " Emma Thompson as Mrs. Potts.",
+        "summary_start": 264,
+        "summary_end": 293,
+        "source_span": "The star will play Mrs Potts, the housekeeper magically transformed into a teapot whom Dame Angela Lansbury voiced in the 1991 animated version of the film.",
+        "source_start": 0,
+        "source_end": 156
+      },
+      {
+        "annot_id": 124,
+        "sample_id": 37,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't name the film",
+        "annotator_name": "Manveer",
+        "summary_span": "Disney's Beauty and the Beast ",
+        "summary_start": 30,
+        "summary_end": 60
+      },
+      {
+        "annot_id": 210,
+        "sample_id": 37,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "\tThe source doesn't say it's for a live-action remake, but this can be assumed perhaps with world knowledge that the movie already exists and the new movie in the source is being filmed.",
+        "annotator_name": "Manveer",
+        "summary_span": "live-action adaptation ",
+        "summary_start": 4,
+        "summary_end": 27
+      },
+      {
+        "annot_id": 235,
+        "sample_id": 37,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the is just the US release date",
+        "annotator_name": "Manveer",
+        "summary_span": "will be released on March 17, 2017",
+        "summary_start": 60,
+        "summary_end": 94
+      },
+      {
+        "annot_id": 236,
+        "sample_id": 37,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't say emma thompson is playing Mrs. Potts, but a google search confirms this.",
+        "annotator_name": "Manveer",
+        "summary_span": "Emma Thompson as Mrs. Potts.",
+        "summary_start": 265,
+        "summary_end": 293
+      }
+    ],
+    "meta_model": "google/gemini-1.5-flash-001",
+    "meta_hhemv1": 0.40176,
+    "meta_hhem-2.1": 0.45897,
+    "meta_hhem-2.1-english": 0.28993,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 846
+  },
+  {
+    "sample_id": 38,
+    "source": "The star will play Mrs Potts, the housekeeper magically transformed into a teapot whom Dame Angela Lansbury voiced in the 1991 animated version of the film. Fellow Oscar-winner Kevin Kline has also signed on to play Maurice, the father of the 'Beauty' character Belle. The film will be released in US cinemas on 17 March 2017. It was announced in January that Harry Potter star Emma Watson had been cast as Belle. It was subsequently confirmed that Downton Abbey's Dan Stevens will play the Beast and that Luke Evans will co-star as the villainous Gaston. Josh Gad, who voiced Olaf the snowman in Disney's animated hit Frozen, is also on board as Gaston's sidekick LeFou. Bill Condon, director of Dreamgirls and the last two Twilight films, will direct the movie, which begins filming at Shepperton Studios in May.",
+    "summary": "The passage discusses the casting and release details of the upcoming live-action adaptation of the film \"Beauty and the Beast.\" It mentions that Emma Watson will play Belle, Dan Stevens will play the Beast, and Luke Evans will play Gaston. It also reveals that Emma Thompson will play Mrs. Potts, Kevin Kline will play Maurice, and Josh Gad will play LeFou. The film is set to be released in US cinemas on March 17, 2017, and will be directed by Bill Condon. Filming will begin in May at Shepperton Studios.",
+    "annotations": [
+      {
+        "annot_id": 40,
+        "sample_id": 38,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Benign"
+        ],
+        "note": "no beauty and the beast",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Beauty and the Beast",
+        "summary_start": 106,
+        "summary_end": 126,
+        "source_span": "The film will be released in US cinemas on 17 March 2017.",
+        "source_start": 269,
+        "source_end": 326
+      },
+      {
+        "annot_id": 41,
+        "sample_id": 38,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Benign"
+        ],
+        "note": "no emma thompson",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Emma Thompson will play Mrs. Potts",
+        "summary_start": 262,
+        "summary_end": 296,
+        "source_span": "The star will play Mrs Potts, the housekeeper magically transformed into a teapot whom Dame Angela Lansbury voiced in the 1991 animated version of the film.",
+        "source_start": 0,
+        "source_end": 156
+      },
+      {
+        "annot_id": 128,
+        "sample_id": 38,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't name the film",
+        "annotator_name": "Manveer",
+        "summary_span": "Beauty and the Beast.",
+        "summary_start": 106,
+        "summary_end": 127
+      },
+      {
+        "annot_id": 177,
+        "sample_id": 38,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "not mentioned",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "live-action adaptation",
+        "summary_start": 70,
+        "summary_end": 92
+      },
+      {
+        "annot_id": 211,
+        "sample_id": 38,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "\tThe source doesn't say it's for a live-action remake, but this can be assumed perhaps with world knowledge that the movie already exists and the new movie in the source is being filmed.",
+        "annotator_name": "Manveer",
+        "summary_span": "live-action adaptation",
+        "summary_start": 70,
+        "summary_end": 92
+      },
+      {
+        "annot_id": 237,
+        "sample_id": 38,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't say emma thompson is playing Mrs. Potts, but a google search confirms this.",
+        "annotator_name": "Manveer",
+        "summary_span": "Emma Thompson will play Mrs. Potts",
+        "summary_start": 262,
+        "summary_end": 296
+      }
+    ],
+    "meta_model": "openai/GPT-3.5-Turbo",
+    "meta_hhemv1": 0.56392,
+    "meta_hhem-2.1": 0.8794,
+    "meta_hhem-2.1-english": 0.71235,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 984
+  },
+  {
+    "sample_id": 39,
+    "source": "The star will play Mrs Potts, the housekeeper magically transformed into a teapot whom Dame Angela Lansbury voiced in the 1991 animated version of the film. Fellow Oscar-winner Kevin Kline has also signed on to play Maurice, the father of the 'Beauty' character Belle. The film will be released in US cinemas on 17 March 2017. It was announced in January that Harry Potter star Emma Watson had been cast as Belle. It was subsequently confirmed that Downton Abbey's Dan Stevens will play the Beast and that Luke Evans will co-star as the villainous Gaston. Josh Gad, who voiced Olaf the snowman in Disney's animated hit Frozen, is also on board as Gaston's sidekick LeFou. Bill Condon, director of Dreamgirls and the last two Twilight films, will direct the movie, which begins filming at Shepperton Studios in May.",
+    "summary": "The passage discusses the casting and production details of the live-action \"Beauty and the Beast\" film. Mrs. Potts will be played by an unnamed star, originally voiced by Dame Angela Lansbury in the 1991 animated film. Kevin Kline will play Maurice, Belle's father. The film is set to release in US cinemas on 17 March 2017. Emma Watson has been cast as Belle, Dan Stevens as the Beast, Luke Evans as Gaston, and Josh Gad as LeFou. Bill Condon will direct the movie, with filming starting at Shepperton Studios in May.",
+    "annotations": [
+      {
+        "annot_id": 42,
+        "sample_id": 39,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Benign"
+        ],
+        "note": "no beauty and the beast",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Beauty and the Beast",
+        "summary_start": 77,
+        "summary_end": 97,
+        "source_span": "The film will be released in US cinemas on 17 March 2017.",
+        "source_start": 269,
+        "source_end": 326
+      },
+      {
+        "annot_id": 131,
+        "sample_id": 39,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't name the film",
+        "annotator_name": "Manveer",
+        "summary_span": "Beauty and the Beast",
+        "summary_start": 77,
+        "summary_end": 97
+      },
+      {
+        "annot_id": 178,
+        "sample_id": 39,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "not mentioned",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "the live-action",
+        "summary_start": 60,
+        "summary_end": 75
+      },
+      {
+        "annot_id": 212,
+        "sample_id": 39,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "\tThe source doesn't say it's for a live-action remake, but this can be assumed perhaps with world knowledge that the movie already exists and the new movie in the source is being filmed.",
+        "annotator_name": "Manveer",
+        "summary_span": "live-action \"Beauty and the Beast\" film",
+        "summary_start": 64,
+        "summary_end": 103
+      }
+    ],
+    "meta_model": "openai/gpt-4o",
+    "meta_hhemv1": 0.38736,
+    "meta_hhem-2.1": 0.79104,
+    "meta_hhem-2.1-english": 0.96576,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 1076
+  },
+  {
+    "sample_id": 40,
+    "source": "Centre-back Anderson, 27, has cancelled his Barrow contract by mutual consent to join their National League rivals. The ex-Aldershot and Exeter player, who has also played in Italy, could feature against his old club on 18 February. Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams. He has previously had spells with Sligo Rovers, Galway United and Finn Harps, with his move subject to international clearance. \"Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\" Nicholson told BBC Radio Devon. \"Ruairi is young, a little bit raw, but incredibly hungry to show what he's about. \"The Gulls are currently four points above the relegation zone, and have won only one of their last six games. Find all the latest football transfers on our dedicated page.",
+    "summary": " In the provided passage, two football transfers are discussed. Anderson, a 27-year-old centre-back, has mutually terminated his contract with Barrow and is joining their National League rivals. He has previously played for Aldershot, Exeter, and in Italy. Anderson could potentially play against his old club on February 18. The second transfer involves striker Keating, a 21-year-old recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams. Keating's move is subject to international clearance. Nicholson describes Keating as a leader-type he has been seeking, while Keating is described as young, raw, but hungry to prove himself. The Gulls, currently four points above the relegation zone, have won only one of their last six games. The passage also mentions a dedicated page for all the latest football transfers.",
+    "annotations": [
+      {
+        "annot_id": 43,
+        "sample_id": 40,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "not keating as a leader-type",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Nicholson describes Keating as a leader-type he has been seeking, while Keating is described as young, raw, but hungry to prove himself.",
+        "summary_start": 519,
+        "summary_end": 655,
+        "source_span": "\"Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\" Nicholson told BBC Radio Devon. \"Ruairi is young, a little bit raw, but incredibly hungry to show what he's about. ",
+        "source_start": 465,
+        "source_end": 718
+      },
+      {
+        "annot_id": 257,
+        "sample_id": 40,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the summary assumes both myles and ruairi refers to keating, which doesn't make sense",
+        "annotator_name": "Manveer",
+        "summary_span": "Nicholson describes Keating as a leader-type he has been seeking, while Keating is described as young, raw, but hungry to prove himself.",
+        "summary_start": 519,
+        "summary_end": 655,
+        "source_span": "\"Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\" Nicholson told BBC Radio Devon. \"Ruairi is young, a little bit raw, but incredibly hungry to show what he's about. \"",
+        "source_start": 465,
+        "source_end": 719
+      }
+    ],
+    "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "meta_hhemv1": 0.99161,
+    "meta_hhem-2.1": 0.96559,
+    "meta_hhem-2.1-english": 0.99226,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 63
+  },
+  {
+    "sample_id": 41,
+    "source": "Centre-back Anderson, 27, has cancelled his Barrow contract by mutual consent to join their National League rivals. The ex-Aldershot and Exeter player, who has also played in Italy, could feature against his old club on 18 February. Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams. He has previously had spells with Sligo Rovers, Galway United and Finn Harps, with his move subject to international clearance. \"Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\" Nicholson told BBC Radio Devon. \"Ruairi is young, a little bit raw, but incredibly hungry to show what he's about. \"The Gulls are currently four points above the relegation zone, and have won only one of their last six games. Find all the latest football transfers on our dedicated page.",
+    "summary": " Centre-back Anderson, 27, has left Barrow by mutual consent to join National League rivals, potentially playing against his former club on 18 February. Striker Keating, 21, recommended by Micky Adams, former Port Vale manager, is under international clearance and could join Gulls. Gulls manager Kevin Nicholson praises Anderson's leadership qualities and Keating's hunger to prove himself. Gulls are four points above the relegation zone with only one win in their last six games. For the latest football transfers, visit the dedicated page.",
+    "annotations": [
+      {
+        "annot_id": 134,
+        "sample_id": 41,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the summary assumes myles refers to anderson and ruairi refers to keating",
+        "annotator_name": "Manveer",
+        "summary_span": "Nicholson praises Anderson's leadership qualities and Keating's hunger to prove himself.",
+        "summary_start": 303,
+        "summary_end": 391
+      },
+      {
+        "annot_id": 179,
+        "sample_id": 41,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Benign"
+        ],
+        "note": "no idea about given name and the family name",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Gulls manager Kevin Nicholson praises Anderson's leadership qualities and Keating's hunger to prove himself.",
+        "summary_start": 283,
+        "summary_end": 391,
+        "source_span": "\"Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\"",
+        "source_start": 465,
+        "source_end": 602
+      }
+    ],
+    "meta_model": "microsoft/Phi-3-mini-4k-instruct",
+    "meta_hhemv1": 0.99851,
+    "meta_hhem-2.1": 0.89509,
+    "meta_hhem-2.1-english": 0.96192,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 178
+  },
+  {
+    "sample_id": 42,
+    "source": "Centre-back Anderson, 27, has cancelled his Barrow contract by mutual consent to join their National League rivals. The ex-Aldershot and Exeter player, who has also played in Italy, could feature against his old club on 18 February. Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams. He has previously had spells with Sligo Rovers, Galway United and Finn Harps, with his move subject to international clearance. \"Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\" Nicholson told BBC Radio Devon. \"Ruairi is young, a little bit raw, but incredibly hungry to show what he's about. \"The Gulls are currently four points above the relegation zone, and have won only one of their last six games. Find all the latest football transfers on our dedicated page.",
+    "summary": "Here's a concise summary of the passage:\n\nTwo players have joined Torquay United: Anderson, a 27-year-old centre-back who left Barrow by mutual consent, and Keating, a 21-year-old striker from Ireland. Anderson is described as a leader-type player, while Keating is young and eager to prove himself. The moves come as Torquay United is struggling, sitting just four points above the relegation zone with only one win in their last six games. Anderson could potentially play against his former club on February 18th, while Keating's transfer is pending international clearance.",
+    "annotations": [
+      {
+        "annot_id": 44,
+        "sample_id": 42,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Benign"
+        ],
+        "note": "no Ireland",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Keating, a 21-year-old striker from Ireland",
+        "summary_start": 157,
+        "summary_end": 200,
+        "source_span": "Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams.",
+        "source_start": 233,
+        "source_end": 336
+      },
+      {
+        "annot_id": 45,
+        "sample_id": 42,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Benign"
+        ],
+        "note": "no info for Torquay United",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Two players have joined Torquay United:",
+        "summary_start": 42,
+        "summary_end": 81,
+        "source_span": "Centre-back Anderson, 27, has cancelled his Barrow contract by mutual consent to join their National League rivals. The ex-Aldershot and Exeter player, who has also played in Italy, could feature against his old club on 18 February. Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams.",
+        "source_start": 0,
+        "source_end": 336
+      },
+      {
+        "annot_id": 46,
+        "sample_id": 42,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Benign"
+        ],
+        "note": "no info for Torquay United",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Torquay United is strugglin",
+        "summary_start": 318,
+        "summary_end": 345,
+        "source_span": "\"The Gulls are currently four points above the relegation zone, and have won only one of their last six games.",
+        "source_start": 718,
+        "source_end": 828
+      },
+      {
+        "annot_id": 137,
+        "sample_id": 42,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the summary assumes myles refers to anderson and ruairi refers to keating",
+        "annotator_name": "Manveer",
+        "summary_span": "Anderson is described as a leader-type player, while Keating is young and eager to prove himself. ",
+        "summary_start": 202,
+        "summary_end": 300
+      },
+      {
+        "annot_id": 239,
+        "sample_id": 42,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't say anything about keating being from ireland\t",
+        "annotator_name": "Manveer",
+        "summary_span": " and Keating, a 21-year-old striker from Ireland.",
+        "summary_start": 152,
+        "summary_end": 201
+      },
+      {
+        "annot_id": 240,
+        "sample_id": 42,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "torquay united is not mentioned in the source at all",
+        "annotator_name": "Manveer",
+        "summary_span": "Torquay United ",
+        "summary_start": 318,
+        "summary_end": 333
+      },
+      {
+        "annot_id": 241,
+        "sample_id": 42,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "torquay united is not mentioned in the source at all",
+        "annotator_name": "Manveer",
+        "summary_span": " Torquay United",
+        "summary_start": 65,
+        "summary_end": 80
+      }
+    ],
+    "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
+    "meta_hhemv1": 0.79335,
+    "meta_hhem-2.1": 0.57914,
+    "meta_hhem-2.1-english": 0.73595,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 293
+  },
+  {
+    "sample_id": 43,
+    "source": "Centre-back Anderson, 27, has cancelled his Barrow contract by mutual consent to join their National League rivals. The ex-Aldershot and Exeter player, who has also played in Italy, could feature against his old club on 18 February. Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams. He has previously had spells with Sligo Rovers, Galway United and Finn Harps, with his move subject to international clearance. \"Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\" Nicholson told BBC Radio Devon. \"Ruairi is young, a little bit raw, but incredibly hungry to show what he's about. \"The Gulls are currently four points above the relegation zone, and have won only one of their last six games. Find all the latest football transfers on our dedicated page.",
+    "summary": "Anderson, a 27-year-old centre-back, has left Barrow to join a rival National League club, potentially facing his former team on February 18th. Meanwhile, 21-year-old striker Keating, with experience in Ireland, joins Torquay United with the recommendation of Micky Adams. Manager Kevin Nicholson values Anderson's leadership and Keating's potential, despite Torquay's recent struggles, sitting just four points above the relegation zone.",
+    "annotations": [
+      {
+        "annot_id": 47,
+        "sample_id": 43,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Benign"
+        ],
+        "note": "no info for ireland, and no info for Torquay United",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Meanwhile, 21-year-old striker Keating, with experience in Ireland, joins Torquay United with the recommendation of Micky Adams.",
+        "summary_start": 144,
+        "summary_end": 272,
+        "source_span": "Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams.",
+        "source_start": 233,
+        "source_end": 336
+      },
+      {
+        "annot_id": 48,
+        "sample_id": 43,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Benign"
+        ],
+        "note": "no clue for Torquay==Gulls",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Torquay's recent struggles",
+        "summary_start": 359,
+        "summary_end": 385,
+        "source_span": "\"The Gulls are currently four points above the relegation zone, and have won only one of their last six games.",
+        "source_start": 718,
+        "source_end": 828
+      },
+      {
+        "annot_id": 141,
+        "sample_id": 43,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the summary assumes myles refers to anderson and ruairi refers to keating",
+        "annotator_name": "Manveer",
+        "summary_span": "Manager Kevin Nicholson values Anderson's leadership and Keating's potential",
+        "summary_start": 273,
+        "summary_end": 349
+      },
+      {
+        "annot_id": 180,
+        "sample_id": 43,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Benign"
+        ],
+        "note": "no idea about the given name and surname",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Manager Kevin Nicholson values Anderson's leadership and Keating's potential, despite Torquay's recent struggles,",
+        "summary_start": 273,
+        "summary_end": 386,
+        "source_span": "\"Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\"",
+        "source_start": 465,
+        "source_end": 602
+      },
+      {
+        "annot_id": 242,
+        "sample_id": 43,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't say keating is from ireland",
+        "annotator_name": "Manveer",
+        "summary_span": "21-year-old striker Keating, with experience in Ireland",
+        "summary_start": 155,
+        "summary_end": 210
+      },
+      {
+        "annot_id": 243,
+        "sample_id": 43,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't name this team",
+        "annotator_name": "Manveer",
+        "summary_span": "Torquay United",
+        "summary_start": 218,
+        "summary_end": 232
+      },
+      {
+        "annot_id": 244,
+        "sample_id": 43,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't name this team",
+        "annotator_name": "Manveer",
+        "summary_span": "Torquay's",
+        "summary_start": 359,
+        "summary_end": 368
+      }
+    ],
+    "meta_model": "cohere/command-r-08-2024",
+    "meta_hhemv1": 0.98881,
+    "meta_hhem-2.1": 0.43823,
+    "meta_hhem-2.1-english": 0.59135,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 408
+  },
+  {
+    "sample_id": 44,
+    "source": "Centre-back Anderson, 27, has cancelled his Barrow contract by mutual consent to join their National League rivals. The ex-Aldershot and Exeter player, who has also played in Italy, could feature against his old club on 18 February. Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams. He has previously had spells with Sligo Rovers, Galway United and Finn Harps, with his move subject to international clearance. \"Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\" Nicholson told BBC Radio Devon. \"Ruairi is young, a little bit raw, but incredibly hungry to show what he's about. \"The Gulls are currently four points above the relegation zone, and have won only one of their last six games. Find all the latest football transfers on our dedicated page.",
+    "summary": "Anderson, 27, has left his contract with Barrow to join National League rivals, while Striker Keating, 21, is set to join the same team after being recommended by Micky Adams. Anderson brings experience from Italy and previous clubs, while Keating has had stints at Sligo Rovers, Galway United, and Finn Harps. The team, managed by Kevin Nicholson, is struggling, currently four points above the relegation zone and having won only one of their last six games.",
+    "annotations": [],
+    "meta_model": "Qwen/Qwen2.5-7B-Instruct",
+    "meta_hhemv1": 0.99601,
+    "meta_hhem-2.1": 0.96663,
+    "meta_hhem-2.1-english": 0.97306,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 523
+  },
+  {
+    "sample_id": 45,
+    "source": "Centre-back Anderson, 27, has cancelled his Barrow contract by mutual consent to join their National League rivals. The ex-Aldershot and Exeter player, who has also played in Italy, could feature against his old club on 18 February. Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams. He has previously had spells with Sligo Rovers, Galway United and Finn Harps, with his move subject to international clearance. \"Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\" Nicholson told BBC Radio Devon. \"Ruairi is young, a little bit raw, but incredibly hungry to show what he's about. \"The Gulls are currently four points above the relegation zone, and have won only one of their last six games. Find all the latest football transfers on our dedicated page.",
+    "summary": "Here is a concise summary of the passage:\n\nTwo football transfers have been announced. Anderson, a 27-year-old centre-back, has joined Torquay United from Barrow by mutual consent. Keating, a 21-year-old striker, has also joined the team, subject to international clearance.",
+    "annotations": [
+      {
+        "annot_id": 49,
+        "sample_id": 45,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Benign"
+        ],
+        "note": "no clue Torquay",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "has joined Torquay United from Barrow by mutual consent.",
+        "summary_start": 124,
+        "summary_end": 180,
+        "source_span": "Centre-back Anderson, 27, has cancelled his Barrow contract by mutual consent to join their National League rivals.",
+        "source_start": 0,
+        "source_end": 115
+      },
+      {
+        "annot_id": 245,
+        "sample_id": 45,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't name this team",
+        "annotator_name": "Manveer",
+        "summary_span": "Torquay United",
+        "summary_start": 135,
+        "summary_end": 149
+      }
+    ],
+    "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "meta_hhemv1": 0.86303,
+    "meta_hhem-2.1": 0.47045,
+    "meta_hhem-2.1-english": 0.85504,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 0,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 638
+  },
+  {
+    "sample_id": 46,
+    "source": "Centre-back Anderson, 27, has cancelled his Barrow contract by mutual consent to join their National League rivals. The ex-Aldershot and Exeter player, who has also played in Italy, could feature against his old club on 18 February. Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams. He has previously had spells with Sligo Rovers, Galway United and Finn Harps, with his move subject to international clearance. \"Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\" Nicholson told BBC Radio Devon. \"Ruairi is young, a little bit raw, but incredibly hungry to show what he's about. \"The Gulls are currently four points above the relegation zone, and have won only one of their last six games. Find all the latest football transfers on our dedicated page.",
+    "summary": "Here is a concise summary of the passage:\n\nTwo new players have joined Torquay United (also known as the Gulls): centre-back Anderson, 27, who has cancelled his contract with Barrow by mutual consent, and striker Keating, 21, who was recommended by ex-Port Vale manager Micky Adams. Both players are expected to bolster the team, which is currently four points above the relegation zone, having won only one of their last six games.",
+    "annotations": [
+      {
+        "annot_id": 50,
+        "sample_id": 46,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Benign"
+        ],
+        "note": "no info Torquay United",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Two new players have joined Torquay United (also known as the Gulls)",
+        "summary_start": 43,
+        "summary_end": 111,
+        "source_span": "Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams.",
+        "source_start": 233,
+        "source_end": 336
+      },
+      {
+        "annot_id": 145,
+        "sample_id": 46,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the source doesn't explicitly say this",
+        "annotator_name": "Manveer",
+        "summary_span": "Both players are expected to bolster the team",
+        "summary_start": 283,
+        "summary_end": 328
+      },
+      {
+        "annot_id": 246,
+        "sample_id": 46,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't name this team",
+        "annotator_name": "Manveer",
+        "summary_span": "Torquay United (also known as the Gulls)",
+        "summary_start": 71,
+        "summary_end": 111
+      }
+    ],
+    "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "meta_hhemv1": 0.81894,
+    "meta_hhem-2.1": 0.74513,
+    "meta_hhem-2.1-english": 0.94579,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 753
+  },
+  {
+    "sample_id": 47,
+    "source": "Centre-back Anderson, 27, has cancelled his Barrow contract by mutual consent to join their National League rivals. The ex-Aldershot and Exeter player, who has also played in Italy, could feature against his old club on 18 February. Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams. He has previously had spells with Sligo Rovers, Galway United and Finn Harps, with his move subject to international clearance. \"Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\" Nicholson told BBC Radio Devon. \"Ruairi is young, a little bit raw, but incredibly hungry to show what he's about. \"The Gulls are currently four points above the relegation zone, and have won only one of their last six games. Find all the latest football transfers on our dedicated page.",
+    "summary": "Barrow centre-back Anderson, 27, has left the club to join a rival National League team. Striker Keating, 21, has joined Barrow from Finn Harps, subject to international clearance.  Barrow manager Kevin Nicholson described Anderson as a leader and Keating as hungry to prove himself. Barrow is currently four points above the relegation zone. \n",
+    "annotations": [
+      {
+        "annot_id": 51,
+        "sample_id": 47,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "not Barrow manager",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Barrow manager Kevin Nicholson described Anderson as a leader and Keating as hungry to prove himself.",
+        "summary_start": 182,
+        "summary_end": 283,
+        "source_span": "Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams.",
+        "source_start": 233,
+        "source_end": 336
+      },
+      {
+        "annot_id": 52,
+        "sample_id": 47,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "not barrow relegation",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Barrow is currently four points above the relegation zone.",
+        "summary_start": 284,
+        "summary_end": 342,
+        "source_span": "\"The Gulls are currently four points above the relegation zone, and have won only one of their last six games.",
+        "source_start": 718,
+        "source_end": 828
+      },
+      {
+        "annot_id": 146,
+        "sample_id": 47,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't make it clear that keating is currently at finn harps",
+        "annotator_name": "Manveer",
+        "summary_span": "has joined Barrow from Finn Harps,",
+        "summary_start": 110,
+        "summary_end": 144
+      },
+      {
+        "annot_id": 148,
+        "sample_id": 47,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the summary is assuming myles refers to anderson and ruairi to keating",
+        "annotator_name": "Manveer",
+        "summary_span": "described Anderson as a leader and Keating as hungry to prove himself.",
+        "summary_start": 213,
+        "summary_end": 283
+      },
+      {
+        "annot_id": 181,
+        "sample_id": 47,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "not mentioned “joined Barrow from Finn Harps\"",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "joined Barrow from Finn Harps",
+        "summary_start": 114,
+        "summary_end": 143
+      },
+      {
+        "annot_id": 258,
+        "sample_id": 47,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "kevin does not seem to be the manager of barrow",
+        "annotator_name": "Manveer",
+        "summary_span": "Barrow manager Kevin Nicholson ",
+        "summary_start": 182,
+        "summary_end": 213,
+        "source_span": " Gulls boss Kevin Nicholson ",
+        "source_start": 272,
+        "source_end": 300
+      },
+      {
+        "annot_id": 259,
+        "sample_id": 47,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "It is not barrow that is 4 points above relegation. This applies to the new team that Anderson and Keating are joining.",
+        "annotator_name": "Manveer",
+        "summary_span": "Barrow is currently four points above the relegation zone.",
+        "summary_start": 284,
+        "summary_end": 342,
+        "source_span": "The Gulls are currently four points above the relegation zone",
+        "source_start": 719,
+        "source_end": 780
+      }
+    ],
+    "meta_model": "google/gemini-1.5-flash-001",
+    "meta_hhemv1": 0.77809,
+    "meta_hhem-2.1": 0.58157,
+    "meta_hhem-2.1-english": 0.77633,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 868
+  },
+  {
+    "sample_id": 48,
+    "source": "Centre-back Anderson, 27, has cancelled his Barrow contract by mutual consent to join their National League rivals. The ex-Aldershot and Exeter player, who has also played in Italy, could feature against his old club on 18 February. Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams. He has previously had spells with Sligo Rovers, Galway United and Finn Harps, with his move subject to international clearance. \"Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\" Nicholson told BBC Radio Devon. \"Ruairi is young, a little bit raw, but incredibly hungry to show what he's about. \"The Gulls are currently four points above the relegation zone, and have won only one of their last six games. Find all the latest football transfers on our dedicated page.",
+    "summary": "The passage discusses the transfer of two players, Anderson and Keating, to National League rivals of Barrow and Torquay United, respectively. Anderson, a 27-year-old centre-back, has cancelled his contract with Barrow to join Torquay United. He may potentially play against his former club on February 18th. Keating, a 21-year-old striker, has been recommended to Torquay United by Micky Adams, the former manager of Port Vale. Keating's move is subject to international clearance. Torquay United manager Kevin Nicholson describes Anderson as a leader-type player and Keating as young and hungry to prove himself. Torquay United is currently four points above the relegation zone and has won only one of their last six games.",
+    "annotations": [
+      {
+        "annot_id": 53,
+        "sample_id": 48,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "not respectively for two teams",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "The passage discusses the transfer of two players, Anderson and Keating, to National League rivals of Barrow and Torquay United, respectively.",
+        "summary_start": 0,
+        "summary_end": 142,
+        "source_span": "Centre-back Anderson, 27, has cancelled his Barrow contract by mutual consent to join their National League rivals. The ex-Aldershot and Exeter player, who has also played in Italy, could feature against his old club on 18 February. Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams.",
+        "source_start": 0,
+        "source_end": 336
+      },
+      {
+        "annot_id": 54,
+        "sample_id": 48,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Benign"
+        ],
+        "note": "no info for Torquay United",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Anderson, a 27-year-old centre-back, has cancelled his contract with Barrow to join Torquay United.",
+        "summary_start": 143,
+        "summary_end": 242,
+        "source_span": "Centre-back Anderson, 27, has cancelled his Barrow contract by mutual consent to join their National League rivals.",
+        "source_start": 0,
+        "source_end": 115
+      },
+      {
+        "annot_id": 55,
+        "sample_id": 48,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Benign"
+        ],
+        "note": "no Torquay United",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Keating, a 21-year-old striker, has been recommended to Torquay United by Micky Adams, the former manager of Port Vale.",
+        "summary_start": 309,
+        "summary_end": 428,
+        "source_span": "Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams.",
+        "source_start": 233,
+        "source_end": 336
+      },
+      {
+        "annot_id": 56,
+        "sample_id": 48,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Benign"
+        ],
+        "note": "no Torquay United",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Torquay United manager Kevin Nicholson describes Anderson as a leader-type player and Keating as young and hungry to prove himself.",
+        "summary_start": 483,
+        "summary_end": 614,
+        "source_span": "\"Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\" Nicholson told BBC Radio Devon. ",
+        "source_start": 465,
+        "source_end": 635
+      },
+      {
+        "annot_id": 57,
+        "sample_id": 48,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Benign"
+        ],
+        "note": "no Torquay United",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Torquay United is currently four points above the relegation zone and has won only one of their last six games.",
+        "summary_start": 615,
+        "summary_end": 726,
+        "source_span": "\"The Gulls are currently four points above the relegation zone, and have won only one of their last six games.",
+        "source_start": 718,
+        "source_end": 828
+      },
+      {
+        "annot_id": 153,
+        "sample_id": 48,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "it is contradictory to say that the player is joining torquay united, but that the players are transferring to rivals of torquay",
+        "annotator_name": "Manveer",
+        "summary_span": "he passage discusses the transfer of two players, Anderson and Keating, to National League rivals of Barrow and Torquay United, respectively. Anderson, a 27-year-old centre-back, has cancelled his contract with Barrow to join Torquay United",
+        "summary_start": 1,
+        "summary_end": 241
+      },
+      {
+        "annot_id": 182,
+        "sample_id": 48,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Benign"
+        ],
+        "note": "no info about surname and given name",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Torquay United manager Kevin Nicholson describes Anderson as a leader-type player and Keating as young and hungry to prove himself.",
+        "summary_start": 483,
+        "summary_end": 614,
+        "source_span": "\"Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\"",
+        "source_start": 465,
+        "source_end": 602
+      },
+      {
+        "annot_id": 215,
+        "sample_id": 48,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "it is being assumed that myles refers to anderson and ruairi to keating",
+        "annotator_name": "Manveer",
+        "summary_span": "Nicholson describes Anderson as a leader-type player and Keating as young and hungry to prove himself.",
+        "summary_start": 512,
+        "summary_end": 614
+      },
+      {
+        "annot_id": 247,
+        "sample_id": 48,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "this team is not mentioned in the source",
+        "annotator_name": "Manveer",
+        "summary_span": "Torquay United",
+        "summary_start": 113,
+        "summary_end": 127
+      },
+      {
+        "annot_id": 248,
+        "sample_id": 48,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "this team is not mentioned in the source",
+        "annotator_name": "Manveer",
+        "summary_span": " Torquay United",
+        "summary_start": 364,
+        "summary_end": 379
+      },
+      {
+        "annot_id": 249,
+        "sample_id": 48,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "this team is not mentioned in the source",
+        "annotator_name": "Manveer",
+        "summary_span": "Torquay United",
+        "summary_start": 615,
+        "summary_end": 629
+      },
+      {
+        "annot_id": 260,
+        "sample_id": 48,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the players are not transferring to barrow",
+        "annotator_name": "Manveer",
+        "summary_span": "The passage discusses the transfer of two players, Anderson and Keating, to National League rivals of Barrow",
+        "summary_start": 0,
+        "summary_end": 108,
+        "source_span": "Centre-back Anderson, 27, has cancelled his Barrow contract by mutual consent to join their National League rivals",
+        "source_start": 0,
+        "source_end": 114
+      },
+      {
+        "annot_id": 261,
+        "sample_id": 48,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "the claim that they are transferring to rivals of torquay is not supported by the source at all",
+        "annotator_name": "Manveer",
+        "summary_span": "National League rivals of Barrow and Torquay United",
+        "summary_start": 76,
+        "summary_end": 127
+      }
+    ],
+    "meta_model": "openai/GPT-3.5-Turbo",
+    "meta_hhemv1": 0.94259,
+    "meta_hhem-2.1": 0.85777,
+    "meta_hhem-2.1-english": 0.97577,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 935
+  },
+  {
+    "sample_id": 49,
+    "source": "Centre-back Anderson, 27, has cancelled his Barrow contract by mutual consent to join their National League rivals. The ex-Aldershot and Exeter player, who has also played in Italy, could feature against his old club on 18 February. Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams. He has previously had spells with Sligo Rovers, Galway United and Finn Harps, with his move subject to international clearance. \"Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\" Nicholson told BBC Radio Devon. \"Ruairi is young, a little bit raw, but incredibly hungry to show what he's about. \"The Gulls are currently four points above the relegation zone, and have won only one of their last six games. Find all the latest football transfers on our dedicated page.",
+    "summary": "Centre-back Anderson, 27, has mutually terminated his contract with Barrow to join a National League rival and may play against his former club on 18 February. Striker Keating, 21, recommended by Micky Adams, is moving to the Gulls pending international clearance, having previously played for Sligo Rovers, Galway United, and Finn Harps. Gulls boss Kevin Nicholson praised Anderson's leadership qualities and Keating's hunger to prove himself. The Gulls are currently four points above the relegation zone with only one win in their last six games.",
+    "annotations": [
+      {
+        "annot_id": 156,
+        "sample_id": 49,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the summary is assuming myles refers to anderson and ruairi to keating",
+        "annotator_name": "Manveer",
+        "summary_span": "Gulls boss Kevin Nicholson praised Anderson's leadership qualities and Keating's hunger to prove himself. ",
+        "summary_start": 339,
+        "summary_end": 445
+      },
+      {
+        "annot_id": 183,
+        "sample_id": 49,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Benign"
+        ],
+        "note": "no info about given name and surname",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Gulls boss Kevin Nicholson praised Anderson's leadership qualities and Keating's hunger to prove himself.",
+        "summary_start": 339,
+        "summary_end": 444,
+        "source_span": "\"Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\"",
+        "source_start": 465,
+        "source_end": 602
+      }
+    ],
+    "meta_model": "openai/gpt-4o",
+    "meta_hhemv1": 0.99926,
+    "meta_hhem-2.1": 0.90429,
+    "meta_hhem-2.1-english": 0.98616,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 1098
+  }
+]

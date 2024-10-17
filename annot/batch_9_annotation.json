@@ -1,0 +1,3151 @@
+[
+  {
+    "sample_id": 0,
+    "source": "Francis I ( Franz Stefan , François Étienne 8 December 1708 -- 18 August 1765 ) was Holy Roman Emperor and Grand Duke of Tuscany , though his wife effectively executed the real powers of those positions . Francis I ( François Ier ) ( 12 September 1494 -- 31 March 1547 ) was the first King of France from the Angoulême branch of the House of Valois , reigning from 1515 until his death . He was also known as François au Grand Nez ( `` Francis of the Large Nose '' ) , the Grand Colas , and the Roi-Chevalier ( the `` Knight-King '' ) for his personal involvement in the wars against his great rival the Holy Roman Emperor and King of Spain Charles V. When this was unsuccessful , he formed a Franco-Ottoman alliance with the Muslim sultan Suleiman the Magnificent , a controversial move for a Christian king at the time . The Italian war of 1536-1538 was a conflict between King Francis I of France and Charles V , King of Spain and Holy Roman Emperor .",
+    "summary": " The passage discusses two individuals named Francis I. The first, Francis I (Franz Stefan, Francois Etienne, born on 8 December 1708 and died on 18 August 1765), was the Holy Roman Emperor and Grand Duke of Tuscany, but his wife held the real powers of these positions. The second, Francis I (Francois Ier, born on 12 September 1494 and died on 31 March 1547), was the first King of France from the Angouleme branch of the House of Valois, reigning from 1515 until his death. He was also known as Francois au Grand Nez, the Grand Colas, and the Roi-Chevalier due to his personal involvement in wars against Charles V, his great rival who was the King of Spain and Holy Roman Emperor. When his wars against Charles V were unsuccessful, Francis I formed a Franco-Ottoman alliance with Suleiman the Magnificent, a controversial move for a Christian king. The Italian war of 1536-1538 was a conflict between King Francis I of France",
+    "annotations": [
+      {
+        "annot_id": 1,
+        "sample_id": 0,
+        "annotator": "4acc2a7ab1bf4783b9a669d3d9b1a9fa",
+        "label": [
+          "Questionable"
+        ],
+        "note": "The summary text didn't finish, possibly due to max sequence length limit.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "The Italian war of 1536-1538 was a conflict between King Francis I of France",
+        "summary_start": 853,
+        "summary_end": 929
+      },
+      {
+        "annot_id": 47,
+        "sample_id": 0,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the summary over-generalized a then-controversial move to a controversial move. ",
+        "annotator_name": "forrest",
+        "summary_span": "a controversial move for a Christian king",
+        "summary_start": 810,
+        "summary_end": 851,
+        "source_span": "a controversial move for a Christian king at the time",
+        "source_start": 772,
+        "source_end": 825
+      }
+    ],
+    "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "meta_hhemv1": 0.91286,
+    "meta_hhem-2.1": 0.96281,
+    "meta_hhem-2.1-english": 0.99446,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 16
+  },
+  {
+    "sample_id": 1,
+    "source": "Francis I ( Franz Stefan , François Étienne 8 December 1708 -- 18 August 1765 ) was Holy Roman Emperor and Grand Duke of Tuscany , though his wife effectively executed the real powers of those positions . Francis I ( François Ier ) ( 12 September 1494 -- 31 March 1547 ) was the first King of France from the Angoulême branch of the House of Valois , reigning from 1515 until his death . He was also known as François au Grand Nez ( `` Francis of the Large Nose '' ) , the Grand Colas , and the Roi-Chevalier ( the `` Knight-King '' ) for his personal involvement in the wars against his great rival the Holy Roman Emperor and King of Spain Charles V. When this was unsuccessful , he formed a Franco-Ottoman alliance with the Muslim sultan Suleiman the Magnificent , a controversial move for a Christian king at the time . The Italian war of 1536-1538 was a conflict between King Francis I of France and Charles V , King of Spain and Holy Roman Emperor .",
+    "summary": " Francis I (Francis I of France) was the first King of France from the House of Valois, reigning from 1515 until his death in 1547. Known as \"Francis of the Large Nose\" and the \"Knight-King,\" he engaged in wars against Holy Roman Emperor Charles V. Francis I formed a controversial Franco-Ottoman alliance with Suleiman the Magnificent, Holy Roman Emperor, and Holy Roman Emperor. His wife held the real powers of his positions as Holy Roman Emperor and Grand Duke of Tuscany. \n\nFrancis I (Francis I of the Holy Roman Empire) was Holy Roman Emperor and Grand Duke of Tuscany from 1708 to 1765. His wife effectively executed the real powers of these positions. He was involved in wars against his rival, Holy Roman Emperor and King of Spain Charles V, and formed a Franco-Ottoman alliance with Suleiman the Magnificent.",
+    "annotations": [
+      {
+        "annot_id": 2,
+        "sample_id": 1,
+        "annotator": "4acc2a7ab1bf4783b9a669d3d9b1a9fa",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The structure here seems to imply that Suleiman the Magnificent is the Holy Roman Emperor, but that's false. The source text stated Suleiman the Magnificent is the Muslim sultan.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "Suleiman the Magnificent, Holy Roman Emperor, and Holy Roman Emperor",
+        "summary_start": 311,
+        "summary_end": 379
+      },
+      {
+        "annot_id": 3,
+        "sample_id": 1,
+        "annotator": "4acc2a7ab1bf4783b9a669d3d9b1a9fa",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source text states that the entire lifespan of Francis I the Holy Roman Emperor is 1708-1765. This does not imply that Francis I was the Holy Roman Emperor from 1708 to 1765.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "from 1708 to 1765",
+        "summary_start": 575,
+        "summary_end": 592
+      },
+      {
+        "annot_id": 39,
+        "sample_id": 1,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "\"from the Angouleme branch of the House of Valois\" (source) vs. \"House of Valois\" (summary). \nBy common sense, they are different. Google search also shows the difference that the first King of Valois (Direct) is Philip VI, nearly 200 years before Francis I. ",
+        "annotator_name": "forrest",
+        "summary_span": "the first King of France from the House of Valois",
+        "summary_start": 37,
+        "summary_end": 86,
+        "source_span": "the first King of France from the Angoulême branch of the House of Valois",
+        "source_start": 278,
+        "source_end": 352
+      },
+      {
+        "annot_id": 40,
+        "sample_id": 1,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source does not say that Suleiman the Magnificent was the Holy Roman Emperor. ",
+        "annotator_name": "forrest",
+        "summary_span": "Suleiman the Magnificent, Holy Roman Emperor",
+        "summary_start": 311,
+        "summary_end": 355
+      },
+      {
+        "annot_id": 42,
+        "sample_id": 1,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "According to the context, \"His\" in the summary here refers to Francis I of France. But the summary mistakes him to Francis I of Holy Roman Emperor who is also mentioned in the source. ",
+        "annotator_name": "forrest",
+        "summary_span": "His wife held the real powers of his positions as Holy Roman Emperor and Grand Duke of Tuscany. \n\n",
+        "summary_start": 381,
+        "summary_end": 479,
+        "source_span": "Francis I ( Franz Stefan , François Étienne 8 December 1708 -- 18 August 1765 ) was Holy Roman Emperor and Grand Duke of Tuscany , though his wife effectively executed the real powers of those positions",
+        "source_start": 0,
+        "source_end": 204
+      },
+      {
+        "annot_id": 43,
+        "sample_id": 1,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The summary hints that Francis I of the Holy Roman Empire was in power from 1708 and 1765. But according to the source, that was his birth and death years. ",
+        "annotator_name": "forrest",
+        "summary_span": "Francis I (Francis I of the Holy Roman Empire) was Holy Roman Emperor and Grand Duke of Tuscany from 1708 to 1765. ",
+        "summary_start": 479,
+        "summary_end": 594,
+        "source_span": "Francis I ( Franz Stefan , François Étienne 8 December 1708 -- 18 August 1765 )",
+        "source_start": 0,
+        "source_end": 81
+      },
+      {
+        "annot_id": 44,
+        "sample_id": 1,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Here \"he\" refers to Francis I of the Holy Roman Empire. The summary mistakes him with Francis I of France, which actually waged a war against Charles V. ",
+        "annotator_name": "forrest",
+        "summary_span": "He was involved in wars against his rival, Holy Roman Emperor and King of Spain Charles V, and formed a Franco-Ottoman alliance with Suleiman the Magnificent.",
+        "summary_start": 660,
+        "summary_end": 818,
+        "source_span": "Francis I ( François Ier ) ( 12 September 1494 -- 31 March 1547 ) was the first King of France from the Angoulême branch of the House of Valois , reigning from 1515 until his death . He was also known as François au Grand Nez ( `` Francis of the Large Nose '' ) , the Grand Colas , and the Roi-Chevalier ( the `` Knight-King '' ) for his personal involvement in the wars against his great rival the Holy Roman Emperor and King of Spain Charles V. When this was unsuccessful , he formed a Franco-Ottoman alliance with the Muslim sultan Suleiman the Magnificent , a controversial move for a Christian king at the time .",
+        "source_start": 207,
+        "source_end": 827
+      },
+      {
+        "annot_id": 140,
+        "sample_id": 1,
+        "annotator": "4acc2a7ab1bf4783b9a669d3d9b1a9fa",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "\"from the Angouleme branch of the House of Valois\" (source) vs. \"House of Valois\" (summary). By common sense, they are different. Google search also shows the difference that the first King of Valois (Direct) is Philip VI, nearly 200 years before Francis I. ",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "the first King of France from the House of Valois",
+        "summary_start": 37,
+        "summary_end": 86
+      },
+      {
+        "annot_id": 141,
+        "sample_id": 1,
+        "annotator": "4acc2a7ab1bf4783b9a669d3d9b1a9fa",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "According to the context, \"His\" in the summary here refers to Francis I of France. But the summary mistakes him to Francis I of Holy Roman Emperor who is also mentioned in the source. ",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "His wife held the real powers of his positions as Holy Roman Emperor and Grand Duke of Tuscany. \n",
+        "summary_start": 381,
+        "summary_end": 478
+      },
+      {
+        "annot_id": 142,
+        "sample_id": 1,
+        "annotator": "4acc2a7ab1bf4783b9a669d3d9b1a9fa",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Here \"he\" refers to Francis I of the Holy Roman Empire. The summary mistakes him with Francis I of France, which actually waged a war against Charles V. ",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "He was involved in wars against his rival, Holy Roman Emperor and King of Spain Charles V, and formed a Franco-Ottoman alliance with Suleiman the Magnificent.",
+        "summary_start": 660,
+        "summary_end": 818
+      }
+    ],
+    "meta_model": "microsoft/Phi-3-mini-4k-instruct",
+    "meta_hhemv1": 0.95896,
+    "meta_hhem-2.1": 0.78641,
+    "meta_hhem-2.1-english": 0.85419,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 0,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 131
+  },
+  {
+    "sample_id": 2,
+    "source": "Francis I ( Franz Stefan , François Étienne 8 December 1708 -- 18 August 1765 ) was Holy Roman Emperor and Grand Duke of Tuscany , though his wife effectively executed the real powers of those positions . Francis I ( François Ier ) ( 12 September 1494 -- 31 March 1547 ) was the first King of France from the Angoulême branch of the House of Valois , reigning from 1515 until his death . He was also known as François au Grand Nez ( `` Francis of the Large Nose '' ) , the Grand Colas , and the Roi-Chevalier ( the `` Knight-King '' ) for his personal involvement in the wars against his great rival the Holy Roman Emperor and King of Spain Charles V. When this was unsuccessful , he formed a Franco-Ottoman alliance with the Muslim sultan Suleiman the Magnificent , a controversial move for a Christian king at the time . The Italian war of 1536-1538 was a conflict between King Francis I of France and Charles V , King of Spain and Holy Roman Emperor .",
+    "summary": "Here's a concise summary of the passage, covering the core pieces of information:\n\nThe passage describes two different historical figures named Francis I:\n\n1. Francis I (1708-1765): Holy Roman Emperor and Grand Duke of Tuscany, though his wife held the real power in these positions. \n\n2. Francis I (1494-1547): King of France from the Angoulême branch of the House of Valois, who reigned from 1515 until his death. He was known by several nicknames, including \"Francis of the Large Nose\" and the \"Knight-King.\" \n\nThis Francis I was involved in wars against his rival, Charles V, who was both Holy Roman Emperor and King of Spain. When unsuccessful in these conflicts, Francis I formed a controversial alliance with the Muslim sultan Suleiman the Magnificent. The passage also mentions the Italian war of 1536-1538, which was a conflict between Francis I of France and Charles V.",
+    "annotations": [
+      {
+        "annot_id": 46,
+        "sample_id": 2,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Through \"at the time\", the source wanted to emphasize the temporal assessment of the move, but the summary missed it. ",
+        "annotator_name": "forrest",
+        "summary_span": " a controversial alliance",
+        "summary_start": 685,
+        "summary_end": 710,
+        "source_span": " a controversial move for a Christian king at the time ",
+        "source_start": 771,
+        "source_end": 826
+      }
+    ],
+    "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
+    "meta_hhemv1": 0.78644,
+    "meta_hhem-2.1": 0.92013,
+    "meta_hhem-2.1-english": 0.98689,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 246
+  },
+  {
+    "sample_id": 3,
+    "source": "Francis I ( Franz Stefan , François Étienne 8 December 1708 -- 18 August 1765 ) was Holy Roman Emperor and Grand Duke of Tuscany , though his wife effectively executed the real powers of those positions . Francis I ( François Ier ) ( 12 September 1494 -- 31 March 1547 ) was the first King of France from the Angoulême branch of the House of Valois , reigning from 1515 until his death . He was also known as François au Grand Nez ( `` Francis of the Large Nose '' ) , the Grand Colas , and the Roi-Chevalier ( the `` Knight-King '' ) for his personal involvement in the wars against his great rival the Holy Roman Emperor and King of Spain Charles V. When this was unsuccessful , he formed a Franco-Ottoman alliance with the Muslim sultan Suleiman the Magnificent , a controversial move for a Christian king at the time . The Italian war of 1536-1538 was a conflict between King Francis I of France and Charles V , King of Spain and Holy Roman Emperor .",
+    "summary": "Francis I was a title held by two significant historical figures. The first, Francis I of the Holy Roman Empire and Tuscany (1708-1765), ruled alongside his wife, who held the real power. The second, Francis I of France (1494-1547), was the first king from the Angoulême branch of the House of Valois. Known for his personal involvement in wars against Charles V, he formed a controversial alliance with the Ottoman Sultan, Suleiman the Magnificent. The Italian War of 1536-1538 was a conflict between these two rivals, Francis I of France and Charles V of Spain and the Holy Roman Empire.",
+    "annotations": [
+      {
+        "annot_id": 48,
+        "sample_id": 3,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Through \"at the time\", the source wanted to emphasize the temporal assessment of the move, but the summary missed it. ",
+        "annotator_name": "forrest",
+        "summary_span": " a controversial alliance ",
+        "summary_start": 373,
+        "summary_end": 399,
+        "source_span": "a controversial move for a Christian king at the time ",
+        "source_start": 772,
+        "source_end": 826
+      }
+    ],
+    "meta_model": "cohere/command-r-08-2024",
+    "meta_hhemv1": 0.73676,
+    "meta_hhem-2.1": 0.91244,
+    "meta_hhem-2.1-english": 0.98176,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 361
+  },
+  {
+    "sample_id": 4,
+    "source": "Francis I ( Franz Stefan , François Étienne 8 December 1708 -- 18 August 1765 ) was Holy Roman Emperor and Grand Duke of Tuscany , though his wife effectively executed the real powers of those positions . Francis I ( François Ier ) ( 12 September 1494 -- 31 March 1547 ) was the first King of France from the Angoulême branch of the House of Valois , reigning from 1515 until his death . He was also known as François au Grand Nez ( `` Francis of the Large Nose '' ) , the Grand Colas , and the Roi-Chevalier ( the `` Knight-King '' ) for his personal involvement in the wars against his great rival the Holy Roman Emperor and King of Spain Charles V. When this was unsuccessful , he formed a Franco-Ottoman alliance with the Muslim sultan Suleiman the Magnificent , a controversial move for a Christian king at the time . The Italian war of 1536-1538 was a conflict between King Francis I of France and Charles V , King of Spain and Holy Roman Emperor .",
+    "summary": "The passage describes two individuals named Francis I: one who was Holy Roman Emperor and Grand Duke of Tuscany, and another who was the first King of France from the Angoulême branch of the House of Valois. The French Francis I is noted for his rivalry with Charles V, leading to conflicts such as the Italian War of 1536-1538, and for forming an alliance with the Muslim sultan Suleiman the Magnificent.",
+    "annotations": [],
+    "meta_model": "Qwen/Qwen2.5-7B-Instruct",
+    "meta_hhemv1": 0.92619,
+    "meta_hhem-2.1": 0.9787,
+    "meta_hhem-2.1-english": 0.99096,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 476
+  },
+  {
+    "sample_id": 5,
+    "source": "Francis I ( Franz Stefan , François Étienne 8 December 1708 -- 18 August 1765 ) was Holy Roman Emperor and Grand Duke of Tuscany , though his wife effectively executed the real powers of those positions . Francis I ( François Ier ) ( 12 September 1494 -- 31 March 1547 ) was the first King of France from the Angoulême branch of the House of Valois , reigning from 1515 until his death . He was also known as François au Grand Nez ( `` Francis of the Large Nose '' ) , the Grand Colas , and the Roi-Chevalier ( the `` Knight-King '' ) for his personal involvement in the wars against his great rival the Holy Roman Emperor and King of Spain Charles V. When this was unsuccessful , he formed a Franco-Ottoman alliance with the Muslim sultan Suleiman the Magnificent , a controversial move for a Christian king at the time . The Italian war of 1536-1538 was a conflict between King Francis I of France and Charles V , King of Spain and Holy Roman Emperor .",
+    "summary": "Here is a concise summary of the passage:\n\nThe passage describes two historical figures named Francis I:\n\n1. Francis I (1708-1765): Holy Roman Emperor and Grand Duke of Tuscany, whose wife held actual power. \n2. Francis I (1494-1547): King of France from the Angoulême branch of the House of Valois, known for his involvement in wars against Charles V and his controversial alliance with the Ottoman Sultan Suleiman.",
+    "annotations": [],
+    "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "meta_hhemv1": 0.7955,
+    "meta_hhem-2.1": 0.92572,
+    "meta_hhem-2.1-english": 0.99307,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 591
+  },
+  {
+    "sample_id": 6,
+    "source": "Francis I ( Franz Stefan , François Étienne 8 December 1708 -- 18 August 1765 ) was Holy Roman Emperor and Grand Duke of Tuscany , though his wife effectively executed the real powers of those positions . Francis I ( François Ier ) ( 12 September 1494 -- 31 March 1547 ) was the first King of France from the Angoulême branch of the House of Valois , reigning from 1515 until his death . He was also known as François au Grand Nez ( `` Francis of the Large Nose '' ) , the Grand Colas , and the Roi-Chevalier ( the `` Knight-King '' ) for his personal involvement in the wars against his great rival the Holy Roman Emperor and King of Spain Charles V. When this was unsuccessful , he formed a Franco-Ottoman alliance with the Muslim sultan Suleiman the Magnificent , a controversial move for a Christian king at the time . The Italian war of 1536-1538 was a conflict between King Francis I of France and Charles V , King of Spain and Holy Roman Emperor .",
+    "summary": "Here is a concise summary of the passage, covering the core pieces of information described:\n\nThere are two individuals named Francis I. The first, Francis I (1708-1765), was Holy Roman Emperor and Grand Duke of Tuscany, although his wife held the actual power. The second, Francis I (1494-1547), was the first King of France from the House of Valois, reigning from 1515 to 1547. He was known for his involvement in wars against Charles V, Holy Roman Emperor and King of Spain, and formed a Franco-Ottoman alliance with Suleiman the Magnificent. A notable conflict during his reign was the Italian War of 1536-1538 against Charles V.",
+    "annotations": [],
+    "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "meta_hhemv1": 0.70677,
+    "meta_hhem-2.1": 0.93353,
+    "meta_hhem-2.1-english": 0.98623,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 706
+  },
+  {
+    "sample_id": 7,
+    "source": "Francis I ( Franz Stefan , François Étienne 8 December 1708 -- 18 August 1765 ) was Holy Roman Emperor and Grand Duke of Tuscany , though his wife effectively executed the real powers of those positions . Francis I ( François Ier ) ( 12 September 1494 -- 31 March 1547 ) was the first King of France from the Angoulême branch of the House of Valois , reigning from 1515 until his death . He was also known as François au Grand Nez ( `` Francis of the Large Nose '' ) , the Grand Colas , and the Roi-Chevalier ( the `` Knight-King '' ) for his personal involvement in the wars against his great rival the Holy Roman Emperor and King of Spain Charles V. When this was unsuccessful , he formed a Franco-Ottoman alliance with the Muslim sultan Suleiman the Magnificent , a controversial move for a Christian king at the time . The Italian war of 1536-1538 was a conflict between King Francis I of France and Charles V , King of Spain and Holy Roman Emperor .",
+    "summary": "Francis I, King of France from 1515-1547, was known as \"Francis of the Large Nose\" and the \"Knight-King\" for his involvement in wars against Holy Roman Emperor Charles V.  He formed an alliance with the Ottoman Sultan Suleiman the Magnificent, a controversial move for a Christian king.  The Italian War of 1536-1538 was a conflict between Francis I and Charles V.  There was also a Holy Roman Emperor named Francis I, who reigned from 1708-1765, but his wife held the real power. \n",
+    "annotations": [
+      {
+        "annot_id": 45,
+        "sample_id": 7,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "\"at the time\" missing in the summary. ",
+        "annotator_name": "forrest",
+        "summary_span": "a controversial move for a Christian king",
+        "summary_start": 244,
+        "summary_end": 285,
+        "source_span": " a controversial move for a Christian king at the time",
+        "source_start": 771,
+        "source_end": 825
+      },
+      {
+        "annot_id": 51,
+        "sample_id": 7,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "According to the notation, the king did not reign from 1708 to 1765 but was born on 1708 and died on 1765. ",
+        "annotator_name": "forrest",
+        "summary_span": "a Holy Roman Emperor named Francis I, who reigned from 1708-1765",
+        "summary_start": 381,
+        "summary_end": 445,
+        "source_span": "Francis I ( Franz Stefan , François Étienne 8 December 1708 -- 18 August 1765 )",
+        "source_start": 0,
+        "source_end": 81
+      },
+      {
+        "annot_id": 158,
+        "sample_id": 7,
+        "annotator": "4acc2a7ab1bf4783b9a669d3d9b1a9fa",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "According to the notation, the king did not reign from 1708 to 1765 but was born on 1708 and died on 1765. ",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "who reigned from 1708-1765",
+        "summary_start": 419,
+        "summary_end": 445
+      }
+    ],
+    "meta_model": "google/gemini-1.5-flash-001",
+    "meta_hhemv1": 0.96048,
+    "meta_hhem-2.1": 0.85618,
+    "meta_hhem-2.1-english": 0.96746,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 821
+  },
+  {
+    "sample_id": 8,
+    "source": "Francis I ( Franz Stefan , François Étienne 8 December 1708 -- 18 August 1765 ) was Holy Roman Emperor and Grand Duke of Tuscany , though his wife effectively executed the real powers of those positions . Francis I ( François Ier ) ( 12 September 1494 -- 31 March 1547 ) was the first King of France from the Angoulême branch of the House of Valois , reigning from 1515 until his death . He was also known as François au Grand Nez ( `` Francis of the Large Nose '' ) , the Grand Colas , and the Roi-Chevalier ( the `` Knight-King '' ) for his personal involvement in the wars against his great rival the Holy Roman Emperor and King of Spain Charles V. When this was unsuccessful , he formed a Franco-Ottoman alliance with the Muslim sultan Suleiman the Magnificent , a controversial move for a Christian king at the time . The Italian war of 1536-1538 was a conflict between King Francis I of France and Charles V , King of Spain and Holy Roman Emperor .",
+    "summary": "The passage describes two individuals named Francis I. The first Francis I, also known as Franz Stefan or François Etienne, was the Holy Roman Emperor and Grand Duke of Tuscany. However, his wife held the real power in those positions. The second Francis I, also known as François Ier, was the first King of France from the Angoulême branch of the House of Valois. He reigned from 1515 until his death and was involved in wars against his rival, the Holy Roman Emperor and King of Spain, Charles V. He also formed an alliance with the Muslim sultan Suleiman the Magnificent. The passage also mentions the Italian war of 1536-1538, which was a conflict between King Francis I of France and Charles V, King of Spain and Holy Roman Emperor.",
+    "annotations": [],
+    "meta_model": "openai/GPT-3.5-Turbo",
+    "meta_hhemv1": 0.96016,
+    "meta_hhem-2.1": 0.96575,
+    "meta_hhem-2.1-english": 0.99349,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 944
+  },
+  {
+    "sample_id": 9,
+    "source": "Francis I ( Franz Stefan , François Étienne 8 December 1708 -- 18 August 1765 ) was Holy Roman Emperor and Grand Duke of Tuscany , though his wife effectively executed the real powers of those positions . Francis I ( François Ier ) ( 12 September 1494 -- 31 March 1547 ) was the first King of France from the Angoulême branch of the House of Valois , reigning from 1515 until his death . He was also known as François au Grand Nez ( `` Francis of the Large Nose '' ) , the Grand Colas , and the Roi-Chevalier ( the `` Knight-King '' ) for his personal involvement in the wars against his great rival the Holy Roman Emperor and King of Spain Charles V. When this was unsuccessful , he formed a Franco-Ottoman alliance with the Muslim sultan Suleiman the Magnificent , a controversial move for a Christian king at the time . The Italian war of 1536-1538 was a conflict between King Francis I of France and Charles V , King of Spain and Holy Roman Emperor .",
+    "summary": "The passage describes two historical figures named Francis I. The first, Francis I (Franz Stefan, François Étienne), was Holy Roman Emperor and Grand Duke of Tuscany, but his wife held the real power. The second, Francis I (François Ier), was the first King of France from the Angoulême branch of the House of Valois, reigning from 1515 to 1547. Known for his large nose and as the \"Knight-King,\" he was involved in wars against Charles V, the Holy Roman Emperor and King of Spain. After unsuccessful attempts, he formed a controversial alliance with the Muslim sultan Suleiman the Magnificent. The Italian war of 1536-1538 was a conflict between Francis I of France and Charles V.",
+    "annotations": [
+      {
+        "annot_id": 49,
+        "sample_id": 9,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Benign"
+        ],
+        "note": "reasonable inferring and also world knowledge",
+        "annotator_name": "forrest",
+        "summary_span": "Known for his large nose ",
+        "summary_start": 346,
+        "summary_end": 371,
+        "source_span": " `` Francis of the Large Nose ''",
+        "source_start": 437,
+        "source_end": 469
+      },
+      {
+        "annot_id": 50,
+        "sample_id": 9,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Through \"at the time\", the source wanted to emphasize the temporal assessment of the move, but the summary missed it. ",
+        "annotator_name": "forrest",
+        "summary_span": "a controversial alliance",
+        "summary_start": 521,
+        "summary_end": 545,
+        "source_span": "a controversial move for a Christian king at the time",
+        "source_start": 772,
+        "source_end": 825
+      }
+    ],
+    "meta_model": "openai/gpt-4o",
+    "meta_hhemv1": 0.92591,
+    "meta_hhem-2.1": 0.96742,
+    "meta_hhem-2.1-english": 0.99173,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 1051
+  },
+  {
+    "sample_id": 10,
+    "source": "a pit crew member was hit by a car on sunday during the inaugural indycar grand prix of louisiana . \ntodd phillips , a front-outside tire changer for dayle coyne racing , was injuried when he was struck by the car of francesco dracone , who had come in on lap 25 for tires and fuel . \ndracone spun while exiting his put box , clipping phillips ' leg . \ntire changer todd phillips , a front-outside tire changer for dayle coyne racing , was injuried when he was struck by the car of francesco dracone , who had come in on lap 25 for tires and fuel\nphillips was taken to the infield care center for treatment where he has received stitches for a cut on his leg and has been released . \nmany cars struggled with traction during the race after rain had fallen for hours leading up to the green flag . \ndracone did not finish the race and wound up 23rd . \nfrancesco dracone ( 19 ) , of italy , spins out on turn one during the indycar grand prix of louisiana auto race in avondale on sunday",
+    "summary": " During the inaugural IndyCar Grand Prix of Louisiana, a pit crew member named Todd Phillips was injured when he was hit by the car of Francesco Dracone. Phillips, a front-outside tire changer for Dayle Coyne Racing, was struck by Dracone's car on lap 25 while refueling and changing tires. Dracone spun while exiting his pit box, clipping Phillips' leg. Phillips was taken to the infield care center for treatment and received stitches for a cut on his leg. He has since been released. The race was affected by rain, causing many cars to struggle with traction. Dracone did not finish the race and ended up in 23rd place. Francesco Dracone, a 19-year-old from Italy, spun out on turn one during the race.",
+    "annotations": [
+      {
+        "annot_id": 4,
+        "sample_id": 10,
+        "annotator": "4acc2a7ab1bf4783b9a669d3d9b1a9fa",
+        "label": [
+          "Benign"
+        ],
+        "note": "The source text does not explicitly state that Phillips was struck when refueling and changing tires. He might be doing something else.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "while refueling and changing tires",
+        "summary_start": 255,
+        "summary_end": 289
+      },
+      {
+        "annot_id": 5,
+        "sample_id": 10,
+        "annotator": "4acc2a7ab1bf4783b9a669d3d9b1a9fa",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source text stated \"( 19 )\", but this number doesn't necessarily mean his age. In fact, according to Google, 19 is the car number of Francesco.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "19-year-old",
+        "summary_start": 644,
+        "summary_end": 655
+      }
+    ],
+    "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "meta_hhemv1": 0.01889,
+    "meta_hhem-2.1": 0.92435,
+    "meta_hhem-2.1-english": 0.86199,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 79
+  },
+  {
+    "sample_id": 11,
+    "source": "a pit crew member was hit by a car on sunday during the inaugural indycar grand prix of louisiana . \ntodd phillips , a front-outside tire changer for dayle coyne racing , was injuried when he was struck by the car of francesco dracone , who had come in on lap 25 for tires and fuel . \ndracone spun while exiting his put box , clipping phillips ' leg . \ntire changer todd phillips , a front-outside tire changer for dayle coyne racing , was injuried when he was struck by the car of francesco dracone , who had come in on lap 25 for tires and fuel\nphillips was taken to the infield care center for treatment where he has received stitches for a cut on his leg and has been released . \nmany cars struggled with traction during the race after rain had fallen for hours leading up to the green flag . \ndracone did not finish the race and wound up 23rd . \nfrancesco dracone ( 19 ) , of italy , spins out on turn one during the indycar grand prix of louisiana auto race in avondale on sunday",
+    "summary": " During the inaugural IndyCar Grand Prix of Louisiana, pit crew member Todd Phillips, a front-outside tire changer for Dayle Coyne Racing, was injured when he was struck by the car of Francesco Dracone. Dracone, who came in on lap 25 for tires and fuel, spun while exiting his pit box, clipping Phillips' leg. Phillips received treatment at the infield care center, where he received stitches for a cut on his leg and was released. The race was challenging due to rain-induced traction issues, and Dracone finished 23rd. \n\nFrancesco Dracone, a 19-year-old Italian driver, spun out on turn one during the race.",
+    "annotations": [
+      {
+        "annot_id": 6,
+        "sample_id": 11,
+        "annotator": "4acc2a7ab1bf4783b9a669d3d9b1a9fa",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source text stated \"( 19 )\", but this number doesn't necessarily mean his age. In fact, according to Google, 19 is the car number of Francesco.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "19-year-old",
+        "summary_start": 544,
+        "summary_end": 555
+      },
+      {
+        "annot_id": 52,
+        "sample_id": 11,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "source: Dracone did not finish the race and wound up 23rd. \nsummary: Dracone finished 23rd",
+        "annotator_name": "forrest",
+        "summary_span": "Dracone finished 23rd",
+        "summary_start": 498,
+        "summary_end": 519,
+        "source_span": "\ndracone did not finish the race and wound up 23rd .",
+        "source_start": 797,
+        "source_end": 849
+      },
+      {
+        "annot_id": 143,
+        "sample_id": 11,
+        "annotator": "4acc2a7ab1bf4783b9a669d3d9b1a9fa",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "source: Dracone did not finish the race and wound up 23rd. summary: Dracone finished 23rd",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "Dracone finished 23rd",
+        "summary_start": 498,
+        "summary_end": 519
+      }
+    ],
+    "meta_model": "microsoft/Phi-3-mini-4k-instruct",
+    "meta_hhemv1": 0.01897,
+    "meta_hhem-2.1": 0.86822,
+    "meta_hhem-2.1-english": 0.56191,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 194
+  },
+  {
+    "sample_id": 12,
+    "source": "a pit crew member was hit by a car on sunday during the inaugural indycar grand prix of louisiana . \ntodd phillips , a front-outside tire changer for dayle coyne racing , was injuried when he was struck by the car of francesco dracone , who had come in on lap 25 for tires and fuel . \ndracone spun while exiting his put box , clipping phillips ' leg . \ntire changer todd phillips , a front-outside tire changer for dayle coyne racing , was injuried when he was struck by the car of francesco dracone , who had come in on lap 25 for tires and fuel\nphillips was taken to the infield care center for treatment where he has received stitches for a cut on his leg and has been released . \nmany cars struggled with traction during the race after rain had fallen for hours leading up to the green flag . \ndracone did not finish the race and wound up 23rd . \nfrancesco dracone ( 19 ) , of italy , spins out on turn one during the indycar grand prix of louisiana auto race in avondale on sunday",
+    "summary": "Here's a concise summary of the passage:\n\nDuring the inaugural IndyCar Grand Prix of Louisiana on Sunday, a pit crew member named Todd Phillips was injured. Phillips, a front-outside tire changer for Dale Coyne Racing, was hit by Francesco Dracone's car as it spun while exiting the pit box on lap 25. Phillips received stitches for a leg injury at the infield care center and was released. The incident occurred amid challenging track conditions due to pre-race rainfall, which caused traction issues for many drivers. Dracone did not finish the race, placing 23rd.",
+    "annotations": [
+      {
+        "annot_id": 57,
+        "sample_id": 12,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Benign"
+        ],
+        "note": "it requires some knowledge about car racing to know that \"green flag\" means the start of the race.",
+        "annotator_name": "forrest",
+        "summary_span": "pre-race rainfall",
+        "summary_start": 454,
+        "summary_end": 471,
+        "source_span": "after rain had fallen for hours leading up to the green flag",
+        "source_start": 734,
+        "source_end": 794
+      }
+    ],
+    "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
+    "meta_hhemv1": 0.02931,
+    "meta_hhem-2.1": 0.84015,
+    "meta_hhem-2.1-english": 0.93123,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 309
+  },
+  {
+    "sample_id": 13,
+    "source": "a pit crew member was hit by a car on sunday during the inaugural indycar grand prix of louisiana . \ntodd phillips , a front-outside tire changer for dayle coyne racing , was injuried when he was struck by the car of francesco dracone , who had come in on lap 25 for tires and fuel . \ndracone spun while exiting his put box , clipping phillips ' leg . \ntire changer todd phillips , a front-outside tire changer for dayle coyne racing , was injuried when he was struck by the car of francesco dracone , who had come in on lap 25 for tires and fuel\nphillips was taken to the infield care center for treatment where he has received stitches for a cut on his leg and has been released . \nmany cars struggled with traction during the race after rain had fallen for hours leading up to the green flag . \ndracone did not finish the race and wound up 23rd . \nfrancesco dracone ( 19 ) , of italy , spins out on turn one during the indycar grand prix of louisiana auto race in avondale on sunday",
+    "summary": "A pit crew member, Todd Phillips, was injured during the IndyCar Grand Prix of Louisiana when he was hit by the car of driver Francesco Dracone. Phillips, a tire changer for Dayle Coyne Racing, was struck as Dracone spun out of his pit box on lap 25. Phillips received medical treatment for a cut on his leg and was released. The race was challenging due to wet conditions from rain, causing traction issues for many drivers. Dracone did not finish the race, placing 23rd.",
+    "annotations": [],
+    "meta_model": "cohere/command-r-08-2024",
+    "meta_hhemv1": 0.03726,
+    "meta_hhem-2.1": 0.96834,
+    "meta_hhem-2.1-english": 0.92467,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 424
+  },
+  {
+    "sample_id": 14,
+    "source": "a pit crew member was hit by a car on sunday during the inaugural indycar grand prix of louisiana . \ntodd phillips , a front-outside tire changer for dayle coyne racing , was injuried when he was struck by the car of francesco dracone , who had come in on lap 25 for tires and fuel . \ndracone spun while exiting his put box , clipping phillips ' leg . \ntire changer todd phillips , a front-outside tire changer for dayle coyne racing , was injuried when he was struck by the car of francesco dracone , who had come in on lap 25 for tires and fuel\nphillips was taken to the infield care center for treatment where he has received stitches for a cut on his leg and has been released . \nmany cars struggled with traction during the race after rain had fallen for hours leading up to the green flag . \ndracone did not finish the race and wound up 23rd . \nfrancesco dracone ( 19 ) , of italy , spins out on turn one during the indycar grand prix of louisiana auto race in avondale on sunday",
+    "summary": "A pit crew member named Todd Phillips from Dayle Coyne Racing was injured during the IndyCar Grand Prix of Louisiana when Francesco Dracone's car spun and struck Phillips' leg while exiting the pit box on lap 25. Phillips received stitches for a cut on his leg and was released from the infield care center. The race conditions were challenging due to recent rain, affecting many cars' traction. Dracone did not finish the race, ending up in 23rd place.",
+    "annotations": [],
+    "meta_model": "Qwen/Qwen2.5-7B-Instruct",
+    "meta_hhemv1": 0.23108,
+    "meta_hhem-2.1": 0.97924,
+    "meta_hhem-2.1-english": 0.98908,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 539
+  },
+  {
+    "sample_id": 15,
+    "source": "a pit crew member was hit by a car on sunday during the inaugural indycar grand prix of louisiana . \ntodd phillips , a front-outside tire changer for dayle coyne racing , was injuried when he was struck by the car of francesco dracone , who had come in on lap 25 for tires and fuel . \ndracone spun while exiting his put box , clipping phillips ' leg . \ntire changer todd phillips , a front-outside tire changer for dayle coyne racing , was injuried when he was struck by the car of francesco dracone , who had come in on lap 25 for tires and fuel\nphillips was taken to the infield care center for treatment where he has received stitches for a cut on his leg and has been released . \nmany cars struggled with traction during the race after rain had fallen for hours leading up to the green flag . \ndracone did not finish the race and wound up 23rd . \nfrancesco dracone ( 19 ) , of italy , spins out on turn one during the indycar grand prix of louisiana auto race in avondale on sunday",
+    "summary": "Here is a concise summary of the passage:\n\nDuring the inaugural Indycar Grand Prix of Louisiana, pit crew member Todd Phillips was injured when he was clipped by Francesco Dracone's car while exiting the pit box on lap 25. Phillips was treated for a cut on his leg and released from the infield care center. Dracone, who was changing tires and fuel at the time, spun and clipped Phillips, and did not finish the race, coming in 23rd.",
+    "annotations": [
+      {
+        "annot_id": 7,
+        "sample_id": 15,
+        "annotator": "4acc2a7ab1bf4783b9a669d3d9b1a9fa",
+        "label": [
+          "Unwanted.Instrinsic",
+          "Benign"
+        ],
+        "note": "Dracone was not necessarily changing tires and fuel at the time. The source stated \"(Dracone) had come in on lap 25 for tires and fuel\", but he may not be the one doing the changes.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "who was changing tires and fuel at the time",
+        "summary_start": 317,
+        "summary_end": 360
+      },
+      {
+        "annot_id": 53,
+        "sample_id": 15,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source states that Dracone or his car spun  and cut Phillips while changing tires and refueling. This is contradictory to both the source and common sense. ",
+        "annotator_name": "forrest",
+        "summary_span": "Dracone, who was changing tires and fuel at the time, spun and clipped Phillips",
+        "summary_start": 308,
+        "summary_end": 387,
+        "source_span": "\ndracone spun while exiting his put box , clipping phillips ' leg .",
+        "source_start": 284,
+        "source_end": 351
+      }
+    ],
+    "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "meta_hhemv1": 0.52894,
+    "meta_hhem-2.1": 0.97064,
+    "meta_hhem-2.1-english": 0.9921,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 654
+  },
+  {
+    "sample_id": 16,
+    "source": "a pit crew member was hit by a car on sunday during the inaugural indycar grand prix of louisiana . \ntodd phillips , a front-outside tire changer for dayle coyne racing , was injuried when he was struck by the car of francesco dracone , who had come in on lap 25 for tires and fuel . \ndracone spun while exiting his put box , clipping phillips ' leg . \ntire changer todd phillips , a front-outside tire changer for dayle coyne racing , was injuried when he was struck by the car of francesco dracone , who had come in on lap 25 for tires and fuel\nphillips was taken to the infield care center for treatment where he has received stitches for a cut on his leg and has been released . \nmany cars struggled with traction during the race after rain had fallen for hours leading up to the green flag . \ndracone did not finish the race and wound up 23rd . \nfrancesco dracone ( 19 ) , of italy , spins out on turn one during the indycar grand prix of louisiana auto race in avondale on sunday",
+    "summary": "Here is a concise summary of the passage:\n\nDuring the inaugural IndyCar Grand Prix of Louisiana, a pit crew member, Todd Phillips, was hit by Francesco Dracone's car on lap 25. Phillips, a tire changer for Dayle Coyne Racing, suffered a cut on his leg and was taken to the infield care center for treatment, where he received stitches and was released. The incident occurred when Dracone spun out of his pit box, clipping Phillips' leg. Dracone did not finish the race, finishing 23rd.",
+    "annotations": [
+      {
+        "annot_id": 8,
+        "sample_id": 16,
+        "annotator": "4acc2a7ab1bf4783b9a669d3d9b1a9fa",
+        "label": [
+          "Questionable"
+        ],
+        "note": "If Dracone did not \"finish\" the race, how did he \"finish\" 23rd? I'm not sure why the LLM did this, but a better phrase like \"coming in 23rd\", as shown in the previous samples, is much better here.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "Dracone did not finish the race, finishing 23rd",
+        "summary_start": 437,
+        "summary_end": 484
+      },
+      {
+        "annot_id": 54,
+        "sample_id": 16,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "First, it summary span is contradictory to the source spam. Second, the summary span itself is self-contradictory that Dracone both finished and did not finish the race. ",
+        "annotator_name": "forrest",
+        "summary_span": "Dracone did not finish the race, finishing 23rd.",
+        "summary_start": 437,
+        "summary_end": 485,
+        "source_span": "\ndracone did not finish the race and wound up 23rd .",
+        "source_start": 797,
+        "source_end": 849
+      }
+    ],
+    "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "meta_hhemv1": 0.03804,
+    "meta_hhem-2.1": 0.96326,
+    "meta_hhem-2.1-english": 0.99215,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 769
+  },
+  {
+    "sample_id": 17,
+    "source": "a pit crew member was hit by a car on sunday during the inaugural indycar grand prix of louisiana . \ntodd phillips , a front-outside tire changer for dayle coyne racing , was injuried when he was struck by the car of francesco dracone , who had come in on lap 25 for tires and fuel . \ndracone spun while exiting his put box , clipping phillips ' leg . \ntire changer todd phillips , a front-outside tire changer for dayle coyne racing , was injuried when he was struck by the car of francesco dracone , who had come in on lap 25 for tires and fuel\nphillips was taken to the infield care center for treatment where he has received stitches for a cut on his leg and has been released . \nmany cars struggled with traction during the race after rain had fallen for hours leading up to the green flag . \ndracone did not finish the race and wound up 23rd . \nfrancesco dracone ( 19 ) , of italy , spins out on turn one during the indycar grand prix of louisiana auto race in avondale on sunday",
+    "summary": "During the inaugural IndyCar Grand Prix of Louisiana, a pit crew member, Todd Phillips, was injured when he was struck by the car of Francesco Dracone. Dracone spun while exiting his pit box, clipping Phillips' leg. Phillips was treated at the infield care center and released after receiving stitches for a cut on his leg. Many cars struggled with traction during the race due to rain prior to the start. Dracone did not finish the race and placed 23rd. \n",
+    "annotations": [
+      {
+        "annot_id": 56,
+        "sample_id": 17,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Benign"
+        ],
+        "note": "it requires some knowledge about car racing to know that \"green flag\" means the start of the race.",
+        "annotator_name": "forrest",
+        "summary_span": "prior to the start",
+        "summary_start": 386,
+        "summary_end": 404,
+        "source_span": "leading up to the green flag",
+        "source_start": 766,
+        "source_end": 794
+      }
+    ],
+    "meta_model": "google/gemini-1.5-flash-001",
+    "meta_hhemv1": 0.01038,
+    "meta_hhem-2.1": 0.98218,
+    "meta_hhem-2.1-english": 0.99616,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 884
+  },
+  {
+    "sample_id": 18,
+    "source": "a pit crew member was hit by a car on sunday during the inaugural indycar grand prix of louisiana . \ntodd phillips , a front-outside tire changer for dayle coyne racing , was injuried when he was struck by the car of francesco dracone , who had come in on lap 25 for tires and fuel . \ndracone spun while exiting his put box , clipping phillips ' leg . \ntire changer todd phillips , a front-outside tire changer for dayle coyne racing , was injuried when he was struck by the car of francesco dracone , who had come in on lap 25 for tires and fuel\nphillips was taken to the infield care center for treatment where he has received stitches for a cut on his leg and has been released . \nmany cars struggled with traction during the race after rain had fallen for hours leading up to the green flag . \ndracone did not finish the race and wound up 23rd . \nfrancesco dracone ( 19 ) , of italy , spins out on turn one during the indycar grand prix of louisiana auto race in avondale on sunday",
+    "summary": "During the inaugural Indycar Grand Prix of Louisiana, a pit crew member named Todd Phillips was injured when he was hit by the car of Francesco Dracone. Dracone spun while exiting his pit box and clipped Phillips' leg. Phillips received stitches for a cut on his leg and was released after being treated at the infield care center. The race was challenging for many cars due to poor traction caused by rain prior to the start. Dracone did not finish the race and ended up in 23rd place.",
+    "annotations": [
+      {
+        "annot_id": 55,
+        "sample_id": 18,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Benign"
+        ],
+        "note": "it requires some knowledge about car racing to know that \"green flag\" means the start of the race.",
+        "annotator_name": "forrest",
+        "summary_span": "prior to the start",
+        "summary_start": 407,
+        "summary_end": 425,
+        "source_span": "leading up to the green flag",
+        "source_start": 766,
+        "source_end": 794
+      }
+    ],
+    "meta_model": "openai/GPT-3.5-Turbo",
+    "meta_hhemv1": 0.5359,
+    "meta_hhem-2.1": 0.98007,
+    "meta_hhem-2.1-english": 0.99424,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 991
+  },
+  {
+    "sample_id": 19,
+    "source": "a pit crew member was hit by a car on sunday during the inaugural indycar grand prix of louisiana . \ntodd phillips , a front-outside tire changer for dayle coyne racing , was injuried when he was struck by the car of francesco dracone , who had come in on lap 25 for tires and fuel . \ndracone spun while exiting his put box , clipping phillips ' leg . \ntire changer todd phillips , a front-outside tire changer for dayle coyne racing , was injuried when he was struck by the car of francesco dracone , who had come in on lap 25 for tires and fuel\nphillips was taken to the infield care center for treatment where he has received stitches for a cut on his leg and has been released . \nmany cars struggled with traction during the race after rain had fallen for hours leading up to the green flag . \ndracone did not finish the race and wound up 23rd . \nfrancesco dracone ( 19 ) , of italy , spins out on turn one during the indycar grand prix of louisiana auto race in avondale on sunday",
+    "summary": "A pit crew member, Todd Phillips, was injured during the inaugural IndyCar Grand Prix of Louisiana when he was hit by Francesco Dracone's car on lap 25. Dracone spun while exiting his pit box, clipping Phillips' leg. Phillips received stitches for a cut on his leg at the infield care center and was released. The race saw many cars struggling with traction due to prior rain. Dracone did not finish the race, placing 23rd.",
+    "annotations": [
+      {
+        "annot_id": 58,
+        "sample_id": 19,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Benign"
+        ],
+        "note": "it requires some knowledge about car racing to know that \"green flag\" means the start of the race.",
+        "annotator_name": "forrest",
+        "summary_span": "prior rain",
+        "summary_start": 365,
+        "summary_end": 375,
+        "source_span": "after rain had fallen for hours leading up to the green flag",
+        "source_start": 734,
+        "source_end": 794
+      }
+    ],
+    "meta_model": "openai/gpt-4o",
+    "meta_hhemv1": 0.02788,
+    "meta_hhem-2.1": 0.98126,
+    "meta_hhem-2.1-english": 0.99498,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 1114
+  },
+  {
+    "sample_id": 20,
+    "source": "Tries from Macgraff Leuluai, Ah Van and Chris Bridge gave Widnes a 14-6 half-time lead, with Cas loanee Paddy Flynn responding against his parent club. Flynn scored another early in the second, but Ah Van, Lloyd White (2) and Joe Mellor tries made it 38-12. Despite three Cas tries in four minutes - Larne Patrick, Luke Gale and Flynn's hat-trick score - Widnes held on. The Vikings' victory had looked assured when Mellor took advantage of Castleford indecision on a short kick-off, running straight through to help them to a 26-point lead. But, having lost nine of their previous 10 matches, their defence creaked as they let Patrick, who has just signed a three-year deal to move from Huddersfield after his loan spell, in for a try. Gale and Flynn - on loan at Castleford from the Vikings until the end of the season - made it a nervy finish, but the Tigers suffered their fourth consecutive home league defeat. Widnes moved above Wakefield into seventh, while Castleford remain in sixth, one point above the Vikings. Castleford: Solomona, Monaghan, Crooks, Webster, Flynn, McShane, Gale, Jewitt, Milner, Patrick, Moors, McMeeken, Massey. Replacements: Millington, Springer, Tickle, Cook. Widnes: Hanbury, Thompson, Runciman, Bridge, Ah Van, Mellor,Brown, Cahill, White, Buchanan, Whitley, Dean, Leuluai. Replacements: J. Chapelhow, Manuokafoa, Walker, Heremaia. Referee: J Smith",
+    "summary": " In this passage, a rugby league match between Widnes and Castleford is described. Widnes took a 14-6 lead at half-time, with Castleford's Paddy Flynn scoring twice against his parent club. In the second half, Widnes extended their lead to 38-12 with tries from Ah Van, Lloyd White (2), and Joe Mellor. Despite a late surge from Castleford, with three tries in four minutes from Larne Patrick, Luke Gale, and Flynn's hat-trick score, Widnes held on for the victory. The match was nervy towards the end as Castleford made it a close scoreline. Widnes' victory moved them above Wakefield into seventh place, while Castleford remain in sixth, one point above Widnes. Key players for Widnes included Mellor, Ah Van, and Lloyd White, while for Castleford, Flynn and Larne Patrick stood out.",
+    "annotations": [
+      {
+        "annot_id": 9,
+        "sample_id": 20,
+        "annotator": "4acc2a7ab1bf4783b9a669d3d9b1a9fa",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Flynn did not score twice against his parent club in the first half. Flynn's second goal was in the second half.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "Widnes took a 14-6 lead at half-time, with Castleford's Paddy Flynn scoring twice against his parent club.",
+        "summary_start": 83,
+        "summary_end": 189
+      },
+      {
+        "annot_id": 60,
+        "sample_id": 20,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Benign"
+        ],
+        "note": "it takes world knowledge to know that Castleford is nicknamed Cas. ",
+        "annotator_name": "forrest",
+        "summary_span": " Castleford",
+        "summary_start": 125,
+        "summary_end": 136,
+        "source_span": "Cas ",
+        "source_start": 93,
+        "source_end": 97
+      },
+      {
+        "annot_id": 98,
+        "sample_id": 20,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Benign"
+        ],
+        "note": "It takes world knowledge to know that the \"Widnes\" here means \"Widnes Vikings\". The source and the summary use two different (nick)names to refer to the same team: Widnes Vikings. There is also a British soccer team called \"Widnes F.C.\" ",
+        "annotator_name": "forrest",
+        "summary_span": " a rugby league match between Widnes",
+        "summary_start": 17,
+        "summary_end": 53,
+        "source_span": "Vikings",
+        "source_start": 375,
+        "source_end": 382
+      },
+      {
+        "annot_id": 99,
+        "sample_id": 20,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "the source does not compare the performance of Flynn and Patrick with other that of other players. ",
+        "annotator_name": "forrest",
+        "summary_span": "stood out",
+        "summary_start": 775,
+        "summary_end": 784
+      },
+      {
+        "annot_id": 100,
+        "sample_id": 20,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "the source does not mention scoreline. ",
+        "annotator_name": "forrest",
+        "summary_span": "Castleford made it a close scoreline",
+        "summary_start": 505,
+        "summary_end": 541
+      },
+      {
+        "annot_id": 139,
+        "sample_id": 20,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Benign"
+        ],
+        "note": "The source does not say how many times Flynn scored in the first half. But we can infer that one score equals to 3 points and since no other Castleford players are mentioned for Castleford's scoring in the first half, we can infer that Flynn scored twice in the first half. ",
+        "annotator_name": "forrest",
+        "summary_span": "Widnes took a 14-6 lead at half-time, with Castleford's Paddy Flynn scoring twice against his parent club",
+        "summary_start": 83,
+        "summary_end": 188,
+        "source_span": "Tries from Macgraff Leuluai, Ah Van and Chris Bridge gave Widnes a 14-6 half-time lead, with Cas loanee Paddy Flynn responding against his parent club.",
+        "source_start": 0,
+        "source_end": 151
+      },
+      {
+        "annot_id": 144,
+        "sample_id": 20,
+        "annotator": "4acc2a7ab1bf4783b9a669d3d9b1a9fa",
+        "label": [
+          "Benign"
+        ],
+        "note": "It takes world knowledge to know that this is a rugby match. This is not mentioned in the source text.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "rugby",
+        "summary_start": 20,
+        "summary_end": 25
+      },
+      {
+        "annot_id": 145,
+        "sample_id": 20,
+        "annotator": "4acc2a7ab1bf4783b9a669d3d9b1a9fa",
+        "label": [
+          "Unwanted.Instrinsic",
+          "Benign"
+        ],
+        "note": "The source does not mention scoreline, but it is implied that Cas caught on with 3 tries in 4 minutes.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "Castleford made it a close scoreline",
+        "summary_start": 505,
+        "summary_end": 541
+      }
+    ],
+    "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "meta_hhemv1": 0.81174,
+    "meta_hhem-2.1": 0.80544,
+    "meta_hhem-2.1-english": 0.88967,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 52
+  },
+  {
+    "sample_id": 21,
+    "source": "Tries from Macgraff Leuluai, Ah Van and Chris Bridge gave Widnes a 14-6 half-time lead, with Cas loanee Paddy Flynn responding against his parent club. Flynn scored another early in the second, but Ah Van, Lloyd White (2) and Joe Mellor tries made it 38-12. Despite three Cas tries in four minutes - Larne Patrick, Luke Gale and Flynn's hat-trick score - Widnes held on. The Vikings' victory had looked assured when Mellor took advantage of Castleford indecision on a short kick-off, running straight through to help them to a 26-point lead. But, having lost nine of their previous 10 matches, their defence creaked as they let Patrick, who has just signed a three-year deal to move from Huddersfield after his loan spell, in for a try. Gale and Flynn - on loan at Castleford from the Vikings until the end of the season - made it a nervy finish, but the Tigers suffered their fourth consecutive home league defeat. Widnes moved above Wakefield into seventh, while Castleford remain in sixth, one point above the Vikings. Castleford: Solomona, Monaghan, Crooks, Webster, Flynn, McShane, Gale, Jewitt, Milner, Patrick, Moors, McMeeken, Massey. Replacements: Millington, Springer, Tickle, Cook. Widnes: Hanbury, Thompson, Runciman, Bridge, Ah Van, Mellor,Brown, Cahill, White, Buchanan, Whitley, Dean, Leuluai. Replacements: J. Chapelhow, Manuokafoa, Walker, Heremaia. Referee: J Smith",
+    "summary": " Widnes and Castleford played a match where Widnes won 38-12. Tries from Macgraff Leuluai, Ah Van, and Chris Bridge gave Widnes a 14-6 half-time lead. Paddy Flynn scored another early in the second half, but Widnes maintained their lead with additional tries from Lloyd White, Joe Mellor, and Chris Bridge. Despite three tries from Cas players Larne Patrick, Luke Gale, and Flynn's hat-trick, Widnes held on. Castleford initially had a 26-point lead but eventually lost due to defensive lapses. Widnes moved above Wakefield into seventh, while Castleford remained in sixth. The match was officiated by referee J Smith.",
+    "annotations": [
+      {
+        "annot_id": 10,
+        "sample_id": 21,
+        "annotator": "4acc2a7ab1bf4783b9a669d3d9b1a9fa",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Widnes did have a 38-12 lead at some point, but Castleford had some additional tries afterwards. The final score is unknown in the source text.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "Widnes won 38-12",
+        "summary_start": 44,
+        "summary_end": 60
+      },
+      {
+        "annot_id": 11,
+        "sample_id": 21,
+        "annotator": "4acc2a7ab1bf4783b9a669d3d9b1a9fa",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The guy who maintained Widnes's lead is not Chris Bridge but Ah Van.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "but Widnes maintained their lead with additional tries from Lloyd White, Joe Mellor, and Chris Bridge.",
+        "summary_start": 204,
+        "summary_end": 306
+      },
+      {
+        "annot_id": 12,
+        "sample_id": 21,
+        "annotator": "4acc2a7ab1bf4783b9a669d3d9b1a9fa",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "It was Widnes who had a 26-point lead, not Castleford.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "Castleford initially had a 26-point lead",
+        "summary_start": 409,
+        "summary_end": 449
+      },
+      {
+        "annot_id": 101,
+        "sample_id": 21,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Unwanted.Instrinsic",
+          "Benign"
+        ],
+        "note": "It takes world knowledge to know that the rugby team Widnes is also called Widnes Vikings. There is also a soccer team called Widnes F.C. ",
+        "annotator_name": "forrest",
+        "summary_span": "Widnes",
+        "summary_start": 1,
+        "summary_end": 7,
+        "source_span": "Vikings",
+        "source_start": 375,
+        "source_end": 382
+      },
+      {
+        "annot_id": 102,
+        "sample_id": 21,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Benign"
+        ],
+        "note": "It takes world knowledge to know that Cas is the nickname of Castleford.",
+        "annotator_name": "forrest",
+        "summary_span": "Castleford",
+        "summary_start": 12,
+        "summary_end": 22,
+        "source_span": "Cas",
+        "source_start": 93,
+        "source_end": 96
+      },
+      {
+        "annot_id": 103,
+        "sample_id": 21,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "According to the source, the second half scores for Widnes Vikings come from Ah Van, Lloyd White, and Joe Mellor. But the summary attributes also to Chris Bridge. ",
+        "annotator_name": "forrest",
+        "summary_span": "Paddy Flynn scored another early in the second half, but Widnes maintained their lead with additional tries from Lloyd White, Joe Mellor, and Chris Bridge.",
+        "summary_start": 151,
+        "summary_end": 306,
+        "source_span": "Tries from Macgraff Leuluai, Ah Van and Chris Bridge gave Widnes a 14-6 half-time lead, with Cas loanee Paddy Flynn responding against his parent club. Flynn scored another early in the second, but Ah Van, Lloyd White (2) and Joe Mellor tries made it 38-12",
+        "source_start": 0,
+        "source_end": 256
+      },
+      {
+        "annot_id": 104,
+        "sample_id": 21,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Source: Widnes Vikings has a 26-point lead (38-12), and at the end of the game. \nSummary: Castleford had a 26-point lead at the beginning of the game. ",
+        "annotator_name": "forrest",
+        "summary_span": " Castleford initially had a 26-point lead",
+        "summary_start": 408,
+        "summary_end": 449,
+        "source_span": "Flynn scored another early in the second, but Ah Van, Lloyd White (2) and Joe Mellor tries made it 38-12. Despite three Cas tries in four minutes - Larne Patrick, Luke Gale and Flynn's hat-trick score - Widnes held on. The Vikings' victory had looked assured when Mellor took advantage of Castleford indecision on a short kick-off, running straight through to help them to a 26-point lead.",
+        "source_start": 152,
+        "source_end": 541
+      },
+      {
+        "annot_id": 105,
+        "sample_id": 21,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Benign"
+        ],
+        "note": "It takes world knowledge to know a \"referee\" is the person in charge of \"officiat[ing]\" a game. ",
+        "annotator_name": "forrest",
+        "summary_span": "The match was officiated by referee J Smith.",
+        "summary_start": 574,
+        "summary_end": 618,
+        "source_span": "Referee: J Smith",
+        "source_start": 1367,
+        "source_end": 1383
+      }
+    ],
+    "meta_model": "microsoft/Phi-3-mini-4k-instruct",
+    "meta_hhemv1": 0.54969,
+    "meta_hhem-2.1": 0.90501,
+    "meta_hhem-2.1-english": 0.9048,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 167
+  },
+  {
+    "sample_id": 22,
+    "source": "Tries from Macgraff Leuluai, Ah Van and Chris Bridge gave Widnes a 14-6 half-time lead, with Cas loanee Paddy Flynn responding against his parent club. Flynn scored another early in the second, but Ah Van, Lloyd White (2) and Joe Mellor tries made it 38-12. Despite three Cas tries in four minutes - Larne Patrick, Luke Gale and Flynn's hat-trick score - Widnes held on. The Vikings' victory had looked assured when Mellor took advantage of Castleford indecision on a short kick-off, running straight through to help them to a 26-point lead. But, having lost nine of their previous 10 matches, their defence creaked as they let Patrick, who has just signed a three-year deal to move from Huddersfield after his loan spell, in for a try. Gale and Flynn - on loan at Castleford from the Vikings until the end of the season - made it a nervy finish, but the Tigers suffered their fourth consecutive home league defeat. Widnes moved above Wakefield into seventh, while Castleford remain in sixth, one point above the Vikings. Castleford: Solomona, Monaghan, Crooks, Webster, Flynn, McShane, Gale, Jewitt, Milner, Patrick, Moors, McMeeken, Massey. Replacements: Millington, Springer, Tickle, Cook. Widnes: Hanbury, Thompson, Runciman, Bridge, Ah Van, Mellor,Brown, Cahill, White, Buchanan, Whitley, Dean, Leuluai. Replacements: J. Chapelhow, Manuokafoa, Walker, Heremaia. Referee: J Smith",
+    "summary": "Here's a concise summary of the passage:\n\nWidnes defeated Castleford in a rugby league match. The Vikings took a 14-6 lead at halftime with tries from Leuluai, Ah Van, and Bridge, while Flynn scored for Castleford. In the second half, Widnes extended their lead to 38-12 with additional tries from Ah Van, White (2), and Mellor. Castleford mounted a late comeback with three quick tries from Patrick, Gale, and Flynn, but Widnes held on to win. The victory moved Widnes to seventh place in the league, while Castleford remained sixth. The passage also includes the team lineups and the referee for the match.",
+    "annotations": [
+      {
+        "annot_id": 107,
+        "sample_id": 22,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Benign"
+        ],
+        "note": "it takes world knowledge to know it's a rugby game",
+        "annotator_name": "forrest",
+        "summary_span": "rugby",
+        "summary_start": 74,
+        "summary_end": 79
+      },
+      {
+        "annot_id": 108,
+        "sample_id": 22,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Benign"
+        ],
+        "note": "It takes world knowledge to know that the rugby team Widnes is also called Widnes Vikings. There is also a soccer team called Widnes F.C. ",
+        "annotator_name": "forrest",
+        "summary_span": "\nWidnes",
+        "summary_start": 41,
+        "summary_end": 48,
+        "source_span": "Vikings",
+        "source_start": 375,
+        "source_end": 382
+      },
+      {
+        "annot_id": 114,
+        "sample_id": 22,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Benign"
+        ],
+        "note": "It takes world knowledge to know that Cas is the nickname of Castleford Tigers.",
+        "annotator_name": "forrest",
+        "summary_span": "Castleford",
+        "summary_start": 58,
+        "summary_end": 68,
+        "source_span": "Cas",
+        "source_start": 93,
+        "source_end": 96
+      },
+      {
+        "annot_id": 168,
+        "sample_id": 22,
+        "annotator": "4acc2a7ab1bf4783b9a669d3d9b1a9fa",
+        "label": [
+          "Benign"
+        ],
+        "note": "it takes world knowledge to know it's a rugby game",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "rugby",
+        "summary_start": 74,
+        "summary_end": 79
+      }
+    ],
+    "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
+    "meta_hhemv1": 0.66807,
+    "meta_hhem-2.1": 0.52488,
+    "meta_hhem-2.1-english": 0.83101,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 282
+  },
+  {
+    "sample_id": 23,
+    "source": "Tries from Macgraff Leuluai, Ah Van and Chris Bridge gave Widnes a 14-6 half-time lead, with Cas loanee Paddy Flynn responding against his parent club. Flynn scored another early in the second, but Ah Van, Lloyd White (2) and Joe Mellor tries made it 38-12. Despite three Cas tries in four minutes - Larne Patrick, Luke Gale and Flynn's hat-trick score - Widnes held on. The Vikings' victory had looked assured when Mellor took advantage of Castleford indecision on a short kick-off, running straight through to help them to a 26-point lead. But, having lost nine of their previous 10 matches, their defence creaked as they let Patrick, who has just signed a three-year deal to move from Huddersfield after his loan spell, in for a try. Gale and Flynn - on loan at Castleford from the Vikings until the end of the season - made it a nervy finish, but the Tigers suffered their fourth consecutive home league defeat. Widnes moved above Wakefield into seventh, while Castleford remain in sixth, one point above the Vikings. Castleford: Solomona, Monaghan, Crooks, Webster, Flynn, McShane, Gale, Jewitt, Milner, Patrick, Moors, McMeeken, Massey. Replacements: Millington, Springer, Tickle, Cook. Widnes: Hanbury, Thompson, Runciman, Bridge, Ah Van, Mellor,Brown, Cahill, White, Buchanan, Whitley, Dean, Leuluai. Replacements: J. Chapelhow, Manuokafoa, Walker, Heremaia. Referee: J Smith",
+    "summary": "Widnes secured a hard-fought victory over Castleford, with a strong first-half performance setting the foundation for the win. Tries from Leuluai, Ah Van, Bridge, and Flynn gave Widnes a comfortable lead at half-time. The second half saw a flurry of tries from both teams, with Ah Van, White (2), and Mellor extending Widnes' lead, while Castleford responded through Patrick, Gale, and Flynn's hat-trick. Despite a late comeback from Castleford, Widnes held on to win, moving up to seventh in the league standings.",
+    "annotations": [
+      {
+        "annot_id": 13,
+        "sample_id": 23,
+        "annotator": "4acc2a7ab1bf4783b9a669d3d9b1a9fa",
+        "label": [
+          "Benign"
+        ],
+        "note": "I wouldn't call it a \"hard-fought\" victory when they had a 14-6 lead at half-time and a 38-12 lead in the second half. Yes Castleford did try to make a comeback in the late game, they couldn't catch up with the 26-point lead. Personally, a \"hard-fought\" victory is either an intense match where neither team had a substantial lead, or a comeback match where Widnes was initially losing by a substantial score difference but made a significant comeback later.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "Widnes secured a hard-fought victory over Castleford",
+        "summary_start": 0,
+        "summary_end": 52
+      },
+      {
+        "annot_id": 14,
+        "sample_id": 23,
+        "annotator": "4acc2a7ab1bf4783b9a669d3d9b1a9fa",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "No. Flynn was a Castleford player, not a Widnes player.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "Flynn gave Widnes a comfortable lead at half-time",
+        "summary_start": 167,
+        "summary_end": 216
+      },
+      {
+        "annot_id": 115,
+        "sample_id": 23,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Benign"
+        ],
+        "note": "It takes world knowledge to know that Cas is the nickname of Castleford Tigers.",
+        "annotator_name": "forrest",
+        "summary_span": "Castleford",
+        "summary_start": 42,
+        "summary_end": 52,
+        "source_span": "Cas",
+        "source_start": 93,
+        "source_end": 96
+      },
+      {
+        "annot_id": 122,
+        "sample_id": 23,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Benign"
+        ],
+        "note": "It takes world knowledge to know that the rugby team Widnes is also called Widnes Vikings. There is also a soccer team called Widnes F.C. ",
+        "annotator_name": "forrest",
+        "summary_span": "Widnes",
+        "summary_start": 0,
+        "summary_end": 6,
+        "source_span": "Vikings",
+        "source_start": 375,
+        "source_end": 382
+      },
+      {
+        "annot_id": 124,
+        "sample_id": 23,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Source: Flynn was playing for Castleford Tigers while on lean from Widnes Vikings. \nSummary: Flynn was playing for Widnes.",
+        "annotator_name": "forrest",
+        "summary_span": "Flynn gave Widnes a comfortable lead at half-time",
+        "summary_start": 167,
+        "summary_end": 216,
+        "source_span": "Tries from Macgraff Leuluai, Ah Van and Chris Bridge gave Widnes a 14-6 half-time lead, with Cas loanee Paddy Flynn responding against his parent club. Flynn scored another early in the second, but Ah Van, Lloyd White (2) and Joe Mellor tries made it 38-12. Despite three Cas tries in four minutes - Larne Patrick, Luke Gale and Flynn's hat-trick score - Widnes held on.",
+        "source_start": 0,
+        "source_end": 370
+      },
+      {
+        "annot_id": 137,
+        "sample_id": 23,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source make no reasoning on what leads to the win. ",
+        "annotator_name": "forrest",
+        "summary_span": "with a strong first-half performance setting the foundation for the win",
+        "summary_start": 54,
+        "summary_end": 125
+      },
+      {
+        "annot_id": 138,
+        "sample_id": 23,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source mentions nothing about the intensity of the game. ",
+        "annotator_name": "forrest",
+        "summary_span": "a hard-fought victory ",
+        "summary_start": 15,
+        "summary_end": 37
+      }
+    ],
+    "meta_model": "cohere/command-r-08-2024",
+    "meta_hhemv1": 0.569,
+    "meta_hhem-2.1": 0.89829,
+    "meta_hhem-2.1-english": 0.91594,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 397
+  },
+  {
+    "sample_id": 24,
+    "source": "Tries from Macgraff Leuluai, Ah Van and Chris Bridge gave Widnes a 14-6 half-time lead, with Cas loanee Paddy Flynn responding against his parent club. Flynn scored another early in the second, but Ah Van, Lloyd White (2) and Joe Mellor tries made it 38-12. Despite three Cas tries in four minutes - Larne Patrick, Luke Gale and Flynn's hat-trick score - Widnes held on. The Vikings' victory had looked assured when Mellor took advantage of Castleford indecision on a short kick-off, running straight through to help them to a 26-point lead. But, having lost nine of their previous 10 matches, their defence creaked as they let Patrick, who has just signed a three-year deal to move from Huddersfield after his loan spell, in for a try. Gale and Flynn - on loan at Castleford from the Vikings until the end of the season - made it a nervy finish, but the Tigers suffered their fourth consecutive home league defeat. Widnes moved above Wakefield into seventh, while Castleford remain in sixth, one point above the Vikings. Castleford: Solomona, Monaghan, Crooks, Webster, Flynn, McShane, Gale, Jewitt, Milner, Patrick, Moors, McMeeken, Massey. Replacements: Millington, Springer, Tickle, Cook. Widnes: Hanbury, Thompson, Runciman, Bridge, Ah Van, Mellor,Brown, Cahill, White, Buchanan, Whitley, Dean, Leuluai. Replacements: J. Chapelhow, Manuokafoa, Walker, Heremaia. Referee: J Smith",
+    "summary": "Widnes won against Castleford with a final score of 38-25. Key scorers for Widnes were Macgraff Leuluai, Ah Van, Chris Bridge, and Joe Mellor, while Paddy Flynn scored twice for Castleford. Despite Castleford's late efforts through Larne Patrick, Luke Gale, and Flynn's hat-trick, Widnes maintained their lead. This win helped Widnes move up to seventh place, while Castleford remained in sixth, narrowly avoiding a relegation spot.",
+    "annotations": [
+      {
+        "annot_id": 15,
+        "sample_id": 24,
+        "annotator": "4acc2a7ab1bf4783b9a669d3d9b1a9fa",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "No. The source text never mentioned what the final score was.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "Widnes won against Castleford with a final score of 38-25",
+        "summary_start": 0,
+        "summary_end": 57
+      },
+      {
+        "annot_id": 16,
+        "sample_id": 24,
+        "annotator": "4acc2a7ab1bf4783b9a669d3d9b1a9fa",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Flynn scored 3 times: 1 in the first half; 1 early in the second half; 1 hat-trick score with Patrick and Gale.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "Paddy Flynn scored twice for Castleford",
+        "summary_start": 149,
+        "summary_end": 188
+      },
+      {
+        "annot_id": 17,
+        "sample_id": 24,
+        "annotator": "4acc2a7ab1bf4783b9a669d3d9b1a9fa",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source text never mentioned anything about relegation.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "narrowly avoiding a relegation spot",
+        "summary_start": 396,
+        "summary_end": 431
+      },
+      {
+        "annot_id": 109,
+        "sample_id": 24,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Benign"
+        ],
+        "note": "It takes world knowledge to know that the rugby team Widnes is also called Widnes Vikings. There is also a soccer team called Widnes F.C. ",
+        "annotator_name": "forrest",
+        "summary_span": "Widnes",
+        "summary_start": 0,
+        "summary_end": 6,
+        "source_span": "Vikings",
+        "source_start": 375,
+        "source_end": 382
+      },
+      {
+        "annot_id": 116,
+        "sample_id": 24,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Benign"
+        ],
+        "note": "It takes world knowledge to know that Cas is the nickname of Castleford Tigers.",
+        "annotator_name": "forrest",
+        "summary_span": "Castleford",
+        "summary_start": 19,
+        "summary_end": 29,
+        "source_span": "Cas",
+        "source_start": 93,
+        "source_end": 96
+      },
+      {
+        "annot_id": 125,
+        "sample_id": 24,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The score 38-25 is wrong in the summary, which should have been 38-12 according to the source. ",
+        "annotator_name": "forrest",
+        "summary_span": "38-25",
+        "summary_start": 52,
+        "summary_end": 57,
+        "source_span": " 38-12",
+        "source_start": 250,
+        "source_end": 256
+      },
+      {
+        "annot_id": 126,
+        "sample_id": 24,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "'relegation\" is not mentioned in the source. It may be supported by world knowledge. ",
+        "annotator_name": "forrest",
+        "summary_span": "narrowly avoiding a relegation spot",
+        "summary_start": 396,
+        "summary_end": 431
+      }
+    ],
+    "meta_model": "Qwen/Qwen2.5-7B-Instruct",
+    "meta_hhemv1": 0.10261,
+    "meta_hhem-2.1": 0.12452,
+    "meta_hhem-2.1-english": 0.02841,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 512
+  },
+  {
+    "sample_id": 25,
+    "source": "Tries from Macgraff Leuluai, Ah Van and Chris Bridge gave Widnes a 14-6 half-time lead, with Cas loanee Paddy Flynn responding against his parent club. Flynn scored another early in the second, but Ah Van, Lloyd White (2) and Joe Mellor tries made it 38-12. Despite three Cas tries in four minutes - Larne Patrick, Luke Gale and Flynn's hat-trick score - Widnes held on. The Vikings' victory had looked assured when Mellor took advantage of Castleford indecision on a short kick-off, running straight through to help them to a 26-point lead. But, having lost nine of their previous 10 matches, their defence creaked as they let Patrick, who has just signed a three-year deal to move from Huddersfield after his loan spell, in for a try. Gale and Flynn - on loan at Castleford from the Vikings until the end of the season - made it a nervy finish, but the Tigers suffered their fourth consecutive home league defeat. Widnes moved above Wakefield into seventh, while Castleford remain in sixth, one point above the Vikings. Castleford: Solomona, Monaghan, Crooks, Webster, Flynn, McShane, Gale, Jewitt, Milner, Patrick, Moors, McMeeken, Massey. Replacements: Millington, Springer, Tickle, Cook. Widnes: Hanbury, Thompson, Runciman, Bridge, Ah Van, Mellor,Brown, Cahill, White, Buchanan, Whitley, Dean, Leuluai. Replacements: J. Chapelhow, Manuokafoa, Walker, Heremaia. Referee: J Smith",
+    "summary": "Here is a concise summary of the passage:\n\nWidnes defeated Castleford 38-26 in a rugby league match. The Vikings took a 14-6 half-time lead and extended it to 38-12 before Castleford scored three tries in four minutes to close the gap. Despite a late rally, Widnes held on for the win, moving above Wakefield into seventh place in the league table.",
+    "annotations": [
+      {
+        "annot_id": 18,
+        "sample_id": 25,
+        "annotator": "4acc2a7ab1bf4783b9a669d3d9b1a9fa",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "Again, the final score was never mentioned in the source text.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "Widnes defeated Castleford 38-26 in a rugby league match",
+        "summary_start": 43,
+        "summary_end": 99
+      },
+      {
+        "annot_id": 110,
+        "sample_id": 25,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Benign"
+        ],
+        "note": "It takes world knowledge to know that the rugby team Widnes is also called Widnes Vikings. There is also a soccer team called Widnes F.C. ",
+        "annotator_name": "forrest",
+        "summary_span": "The Vikings took a 14-6 half-time lead ",
+        "summary_start": 101,
+        "summary_end": 140,
+        "source_span": " Widnes a 14-6 half-time lead",
+        "source_start": 57,
+        "source_end": 86
+      },
+      {
+        "annot_id": 117,
+        "sample_id": 25,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Benign"
+        ],
+        "note": "It takes world knowledge to know that Cas is the nickname of Castleford Tigers.",
+        "annotator_name": "forrest",
+        "summary_span": "Castleford",
+        "summary_start": 59,
+        "summary_end": 69,
+        "source_span": "Cas",
+        "source_start": 93,
+        "source_end": 96
+      },
+      {
+        "annot_id": 127,
+        "sample_id": 25,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The score in the summary 38-26 is wrong according to the source, which states the score is 38-12.",
+        "annotator_name": "forrest",
+        "summary_span": " 38-26",
+        "summary_start": 69,
+        "summary_end": 75,
+        "source_span": "38-12",
+        "source_start": 251,
+        "source_end": 256
+      },
+      {
+        "annot_id": 128,
+        "sample_id": 25,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "This summary claim is not supported by anything in the source. ",
+        "annotator_name": "forrest",
+        "summary_span": " Despite a late rally",
+        "summary_start": 235,
+        "summary_end": 256
+      },
+      {
+        "annot_id": 146,
+        "sample_id": 25,
+        "annotator": "4acc2a7ab1bf4783b9a669d3d9b1a9fa",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "This summary claim is not supported by anything in the source. ",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "Despite a late rally",
+        "summary_start": 236,
+        "summary_end": 256
+      }
+    ],
+    "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "meta_hhemv1": 0.36119,
+    "meta_hhem-2.1": 0.59645,
+    "meta_hhem-2.1-english": 0.9425,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 627
+  },
+  {
+    "sample_id": 26,
+    "source": "Tries from Macgraff Leuluai, Ah Van and Chris Bridge gave Widnes a 14-6 half-time lead, with Cas loanee Paddy Flynn responding against his parent club. Flynn scored another early in the second, but Ah Van, Lloyd White (2) and Joe Mellor tries made it 38-12. Despite three Cas tries in four minutes - Larne Patrick, Luke Gale and Flynn's hat-trick score - Widnes held on. The Vikings' victory had looked assured when Mellor took advantage of Castleford indecision on a short kick-off, running straight through to help them to a 26-point lead. But, having lost nine of their previous 10 matches, their defence creaked as they let Patrick, who has just signed a three-year deal to move from Huddersfield after his loan spell, in for a try. Gale and Flynn - on loan at Castleford from the Vikings until the end of the season - made it a nervy finish, but the Tigers suffered their fourth consecutive home league defeat. Widnes moved above Wakefield into seventh, while Castleford remain in sixth, one point above the Vikings. Castleford: Solomona, Monaghan, Crooks, Webster, Flynn, McShane, Gale, Jewitt, Milner, Patrick, Moors, McMeeken, Massey. Replacements: Millington, Springer, Tickle, Cook. Widnes: Hanbury, Thompson, Runciman, Bridge, Ah Van, Mellor,Brown, Cahill, White, Buchanan, Whitley, Dean, Leuluai. Replacements: J. Chapelhow, Manuokafoa, Walker, Heremaia. Referee: J Smith",
+    "summary": "Here is a concise summary of the passage:\n\nWidnes Vikings defeated Castleford Tigers 38-26, with tries from Macgraff Leuluai, Ah Van, Chris Bridge, Lloyd White (2), and Joe Mellor. Castleford's Paddy Flynn scored a hat-trick, but Widnes held on to secure the win. The victory moved Widnes above Wakefield into seventh place, while Castleford remain in sixth, one point above the Vikings.",
+    "annotations": [
+      {
+        "annot_id": 20,
+        "sample_id": 26,
+        "annotator": "4acc2a7ab1bf4783b9a669d3d9b1a9fa",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "Again, where did these LLMs get the final scores?",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "Widnes Vikings defeated Castleford Tigers 38-26",
+        "summary_start": 43,
+        "summary_end": 90
+      },
+      {
+        "annot_id": 129,
+        "sample_id": 26,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Benign"
+        ],
+        "note": "It takes world knowledge to know that the rugby team Widnes is also called Widnes Vikings. There is also a soccer team called Widnes F.C. ",
+        "annotator_name": "forrest",
+        "summary_span": "Widnes Vikings",
+        "summary_start": 43,
+        "summary_end": 57,
+        "source_span": " Widnes",
+        "source_start": 57,
+        "source_end": 64
+      },
+      {
+        "annot_id": 130,
+        "sample_id": 26,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The score in the summary, 38-26, is wrong. According to the source, it should be 28-12. The summary mistake the 26-point lead of Widnes Vikings with the score of the Castleford Tigers.",
+        "annotator_name": "forrest",
+        "summary_span": "38-26",
+        "summary_start": 85,
+        "summary_end": 90,
+        "source_span": "38-12. Despite three Cas tries in four minutes - Larne Patrick, Luke Gale and Flynn's hat-trick score - Widnes held on. The Vikings' victory had looked assured when Mellor took advantage of Castleford indecision on a short kick-off, running straight through to help them to a 26-point lead",
+        "source_start": 251,
+        "source_end": 540
+      },
+      {
+        "annot_id": 131,
+        "sample_id": 26,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Benign"
+        ],
+        "note": "It takes world knowledge to know that Cas is the nickname of Castleford Tigers.",
+        "annotator_name": "forrest",
+        "summary_span": " Castleford Tigers",
+        "summary_start": 66,
+        "summary_end": 84,
+        "source_span": "Cas",
+        "source_start": 93,
+        "source_end": 96
+      },
+      {
+        "annot_id": 132,
+        "sample_id": 26,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "\"hat-trick\" means three scores in a row. The summary attributes the hat-trick to Flynn only. But the source suggests that it was done by three players. ",
+        "annotator_name": "forrest",
+        "summary_span": "Castleford's Paddy Flynn scored a hat-trick",
+        "summary_start": 181,
+        "summary_end": 224,
+        "source_span": "Despite three Cas tries in four minutes - Larne Patrick, Luke Gale and Flynn's hat-trick score ",
+        "source_start": 258,
+        "source_end": 353
+      }
+    ],
+    "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "meta_hhemv1": 0.47604,
+    "meta_hhem-2.1": 0.59581,
+    "meta_hhem-2.1-english": 0.8934,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 742
+  },
+  {
+    "sample_id": 27,
+    "source": "Tries from Macgraff Leuluai, Ah Van and Chris Bridge gave Widnes a 14-6 half-time lead, with Cas loanee Paddy Flynn responding against his parent club. Flynn scored another early in the second, but Ah Van, Lloyd White (2) and Joe Mellor tries made it 38-12. Despite three Cas tries in four minutes - Larne Patrick, Luke Gale and Flynn's hat-trick score - Widnes held on. The Vikings' victory had looked assured when Mellor took advantage of Castleford indecision on a short kick-off, running straight through to help them to a 26-point lead. But, having lost nine of their previous 10 matches, their defence creaked as they let Patrick, who has just signed a three-year deal to move from Huddersfield after his loan spell, in for a try. Gale and Flynn - on loan at Castleford from the Vikings until the end of the season - made it a nervy finish, but the Tigers suffered their fourth consecutive home league defeat. Widnes moved above Wakefield into seventh, while Castleford remain in sixth, one point above the Vikings. Castleford: Solomona, Monaghan, Crooks, Webster, Flynn, McShane, Gale, Jewitt, Milner, Patrick, Moors, McMeeken, Massey. Replacements: Millington, Springer, Tickle, Cook. Widnes: Hanbury, Thompson, Runciman, Bridge, Ah Van, Mellor,Brown, Cahill, White, Buchanan, Whitley, Dean, Leuluai. Replacements: J. Chapelhow, Manuokafoa, Walker, Heremaia. Referee: J Smith",
+    "summary": "Widnes defeated Castleford 38-24, moving them into 7th place in the league. Widnes had a 26-point lead before Castleford scored three tries in four minutes, making the final score closer.  Castleford suffered their fourth consecutive home league defeat. \n",
+    "annotations": [
+      {
+        "annot_id": 21,
+        "sample_id": 27,
+        "annotator": "4acc2a7ab1bf4783b9a669d3d9b1a9fa",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "Again, where did these LLMs get the final scores?",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "Widnes defeated Castleford 38-24",
+        "summary_start": 0,
+        "summary_end": 32
+      },
+      {
+        "annot_id": 111,
+        "sample_id": 27,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Benign"
+        ],
+        "note": "It takes world knowledge to know that the rugby team Widnes is also called Widnes Vikings. There is also a soccer team called Widnes F.C. ",
+        "annotator_name": "forrest",
+        "summary_span": "Widnes",
+        "summary_start": 0,
+        "summary_end": 6,
+        "source_span": "Vikings",
+        "source_start": 375,
+        "source_end": 382
+      },
+      {
+        "annot_id": 119,
+        "sample_id": 27,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Benign"
+        ],
+        "note": "It takes world knowledge to know that Cas is the nickname of Castleford Tigers.",
+        "annotator_name": "forrest",
+        "summary_span": "Castleford",
+        "summary_start": 16,
+        "summary_end": 26,
+        "source_span": "Cas",
+        "source_start": 93,
+        "source_end": 96
+      },
+      {
+        "annot_id": 133,
+        "sample_id": 27,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The score according to the source is 38-12 but the summary states it as 38-24. ",
+        "annotator_name": "forrest",
+        "summary_span": "38-24",
+        "summary_start": 27,
+        "summary_end": 32,
+        "source_span": "38-12",
+        "source_start": 251,
+        "source_end": 256
+      },
+      {
+        "annot_id": 134,
+        "sample_id": 27,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "According to the source, Widnes has a 26-point at the end of the game. But the summary states that Widnes had a 26-point lead at certain point of the game and the lead changed later. ",
+        "annotator_name": "forrest",
+        "summary_span": "Widnes had a 26-point lead before Castleford scored three tries in four minutes",
+        "summary_start": 76,
+        "summary_end": 155,
+        "source_span": "The Vikings' victory had looked assured when Mellor took advantage of Castleford indecision on a short kick-off, running straight through to help them to a 26-point lead.",
+        "source_start": 371,
+        "source_end": 541
+      },
+      {
+        "annot_id": 135,
+        "sample_id": 27,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "According to the source, the score difference widened from 8 (14 minus 6) to 26 (38 minus 12). But the summary states the final score is closer. This is contradictory. ",
+        "annotator_name": "forrest",
+        "summary_span": "making the final score closer",
+        "summary_start": 157,
+        "summary_end": 186,
+        "source_span": "14-6 half-time lead, with Cas loanee Paddy Flynn responding against his parent club. Flynn scored another early in the second, but Ah Van, Lloyd White (2) and Joe Mellor tries made it 38-12",
+        "source_start": 67,
+        "source_end": 256
+      }
+    ],
+    "meta_model": "google/gemini-1.5-flash-001",
+    "meta_hhemv1": 0.49819,
+    "meta_hhem-2.1": 0.35781,
+    "meta_hhem-2.1-english": 0.55179,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 857
+  },
+  {
+    "sample_id": 28,
+    "source": "Tries from Macgraff Leuluai, Ah Van and Chris Bridge gave Widnes a 14-6 half-time lead, with Cas loanee Paddy Flynn responding against his parent club. Flynn scored another early in the second, but Ah Van, Lloyd White (2) and Joe Mellor tries made it 38-12. Despite three Cas tries in four minutes - Larne Patrick, Luke Gale and Flynn's hat-trick score - Widnes held on. The Vikings' victory had looked assured when Mellor took advantage of Castleford indecision on a short kick-off, running straight through to help them to a 26-point lead. But, having lost nine of their previous 10 matches, their defence creaked as they let Patrick, who has just signed a three-year deal to move from Huddersfield after his loan spell, in for a try. Gale and Flynn - on loan at Castleford from the Vikings until the end of the season - made it a nervy finish, but the Tigers suffered their fourth consecutive home league defeat. Widnes moved above Wakefield into seventh, while Castleford remain in sixth, one point above the Vikings. Castleford: Solomona, Monaghan, Crooks, Webster, Flynn, McShane, Gale, Jewitt, Milner, Patrick, Moors, McMeeken, Massey. Replacements: Millington, Springer, Tickle, Cook. Widnes: Hanbury, Thompson, Runciman, Bridge, Ah Van, Mellor,Brown, Cahill, White, Buchanan, Whitley, Dean, Leuluai. Replacements: J. Chapelhow, Manuokafoa, Walker, Heremaia. Referee: J Smith",
+    "summary": "Widnes Vikings secured a victory over Castleford Tigers with a score of 38-30. Tries from Macgraff Leuluai, Ah Van, and Chris Bridge gave Widnes a 14-6 lead at halftime. Castleford's Paddy Flynn responded with a try against his parent club. In the second half, Flynn scored another try, but Widnes extended their lead with tries from Ah Van, Lloyd White (2), and Joe Mellor. Castleford managed to score three tries in four minutes, but Widnes held on for the win. This victory moved Widnes above Wakefield into seventh place in the league standings. Castleford suffered their fourth consecutive home league defeat.",
+    "annotations": [
+      {
+        "annot_id": 22,
+        "sample_id": 28,
+        "annotator": "4acc2a7ab1bf4783b9a669d3d9b1a9fa",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "Wow, not 24, 25, or 26 this time, but 30. Good job Castleford! (fake final score)",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "Widnes Vikings secured a victory over Castleford Tigers with a score of 38-30",
+        "summary_start": 0,
+        "summary_end": 77
+      },
+      {
+        "annot_id": 112,
+        "sample_id": 28,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Benign"
+        ],
+        "note": "It takes world knowledge to know that the rugby team Widnes is also called Widnes Vikings. There is also a soccer team called Widnes F.C. ",
+        "annotator_name": "forrest",
+        "summary_span": "Widnes Vikings ",
+        "summary_start": 0,
+        "summary_end": 15,
+        "source_span": "Vikings",
+        "source_start": 375,
+        "source_end": 382
+      },
+      {
+        "annot_id": 120,
+        "sample_id": 28,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Benign"
+        ],
+        "note": "It takes world knowledge to know that Cas is the nickname of Castleford Tigers.",
+        "annotator_name": "forrest",
+        "summary_span": " Castleford Tigers",
+        "summary_start": 37,
+        "summary_end": 55,
+        "source_span": "Cas",
+        "source_start": 93,
+        "source_end": 96
+      },
+      {
+        "annot_id": 136,
+        "sample_id": 28,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The score in the source (38-12) differs from the score in the summary (38-30). ",
+        "annotator_name": "forrest",
+        "summary_span": "38-30",
+        "summary_start": 72,
+        "summary_end": 77,
+        "source_span": "38-12",
+        "source_start": 251,
+        "source_end": 256
+      }
+    ],
+    "meta_model": "openai/GPT-3.5-Turbo",
+    "meta_hhemv1": 0.42386,
+    "meta_hhem-2.1": 0.48077,
+    "meta_hhem-2.1-english": 0.66769,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 987
+  },
+  {
+    "sample_id": 29,
+    "source": "Tries from Macgraff Leuluai, Ah Van and Chris Bridge gave Widnes a 14-6 half-time lead, with Cas loanee Paddy Flynn responding against his parent club. Flynn scored another early in the second, but Ah Van, Lloyd White (2) and Joe Mellor tries made it 38-12. Despite three Cas tries in four minutes - Larne Patrick, Luke Gale and Flynn's hat-trick score - Widnes held on. The Vikings' victory had looked assured when Mellor took advantage of Castleford indecision on a short kick-off, running straight through to help them to a 26-point lead. But, having lost nine of their previous 10 matches, their defence creaked as they let Patrick, who has just signed a three-year deal to move from Huddersfield after his loan spell, in for a try. Gale and Flynn - on loan at Castleford from the Vikings until the end of the season - made it a nervy finish, but the Tigers suffered their fourth consecutive home league defeat. Widnes moved above Wakefield into seventh, while Castleford remain in sixth, one point above the Vikings. Castleford: Solomona, Monaghan, Crooks, Webster, Flynn, McShane, Gale, Jewitt, Milner, Patrick, Moors, McMeeken, Massey. Replacements: Millington, Springer, Tickle, Cook. Widnes: Hanbury, Thompson, Runciman, Bridge, Ah Van, Mellor,Brown, Cahill, White, Buchanan, Whitley, Dean, Leuluai. Replacements: J. Chapelhow, Manuokafoa, Walker, Heremaia. Referee: J Smith",
+    "summary": "Widnes led 14-6 at half-time with tries from Macgraff Leuluai, Ah Van, and Chris Bridge, while Castleford's Paddy Flynn responded. Flynn scored again early in the second half, but further tries from Ah Van, Lloyd White (2), and Joe Mellor extended Widnes' lead to 38-12. Despite a late surge from Castleford with tries from Larne Patrick, Luke Gale, and Flynn completing his hat-trick, Widnes secured the win. The victory moved Widnes to seventh place, just one point behind sixth-placed Castleford.",
+    "annotations": [
+      {
+        "annot_id": 113,
+        "sample_id": 29,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Benign"
+        ],
+        "note": "It takes world knowledge to know that the rugby team Widnes is also called Widnes Vikings. There is also a soccer team called Widnes F.C. ",
+        "annotator_name": "forrest",
+        "summary_span": " Widnes'",
+        "summary_start": 247,
+        "summary_end": 255,
+        "source_span": "Vikings",
+        "source_start": 375,
+        "source_end": 382
+      },
+      {
+        "annot_id": 121,
+        "sample_id": 29,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Benign"
+        ],
+        "note": "It takes world knowledge to know that Cas is the nickname of Castleford Tigers.",
+        "annotator_name": "forrest",
+        "summary_span": "Castleford",
+        "summary_start": 95,
+        "summary_end": 105,
+        "source_span": "Cas",
+        "source_start": 93,
+        "source_end": 96
+      }
+    ],
+    "meta_model": "openai/gpt-4o",
+    "meta_hhemv1": 0.43032,
+    "meta_hhem-2.1": 0.87626,
+    "meta_hhem-2.1-english": 0.97294,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 1087
+  },
+  {
+    "sample_id": 30,
+    "source": "Clarkson, 30, joined Premiership Well for a second spell in July and could make his St Mirren debut in the Championship against Alloa on Saturday. He scored nine goals at Dundee last season and has featured mainly as a substitute so far this term. \"I'm ready, I've been fit all season and I'm as fit as I've ever been,\" Clarkson told the St Mirren website. \"I've been playing games, playing for the U20s and I like to keep my match fitness up. \"I've been training hard and making sure that when my time came, wherever it may be, that I was ready and match fit and hopefully up to speed with everyone else really. I'm looking forward to getting started. \"Capped twice for Scotland in 2008 and with one international goal to his name, Clarkson has made almost 400 senior appearances at club level. His previous teams include Bristol City, Brentford and Bristol Rovers. St Mirren are eighth in the Championship, seven points clear of bottom side Alloa. \"Obviously the game on Saturday, every game is a big game, and the more games we can win the more confidence we can get from that we can hopefully go on a run of games and push up the table and try to get the club back to where it has been,\" added Clarkson. For all the latest transfers check out our transfer deals page.",
+    "summary": " Player Clarkson, aged 30, has returned to Premiership team Well for a second stint in July. He could make his debut for St Mirren in the Championship game against Alloa on Saturday. Clarkson scored nine goals at Dundee last season and has primarily been a substitute this term. He is fit and eager to start, having made nearly 400 senior appearances at clubs like Bristol City, Brentford, and Bristol Rovers. St Mirren is currently eighth in the Championship, seven points ahead of bottom side Alloa. Clarkson is optimistic about the upcoming game, aiming to help the team climb the table.",
+    "annotations": [
+      {
+        "annot_id": 61,
+        "sample_id": 30,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The summary over-generalizes a statement from the player to an objective-sounding statement. ",
+        "annotator_name": "forrest",
+        "summary_span": " He is fit and eager to start",
+        "summary_start": 278,
+        "summary_end": 307,
+        "source_span": "\"I'm ready, I've been fit all season and I'm as fit as I've ever been,\" Clarkson told the St Mirren website.",
+        "source_start": 248,
+        "source_end": 356
+      },
+      {
+        "annot_id": 62,
+        "sample_id": 30,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "What Clarkson said about the upcoming game expresses no optimism but facts that apply to all teams. ",
+        "annotator_name": "forrest",
+        "summary_span": "Clarkson is optimistic about the upcoming game",
+        "summary_start": 502,
+        "summary_end": 548,
+        "source_span": "\"Obviously the game on Saturday, every game is a big game, and the more games we can win the more confidence we can get from that we can hopefully go on a run of games and push up the table and try to get the club back to where it has been,\" added Clarkson.",
+        "source_start": 950,
+        "source_end": 1207
+      },
+      {
+        "annot_id": 63,
+        "sample_id": 30,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Benign"
+        ],
+        "note": "It requires familiarity with soccer to tell that \"spell\" and \"stint\" mean the same. ",
+        "annotator_name": "forrest",
+        "summary_span": "stint",
+        "summary_start": 78,
+        "summary_end": 83,
+        "source_span": "spell",
+        "source_start": 51,
+        "source_end": 56
+      },
+      {
+        "annot_id": 159,
+        "sample_id": 30,
+        "annotator": "4acc2a7ab1bf4783b9a669d3d9b1a9fa",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The summary over-generalizes a statement from the player to an objective-sounding statement. ",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "He is fit and eager to start",
+        "summary_start": 279,
+        "summary_end": 307
+      },
+      {
+        "annot_id": 160,
+        "sample_id": 30,
+        "annotator": "4acc2a7ab1bf4783b9a669d3d9b1a9fa",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "What Clarkson said about the upcoming game expresses no optimism but facts that apply to all teams. ",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "Clarkson is optimistic about the upcoming game",
+        "summary_start": 502,
+        "summary_end": 548
+      },
+      {
+        "annot_id": 161,
+        "sample_id": 30,
+        "annotator": "4acc2a7ab1bf4783b9a669d3d9b1a9fa",
+        "label": [
+          "Benign"
+        ],
+        "note": "It requires familiarity with soccer to tell that \"spell\" and \"stint\" mean the same. ",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "stint",
+        "summary_start": 78,
+        "summary_end": 83
+      }
+    ],
+    "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "meta_hhemv1": 0.99892,
+    "meta_hhem-2.1": 0.96453,
+    "meta_hhem-2.1-english": 0.97885,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 53
+  },
+  {
+    "sample_id": 31,
+    "source": "Clarkson, 30, joined Premiership Well for a second spell in July and could make his St Mirren debut in the Championship against Alloa on Saturday. He scored nine goals at Dundee last season and has featured mainly as a substitute so far this term. \"I'm ready, I've been fit all season and I'm as fit as I've ever been,\" Clarkson told the St Mirren website. \"I've been playing games, playing for the U20s and I like to keep my match fitness up. \"I've been training hard and making sure that when my time came, wherever it may be, that I was ready and match fit and hopefully up to speed with everyone else really. I'm looking forward to getting started. \"Capped twice for Scotland in 2008 and with one international goal to his name, Clarkson has made almost 400 senior appearances at club level. His previous teams include Bristol City, Brentford and Bristol Rovers. St Mirren are eighth in the Championship, seven points clear of bottom side Alloa. \"Obviously the game on Saturday, every game is a big game, and the more games we can win the more confidence we can get from that we can hopefully go on a run of games and push up the table and try to get the club back to where it has been,\" added Clarkson. For all the latest transfers check out our transfer deals page.",
+    "summary": " Clarkson, 30, is set to make his St Mirren debut in the Championship against Alloa on Saturday after joining Premiership Well for a second spell in July. He scored nine goals at Dundee last season and has been fit and training hard. With two caps for Scotland in 2008 and one international goal, Clarkson has made nearly 400 senior appearances. He previously played for Bristol City, Brentford, and Bristol Rovers. St Mirren, currently eighth in the Championship, aims to win more games and climb the table. \n\nNote: The summary provided covers the core pieces of information from the passage, including Clarkson's background, his current team, his previous teams, and St Mirren's position in the Championship.",
+    "annotations": [
+      {
+        "annot_id": 64,
+        "sample_id": 31,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the summary over-generalizes the player's personal opinion into a subjective-sounding statement",
+        "annotator_name": "forrest",
+        "summary_span": "has been fit and training hard",
+        "summary_start": 202,
+        "summary_end": 232,
+        "source_span": "\"I'm ready, I've been fit all season and I'm as fit as I've ever been,\" Clarkson told the St Mirren website. \"I've been playing games, playing for the U20s and I like to keep my match fitness up. \"I've been training hard",
+        "source_start": 248,
+        "source_end": 468
+      },
+      {
+        "annot_id": 65,
+        "sample_id": 31,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "\"at club level\" was dropped in the summary. ",
+        "annotator_name": "forrest",
+        "summary_span": "nearly 400 senior appearances.",
+        "summary_start": 315,
+        "summary_end": 345,
+        "source_span": "almost 400 senior appearances at club level.",
+        "source_start": 751,
+        "source_end": 795
+      },
+      {
+        "annot_id": 66,
+        "sample_id": 31,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the summary escalates Clarkson's personal opinion to that of the team. ",
+        "annotator_name": "forrest",
+        "summary_span": "St Mirren, currently eighth in the Championship, aims to win more games and climb the table. ",
+        "summary_start": 416,
+        "summary_end": 509,
+        "source_span": "\"Obviously the game on Saturday, every game is a big game, and the more games we can win the more confidence we can get from that we can hopefully go on a run of games and push up the table and try to get the club back to where it has been,\" added Clarkson.",
+        "source_start": 950,
+        "source_end": 1207
+      },
+      {
+        "annot_id": 92,
+        "sample_id": 31,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "\"could\" in the source means uncertain while \"is set to\" in the summary means certain",
+        "annotator_name": "forrest",
+        "summary_span": "is set to",
+        "summary_start": 15,
+        "summary_end": 24,
+        "source_span": " could",
+        "source_start": 68,
+        "source_end": 74
+      },
+      {
+        "annot_id": 162,
+        "sample_id": 31,
+        "annotator": "4acc2a7ab1bf4783b9a669d3d9b1a9fa",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the summary over-generalizes the player's personal opinion into a subjective-sounding statement",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "as been fit and training hard",
+        "summary_start": 203,
+        "summary_end": 232
+      },
+      {
+        "annot_id": 163,
+        "sample_id": 31,
+        "annotator": "4acc2a7ab1bf4783b9a669d3d9b1a9fa",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "\"at club level\" was dropped in the summary. ",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "nearly 400 senior appearances.",
+        "summary_start": 315,
+        "summary_end": 345
+      },
+      {
+        "annot_id": 164,
+        "sample_id": 31,
+        "annotator": "4acc2a7ab1bf4783b9a669d3d9b1a9fa",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the summary escalates Clarkson's personal opinion to that of the team. ",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "St Mirren, currently eighth in the Championship, aims to win more games and climb the table. \n",
+        "summary_start": 416,
+        "summary_end": 510
+      },
+      {
+        "annot_id": 165,
+        "sample_id": 31,
+        "annotator": "4acc2a7ab1bf4783b9a669d3d9b1a9fa",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "\"could\" in the source means uncertain while \"is set to\" in the summary means certain",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "is set to",
+        "summary_start": 15,
+        "summary_end": 24
+      }
+    ],
+    "meta_model": "microsoft/Phi-3-mini-4k-instruct",
+    "meta_hhemv1": 0.99726,
+    "meta_hhem-2.1": 0.97107,
+    "meta_hhem-2.1-english": 0.98779,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 168
+  },
+  {
+    "sample_id": 32,
+    "source": "Clarkson, 30, joined Premiership Well for a second spell in July and could make his St Mirren debut in the Championship against Alloa on Saturday. He scored nine goals at Dundee last season and has featured mainly as a substitute so far this term. \"I'm ready, I've been fit all season and I'm as fit as I've ever been,\" Clarkson told the St Mirren website. \"I've been playing games, playing for the U20s and I like to keep my match fitness up. \"I've been training hard and making sure that when my time came, wherever it may be, that I was ready and match fit and hopefully up to speed with everyone else really. I'm looking forward to getting started. \"Capped twice for Scotland in 2008 and with one international goal to his name, Clarkson has made almost 400 senior appearances at club level. His previous teams include Bristol City, Brentford and Bristol Rovers. St Mirren are eighth in the Championship, seven points clear of bottom side Alloa. \"Obviously the game on Saturday, every game is a big game, and the more games we can win the more confidence we can get from that we can hopefully go on a run of games and push up the table and try to get the club back to where it has been,\" added Clarkson. For all the latest transfers check out our transfer deals page.",
+    "summary": "Here's a concise summary of the passage:\n\nDavid Clarkson, a 30-year-old footballer, has joined St Mirren and may debut against Alloa in the Championship on Saturday. He previously played for Motherwell and Dundee, scoring nine goals last season. Clarkson claims he's fit and ready to play, having maintained his match fitness through U20s games and training. He has two caps for Scotland and has made nearly 400 senior club appearances, including stints at Bristol City, Brentford, and Bristol Rovers. St Mirren is currently eighth in the Championship, and Clarkson hopes to help the team improve their position and return to their former status.",
+    "annotations": [
+      {
+        "annot_id": 24,
+        "sample_id": 32,
+        "annotator": "4acc2a7ab1bf4783b9a669d3d9b1a9fa",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source text never mentioned his first name.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "David",
+        "summary_start": 42,
+        "summary_end": 47
+      },
+      {
+        "annot_id": 25,
+        "sample_id": 32,
+        "annotator": "4acc2a7ab1bf4783b9a669d3d9b1a9fa",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source text never mentioned Motherwell.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "Motherwell",
+        "summary_start": 191,
+        "summary_end": 201
+      },
+      {
+        "annot_id": 67,
+        "sample_id": 32,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Benign"
+        ],
+        "note": "first name not mentioned in the source but can be found with world knowledge",
+        "annotator_name": "forrest",
+        "summary_span": "David",
+        "summary_start": 42,
+        "summary_end": 47
+      },
+      {
+        "annot_id": 68,
+        "sample_id": 32,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Benign"
+        ],
+        "note": "his profession is not mentioned in the source but is supported by world knowledge",
+        "annotator_name": "forrest",
+        "summary_span": "footballer",
+        "summary_start": 72,
+        "summary_end": 82
+      },
+      {
+        "annot_id": 74,
+        "sample_id": 32,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Benign"
+        ],
+        "note": "Well = Motherwell by world knowledge",
+        "annotator_name": "forrest",
+        "summary_span": "Motherwell",
+        "summary_start": 191,
+        "summary_end": 201
+      },
+      {
+        "annot_id": 147,
+        "sample_id": 32,
+        "annotator": "4acc2a7ab1bf4783b9a669d3d9b1a9fa",
+        "label": [
+          "Benign"
+        ],
+        "note": "his profession is not mentioned in the source but is supported by world knowledge",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "footballer",
+        "summary_start": 72,
+        "summary_end": 82
+      }
+    ],
+    "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
+    "meta_hhemv1": 0.74594,
+    "meta_hhem-2.1": 0.38019,
+    "meta_hhem-2.1-english": 0.27626,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 283
+  },
+  {
+    "sample_id": 33,
+    "source": "Clarkson, 30, joined Premiership Well for a second spell in July and could make his St Mirren debut in the Championship against Alloa on Saturday. He scored nine goals at Dundee last season and has featured mainly as a substitute so far this term. \"I'm ready, I've been fit all season and I'm as fit as I've ever been,\" Clarkson told the St Mirren website. \"I've been playing games, playing for the U20s and I like to keep my match fitness up. \"I've been training hard and making sure that when my time came, wherever it may be, that I was ready and match fit and hopefully up to speed with everyone else really. I'm looking forward to getting started. \"Capped twice for Scotland in 2008 and with one international goal to his name, Clarkson has made almost 400 senior appearances at club level. His previous teams include Bristol City, Brentford and Bristol Rovers. St Mirren are eighth in the Championship, seven points clear of bottom side Alloa. \"Obviously the game on Saturday, every game is a big game, and the more games we can win the more confidence we can get from that we can hopefully go on a run of games and push up the table and try to get the club back to where it has been,\" added Clarkson. For all the latest transfers check out our transfer deals page.",
+    "summary": "Clarkson, a 30-year-old Scottish footballer, is set to make his St Mirren debut in the Championship against Alloa. He rejoined Premiership Well in July and has been in good form, scoring nine goals last season at Dundee. Clarkson feels ready and fit, having maintained his match fitness by playing for the U20s. With over 400 senior club appearances and two international caps, he brings experience to the team. St Mirren aims to win games and climb the table, starting with the crucial match against Alloa on Saturday.",
+    "annotations": [
+      {
+        "annot_id": 27,
+        "sample_id": 33,
+        "annotator": "4acc2a7ab1bf4783b9a669d3d9b1a9fa",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source text stated \"Clarkson has made almost 400 senior appearances at club level\". Not \"over\" 400, but \"almost\" 400.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "With over 400 senior club appearances",
+        "summary_start": 312,
+        "summary_end": 349
+      },
+      {
+        "annot_id": 70,
+        "sample_id": 33,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Benign"
+        ],
+        "note": "Clarkson's nationality and profession are not mentioned in the source but supported by world knowledge or maybe inferred from the source",
+        "annotator_name": "forrest",
+        "summary_span": "Scottish footballer",
+        "summary_start": 24,
+        "summary_end": 43
+      },
+      {
+        "annot_id": 71,
+        "sample_id": 33,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source suggests multiple things that Clarkson did to keep himself fit and playing for the U20s is only one of them. ",
+        "annotator_name": "forrest",
+        "summary_span": "by playing for the U20s",
+        "summary_start": 287,
+        "summary_end": 310
+      },
+      {
+        "annot_id": 72,
+        "sample_id": 33,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The summary mistake Clarkson's personal opinion to the team's opinion. ",
+        "annotator_name": "forrest",
+        "summary_span": "St Mirren aims to win games and climb the table",
+        "summary_start": 412,
+        "summary_end": 459,
+        "source_span": "\"Obviously the game on Saturday, every game is a big game, and the more games we can win the more confidence we can get from that we can hopefully go on a run of games and push up the table and try to get the club back to where it has been,\" added Clarkson.",
+        "source_start": 950,
+        "source_end": 1207
+      },
+      {
+        "annot_id": 91,
+        "sample_id": 33,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "\"could\" in the source means uncertain while \"is set to\" in the summary means certain",
+        "annotator_name": "forrest",
+        "summary_span": "is set to",
+        "summary_start": 45,
+        "summary_end": 54,
+        "source_span": "could",
+        "source_start": 69,
+        "source_end": 74
+      },
+      {
+        "annot_id": 148,
+        "sample_id": 33,
+        "annotator": "4acc2a7ab1bf4783b9a669d3d9b1a9fa",
+        "label": [
+          "Benign"
+        ],
+        "note": "Clarkson's nationality and profession are not mentioned in the source but supported by world knowledge or maybe inferred from the source",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "Scottish footballer",
+        "summary_start": 24,
+        "summary_end": 43
+      },
+      {
+        "annot_id": 149,
+        "sample_id": 33,
+        "annotator": "4acc2a7ab1bf4783b9a669d3d9b1a9fa",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The summary mistake Clarkson's personal opinion to the team's opinion. ",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "St Mirren aims to win games and climb the table",
+        "summary_start": 412,
+        "summary_end": 459
+      },
+      {
+        "annot_id": 150,
+        "sample_id": 33,
+        "annotator": "4acc2a7ab1bf4783b9a669d3d9b1a9fa",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "\"could\" in the source means uncertain while \"is set to\" in the summary means certain",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "is set to",
+        "summary_start": 45,
+        "summary_end": 54
+      }
+    ],
+    "meta_model": "cohere/command-r-08-2024",
+    "meta_hhemv1": 0.99747,
+    "meta_hhem-2.1": 0.7125,
+    "meta_hhem-2.1-english": 0.88695,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 398
+  },
+  {
+    "sample_id": 34,
+    "source": "Clarkson, 30, joined Premiership Well for a second spell in July and could make his St Mirren debut in the Championship against Alloa on Saturday. He scored nine goals at Dundee last season and has featured mainly as a substitute so far this term. \"I'm ready, I've been fit all season and I'm as fit as I've ever been,\" Clarkson told the St Mirren website. \"I've been playing games, playing for the U20s and I like to keep my match fitness up. \"I've been training hard and making sure that when my time came, wherever it may be, that I was ready and match fit and hopefully up to speed with everyone else really. I'm looking forward to getting started. \"Capped twice for Scotland in 2008 and with one international goal to his name, Clarkson has made almost 400 senior appearances at club level. His previous teams include Bristol City, Brentford and Bristol Rovers. St Mirren are eighth in the Championship, seven points clear of bottom side Alloa. \"Obviously the game on Saturday, every game is a big game, and the more games we can win the more confidence we can get from that we can hopefully go on a run of games and push up the table and try to get the club back to where it has been,\" added Clarkson. For all the latest transfers check out our transfer deals page.",
+    "summary": "The passage discusses Stuart Clarkson, who is 30 years old and has recently rejoined Premiership club St Mirren after a second spell with them in July. He is preparing to make his debut in the Championship match against Alloa on Saturday. Clarkson has scored nine goals for Dundee in the previous season and has mostly played as a substitute this term. He emphasizes his readiness due to consistent training and maintaining match fitness. With over 400 senior club appearances and two caps for Scotland, Clarkson mentions his anticipation to start playing. St Mirren currently holds eighth place in the Championship, seven points ahead of the bottom team, Alloa.",
+    "annotations": [
+      {
+        "annot_id": 28,
+        "sample_id": 34,
+        "annotator": "4acc2a7ab1bf4783b9a669d3d9b1a9fa",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Again, not \"over 400\", but \"almost 400\".",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "With over 400 senior club appearances",
+        "summary_start": 439,
+        "summary_end": 476
+      },
+      {
+        "annot_id": 29,
+        "sample_id": 34,
+        "annotator": "4acc2a7ab1bf4783b9a669d3d9b1a9fa",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source text never mentioned his first name.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "Stuart",
+        "summary_start": 22,
+        "summary_end": 28
+      },
+      {
+        "annot_id": 73,
+        "sample_id": 34,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The Clarkson mentioned in this article is David Clarkson. But the LLM mistakes him to Stuart Clarkson, which is an American football player who came many decades before David Clarkson. ",
+        "annotator_name": "forrest",
+        "summary_span": "Stuart Clarkson",
+        "summary_start": 22,
+        "summary_end": 37
+      },
+      {
+        "annot_id": 75,
+        "sample_id": 34,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source did not say that whether Clarkson rejoined St Mirren. Instead, it says that Clarkson rejoined Well. ",
+        "annotator_name": "forrest",
+        "summary_span": "rejoined",
+        "summary_start": 76,
+        "summary_end": 84,
+        "source_span": " joined Premiership Well for a second spell ",
+        "source_start": 13,
+        "source_end": 57
+      },
+      {
+        "annot_id": 151,
+        "sample_id": 34,
+        "annotator": "4acc2a7ab1bf4783b9a669d3d9b1a9fa",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source did not say that whether Clarkson rejoined St Mirren. Instead, it says that Clarkson rejoined Well. ",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "rejoined",
+        "summary_start": 76,
+        "summary_end": 84
+      }
+    ],
+    "meta_model": "Qwen/Qwen2.5-7B-Instruct",
+    "meta_hhemv1": 0.69098,
+    "meta_hhem-2.1": 0.9622,
+    "meta_hhem-2.1-english": 0.9874,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 513
+  },
+  {
+    "sample_id": 35,
+    "source": "Clarkson, 30, joined Premiership Well for a second spell in July and could make his St Mirren debut in the Championship against Alloa on Saturday. He scored nine goals at Dundee last season and has featured mainly as a substitute so far this term. \"I'm ready, I've been fit all season and I'm as fit as I've ever been,\" Clarkson told the St Mirren website. \"I've been playing games, playing for the U20s and I like to keep my match fitness up. \"I've been training hard and making sure that when my time came, wherever it may be, that I was ready and match fit and hopefully up to speed with everyone else really. I'm looking forward to getting started. \"Capped twice for Scotland in 2008 and with one international goal to his name, Clarkson has made almost 400 senior appearances at club level. His previous teams include Bristol City, Brentford and Bristol Rovers. St Mirren are eighth in the Championship, seven points clear of bottom side Alloa. \"Obviously the game on Saturday, every game is a big game, and the more games we can win the more confidence we can get from that we can hopefully go on a run of games and push up the table and try to get the club back to where it has been,\" added Clarkson. For all the latest transfers check out our transfer deals page.",
+    "summary": "Here is a concise summary of the passage:\n\nSt Mirren's new signing, Clarkson, is set to make his debut against Alloa on Saturday. Clarkson, 30, has previously played for Premiership Well and scored 9 goals for Dundee last season. He has been training hard to maintain his match fitness and is eager to contribute to the team's success. St Mirren are currently 8th in the Championship, 7 points clear of bottom side Alloa.",
+    "annotations": [
+      {
+        "annot_id": 90,
+        "sample_id": 35,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "\"could\" in the source means uncertain while \"is set to\" in the summary means certain",
+        "annotator_name": "forrest",
+        "summary_span": "is set to",
+        "summary_start": 78,
+        "summary_end": 87,
+        "source_span": "could",
+        "source_start": 69,
+        "source_end": 74
+      },
+      {
+        "annot_id": 166,
+        "sample_id": 35,
+        "annotator": "4acc2a7ab1bf4783b9a669d3d9b1a9fa",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "\"could\" in the source means uncertain while \"is set to\" in the summary means certain",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "is set to",
+        "summary_start": 78,
+        "summary_end": 87
+      }
+    ],
+    "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "meta_hhemv1": 0.91979,
+    "meta_hhem-2.1": 0.95786,
+    "meta_hhem-2.1-english": 0.96892,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 628
+  },
+  {
+    "sample_id": 36,
+    "source": "Clarkson, 30, joined Premiership Well for a second spell in July and could make his St Mirren debut in the Championship against Alloa on Saturday. He scored nine goals at Dundee last season and has featured mainly as a substitute so far this term. \"I'm ready, I've been fit all season and I'm as fit as I've ever been,\" Clarkson told the St Mirren website. \"I've been playing games, playing for the U20s and I like to keep my match fitness up. \"I've been training hard and making sure that when my time came, wherever it may be, that I was ready and match fit and hopefully up to speed with everyone else really. I'm looking forward to getting started. \"Capped twice for Scotland in 2008 and with one international goal to his name, Clarkson has made almost 400 senior appearances at club level. His previous teams include Bristol City, Brentford and Bristol Rovers. St Mirren are eighth in the Championship, seven points clear of bottom side Alloa. \"Obviously the game on Saturday, every game is a big game, and the more games we can win the more confidence we can get from that we can hopefully go on a run of games and push up the table and try to get the club back to where it has been,\" added Clarkson. For all the latest transfers check out our transfer deals page.",
+    "summary": "Here is a concise summary of the passage:\n\nDavid Clarkson, a 30-year-old footballer, has joined St Mirren for a second spell and is ready to make his debut. Clarkson has been maintaining his fitness by playing for the U20s and training hard. He has a wealth of experience with almost 400 senior appearances and has been capped twice for Scotland. St Mirren, currently eighth in the Championship, will face Alloa on Saturday, a game Clarkson hopes will be the start of a winning run to push the team up the table.",
+    "annotations": [
+      {
+        "annot_id": 31,
+        "sample_id": 36,
+        "annotator": "4acc2a7ab1bf4783b9a669d3d9b1a9fa",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source text never mentioned his first name.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "\nDavid",
+        "summary_start": 42,
+        "summary_end": 48
+      },
+      {
+        "annot_id": 76,
+        "sample_id": 36,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "source: joined Well for second spell/stint\nsummary: joined St Mirren for second spell/stint",
+        "annotator_name": "forrest",
+        "summary_span": "joined St Mirren for a second spell",
+        "summary_start": 89,
+        "summary_end": 124,
+        "source_span": "joined Premiership Well for a second spell",
+        "source_start": 14,
+        "source_end": 56
+      },
+      {
+        "annot_id": 77,
+        "sample_id": 36,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [],
+        "note": "\"at the club level\" was dropped in the summary",
+        "annotator_name": "forrest",
+        "summary_span": "400 senior appearances",
+        "summary_start": 284,
+        "summary_end": 306,
+        "source_span": "400 senior appearances at club level",
+        "source_start": 758,
+        "source_end": 794
+      },
+      {
+        "annot_id": 78,
+        "sample_id": 36,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "source: twice in 2008\nsummary: twice (all time)",
+        "annotator_name": "forrest",
+        "summary_span": "capped twice for Scotland",
+        "summary_start": 320,
+        "summary_end": 345,
+        "source_span": "Capped twice for Scotland in 2008",
+        "source_start": 654,
+        "source_end": 687
+      },
+      {
+        "annot_id": 89,
+        "sample_id": 36,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "\"could\" in the source means uncertain while \"is ready to\" in the summary means certain",
+        "annotator_name": "forrest",
+        "summary_span": "is ready to",
+        "summary_start": 129,
+        "summary_end": 140,
+        "source_span": "could ",
+        "source_start": 69,
+        "source_end": 75
+      },
+      {
+        "annot_id": 152,
+        "sample_id": 36,
+        "annotator": "4acc2a7ab1bf4783b9a669d3d9b1a9fa",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "source: joined Well for second spell/stint summary: joined St Mirren for second spell/stint",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "joined St Mirren for a second spell ",
+        "summary_start": 89,
+        "summary_end": 125
+      },
+      {
+        "annot_id": 153,
+        "sample_id": 36,
+        "annotator": "4acc2a7ab1bf4783b9a669d3d9b1a9fa",
+        "label": [
+          "Benign"
+        ],
+        "note": "\"at the club level\" was dropped in the summary",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "almost 400 senior appearances",
+        "summary_start": 277,
+        "summary_end": 306
+      },
+      {
+        "annot_id": 154,
+        "sample_id": 36,
+        "annotator": "4acc2a7ab1bf4783b9a669d3d9b1a9fa",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "source: twice in 2008 summary: twice (all time)",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "capped twice for Scotland",
+        "summary_start": 320,
+        "summary_end": 345
+      },
+      {
+        "annot_id": 155,
+        "sample_id": 36,
+        "annotator": "4acc2a7ab1bf4783b9a669d3d9b1a9fa",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "\"could\" in the source means uncertain while \"is ready to\" in the summary means certain",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "is ready to",
+        "summary_start": 129,
+        "summary_end": 140
+      }
+    ],
+    "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "meta_hhemv1": 0.8112,
+    "meta_hhem-2.1": 0.95212,
+    "meta_hhem-2.1-english": 0.95587,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 743
+  },
+  {
+    "sample_id": 37,
+    "source": "Clarkson, 30, joined Premiership Well for a second spell in July and could make his St Mirren debut in the Championship against Alloa on Saturday. He scored nine goals at Dundee last season and has featured mainly as a substitute so far this term. \"I'm ready, I've been fit all season and I'm as fit as I've ever been,\" Clarkson told the St Mirren website. \"I've been playing games, playing for the U20s and I like to keep my match fitness up. \"I've been training hard and making sure that when my time came, wherever it may be, that I was ready and match fit and hopefully up to speed with everyone else really. I'm looking forward to getting started. \"Capped twice for Scotland in 2008 and with one international goal to his name, Clarkson has made almost 400 senior appearances at club level. His previous teams include Bristol City, Brentford and Bristol Rovers. St Mirren are eighth in the Championship, seven points clear of bottom side Alloa. \"Obviously the game on Saturday, every game is a big game, and the more games we can win the more confidence we can get from that we can hopefully go on a run of games and push up the table and try to get the club back to where it has been,\" added Clarkson. For all the latest transfers check out our transfer deals page.",
+    "summary": "St Mirren's new player, 30-year-old striker,  Jonathan Clarkson, is ready to make his debut against Alloa on Saturday. Clarkson has played for several teams including Bristol City, Brentford, and Bristol Rovers. He scored nine goals last season at Dundee and is looking forward to helping St Mirren move up the Championship table. \n",
+    "annotations": [
+      {
+        "annot_id": 32,
+        "sample_id": 37,
+        "annotator": "4acc2a7ab1bf4783b9a669d3d9b1a9fa",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source text never mentioned his first name.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": " Jonathan",
+        "summary_start": 45,
+        "summary_end": 54
+      },
+      {
+        "annot_id": 79,
+        "sample_id": 37,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The first name of the \"Clarkson\" is not mentioned in the source. But through world knowledge, we know that it is David Clarkson. Top results for searching \"Jonathan Clarkson\" in Google are about a high school player in South Carolina. ",
+        "annotator_name": "forrest",
+        "summary_span": " Jonathan",
+        "summary_start": 45,
+        "summary_end": 54
+      },
+      {
+        "annot_id": 80,
+        "sample_id": 37,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "World knowledge shows that he played for 6 teams. He played for Motherwell twice. Maybe that's why the LLM thinks he played for 7 teams. ",
+        "annotator_name": "forrest",
+        "summary_span": "several",
+        "summary_start": 143,
+        "summary_end": 150
+      },
+      {
+        "annot_id": 88,
+        "sample_id": 37,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "\"could\" in the source means uncertain while \"is ready to\" in the summary means certain",
+        "annotator_name": "forrest",
+        "summary_span": "is ready to ",
+        "summary_start": 65,
+        "summary_end": 77,
+        "source_span": "could ",
+        "source_start": 69,
+        "source_end": 75
+      },
+      {
+        "annot_id": 156,
+        "sample_id": 37,
+        "annotator": "4acc2a7ab1bf4783b9a669d3d9b1a9fa",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "\"could\" in the source means uncertain while \"is ready to\" in the summary means certain",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "is ready to ",
+        "summary_start": 65,
+        "summary_end": 77
+      }
+    ],
+    "meta_model": "google/gemini-1.5-flash-001",
+    "meta_hhemv1": 0.76342,
+    "meta_hhem-2.1": 0.93897,
+    "meta_hhem-2.1-english": 0.96199,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 858
+  },
+  {
+    "sample_id": 38,
+    "source": "Clarkson, 30, joined Premiership Well for a second spell in July and could make his St Mirren debut in the Championship against Alloa on Saturday. He scored nine goals at Dundee last season and has featured mainly as a substitute so far this term. \"I'm ready, I've been fit all season and I'm as fit as I've ever been,\" Clarkson told the St Mirren website. \"I've been playing games, playing for the U20s and I like to keep my match fitness up. \"I've been training hard and making sure that when my time came, wherever it may be, that I was ready and match fit and hopefully up to speed with everyone else really. I'm looking forward to getting started. \"Capped twice for Scotland in 2008 and with one international goal to his name, Clarkson has made almost 400 senior appearances at club level. His previous teams include Bristol City, Brentford and Bristol Rovers. St Mirren are eighth in the Championship, seven points clear of bottom side Alloa. \"Obviously the game on Saturday, every game is a big game, and the more games we can win the more confidence we can get from that we can hopefully go on a run of games and push up the table and try to get the club back to where it has been,\" added Clarkson. For all the latest transfers check out our transfer deals page.",
+    "summary": "The passage discusses the recent signing of Clarkson, a 30-year-old football player, by Premiership Well for a second spell. He may make his debut for St Mirren in the Championship against Alloa on Saturday. Clarkson has scored nine goals for Dundee last season and has mainly been used as a substitute this season. He states that he is fit and ready to play, having been training hard and playing for the U20s to maintain match fitness. Clarkson has previously played for teams such as Bristol City, Brentford, and Bristol Rovers, and has made almost 400 senior appearances at club level. St Mirren is currently eighth in the Championship and Clarkson hopes to help the team improve their position.",
+    "annotations": [
+      {
+        "annot_id": 33,
+        "sample_id": 38,
+        "annotator": "4acc2a7ab1bf4783b9a669d3d9b1a9fa",
+        "label": [
+          "Benign",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The word \"recent\" depends on when the news is published and when the reader gets access to it. It's better to just use the actual time period in the source text, \"in July\".",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "recent",
+        "summary_start": 26,
+        "summary_end": 32
+      },
+      {
+        "annot_id": 81,
+        "sample_id": 38,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Benign"
+        ],
+        "note": "Clarkson's profession wasn't mentioned in the source but can be supported by world knowledge",
+        "annotator_name": "forrest",
+        "summary_span": "football",
+        "summary_start": 68,
+        "summary_end": 76
+      },
+      {
+        "annot_id": 82,
+        "sample_id": 38,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The summary makes a wrong grasp of the source. It is a bad summary sentence and also a hallucination. ",
+        "annotator_name": "forrest",
+        "summary_span": "The passage discusses the recent signing of Clarkson, a 30-year-old football player, by Premiership Well for a second spell.",
+        "summary_start": 0,
+        "summary_end": 124,
+        "source_span": "Clarkson, 30, joined Premiership Well for a second spell in July and could make his St Mirren debut in the Championship against Alloa on Saturday.",
+        "source_start": 0,
+        "source_end": 146
+      },
+      {
+        "annot_id": 157,
+        "sample_id": 38,
+        "annotator": "4acc2a7ab1bf4783b9a669d3d9b1a9fa",
+        "label": [
+          "Benign"
+        ],
+        "note": "Clarkson's profession wasn't mentioned in the source but can be supported by world knowledge",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "football",
+        "summary_start": 68,
+        "summary_end": 76
+      }
+    ],
+    "meta_model": "openai/GPT-3.5-Turbo",
+    "meta_hhemv1": 0.99613,
+    "meta_hhem-2.1": 0.95622,
+    "meta_hhem-2.1-english": 0.97752,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 938
+  },
+  {
+    "sample_id": 39,
+    "source": "Clarkson, 30, joined Premiership Well for a second spell in July and could make his St Mirren debut in the Championship against Alloa on Saturday. He scored nine goals at Dundee last season and has featured mainly as a substitute so far this term. \"I'm ready, I've been fit all season and I'm as fit as I've ever been,\" Clarkson told the St Mirren website. \"I've been playing games, playing for the U20s and I like to keep my match fitness up. \"I've been training hard and making sure that when my time came, wherever it may be, that I was ready and match fit and hopefully up to speed with everyone else really. I'm looking forward to getting started. \"Capped twice for Scotland in 2008 and with one international goal to his name, Clarkson has made almost 400 senior appearances at club level. His previous teams include Bristol City, Brentford and Bristol Rovers. St Mirren are eighth in the Championship, seven points clear of bottom side Alloa. \"Obviously the game on Saturday, every game is a big game, and the more games we can win the more confidence we can get from that we can hopefully go on a run of games and push up the table and try to get the club back to where it has been,\" added Clarkson. For all the latest transfers check out our transfer deals page.",
+    "summary": "Clarkson, 30, rejoined Premiership Well in July and is set to debut for St Mirren in the Championship against Alloa on Saturday. Last season, he scored nine goals at Dundee and has mostly been a substitute this term. Clarkson feels fit and ready, having maintained his match fitness by playing for the U20s and training hard. He has nearly 400 senior club appearances and has been capped twice for Scotland. St Mirren, currently eighth in the Championship, aim to climb the table with Clarkson's help.",
+    "annotations": [
+      {
+        "annot_id": 34,
+        "sample_id": 39,
+        "annotator": "4acc2a7ab1bf4783b9a669d3d9b1a9fa",
+        "label": [
+          "Benign"
+        ],
+        "note": "\"is set to debut\" is a strong phrase, indicating certainty. The source text used \"could make his St Mirren debut\", implying a high probability. High probability is not the same as certainty.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "is set to debut",
+        "summary_start": 52,
+        "summary_end": 67
+      },
+      {
+        "annot_id": 35,
+        "sample_id": 39,
+        "annotator": "4acc2a7ab1bf4783b9a669d3d9b1a9fa",
+        "label": [
+          "Benign"
+        ],
+        "note": "Clarkson was the one who had the intention to help St Mirren and aim to climb the table, but the source text did not state that St Mirren had the intention to aim to climb the table with Clarkson's help. The change in the subject here is unnecessary and did not correctly summarize the source text.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "aim to climb the table with Clarkson's help",
+        "summary_start": 457,
+        "summary_end": 500
+      },
+      {
+        "annot_id": 86,
+        "sample_id": 39,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "\"could\" in the source means uncertain while \"is set to\" in the summary means certain",
+        "annotator_name": "forrest",
+        "summary_span": " is set to",
+        "summary_start": 51,
+        "summary_end": 61,
+        "source_span": " could ",
+        "source_start": 68,
+        "source_end": 75
+      },
+      {
+        "annot_id": 87,
+        "sample_id": 39,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the summary mistakes Clarkson's personal opinion to the team's opinion. ",
+        "annotator_name": "forrest",
+        "summary_span": "St Mirren, currently eighth in the Championship, aim to climb the table with Clarkson's help.",
+        "summary_start": 408,
+        "summary_end": 501,
+        "source_span": "push up the table and try to get the club back to where it has been",
+        "source_start": 1122,
+        "source_end": 1189
+      }
+    ],
+    "meta_model": "openai/gpt-4o",
+    "meta_hhemv1": 0.99912,
+    "meta_hhem-2.1": 0.93811,
+    "meta_hhem-2.1-english": 0.98104,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 1088
+  },
+  {
+    "sample_id": 40,
+    "source": "bolton-born boxer amir khan spent his friday alongside some fellow natural born fighters as he enjoyed a family trip to a safari park in northern california . \nkhan posed alongside , and also fed , a rare but dangerous white tiger as well posing with stunning giraffes and sea lions at six flags discovery kingdom . \nthe 28-year-old was joined by his wife faryal makhdoom khan as well as his daughter lamysa as they all enjoyed some time off . \nbolton-born boxer amir khan enjoyed a day a safari park with his family in northern california\nkhan and his wife and daughter pose with a giraffe as they enjoy a family day at the adventure park\nkhan feeds a rare white tiger during his time at the american adventure park in california\nearlier this week khan ended speculation over his next opponent by announcing he will fight former light-welterweight world champion chris algieri on may 30 . \nkhan had come under increasing pressure to take on british rival and ibf welterweight champion kell brook in june . \nhowever , khan , who was also linked with bouts against adrien broner and keith thurman , said he was already deep in negotiations to fight somebody else . \nkhan ( left ) has announced his next fight will be against chris algieri at welterweight on may 30",
+    "summary": " Amir Khan, a boxer born in Bolton, spent a family day at a safari park in northern California, where he posed with and fed a rare white tiger, as well as giraffes and sea lions. He was accompanied by his wife Faryal Makhdoom Khan and their daughter Lamysa. Amir Khan has announced his next fight will be against former light-welterweight world champion Chris Algieri on May 30. Previously, there was speculation about his next opponent, with pressure to fight British rival Kell Brook in June, but Khan was already in negotiations to fight someone else.",
+    "annotations": [],
+    "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "meta_hhemv1": 0.55793,
+    "meta_hhem-2.1": 0.97243,
+    "meta_hhem-2.1-english": 0.33914,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 87
+  },
+  {
+    "sample_id": 41,
+    "source": "bolton-born boxer amir khan spent his friday alongside some fellow natural born fighters as he enjoyed a family trip to a safari park in northern california . \nkhan posed alongside , and also fed , a rare but dangerous white tiger as well posing with stunning giraffes and sea lions at six flags discovery kingdom . \nthe 28-year-old was joined by his wife faryal makhdoom khan as well as his daughter lamysa as they all enjoyed some time off . \nbolton-born boxer amir khan enjoyed a day a safari park with his family in northern california\nkhan and his wife and daughter pose with a giraffe as they enjoy a family day at the adventure park\nkhan feeds a rare white tiger during his time at the american adventure park in california\nearlier this week khan ended speculation over his next opponent by announcing he will fight former light-welterweight world champion chris algieri on may 30 . \nkhan had come under increasing pressure to take on british rival and ibf welterweight champion kell brook in june . \nhowever , khan , who was also linked with bouts against adrien broner and keith thurman , said he was already deep in negotiations to fight somebody else . \nkhan ( left ) has announced his next fight will be against chris algieri at welterweight on may 30",
+    "summary": " Bolton-born boxer Amir Khan spent a family day at a safari park in Northern California, where he posed with animals such as giraffes and sea lions. Khan, along with his wife Faryal and daughter Lamya, enjoyed the trip. Khan also announced that his next fight will be against former light-welterweight world champion Chris Algieri on May 30, instead of facing British rival Kell Brook or other potential opponents.",
+    "annotations": [],
+    "meta_model": "microsoft/Phi-3-mini-4k-instruct",
+    "meta_hhemv1": 0.99719,
+    "meta_hhem-2.1": 0.95253,
+    "meta_hhem-2.1-english": 0.89322,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 202
+  },
+  {
+    "sample_id": 42,
+    "source": "bolton-born boxer amir khan spent his friday alongside some fellow natural born fighters as he enjoyed a family trip to a safari park in northern california . \nkhan posed alongside , and also fed , a rare but dangerous white tiger as well posing with stunning giraffes and sea lions at six flags discovery kingdom . \nthe 28-year-old was joined by his wife faryal makhdoom khan as well as his daughter lamysa as they all enjoyed some time off . \nbolton-born boxer amir khan enjoyed a day a safari park with his family in northern california\nkhan and his wife and daughter pose with a giraffe as they enjoy a family day at the adventure park\nkhan feeds a rare white tiger during his time at the american adventure park in california\nearlier this week khan ended speculation over his next opponent by announcing he will fight former light-welterweight world champion chris algieri on may 30 . \nkhan had come under increasing pressure to take on british rival and ibf welterweight champion kell brook in june . \nhowever , khan , who was also linked with bouts against adrien broner and keith thurman , said he was already deep in negotiations to fight somebody else . \nkhan ( left ) has announced his next fight will be against chris algieri at welterweight on may 30",
+    "summary": "Here's a concise summary of the passage, covering the core pieces of information:\n\nAmir Khan, a boxer from Bolton, visited Six Flags Discovery Kingdom safari park in Northern California with his family. During the trip, he interacted with various animals, including feeding a rare white tiger and posing with giraffes and sea lions. Khan was accompanied by his wife Faryal Makhdoom Khan and daughter Lamysa. The passage also mentions Khan's recent announcement of his upcoming fight against Chris Algieri on May 30, despite speculation about potential matches with other boxers, including Kell Brook.",
+    "annotations": [
+      {
+        "annot_id": 93,
+        "sample_id": 42,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Questionable"
+        ],
+        "note": "Does \"under increasing pressure\" imply \"speculation\"? ",
+        "annotator_name": "forrest",
+        "summary_span": "speculation about potential matches with other boxers, including Kell Brook.",
+        "summary_start": 524,
+        "summary_end": 600,
+        "source_span": "speculation over his next opponent by announcing he will fight former light-welterweight world champion chris algieri on may 30 . \nkhan had come under increasing pressure to take on british rival and ibf welterweight champion kell brook in june ",
+        "source_start": 760,
+        "source_end": 1005
+      }
+    ],
+    "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
+    "meta_hhemv1": 0.92764,
+    "meta_hhem-2.1": 0.91818,
+    "meta_hhem-2.1-english": 0.69996,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 317
+  },
+  {
+    "sample_id": 43,
+    "source": "bolton-born boxer amir khan spent his friday alongside some fellow natural born fighters as he enjoyed a family trip to a safari park in northern california . \nkhan posed alongside , and also fed , a rare but dangerous white tiger as well posing with stunning giraffes and sea lions at six flags discovery kingdom . \nthe 28-year-old was joined by his wife faryal makhdoom khan as well as his daughter lamysa as they all enjoyed some time off . \nbolton-born boxer amir khan enjoyed a day a safari park with his family in northern california\nkhan and his wife and daughter pose with a giraffe as they enjoy a family day at the adventure park\nkhan feeds a rare white tiger during his time at the american adventure park in california\nearlier this week khan ended speculation over his next opponent by announcing he will fight former light-welterweight world champion chris algieri on may 30 . \nkhan had come under increasing pressure to take on british rival and ibf welterweight champion kell brook in june . \nhowever , khan , who was also linked with bouts against adrien broner and keith thurman , said he was already deep in negotiations to fight somebody else . \nkhan ( left ) has announced his next fight will be against chris algieri at welterweight on may 30",
+    "summary": "Amir Khan, a British boxer, visited a safari park in Northern California with his family, including his wife Faryal and daughter Lamysa. They enjoyed various animal encounters, such as posing with giraffes and feeding a rare white tiger. Khan recently confirmed his upcoming fight against Chris Algieri, a former light-welterweight world champion, on May 30, despite speculation about potential matches with other opponents, including Kell Brook and Adrien Broner.",
+    "annotations": [
+      {
+        "annot_id": 94,
+        "sample_id": 43,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Questionable"
+        ],
+        "note": "Does \"under pressure\" means \"speculation\"? ",
+        "annotator_name": "forrest",
+        "summary_span": "speculation about potential matches with other opponents, including Kell Brook ",
+        "summary_start": 367,
+        "summary_end": 446,
+        "source_span": "speculation over his next opponent by announcing he will fight former light-welterweight world champion chris algieri on may 30 . \nkhan had come under increasing pressure to take on british rival and ibf welterweight champion kell brook in june ",
+        "source_start": 760,
+        "source_end": 1005
+      }
+    ],
+    "meta_model": "cohere/command-r-08-2024",
+    "meta_hhemv1": 0.85736,
+    "meta_hhem-2.1": 0.95819,
+    "meta_hhem-2.1-english": 0.95783,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 432
+  },
+  {
+    "sample_id": 44,
+    "source": "bolton-born boxer amir khan spent his friday alongside some fellow natural born fighters as he enjoyed a family trip to a safari park in northern california . \nkhan posed alongside , and also fed , a rare but dangerous white tiger as well posing with stunning giraffes and sea lions at six flags discovery kingdom . \nthe 28-year-old was joined by his wife faryal makhdoom khan as well as his daughter lamysa as they all enjoyed some time off . \nbolton-born boxer amir khan enjoyed a day a safari park with his family in northern california\nkhan and his wife and daughter pose with a giraffe as they enjoy a family day at the adventure park\nkhan feeds a rare white tiger during his time at the american adventure park in california\nearlier this week khan ended speculation over his next opponent by announcing he will fight former light-welterweight world champion chris algieri on may 30 . \nkhan had come under increasing pressure to take on british rival and ibf welterweight champion kell brook in june . \nhowever , khan , who was also linked with bouts against adrien broner and keith thurman , said he was already deep in negotiations to fight somebody else . \nkhan ( left ) has announced his next fight will be against chris algieri at welterweight on may 30",
+    "summary": "Amir Khan, a Bolton-born boxer, spent a family day at Six Flags Discovery Kingdom in northern California. He interacted with various animals including a white tiger, giraffes, and sea lions. Accompanied by his wife Faryal Makhdoom Khan and daughter Lamysa, Khan also announced that his next fight will be against Chris Algieri on May 30 at the welterweight division.",
+    "annotations": [
+      {
+        "annot_id": 36,
+        "sample_id": 44,
+        "annotator": "4acc2a7ab1bf4783b9a669d3d9b1a9fa",
+        "label": [
+          "Benign"
+        ],
+        "note": "The 2 sub-sentences should be separated because they do not necessarily correlate. Khan had a good time with his family, but his family was not the cause of Khan making the announcement.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "Accompanied by his wife Faryal Makhdoom Khan and daughter Lamysa, Khan also announced that his next fight will be against Chris Algieri on May 30 at the welterweight division.",
+        "summary_start": 191,
+        "summary_end": 366
+      }
+    ],
+    "meta_model": "Qwen/Qwen2.5-7B-Instruct",
+    "meta_hhemv1": 0.99057,
+    "meta_hhem-2.1": 0.98172,
+    "meta_hhem-2.1-english": 0.37499,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 547
+  },
+  {
+    "sample_id": 45,
+    "source": "bolton-born boxer amir khan spent his friday alongside some fellow natural born fighters as he enjoyed a family trip to a safari park in northern california . \nkhan posed alongside , and also fed , a rare but dangerous white tiger as well posing with stunning giraffes and sea lions at six flags discovery kingdom . \nthe 28-year-old was joined by his wife faryal makhdoom khan as well as his daughter lamysa as they all enjoyed some time off . \nbolton-born boxer amir khan enjoyed a day a safari park with his family in northern california\nkhan and his wife and daughter pose with a giraffe as they enjoy a family day at the adventure park\nkhan feeds a rare white tiger during his time at the american adventure park in california\nearlier this week khan ended speculation over his next opponent by announcing he will fight former light-welterweight world champion chris algieri on may 30 . \nkhan had come under increasing pressure to take on british rival and ibf welterweight champion kell brook in june . \nhowever , khan , who was also linked with bouts against adrien broner and keith thurman , said he was already deep in negotiations to fight somebody else . \nkhan ( left ) has announced his next fight will be against chris algieri at welterweight on may 30",
+    "summary": "Here is a concise summary of the passage:\n\nAmir Khan, a 28-year-old boxer from Bolton, spent a family day at a safari park in Northern California with his wife Faryal and daughter Lamysa. After announcing his next fight against Chris Algieri on May 30, Khan enjoyed time off with his family, posing with animals including a rare white tiger, giraffes, and sea lions.",
+    "annotations": [
+      {
+        "annot_id": 95,
+        "sample_id": 45,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "\"after\" in this context indicates a consecutive order between events. But the source does not support whether there are other things in between. ",
+        "annotator_name": "forrest",
+        "summary_span": "After",
+        "summary_start": 188,
+        "summary_end": 193,
+        "source_span": "\nearlier this week",
+        "source_start": 730,
+        "source_end": 748
+      }
+    ],
+    "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "meta_hhemv1": 0.94623,
+    "meta_hhem-2.1": 0.94061,
+    "meta_hhem-2.1-english": 0.08239,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 662
+  },
+  {
+    "sample_id": 46,
+    "source": "bolton-born boxer amir khan spent his friday alongside some fellow natural born fighters as he enjoyed a family trip to a safari park in northern california . \nkhan posed alongside , and also fed , a rare but dangerous white tiger as well posing with stunning giraffes and sea lions at six flags discovery kingdom . \nthe 28-year-old was joined by his wife faryal makhdoom khan as well as his daughter lamysa as they all enjoyed some time off . \nbolton-born boxer amir khan enjoyed a day a safari park with his family in northern california\nkhan and his wife and daughter pose with a giraffe as they enjoy a family day at the adventure park\nkhan feeds a rare white tiger during his time at the american adventure park in california\nearlier this week khan ended speculation over his next opponent by announcing he will fight former light-welterweight world champion chris algieri on may 30 . \nkhan had come under increasing pressure to take on british rival and ibf welterweight champion kell brook in june . \nhowever , khan , who was also linked with bouts against adrien broner and keith thurman , said he was already deep in negotiations to fight somebody else . \nkhan ( left ) has announced his next fight will be against chris algieri at welterweight on may 30",
+    "summary": "Here is a concise summary of the passage:\n\nAmir Khan, a 28-year-old boxer from Bolton, spent a day at a safari park in Northern California with his wife Faryal and daughter Lamysa. During the visit, he interacted with various animals, including a rare white tiger, giraffes, and sea lions. This outing comes after Khan announced his next fight against Chris Algieri on May 30, ending speculation about a potential bout against British rival Kell Brook.",
+    "annotations": [
+      {
+        "annot_id": 96,
+        "sample_id": 46,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Questionable"
+        ],
+        "note": "Does \"under pressure\" implies \"speculation\"? ",
+        "annotator_name": "forrest",
+        "summary_span": "speculation about a potential bout against British rival Kell Brook",
+        "summary_start": 384,
+        "summary_end": 451,
+        "source_span": "speculation over his next opponent by announcing he will fight former light-welterweight world champion chris algieri on may 30 . \nkhan had come under increasing pressure to take on british rival and ibf welterweight champion kell brook in june ",
+        "source_start": 760,
+        "source_end": 1005
+      }
+    ],
+    "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "meta_hhemv1": 0.95162,
+    "meta_hhem-2.1": 0.89338,
+    "meta_hhem-2.1-english": 0.0951,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 777
+  },
+  {
+    "sample_id": 47,
+    "source": "bolton-born boxer amir khan spent his friday alongside some fellow natural born fighters as he enjoyed a family trip to a safari park in northern california . \nkhan posed alongside , and also fed , a rare but dangerous white tiger as well posing with stunning giraffes and sea lions at six flags discovery kingdom . \nthe 28-year-old was joined by his wife faryal makhdoom khan as well as his daughter lamysa as they all enjoyed some time off . \nbolton-born boxer amir khan enjoyed a day a safari park with his family in northern california\nkhan and his wife and daughter pose with a giraffe as they enjoy a family day at the adventure park\nkhan feeds a rare white tiger during his time at the american adventure park in california\nearlier this week khan ended speculation over his next opponent by announcing he will fight former light-welterweight world champion chris algieri on may 30 . \nkhan had come under increasing pressure to take on british rival and ibf welterweight champion kell brook in june . \nhowever , khan , who was also linked with bouts against adrien broner and keith thurman , said he was already deep in negotiations to fight somebody else . \nkhan ( left ) has announced his next fight will be against chris algieri at welterweight on may 30",
+    "summary": "Amir Khan, a boxer from Bolton, enjoyed a family trip to a safari park in Northern California. He posed with and fed a white tiger, as well as giraffes and sea lions. Khan announced that he will fight Chris Algieri on May 30th. \n",
+    "annotations": [],
+    "meta_model": "google/gemini-1.5-flash-001",
+    "meta_hhemv1": 0.93937,
+    "meta_hhem-2.1": 0.97221,
+    "meta_hhem-2.1-english": 0.06537,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 892
+  },
+  {
+    "sample_id": 48,
+    "source": "bolton-born boxer amir khan spent his friday alongside some fellow natural born fighters as he enjoyed a family trip to a safari park in northern california . \nkhan posed alongside , and also fed , a rare but dangerous white tiger as well posing with stunning giraffes and sea lions at six flags discovery kingdom . \nthe 28-year-old was joined by his wife faryal makhdoom khan as well as his daughter lamysa as they all enjoyed some time off . \nbolton-born boxer amir khan enjoyed a day a safari park with his family in northern california\nkhan and his wife and daughter pose with a giraffe as they enjoy a family day at the adventure park\nkhan feeds a rare white tiger during his time at the american adventure park in california\nearlier this week khan ended speculation over his next opponent by announcing he will fight former light-welterweight world champion chris algieri on may 30 . \nkhan had come under increasing pressure to take on british rival and ibf welterweight champion kell brook in june . \nhowever , khan , who was also linked with bouts against adrien broner and keith thurman , said he was already deep in negotiations to fight somebody else . \nkhan ( left ) has announced his next fight will be against chris algieri at welterweight on may 30",
+    "summary": "Amir Khan, a boxer from Bolton, enjoyed a family trip to a safari park in northern California. He posed with a white tiger, fed giraffes, and sea lions. Khan was joined by his wife and daughter. Earlier in the week, Khan announced that his next fight will be against Chris Algieri on May 30th. He had been under pressure to fight Kell Brook, but chose to negotiate with someone else.",
+    "annotations": [],
+    "meta_model": "openai/GPT-3.5-Turbo",
+    "meta_hhemv1": 0.91814,
+    "meta_hhem-2.1": 0.96596,
+    "meta_hhem-2.1-english": 0.14716,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 1000
+  },
+  {
+    "sample_id": 49,
+    "source": "bolton-born boxer amir khan spent his friday alongside some fellow natural born fighters as he enjoyed a family trip to a safari park in northern california . \nkhan posed alongside , and also fed , a rare but dangerous white tiger as well posing with stunning giraffes and sea lions at six flags discovery kingdom . \nthe 28-year-old was joined by his wife faryal makhdoom khan as well as his daughter lamysa as they all enjoyed some time off . \nbolton-born boxer amir khan enjoyed a day a safari park with his family in northern california\nkhan and his wife and daughter pose with a giraffe as they enjoy a family day at the adventure park\nkhan feeds a rare white tiger during his time at the american adventure park in california\nearlier this week khan ended speculation over his next opponent by announcing he will fight former light-welterweight world champion chris algieri on may 30 . \nkhan had come under increasing pressure to take on british rival and ibf welterweight champion kell brook in june . \nhowever , khan , who was also linked with bouts against adrien broner and keith thurman , said he was already deep in negotiations to fight somebody else . \nkhan ( left ) has announced his next fight will be against chris algieri at welterweight on may 30",
+    "summary": "Bolton-born boxer Amir Khan spent a day at a safari park in Northern California with his family, where they interacted with various animals, including a rare white tiger, giraffes, and sea lions. Khan was accompanied by his wife Faryal Makhdoom Khan and their daughter Lamysa. Additionally, Khan announced that he will fight former light-welterweight world champion Chris Algieri on May 30, despite pressure to fight British rival Kell Brook and being linked to other potential opponents.",
+    "annotations": [
+      {
+        "annot_id": 97,
+        "sample_id": 49,
+        "annotator": "026d8e26c2ba48818bd64846dbb98115",
+        "label": [
+          "Questionable"
+        ],
+        "note": "\"Additionally\" here implies that the announcement happened during the same trip mentioned above but according to the source, it wasn't. ",
+        "annotator_name": "forrest",
+        "summary_span": "Additionally, Khan announced that",
+        "summary_start": 277,
+        "summary_end": 310
+      },
+      {
+        "annot_id": 167,
+        "sample_id": 49,
+        "annotator": "4acc2a7ab1bf4783b9a669d3d9b1a9fa",
+        "label": [
+          "Questionable"
+        ],
+        "note": "\"Additionally\" here implies that the announcement happened during the same trip mentioned above but according to the source, it wasn't. ",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "Additionally, Khan announced that",
+        "summary_start": 277,
+        "summary_end": 310
+      }
+    ],
+    "meta_model": "openai/gpt-4o",
+    "meta_hhemv1": 0.99778,
+    "meta_hhem-2.1": 0.98166,
+    "meta_hhem-2.1-english": 0.94884,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 1122
+  }
+]

@@ -1,0 +1,2075 @@
+[
+  {
+    "sample_id": 0,
+    "source": "The Briton finished more than two minutes ahead of Poland's Anna Harkowska in Nottwil, Switzerland. Storey can win a 17th title when she rides in Saturday's road race. \"It's a massive relief to win,\" said the 37-year-old, who is targeting further Paralympic success at next year's Games in Rio de Janeiro. Storey is Britain's most decorated female Paralympian with 22 medals. She has won 11 gold, eight silver and three bronze medals in both cycling and swimming across six Paralympics. She won four golds at the 2012 Games in London and has now won 21 world titles across both sports. Storey began her sporting career in the pool, winning six medals at the 1992 Paralympics before switching to cycling in 2005.",
+    "summary": " The passage describes the victory of a British Paralympian named Sarah Storey in a cycling event in Nottwil, Switzerland. She finished more than two minutes ahead of Anna Harkowska from Poland. Storey, who is 37 years old, is aiming for her 17th title in the upcoming road race. She is Britain's most decorated female Paralympian with a total of 22 medals, including 11 gold, 8 silver, and 3 bronze medals. Storey has won her medals in both cycling and swimming across six Paralympics. She won four golds at the 2012 Games in London and has now won 21 world titles across both sports. Storey began her sporting career in the pool, winning six medals at the 1992 Paralympics, and later switched to cycling in 2005. She is targeting further Paralympic success at the upcoming Games in Rio de Janeiro in 2016.",
+    "annotations": [
+      {
+        "annot_id": 13,
+        "sample_id": 0,
+        "annotator": "5d9f5e96a0454f2b9f06b31b449927ce",
+        "label": [
+          "Benign"
+        ],
+        "note": "The name Sarah is not mentioned in source.",
+        "annotator_name": "Weisi",
+        "summary_span": "Sarah Storey",
+        "summary_start": 66,
+        "summary_end": 78
+      },
+      {
+        "annot_id": 14,
+        "sample_id": 0,
+        "annotator": "5d9f5e96a0454f2b9f06b31b449927ce",
+        "label": [
+          "Benign"
+        ],
+        "note": "Even the Olympic in Rio De Janeiro can be inferred held in 2016, but the source doc doesn't mention it.",
+        "annotator_name": "Weisi",
+        "summary_span": "She is targeting further Paralympic success at the upcoming Games in Rio de Janeiro in 2016",
+        "summary_start": 715,
+        "summary_end": 806
+      },
+      {
+        "annot_id": 42,
+        "sample_id": 0,
+        "annotator": "3843397537424bf2ab4ca550533dd39e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "The source text never mentioned \"2016\", although the Olympics in Rio were indeed held in 2016.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "2016",
+        "summary_start": 802,
+        "summary_end": 806
+      },
+      {
+        "annot_id": 85,
+        "sample_id": 0,
+        "annotator": "3843397537424bf2ab4ca550533dd39e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "Sarah is never mentioned in the source.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "Sarah",
+        "summary_start": 66,
+        "summary_end": 71
+      }
+    ],
+    "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "meta_hhemv1": 0.51973,
+    "meta_hhem-2.1": 0.18995,
+    "meta_hhem-2.1-english": 0.76964,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 55
+  },
+  {
+    "sample_id": 1,
+    "source": "The Briton finished more than two minutes ahead of Poland's Anna Harkowska in Nottwil, Switzerland. Storey can win a 17th title when she rides in Saturday's road race. \"It's a massive relief to win,\" said the 37-year-old, who is targeting further Paralympic success at next year's Games in Rio de Janeiro. Storey is Britain's most decorated female Paralympian with 22 medals. She has won 11 gold, eight silver and three bronze medals in both cycling and swimming across six Paralympics. She won four golds at the 2012 Games in London and has now won 21 world titles across both sports. Storey began her sporting career in the pool, winning six medals at the 1992 Paralympics before switching to cycling in 2005.",
+    "summary": " Storey, a 37-year-old Briton, won a race in Nottwil, Switzerland, finishing more than two minutes ahead of Anna Harkowska of Poland. She is aiming for a 17th title in the upcoming road race and is targeting further Paralympic success at the 2016 Games in Rio de Janeiro. Storey is Britain's most decorated female Paralympian, with 22 medals, including 11 gold, eight silver, and three bronze in cycling and swimming across six Paralympics. She won four golds at the 2012 Games in London and has 21 world titles in both sports. Storey started her sporting career in swimming, winning six medals at the 1992 Paralympics, before switching to cycling in 2005.",
+    "annotations": [
+      {
+        "annot_id": 15,
+        "sample_id": 1,
+        "annotator": "5d9f5e96a0454f2b9f06b31b449927ce",
+        "label": [
+          "Benign"
+        ],
+        "note": "The year 2016 is not mentioned in source while it can be inferred.",
+        "annotator_name": "Weisi",
+        "summary_span": " 2016 Games in Rio de Janeiro",
+        "summary_start": 241,
+        "summary_end": 270
+      },
+      {
+        "annot_id": 41,
+        "sample_id": 1,
+        "annotator": "3843397537424bf2ab4ca550533dd39e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "The source text never mentioned \"2016\", although the Olympics in Rio were indeed held in 2016.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "at the 2016 Games in Rio de Janeiro.",
+        "summary_start": 235,
+        "summary_end": 271
+      }
+    ],
+    "meta_model": "microsoft/Phi-3-mini-4k-instruct",
+    "meta_hhemv1": 0.79338,
+    "meta_hhem-2.1": 0.10689,
+    "meta_hhem-2.1-english": 0.29204,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 170
+  },
+  {
+    "sample_id": 2,
+    "source": "The Briton finished more than two minutes ahead of Poland's Anna Harkowska in Nottwil, Switzerland. Storey can win a 17th title when she rides in Saturday's road race. \"It's a massive relief to win,\" said the 37-year-old, who is targeting further Paralympic success at next year's Games in Rio de Janeiro. Storey is Britain's most decorated female Paralympian with 22 medals. She has won 11 gold, eight silver and three bronze medals in both cycling and swimming across six Paralympics. She won four golds at the 2012 Games in London and has now won 21 world titles across both sports. Storey began her sporting career in the pool, winning six medals at the 1992 Paralympics before switching to cycling in 2005.",
+    "summary": "Here's a concise summary of the passage, covering the core pieces of information:\n\nSarah Storey, a British Paralympian, won a time trial event in Switzerland, finishing over two minutes ahead of her closest competitor. This victory puts her in a position to win her 17th world title in an upcoming road race. Storey is Britain's most decorated female Paralympian with 22 medals across six Paralympics, including 11 golds. She has competed in both swimming and cycling, starting her career in swimming in 1992 before switching to cycling in 2005. Storey has won a total of 21 world titles in both sports and is aiming for further success at the 2016 Rio Paralympics.",
+    "annotations": [
+      {
+        "annot_id": 16,
+        "sample_id": 2,
+        "annotator": "5d9f5e96a0454f2b9f06b31b449927ce",
+        "label": [
+          "Benign"
+        ],
+        "note": "The name Sarah is not mentioned in source doc.",
+        "annotator_name": "Weisi",
+        "summary_span": "Sarah Storey, a British Paralympian, won a time trial event in Switzerland, finishing over two minutes ahead of her closest competitor.",
+        "summary_start": 83,
+        "summary_end": 218
+      },
+      {
+        "annot_id": 17,
+        "sample_id": 2,
+        "annotator": "5d9f5e96a0454f2b9f06b31b449927ce",
+        "label": [
+          "Benign"
+        ],
+        "note": "The year 2016 is not mentioned in source while it can be inferred.",
+        "annotator_name": "Weisi",
+        "summary_span": "2016 Rio Paralympics.",
+        "summary_start": 644,
+        "summary_end": 665
+      },
+      {
+        "annot_id": 43,
+        "sample_id": 2,
+        "annotator": "3843397537424bf2ab4ca550533dd39e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The first name of Storey is never mentioned in the source text.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "\nSarah",
+        "summary_start": 82,
+        "summary_end": 88
+      },
+      {
+        "annot_id": 44,
+        "sample_id": 2,
+        "annotator": "3843397537424bf2ab4ca550533dd39e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "The source text never mentioned \"2016\", although the Olympics in Rio were indeed held in 2016.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "at the 2016 Rio Paralympics.",
+        "summary_start": 637,
+        "summary_end": 665
+      }
+    ],
+    "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
+    "meta_hhemv1": 0.63262,
+    "meta_hhem-2.1": 0.30206,
+    "meta_hhem-2.1-english": 0.76994,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 285
+  },
+  {
+    "sample_id": 3,
+    "source": "The Briton finished more than two minutes ahead of Poland's Anna Harkowska in Nottwil, Switzerland. Storey can win a 17th title when she rides in Saturday's road race. \"It's a massive relief to win,\" said the 37-year-old, who is targeting further Paralympic success at next year's Games in Rio de Janeiro. Storey is Britain's most decorated female Paralympian with 22 medals. She has won 11 gold, eight silver and three bronze medals in both cycling and swimming across six Paralympics. She won four golds at the 2012 Games in London and has now won 21 world titles across both sports. Storey began her sporting career in the pool, winning six medals at the 1992 Paralympics before switching to cycling in 2005.",
+    "summary": "Sarah Storey, a 37-year-old British Paralympian, achieved a remarkable victory in Nottwil, Switzerland, finishing over two minutes ahead of her Polish competitor. This win brings her closer to a potential 17th title in the upcoming road race. Storey, a former swimmer turned cyclist, has an impressive record with 22 Paralympic medals, including 11 gold, across six Paralympic Games. Her athletic journey began in the pool at the 1992 Paralympics, where she earned six medals, and she later transitioned to cycling in 2005, adding to her success with 21 world titles.",
+    "annotations": [
+      {
+        "annot_id": 18,
+        "sample_id": 3,
+        "annotator": "5d9f5e96a0454f2b9f06b31b449927ce",
+        "label": [
+          "Benign"
+        ],
+        "note": "The name Sarah is not mentioned in source doc.",
+        "annotator_name": "Weisi",
+        "summary_span": "Sarah Storey",
+        "summary_start": 0,
+        "summary_end": 12
+      },
+      {
+        "annot_id": 45,
+        "sample_id": 3,
+        "annotator": "3843397537424bf2ab4ca550533dd39e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The first name of Storey was never mentioned in the source text.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "Sarah",
+        "summary_start": 0,
+        "summary_end": 5
+      },
+      {
+        "annot_id": 46,
+        "sample_id": 3,
+        "annotator": "3843397537424bf2ab4ca550533dd39e",
+        "label": [
+          "Benign"
+        ],
+        "note": "Not necessary. The source text stated that \"Storey can win a 17th title when she rides in Saturday's road race.\", but the next road race has nothing to do with this win. They are two independent events.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "This win brings her closer to a potential 17th title in the upcoming road race.",
+        "summary_start": 163,
+        "summary_end": 242
+      }
+    ],
+    "meta_model": "cohere/command-r-08-2024",
+    "meta_hhemv1": 0.93119,
+    "meta_hhem-2.1": 0.93255,
+    "meta_hhem-2.1-english": 0.97427,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 400
+  },
+  {
+    "sample_id": 4,
+    "source": "The Briton finished more than two minutes ahead of Poland's Anna Harkowska in Nottwil, Switzerland. Storey can win a 17th title when she rides in Saturday's road race. \"It's a massive relief to win,\" said the 37-year-old, who is targeting further Paralympic success at next year's Games in Rio de Janeiro. Storey is Britain's most decorated female Paralympian with 22 medals. She has won 11 gold, eight silver and three bronze medals in both cycling and swimming across six Paralympics. She won four golds at the 2012 Games in London and has now won 21 world titles across both sports. Storey began her sporting career in the pool, winning six medals at the 1992 Paralympics before switching to cycling in 2005.",
+    "summary": "The passage describes British Paralympian Sarah Storey's victory in a cycling event in Nottwil, Switzerland, where she won by over two minutes ahead of Anna Harkowska from Poland. Storey, aged 37, aims to secure her 17th title in the upcoming road race. She is noted as Britain's most decorated female Paralympian with 22 medals, including 11 golds, 8 silvers, and 3 bronzes across cycling and swimming disciplines. Storey has won 21 world titles and achieved four gold medals at the 2012 London Paralympics. Her career began in swimming, where she won six medals at the 1992 Paralympics, before transitioning to cycling in 2005.",
+    "annotations": [
+      {
+        "annot_id": 19,
+        "sample_id": 4,
+        "annotator": "5d9f5e96a0454f2b9f06b31b449927ce",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The name Sarah is not mentioned in source.",
+        "annotator_name": "Weisi",
+        "summary_span": " Sarah Storey",
+        "summary_start": 41,
+        "summary_end": 54
+      },
+      {
+        "annot_id": 48,
+        "sample_id": 4,
+        "annotator": "3843397537424bf2ab4ca550533dd39e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The first name of Storey was never mentioned in the source text.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "Sarah",
+        "summary_start": 42,
+        "summary_end": 47
+      }
+    ],
+    "meta_model": "Qwen/Qwen2.5-7B-Instruct",
+    "meta_hhemv1": 0.63845,
+    "meta_hhem-2.1": 0.94763,
+    "meta_hhem-2.1-english": 0.99132,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 515
+  },
+  {
+    "sample_id": 5,
+    "source": "The Briton finished more than two minutes ahead of Poland's Anna Harkowska in Nottwil, Switzerland. Storey can win a 17th title when she rides in Saturday's road race. \"It's a massive relief to win,\" said the 37-year-old, who is targeting further Paralympic success at next year's Games in Rio de Janeiro. Storey is Britain's most decorated female Paralympian with 22 medals. She has won 11 gold, eight silver and three bronze medals in both cycling and swimming across six Paralympics. She won four golds at the 2012 Games in London and has now won 21 world titles across both sports. Storey began her sporting career in the pool, winning six medals at the 1992 Paralympics before switching to cycling in 2005.",
+    "summary": "Here is a concise summary of the passage:\n\nSarah Storey won a cycling title in Nottwil, Switzerland, finishing over two minutes ahead of Anna Harkowska. This victory brings Storey closer to her 17th title, and she is targeting further success at the 2016 Paralympics in Rio. Storey is Britain's most decorated female Paralympian, with 22 medals, including 11 gold, 8 silver, and 3 bronze, won across six Paralympics in cycling and swimming.",
+    "annotations": [
+      {
+        "annot_id": 20,
+        "sample_id": 5,
+        "annotator": "5d9f5e96a0454f2b9f06b31b449927ce",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The name Sarah is not mentioned in source doc.",
+        "annotator_name": "Weisi",
+        "summary_span": "Sarah Storey won a cycling title in Nottwil, Switzerland, finishing over two minutes ahead of Anna Harkowska",
+        "summary_start": 43,
+        "summary_end": 151
+      },
+      {
+        "annot_id": 21,
+        "sample_id": 5,
+        "annotator": "5d9f5e96a0454f2b9f06b31b449927ce",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The year 2016 is not mentioned in source while it can be inferred.",
+        "annotator_name": "Weisi",
+        "summary_span": " This victory brings Storey closer to her 17th title, and she is targeting further success at the 2016 Paralympics in Rio.",
+        "summary_start": 152,
+        "summary_end": 274
+      },
+      {
+        "annot_id": 47,
+        "sample_id": 5,
+        "annotator": "3843397537424bf2ab4ca550533dd39e",
+        "label": [
+          "Benign"
+        ],
+        "note": "Not necessary. The source text stated that \"Storey can win a 17th title when she rides in Saturday's road race.\", but the next road race has nothing to do with this win. They are two independent events.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "This victory brings Storey closer to her 17th title",
+        "summary_start": 153,
+        "summary_end": 204
+      },
+      {
+        "annot_id": 49,
+        "sample_id": 5,
+        "annotator": "3843397537424bf2ab4ca550533dd39e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The first name of Storey was never mentioned in the source text.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "\nSarah",
+        "summary_start": 42,
+        "summary_end": 48
+      },
+      {
+        "annot_id": 51,
+        "sample_id": 5,
+        "annotator": "3843397537424bf2ab4ca550533dd39e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "The source text never mentioned \"2016\", although the Olympics in Rio were indeed held in 2016.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "at the 2016 Paralympics",
+        "summary_start": 243,
+        "summary_end": 266
+      }
+    ],
+    "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "meta_hhemv1": 0.69568,
+    "meta_hhem-2.1": 0.45707,
+    "meta_hhem-2.1-english": 0.8842,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 630
+  },
+  {
+    "sample_id": 6,
+    "source": "The Briton finished more than two minutes ahead of Poland's Anna Harkowska in Nottwil, Switzerland. Storey can win a 17th title when she rides in Saturday's road race. \"It's a massive relief to win,\" said the 37-year-old, who is targeting further Paralympic success at next year's Games in Rio de Janeiro. Storey is Britain's most decorated female Paralympian with 22 medals. She has won 11 gold, eight silver and three bronze medals in both cycling and swimming across six Paralympics. She won four golds at the 2012 Games in London and has now won 21 world titles across both sports. Storey began her sporting career in the pool, winning six medals at the 1992 Paralympics before switching to cycling in 2005.",
+    "summary": "Here is a concise summary of the passage:\n\nDame Sarah Storey won a cycling title in Nottwil, Switzerland, finishing over 2 minutes ahead of the runner-up. This victory brings her closer to a 17th title, with another chance to win on Saturday. Storey is Britain's most decorated female Paralympian with 22 medals, including 11 gold, and is targeting further success at the 2016 Rio Paralympics.",
+    "annotations": [
+      {
+        "annot_id": 22,
+        "sample_id": 6,
+        "annotator": "5d9f5e96a0454f2b9f06b31b449927ce",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The name Dame Sarah is not mentioned in source.",
+        "annotator_name": "Weisi",
+        "summary_span": "Dame Sarah Storey won a cycling title in Nottwil, Switzerland, finishing over 2 minutes ahead of the runner-u",
+        "summary_start": 43,
+        "summary_end": 152
+      },
+      {
+        "annot_id": 23,
+        "sample_id": 6,
+        "annotator": "5d9f5e96a0454f2b9f06b31b449927ce",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "Year 2016 is not mentioned in source doc.",
+        "annotator_name": "Weisi",
+        "summary_span": " 2016 Rio Paralympics.",
+        "summary_start": 371,
+        "summary_end": 393
+      },
+      {
+        "annot_id": 50,
+        "sample_id": 6,
+        "annotator": "3843397537424bf2ab4ca550533dd39e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The first name of Storey was never mentioned in the source text.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "\nDame Sarah",
+        "summary_start": 42,
+        "summary_end": 53
+      },
+      {
+        "annot_id": 52,
+        "sample_id": 6,
+        "annotator": "3843397537424bf2ab4ca550533dd39e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "The source text never mentioned \"2016\", although the Olympics in Rio were indeed held in 2016.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "at the 2016 Rio Paralympics.",
+        "summary_start": 365,
+        "summary_end": 393
+      },
+      {
+        "annot_id": 55,
+        "sample_id": 6,
+        "annotator": "3843397537424bf2ab4ca550533dd39e",
+        "label": [
+          "Benign"
+        ],
+        "note": "Not necessary. The source text stated that \"Storey can win a 17th title when she rides in Saturday's road race.\", but the next road race has nothing to do with this win. They are two independent events.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "This victory brings her closer to a 17th title",
+        "summary_start": 155,
+        "summary_end": 201
+      }
+    ],
+    "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "meta_hhemv1": 0.5524,
+    "meta_hhem-2.1": 0.39231,
+    "meta_hhem-2.1-english": 0.70827,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 745
+  },
+  {
+    "sample_id": 7,
+    "source": "The Briton finished more than two minutes ahead of Poland's Anna Harkowska in Nottwil, Switzerland. Storey can win a 17th title when she rides in Saturday's road race. \"It's a massive relief to win,\" said the 37-year-old, who is targeting further Paralympic success at next year's Games in Rio de Janeiro. Storey is Britain's most decorated female Paralympian with 22 medals. She has won 11 gold, eight silver and three bronze medals in both cycling and swimming across six Paralympics. She won four golds at the 2012 Games in London and has now won 21 world titles across both sports. Storey began her sporting career in the pool, winning six medals at the 1992 Paralympics before switching to cycling in 2005.",
+    "summary": "British Paralympian Sarah Storey won the women's time trial at the Para-cycling Road World Championships in Switzerland, finishing over two minutes ahead of the second-place finisher. This victory brings Storey closer to her 17th world title, which she can achieve in Saturday's road race. Storey, Britain's most decorated female Paralympian, has won 22 medals across six Paralympics in both cycling and swimming. She is aiming for further Paralympic success at the 2016 Rio Games. \n",
+    "annotations": [
+      {
+        "annot_id": 24,
+        "sample_id": 7,
+        "annotator": "5d9f5e96a0454f2b9f06b31b449927ce",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The name Sarah is not mentioned in source doc.",
+        "annotator_name": "Weisi",
+        "summary_span": "British Paralympian Sarah Storey won the women's time trial at the Para-cycling Road World Championships in Switzerland, finishing over two minutes ahead of the second-place finisher.",
+        "summary_start": 0,
+        "summary_end": 183
+      },
+      {
+        "annot_id": 25,
+        "sample_id": 7,
+        "annotator": "5d9f5e96a0454f2b9f06b31b449927ce",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "Year 2016 is not mentioned in source doc.",
+        "annotator_name": "Weisi",
+        "summary_span": "She is aiming for further Paralympic success at the 2016 Rio Games.",
+        "summary_start": 414,
+        "summary_end": 481
+      },
+      {
+        "annot_id": 53,
+        "sample_id": 7,
+        "annotator": "3843397537424bf2ab4ca550533dd39e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The first name of Storey was never mentioned in the source text.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "Sarah",
+        "summary_start": 20,
+        "summary_end": 25
+      },
+      {
+        "annot_id": 54,
+        "sample_id": 7,
+        "annotator": "3843397537424bf2ab4ca550533dd39e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "The source text never mentioned \"2016\", although the Olympics in Rio were indeed held in 2016.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "at the 2016 Rio Games",
+        "summary_start": 459,
+        "summary_end": 480
+      },
+      {
+        "annot_id": 56,
+        "sample_id": 7,
+        "annotator": "3843397537424bf2ab4ca550533dd39e",
+        "label": [
+          "Benign"
+        ],
+        "note": "Not necessary. The source text stated that \"Storey can win a 17th title when she rides in Saturday's road race.\", but the next road race has nothing to do with this win. They are two independent events.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "This victory brings Storey closer to her 17th world title",
+        "summary_start": 184,
+        "summary_end": 241
+      }
+    ],
+    "meta_model": "google/gemini-1.5-flash-001",
+    "meta_hhemv1": 0.2867,
+    "meta_hhem-2.1": 0.46598,
+    "meta_hhem-2.1-english": 0.83045,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 860
+  },
+  {
+    "sample_id": 8,
+    "source": "The Briton finished more than two minutes ahead of Poland's Anna Harkowska in Nottwil, Switzerland. Storey can win a 17th title when she rides in Saturday's road race. \"It's a massive relief to win,\" said the 37-year-old, who is targeting further Paralympic success at next year's Games in Rio de Janeiro. Storey is Britain's most decorated female Paralympian with 22 medals. She has won 11 gold, eight silver and three bronze medals in both cycling and swimming across six Paralympics. She won four golds at the 2012 Games in London and has now won 21 world titles across both sports. Storey began her sporting career in the pool, winning six medals at the 1992 Paralympics before switching to cycling in 2005.",
+    "summary": "The passage discusses the recent victory of British athlete Sarah Storey in a cycling race in Nottwil, Switzerland. Storey finished over two minutes ahead of her competitor, Anna Harkowska from Poland. Storey is aiming for further success at the upcoming Paralympic Games in Rio de Janeiro. She is currently Britain's most decorated female Paralympian, having won a total of 22 medals in both cycling and swimming across six Paralympics. Storey won four gold medals at the 2012 Games in London and has also won 21 world titles in both sports. She initially began her sporting career in swimming before transitioning to cycling in 2005.",
+    "annotations": [
+      {
+        "annot_id": 26,
+        "sample_id": 8,
+        "annotator": "5d9f5e96a0454f2b9f06b31b449927ce",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The name Sarah is not mentioned in source doc.",
+        "annotator_name": "Weisi",
+        "summary_span": "The passage discusses the recent victory of British athlete Sarah Storey in a cycling race in Nottwil, Switzerland. Storey finished over two minutes ahead of her competitor, Anna Harkowska from Poland",
+        "summary_start": 0,
+        "summary_end": 200
+      },
+      {
+        "annot_id": 57,
+        "sample_id": 8,
+        "annotator": "3843397537424bf2ab4ca550533dd39e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The first name of Storey was never mentioned in the source text.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "Sarah",
+        "summary_start": 60,
+        "summary_end": 65
+      }
+    ],
+    "meta_model": "openai/GPT-3.5-Turbo",
+    "meta_hhemv1": 0.56736,
+    "meta_hhem-2.1": 0.94882,
+    "meta_hhem-2.1-english": 0.99021,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 970
+  },
+  {
+    "sample_id": 9,
+    "source": "The Briton finished more than two minutes ahead of Poland's Anna Harkowska in Nottwil, Switzerland. Storey can win a 17th title when she rides in Saturday's road race. \"It's a massive relief to win,\" said the 37-year-old, who is targeting further Paralympic success at next year's Games in Rio de Janeiro. Storey is Britain's most decorated female Paralympian with 22 medals. She has won 11 gold, eight silver and three bronze medals in both cycling and swimming across six Paralympics. She won four golds at the 2012 Games in London and has now won 21 world titles across both sports. Storey began her sporting career in the pool, winning six medals at the 1992 Paralympics before switching to cycling in 2005.",
+    "summary": "The Briton won a race in Nottwil, Switzerland, finishing more than two minutes ahead of Poland's Anna Harkowska. She can secure her 17th title in the upcoming road race. At 37, she aims for more Paralympic success in Rio de Janeiro next year. As Britain's most decorated female Paralympian, she has 22 medals: 11 gold, eight silver, and three bronze, in both cycling and swimming across six Paralympics. She won four golds at the 2012 London Games and has 21 world titles in both sports. She started her career in swimming, winning six medals at the 1992 Paralympics, before switching to cycling in 2005.",
+    "annotations": [
+      {
+        "annot_id": 27,
+        "sample_id": 9,
+        "annotator": "5d9f5e96a0454f2b9f06b31b449927ce",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Secure and win have different meaning, then the summary is not consistent with source doc.",
+        "annotator_name": "Weisi",
+        "summary_span": "She can secure her 17th title in the upcoming road race.",
+        "summary_start": 113,
+        "summary_end": 169,
+        "source_span": "Storey can win a 17th title when she rides in Saturday's road race.",
+        "source_start": 100,
+        "source_end": 167
+      }
+    ],
+    "meta_model": "openai/gpt-4o",
+    "meta_hhemv1": 0.99393,
+    "meta_hhem-2.1": 0.96493,
+    "meta_hhem-2.1-english": 0.99418,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 1090
+  },
+  {
+    "sample_id": 10,
+    "source": "Christopher Livingstone Eubanks ( born 8 August 1966 ) , known as Chris Eubank , is a British former professional boxer who competed from 1985 to 1998 . Christopher Livingstone `` Chris '' Eubank Jr. ( born 18 September 1989 ) is a British professional boxer . He has held the IBO super-middleweight title since February 2017 , having previously held the WBA interim middleweight title in 2015 , and the British middleweight title in 2016 . As of May 2017 , Eubank Jr. is ranked as the world 's fifth best super middleweight by BoxRec , Also he is ranked as the seventh best middleweight by The Ring magazine and eighth by the Transnational Boxing Rankings Board .",
+    "summary": " The passage discusses two British professional boxers: Chris Eubank Sr. and Chris Eubank Jr. Chris Eubank Sr., born on August 8, 1966, competed from 1985 to 1998. Chris Eubank Jr., born on September 18, 1989, is still active. Eubank Jr. has held the IBO super-middleweight title since February 2017, previously holding the WBA interim middleweight title in 2015 and the British middleweight title in 2016. As of May 2017, Eubank Jr. is ranked as the world's fifth best super middleweight by BoxRec, seventh best middleweight by The Ring magazine, and eighth by the Transnational Boxing Rankings Board.",
+    "annotations": [
+      {
+        "annot_id": 58,
+        "sample_id": 10,
+        "annotator": "3843397537424bf2ab4ca550533dd39e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "The source text never mentioned if he is still active.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "is still active",
+        "summary_start": 210,
+        "summary_end": 225
+      }
+    ],
+    "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "meta_hhemv1": 0.57071,
+    "meta_hhem-2.1": 0.78568,
+    "meta_hhem-2.1-english": 0.95204,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 13
+  },
+  {
+    "sample_id": 11,
+    "source": "Christopher Livingstone Eubanks ( born 8 August 1966 ) , known as Chris Eubank , is a British former professional boxer who competed from 1985 to 1998 . Christopher Livingstone `` Chris '' Eubank Jr. ( born 18 September 1989 ) is a British professional boxer . He has held the IBO super-middleweight title since February 2017 , having previously held the WBA interim middleweight title in 2015 , and the British middleweight title in 2016 . As of May 2017 , Eubank Jr. is ranked as the world 's fifth best super middleweight by BoxRec , Also he is ranked as the seventh best middleweight by The Ring magazine and eighth by the Transnational Boxing Rankings Board .",
+    "summary": " Chris Eubank, born on August 8, 1966, is a British former professional boxer who competed from 1985 to 1998. His son, Chris Eubank Jr., born on September 18, 1989, is also a British professional boxer. Eubank Jr. has held the IBO super-middleweight title since February 2017, previously holding the WBA interim middleweight title in 2015 and the British middleweight title in 2016. As of May 2017, Eubank Jr. is ranked as the world's fifth-best super middleweight by BoxRec, seventh-best middleweight by The Ring magazine, and eighth by the Transnational Boxing Rankings Board.",
+    "annotations": [],
+    "meta_model": "microsoft/Phi-3-mini-4k-instruct",
+    "meta_hhemv1": 0.35988,
+    "meta_hhem-2.1": 0.84387,
+    "meta_hhem-2.1-english": 0.98312,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 128
+  },
+  {
+    "sample_id": 12,
+    "source": "Christopher Livingstone Eubanks ( born 8 August 1966 ) , known as Chris Eubank , is a British former professional boxer who competed from 1985 to 1998 . Christopher Livingstone `` Chris '' Eubank Jr. ( born 18 September 1989 ) is a British professional boxer . He has held the IBO super-middleweight title since February 2017 , having previously held the WBA interim middleweight title in 2015 , and the British middleweight title in 2016 . As of May 2017 , Eubank Jr. is ranked as the world 's fifth best super middleweight by BoxRec , Also he is ranked as the seventh best middleweight by The Ring magazine and eighth by the Transnational Boxing Rankings Board .",
+    "summary": "Here's a concise summary of the passage:\n\nThe passage describes two British professional boxers:\n\n1. Chris Eubank (born August 8, 1966):\n   - Full name: Christopher Livingstone Eubanks\n   - Competed from 1985 to 1998\n\n2. Chris Eubank Jr. (born September 18, 1989):\n   - Son of Chris Eubank\n   - Current holder of the IBO super-middleweight title (since February 2017)\n   - Previously held WBA interim middleweight title (2015) and British middleweight title (2016)\n   - Ranked fifth best super middleweight worldwide by BoxRec\n   - Ranked seventh best middleweight by The Ring magazine\n   - Ranked eighth best middleweight by the Transnational Boxing Rankings Board\n\nThe passage provides basic biographical information and highlights the boxing achievements and rankings of both father and son.",
+    "annotations": [],
+    "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
+    "meta_hhemv1": 0.95075,
+    "meta_hhem-2.1": 0.83738,
+    "meta_hhem-2.1-english": 0.96766,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 243
+  },
+  {
+    "sample_id": 13,
+    "source": "Christopher Livingstone Eubanks ( born 8 August 1966 ) , known as Chris Eubank , is a British former professional boxer who competed from 1985 to 1998 . Christopher Livingstone `` Chris '' Eubank Jr. ( born 18 September 1989 ) is a British professional boxer . He has held the IBO super-middleweight title since February 2017 , having previously held the WBA interim middleweight title in 2015 , and the British middleweight title in 2016 . As of May 2017 , Eubank Jr. is ranked as the world 's fifth best super middleweight by BoxRec , Also he is ranked as the seventh best middleweight by The Ring magazine and eighth by the Transnational Boxing Rankings Board .",
+    "summary": "Chris Eubank is a retired British professional boxer who competed for over a decade. His son, Chris Eubank Jr., is also a British professional boxer and has followed in his father's footsteps. Eubank Jr. has held multiple titles in the middleweight and super-middleweight divisions and is currently ranked among the top boxers in the world by various organizations.",
+    "annotations": [
+      {
+        "annot_id": 59,
+        "sample_id": 13,
+        "annotator": "3843397537424bf2ab4ca550533dd39e",
+        "label": [
+          "Benign"
+        ],
+        "note": "The source text did not explicitly say that the son followed his father's footsteps. This is an inference.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "and has followed in his father's footsteps",
+        "summary_start": 149,
+        "summary_end": 191
+      }
+    ],
+    "meta_model": "cohere/command-r-08-2024",
+    "meta_hhemv1": 0.83601,
+    "meta_hhem-2.1": 0.57191,
+    "meta_hhem-2.1-english": 0.91709,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 358
+  },
+  {
+    "sample_id": 14,
+    "source": "Christopher Livingstone Eubanks ( born 8 August 1966 ) , known as Chris Eubank , is a British former professional boxer who competed from 1985 to 1998 . Christopher Livingstone `` Chris '' Eubank Jr. ( born 18 September 1989 ) is a British professional boxer . He has held the IBO super-middleweight title since February 2017 , having previously held the WBA interim middleweight title in 2015 , and the British middleweight title in 2016 . As of May 2017 , Eubank Jr. is ranked as the world 's fifth best super middleweight by BoxRec , Also he is ranked as the seventh best middleweight by The Ring magazine and eighth by the Transnational Boxing Rankings Board .",
+    "summary": "The passage describes two individuals named Chris Eubank: Christopher Livingstone Eubanks, a former professional boxer active from 1985 to 1998, and his son Christopher Livingstone \"Chris\" Eubank Jr., a current professional boxer who has held multiple titles including the IBO super-middleweight title since February 2017. As of May 2017, Chris Eubank Jr. was ranked among the top boxers in his weight classes by various organizations.",
+    "annotations": [],
+    "meta_model": "Qwen/Qwen2.5-7B-Instruct",
+    "meta_hhemv1": 0.27508,
+    "meta_hhem-2.1": 0.84039,
+    "meta_hhem-2.1-english": 0.99284,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 473
+  },
+  {
+    "sample_id": 15,
+    "source": "Christopher Livingstone Eubanks ( born 8 August 1966 ) , known as Chris Eubank , is a British former professional boxer who competed from 1985 to 1998 . Christopher Livingstone `` Chris '' Eubank Jr. ( born 18 September 1989 ) is a British professional boxer . He has held the IBO super-middleweight title since February 2017 , having previously held the WBA interim middleweight title in 2015 , and the British middleweight title in 2016 . As of May 2017 , Eubank Jr. is ranked as the world 's fifth best super middleweight by BoxRec , Also he is ranked as the seventh best middleweight by The Ring magazine and eighth by the Transnational Boxing Rankings Board .",
+    "summary": "Here is a concise summary of the passage, covering the core pieces of information:\n\nChris Eubank and his son Chris Eubank Jr. are British boxers. Chris Eubank Sr. competed from 1985 to 1998, while Chris Eubank Jr. has held several titles, including the IBO super-middleweight title since 2017, and previously held the WBA interim middleweight title in 2015 and the British middleweight title in 2016.",
+    "annotations": [],
+    "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "meta_hhemv1": 0.37922,
+    "meta_hhem-2.1": 0.77776,
+    "meta_hhem-2.1-english": 0.98108,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 588
+  },
+  {
+    "sample_id": 16,
+    "source": "Christopher Livingstone Eubanks ( born 8 August 1966 ) , known as Chris Eubank , is a British former professional boxer who competed from 1985 to 1998 . Christopher Livingstone `` Chris '' Eubank Jr. ( born 18 September 1989 ) is a British professional boxer . He has held the IBO super-middleweight title since February 2017 , having previously held the WBA interim middleweight title in 2015 , and the British middleweight title in 2016 . As of May 2017 , Eubank Jr. is ranked as the world 's fifth best super middleweight by BoxRec , Also he is ranked as the seventh best middleweight by The Ring magazine and eighth by the Transnational Boxing Rankings Board .",
+    "summary": "Here is a concise summary of the passage, covering the core pieces of information described:\n\nThe passage describes two British boxers: Chris Eubank (born 1966), a former professional boxer who competed from 1985 to 1998, and his son Chris Eubank Jr. (born 1989), a current professional boxer who has held multiple titles, including the IBO super-middleweight title since 2017, and is ranked among the top middleweights and super-middleweights in the world by various boxing organizations.",
+    "annotations": [],
+    "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "meta_hhemv1": 0.30126,
+    "meta_hhem-2.1": 0.54694,
+    "meta_hhem-2.1-english": 0.96041,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 703
+  },
+  {
+    "sample_id": 17,
+    "source": "Christopher Livingstone Eubanks ( born 8 August 1966 ) , known as Chris Eubank , is a British former professional boxer who competed from 1985 to 1998 . Christopher Livingstone `` Chris '' Eubank Jr. ( born 18 September 1989 ) is a British professional boxer . He has held the IBO super-middleweight title since February 2017 , having previously held the WBA interim middleweight title in 2015 , and the British middleweight title in 2016 . As of May 2017 , Eubank Jr. is ranked as the world 's fifth best super middleweight by BoxRec , Also he is ranked as the seventh best middleweight by The Ring magazine and eighth by the Transnational Boxing Rankings Board .",
+    "summary": "Chris Eubank, born in 1966, is a former British professional boxer who competed from 1985 to 1998. His son, Chris Eubank Jr., born in 1989, is also a British professional boxer. Eubank Jr. has held the IBO super-middleweight title since 2017, and has previously held the WBA interim middleweight title in 2015 and the British middleweight title in 2016. As of May 2017, Eubank Jr. is ranked as the world's fifth best super middleweight by BoxRec, seventh best middleweight by The Ring magazine, and eighth by the Transnational Boxing Rankings Board. \n",
+    "annotations": [],
+    "meta_model": "google/gemini-1.5-flash-001",
+    "meta_hhemv1": 0.34791,
+    "meta_hhem-2.1": 0.76737,
+    "meta_hhem-2.1-english": 0.9347,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 818
+  },
+  {
+    "sample_id": 18,
+    "source": "Christopher Livingstone Eubanks ( born 8 August 1966 ) , known as Chris Eubank , is a British former professional boxer who competed from 1985 to 1998 . Christopher Livingstone `` Chris '' Eubank Jr. ( born 18 September 1989 ) is a British professional boxer . He has held the IBO super-middleweight title since February 2017 , having previously held the WBA interim middleweight title in 2015 , and the British middleweight title in 2016 . As of May 2017 , Eubank Jr. is ranked as the world 's fifth best super middleweight by BoxRec , Also he is ranked as the seventh best middleweight by The Ring magazine and eighth by the Transnational Boxing Rankings Board .",
+    "summary": "The passage provides information about two British professional boxers named Chris Eubank and Chris Eubank Jr. Chris Eubank competed from 1985 to 1998 and held various titles during his career. Chris Eubank Jr. is a current professional boxer who has held the IBO super-middleweight title since February 2017. He has also held other titles in the past. As of May 2017, Eubank Jr. is ranked as the fifth best super middleweight by BoxRec, the seventh best middleweight by The Ring magazine, and the eighth best middleweight by the Transnational Boxing Rankings Board.",
+    "annotations": [
+      {
+        "annot_id": 29,
+        "sample_id": 18,
+        "annotator": "5d9f5e96a0454f2b9f06b31b449927ce",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source doc doesn't mention that fact that the father Chris Eubank  held various titles.",
+        "annotator_name": "Weisi",
+        "summary_span": "Chris Eubank competed from 1985 to 1998 and held various titles during his career.",
+        "summary_start": 111,
+        "summary_end": 193
+      },
+      {
+        "annot_id": 60,
+        "sample_id": 18,
+        "annotator": "3843397537424bf2ab4ca550533dd39e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source text emphasized that Chris Eubank Jr held various titles during his career, NOT Chris Eubank Sr.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": " and held various titles during his career",
+        "summary_start": 150,
+        "summary_end": 192
+      }
+    ],
+    "meta_model": "openai/GPT-3.5-Turbo",
+    "meta_hhemv1": 0.91181,
+    "meta_hhem-2.1": 0.95402,
+    "meta_hhem-2.1-english": 0.98868,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 937
+  },
+  {
+    "sample_id": 19,
+    "source": "Christopher Livingstone Eubanks ( born 8 August 1966 ) , known as Chris Eubank , is a British former professional boxer who competed from 1985 to 1998 . Christopher Livingstone `` Chris '' Eubank Jr. ( born 18 September 1989 ) is a British professional boxer . He has held the IBO super-middleweight title since February 2017 , having previously held the WBA interim middleweight title in 2015 , and the British middleweight title in 2016 . As of May 2017 , Eubank Jr. is ranked as the world 's fifth best super middleweight by BoxRec , Also he is ranked as the seventh best middleweight by The Ring magazine and eighth by the Transnational Boxing Rankings Board .",
+    "summary": "Christopher Livingstone Eubank, known as Chris Eubank, is a British former professional boxer who competed from 1985 to 1998. His son, Christopher Livingstone \"Chris\" Eubank Jr., born on 18 September 1989, is a British professional boxer. Chris Eubank Jr. has held the IBO super-middleweight title since February 2017, previously held the WBA interim middleweight title in 2015, and the British middleweight title in 2016. As of May 2017, he is ranked as the world's fifth-best super middleweight by BoxRec, the seventh-best middleweight by The Ring magazine, and eighth by the Transnational Boxing Rankings Board.",
+    "annotations": [],
+    "meta_model": "openai/gpt-4o",
+    "meta_hhemv1": 0.21907,
+    "meta_hhem-2.1": 0.75267,
+    "meta_hhem-2.1-english": 0.96656,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 1048
+  },
+  {
+    "sample_id": 20,
+    "source": "James Jones (author) . He won the 1952 National Book Award for his first published novel , From Here to Eternity , which was adapted for the big screen immediately and made into a television series a generation later . James Jones (basketball player) . He averaged 25 points per game as a senior , earning Class 6A Player of the Year and First Team All-State honors . He has won three NBA championships , two with the Heat and one with the Cavaliers . In 2017 , he and teammate LeBron James reached the NBA Finals for the seventh consecutive year . He finished third in the NBA in three-point percentage during the 2007 -- 08 season and won the Three-Point Contest in 2011 .",
+    "summary": " The passage provides information about two individuals named James Jones. The first James Jones is an author who won the 1952 National Book Award for his first novel, \"From Here to Eternity,\" which was later adapted for a movie and a TV series. The second James Jones is a basketball player who has won three NBA championships, two with the Miami Heat and one with the Cleveland Cavaliers. In 2017, he and teammate LeBron James reached the NBA Finals for the seventh consecutive year. He also finished third in the NBA in three-point percentage during the 2007-08 season and won the Three-Point Contest in 2011.",
+    "annotations": [
+      {
+        "annot_id": 30,
+        "sample_id": 20,
+        "annotator": "5d9f5e96a0454f2b9f06b31b449927ce",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source only mentions the name of two teams Heat and Cavaliers, but it doesn't mention the location of two teams Miami and Cleveland.",
+        "annotator_name": "Weisi",
+        "summary_span": "The second James Jones is a basketball player who has won three NBA championships, two with the Miami Heat and one with the Cleveland Cavaliers",
+        "summary_start": 246,
+        "summary_end": 389,
+        "source_span": "He has won three NBA championships , two with the Heat and one with the Cavaliers .",
+        "source_start": 368,
+        "source_end": 451
+      },
+      {
+        "annot_id": 86,
+        "sample_id": 20,
+        "annotator": "3843397537424bf2ab4ca550533dd39e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source only mentions the name of two teams Heat and Cavaliers, but it doesn't mention the location of two teams Miami and Cleveland. (As an NBA fan, I know this as commonsense, but from a non-NBA fan's perspective, this may not be commonsense knowledge.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "The second James Jones is a basketball player who has won three NBA championships, two with the Miami Heat and one with the Cleveland Cavaliers.",
+        "summary_start": 246,
+        "summary_end": 390
+      }
+    ],
+    "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "meta_hhemv1": 0.96985,
+    "meta_hhem-2.1": 0.9415,
+    "meta_hhem-2.1-english": 0.99427,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 17
+  },
+  {
+    "sample_id": 21,
+    "source": "James Jones (author) . He won the 1952 National Book Award for his first published novel , From Here to Eternity , which was adapted for the big screen immediately and made into a television series a generation later . James Jones (basketball player) . He averaged 25 points per game as a senior , earning Class 6A Player of the Year and First Team All-State honors . He has won three NBA championships , two with the Heat and one with the Cavaliers . In 2017 , he and teammate LeBron James reached the NBA Finals for the seventh consecutive year . He finished third in the NBA in three-point percentage during the 2007 -- 08 season and won the Three-Point Contest in 2011 .",
+    "summary": " James Jones is an author who won the 1952 National Book Award for his first published novel, \"From Here to Eternity,\" which was adapted into a film and a TV series. He is also a basketball player who averaged 25 points per game as a senior, earning accolades and winning three NBA championships. Jones and LeBron James reached the NBA Finals for seven consecutive years in 2017, and Jones finished third in three-point percentage during the 2007-08 season and won the Three-Point Contest in 2011.",
+    "annotations": [
+      {
+        "annot_id": 31,
+        "sample_id": 21,
+        "annotator": "5d9f5e96a0454f2b9f06b31b449927ce",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source clearly indicate there are two James Jones, one is author and another is basketball player. But the summary kinds of mix these two persons.",
+        "annotator_name": "Weisi",
+        "summary_span": " He is also a basketball player who averaged 25 points per game as a senior,",
+        "summary_start": 165,
+        "summary_end": 241,
+        "source_span": "James Jones (basketball player) . He averaged 25 points per game as a senior , earning Class 6A Player of the Year and First Team All-State honors .",
+        "source_start": 219,
+        "source_end": 367
+      },
+      {
+        "annot_id": 61,
+        "sample_id": 21,
+        "annotator": "3843397537424bf2ab4ca550533dd39e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The \"He\" here seems to refer to James Jones the author. No. James Jones the author is NOT a basketball player. There are 2 James Jones.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "He is also a basketball player",
+        "summary_start": 166,
+        "summary_end": 196
+      }
+    ],
+    "meta_model": "microsoft/Phi-3-mini-4k-instruct",
+    "meta_hhemv1": 0.99778,
+    "meta_hhem-2.1": 0.97236,
+    "meta_hhem-2.1-english": 0.99745,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 132
+  },
+  {
+    "sample_id": 22,
+    "source": "James Jones (author) . He won the 1952 National Book Award for his first published novel , From Here to Eternity , which was adapted for the big screen immediately and made into a television series a generation later . James Jones (basketball player) . He averaged 25 points per game as a senior , earning Class 6A Player of the Year and First Team All-State honors . He has won three NBA championships , two with the Heat and one with the Cavaliers . In 2017 , he and teammate LeBron James reached the NBA Finals for the seventh consecutive year . He finished third in the NBA in three-point percentage during the 2007 -- 08 season and won the Three-Point Contest in 2011 .",
+    "summary": "Here's a concise summary of the passage, covering the core pieces of information:\n\nThe passage describes two different individuals named James Jones:\n\n1. James Jones (author):\n- Won the 1952 National Book Award for his first novel, \"From Here to Eternity\"\n- His novel was adapted into both a film and a television series\n\n2. James Jones (basketball player):\n- Excelled in high school, averaging 25 points per game as a senior\n- Earned Class 6A Player of the Year and First Team All-State honors\n- Won three NBA championships (two with the Heat, one with the Cavaliers)\n- Reached seven consecutive NBA Finals with teammate LeBron James\n- Finished third in NBA three-point percentage in 2007-08 season\n- Won the Three-Point Contest in 2011",
+    "annotations": [],
+    "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
+    "meta_hhemv1": 0.52515,
+    "meta_hhem-2.1": 0.91603,
+    "meta_hhem-2.1-english": 0.98046,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 247
+  },
+  {
+    "sample_id": 23,
+    "source": "James Jones (author) . He won the 1952 National Book Award for his first published novel , From Here to Eternity , which was adapted for the big screen immediately and made into a television series a generation later . James Jones (basketball player) . He averaged 25 points per game as a senior , earning Class 6A Player of the Year and First Team All-State honors . He has won three NBA championships , two with the Heat and one with the Cavaliers . In 2017 , he and teammate LeBron James reached the NBA Finals for the seventh consecutive year . He finished third in the NBA in three-point percentage during the 2007 -- 08 season and won the Three-Point Contest in 2011 .",
+    "summary": "James Jones is a renowned name associated with two prominent figures:\n\n- James Jones, the author, achieved acclaim with his debut novel, \"From Here to Eternity,\" which won the National Book Award in 1952 and was adapted into a successful film and TV series. \n\n- James Jones, the basketball player, excelled in his senior year, averaging 25 points per game and receiving prestigious awards. He has won three NBA championships and consistently performed well, reaching the NBA Finals seven times consecutively with LeBron James. Jones is also known for his three-point shooting prowess.",
+    "annotations": [
+      {
+        "annot_id": 62,
+        "sample_id": 23,
+        "annotator": "3843397537424bf2ab4ca550533dd39e",
+        "label": [
+          "Benign"
+        ],
+        "note": "This is a strongly subjective opinion, with words like \"a renowned name\" and \"prominent\". The source text only stated facts without giving any opinion.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "James Jones is a renowned name associated with two prominent figures:",
+        "summary_start": 0,
+        "summary_end": 69
+      }
+    ],
+    "meta_model": "cohere/command-r-08-2024",
+    "meta_hhemv1": 0.89672,
+    "meta_hhem-2.1": 0.89737,
+    "meta_hhem-2.1-english": 0.96197,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 362
+  },
+  {
+    "sample_id": 24,
+    "source": "James Jones (author) . He won the 1952 National Book Award for his first published novel , From Here to Eternity , which was adapted for the big screen immediately and made into a television series a generation later . James Jones (basketball player) . He averaged 25 points per game as a senior , earning Class 6A Player of the Year and First Team All-State honors . He has won three NBA championships , two with the Heat and one with the Cavaliers . In 2017 , he and teammate LeBron James reached the NBA Finals for the seventh consecutive year . He finished third in the NBA in three-point percentage during the 2007 -- 08 season and won the Three-Point Contest in 2011 .",
+    "summary": "The passage describes two individuals named James Jones. The author James Jones won the 1952 National Book Award for his novel \"From Here to Eternity,\" which was adapted for film and television. The basketball player James Jones was a high-scoring senior, winning multiple awards and NBA championships, and reached the NBA Finals seven consecutive years with teammate LeBron James.",
+    "annotations": [],
+    "meta_model": "Qwen/Qwen2.5-7B-Instruct",
+    "meta_hhemv1": 0.96142,
+    "meta_hhem-2.1": 0.96658,
+    "meta_hhem-2.1-english": 0.99705,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 477
+  },
+  {
+    "sample_id": 25,
+    "source": "James Jones (author) . He won the 1952 National Book Award for his first published novel , From Here to Eternity , which was adapted for the big screen immediately and made into a television series a generation later . James Jones (basketball player) . He averaged 25 points per game as a senior , earning Class 6A Player of the Year and First Team All-State honors . He has won three NBA championships , two with the Heat and one with the Cavaliers . In 2017 , he and teammate LeBron James reached the NBA Finals for the seventh consecutive year . He finished third in the NBA in three-point percentage during the 2007 -- 08 season and won the Three-Point Contest in 2011 .",
+    "summary": "Here is a concise summary of the passage:\n\nTwo individuals, James Jones, are described. One is an author who won the 1952 National Book Award for his novel \"From Here to Eternity\" and had it adapted into film and TV. The other is a basketball player who achieved numerous accolades, including winning three NBA championships, earning Player of the Year and All-State honors, and reaching the NBA Finals multiple times.",
+    "annotations": [],
+    "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "meta_hhemv1": 0.98311,
+    "meta_hhem-2.1": 0.956,
+    "meta_hhem-2.1-english": 0.99527,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 592
+  },
+  {
+    "sample_id": 26,
+    "source": "James Jones (author) . He won the 1952 National Book Award for his first published novel , From Here to Eternity , which was adapted for the big screen immediately and made into a television series a generation later . James Jones (basketball player) . He averaged 25 points per game as a senior , earning Class 6A Player of the Year and First Team All-State honors . He has won three NBA championships , two with the Heat and one with the Cavaliers . In 2017 , he and teammate LeBron James reached the NBA Finals for the seventh consecutive year . He finished third in the NBA in three-point percentage during the 2007 -- 08 season and won the Three-Point Contest in 2011 .",
+    "summary": "Here is a concise summary of the passage, covering the core pieces of information described:\n\nThere are two notable individuals named James Jones. One is an author who won the 1952 National Book Award for his novel \"From Here to Eternity\". The other is a basketball player who has won three NBA championships, was a three-time NBA Finals participant, and won the Three-Point Contest in 2011.",
+    "annotations": [
+      {
+        "annot_id": 32,
+        "sample_id": 26,
+        "annotator": "5d9f5e96a0454f2b9f06b31b449927ce",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Should be seven-time based on source doc.",
+        "annotator_name": "Weisi",
+        "summary_span": "was a three-time NBA Finals participant",
+        "summary_start": 310,
+        "summary_end": 349,
+        "source_span": "In 2017 , he and teammate LeBron James reached the NBA Finals for the seventh consecutive year .",
+        "source_start": 452,
+        "source_end": 548
+      },
+      {
+        "annot_id": 87,
+        "sample_id": 26,
+        "annotator": "3843397537424bf2ab4ca550533dd39e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Should be seven-time based on source doc.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "was a three-time NBA Finals participant,",
+        "summary_start": 310,
+        "summary_end": 350
+      }
+    ],
+    "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "meta_hhemv1": 0.68978,
+    "meta_hhem-2.1": 0.9326,
+    "meta_hhem-2.1-english": 0.98975,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 707
+  },
+  {
+    "sample_id": 27,
+    "source": "James Jones (author) . He won the 1952 National Book Award for his first published novel , From Here to Eternity , which was adapted for the big screen immediately and made into a television series a generation later . James Jones (basketball player) . He averaged 25 points per game as a senior , earning Class 6A Player of the Year and First Team All-State honors . He has won three NBA championships , two with the Heat and one with the Cavaliers . In 2017 , he and teammate LeBron James reached the NBA Finals for the seventh consecutive year . He finished third in the NBA in three-point percentage during the 2007 -- 08 season and won the Three-Point Contest in 2011 .",
+    "summary": "James Jones is the name of both an author and a basketball player. The author, James Jones, won the 1952 National Book Award for his novel *From Here to Eternity*, which was adapted into a film and later a television series. The basketball player, James Jones, averaged 25 points per game in his senior year, earning Class 6A Player of the Year and First Team All-State honors. He has won three NBA championships and finished third in the NBA in three-point percentage during the 2007-2008 season. \n",
+    "annotations": [],
+    "meta_model": "google/gemini-1.5-flash-001",
+    "meta_hhemv1": 0.99855,
+    "meta_hhem-2.1": 0.98433,
+    "meta_hhem-2.1-english": 0.99748,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 822
+  },
+  {
+    "sample_id": 28,
+    "source": "James Jones (author) . He won the 1952 National Book Award for his first published novel , From Here to Eternity , which was adapted for the big screen immediately and made into a television series a generation later . James Jones (basketball player) . He averaged 25 points per game as a senior , earning Class 6A Player of the Year and First Team All-State honors . He has won three NBA championships , two with the Heat and one with the Cavaliers . In 2017 , he and teammate LeBron James reached the NBA Finals for the seventh consecutive year . He finished third in the NBA in three-point percentage during the 2007 -- 08 season and won the Three-Point Contest in 2011 .",
+    "summary": "The passage discusses two individuals named James Jones. The first James Jones is an author who won the 1952 National Book Award for his novel \"From Here to Eternity,\" which was later adapted into a film and television series. The second James Jones is a basketball player who has achieved various accolades, including averaging 25 points per game as a senior, winning three NBA championships, and reaching the NBA Finals seven consecutive years with teammate LeBron James. He also finished third in three-point percentage during the 2007-08 season and won the Three-Point Contest in 2011.",
+    "annotations": [],
+    "meta_model": "openai/GPT-3.5-Turbo",
+    "meta_hhemv1": 0.98229,
+    "meta_hhem-2.1": 0.97334,
+    "meta_hhem-2.1-english": 0.99701,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 949
+  },
+  {
+    "sample_id": 29,
+    "source": "James Jones (author) . He won the 1952 National Book Award for his first published novel , From Here to Eternity , which was adapted for the big screen immediately and made into a television series a generation later . James Jones (basketball player) . He averaged 25 points per game as a senior , earning Class 6A Player of the Year and First Team All-State honors . He has won three NBA championships , two with the Heat and one with the Cavaliers . In 2017 , he and teammate LeBron James reached the NBA Finals for the seventh consecutive year . He finished third in the NBA in three-point percentage during the 2007 -- 08 season and won the Three-Point Contest in 2011 .",
+    "summary": "The passage describes two individuals named James Jones. The first, an author, won the 1952 National Book Award for his debut novel \"From Here to Eternity,\" which was adapted into a film and later a TV series. The second, a basketball player, averaged 25 points per game in high school, earning significant honors, and won three NBA championships. He reached the NBA Finals seven consecutive times with LeBron James and finished third in three-point percentage in the 2007-08 season, also winning the Three-Point Contest in 2011.",
+    "annotations": [
+      {
+        "annot_id": 33,
+        "sample_id": 29,
+        "annotator": "5d9f5e96a0454f2b9f06b31b449927ce",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source doc doesn't mention the time is in high school even it can be inferred it happened during college.",
+        "annotator_name": "Weisi",
+        "summary_span": "The second, a basketball player, averaged 25 points per game in high school,",
+        "summary_start": 210,
+        "summary_end": 286,
+        "source_span": "He averaged 25 points per game as a senior , earning Class 6A Player of the Year and First Team All-State honors .",
+        "source_start": 253,
+        "source_end": 367
+      },
+      {
+        "annot_id": 88,
+        "sample_id": 29,
+        "annotator": "3843397537424bf2ab4ca550533dd39e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source doc doesn't mention the time is in high school even it can be inferred it happened during college.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "The second, a basketball player, averaged 25 points per game in high school,",
+        "summary_start": 210,
+        "summary_end": 286
+      }
+    ],
+    "meta_model": "openai/gpt-4o",
+    "meta_hhemv1": 0.95238,
+    "meta_hhem-2.1": 0.93078,
+    "meta_hhem-2.1-english": 0.98783,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 1052
+  },
+  {
+    "sample_id": 30,
+    "source": "Former Dons midfielder Sheerin, 39, has been player-manager at the Red Lichties since 2010 and replaces Neil Cooper at Pittodrie. Arbroath were relegated to Scottish League Two after finishing season 2013-14 bottom of League One. Aberdeen chief executive Duncan Fraser said boss Derek McInnes chose Sheerin after \"a comprehensive process\". Speaking on the club's website, Fraser added: \"Despite wishing to retain Paul's services, Arbroath chairman John Christison was good to deal with and completely appreciated Paul's desire to come back to Aberdeen. \"Sheerin played for several Scottish clubs and also featured for Östersunds in Sweden before moving into coaching. He won a Scotland Under-21 cap in in the mid-1990s. Sheerin guided the Arbroath to their first national trophy in their history by winning the Scottish Third Division title and promotion in 2011.",
+    "summary": " The passage discusses the appointment of former Dons midfielder Paul Sheerin as the new manager at Aberdeen, replacing Neil Cooper. Sheerin has been the player-manager at Arbroath since 2010, and this move comes after Arbroath was relegated to Scottish League Two at the end of the 2013-14 season. Aberdeen's chief executive, Duncan Fraser, mentioned that the decision to hire Sheerin was made after a thorough selection process. Sheerin, who has played for several Scottish clubs and Östersunds in Sweden, won a Scotland Under-21 cap in the mid-1990s. Notably, Sheerin led Arbroath to their first national trophy in their history by winning the Scottish Third Division title and promotion in 2011.",
+    "annotations": [
+      {
+        "annot_id": 34,
+        "sample_id": 30,
+        "annotator": "5d9f5e96a0454f2b9f06b31b449927ce",
+        "label": [],
+        "note": "The source is not easy to understand without the sports background. For example, Red Lichties is Nick name of Arbroath.",
+        "annotator_name": "Weisi",
+        "source_span": "Former Dons midfielder Sheerin, 39, has been player-manager at the Red Lichties since 2010 and replaces Neil Cooper at Pittodrie",
+        "source_start": 0,
+        "source_end": 128
+      }
+    ],
+    "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "meta_hhemv1": 0.9685,
+    "meta_hhem-2.1": 0.91544,
+    "meta_hhem-2.1-english": 0.97956,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 54
+  },
+  {
+    "sample_id": 31,
+    "source": "Former Dons midfielder Sheerin, 39, has been player-manager at the Red Lichties since 2010 and replaces Neil Cooper at Pittodrie. Arbroath were relegated to Scottish League Two after finishing season 2013-14 bottom of League One. Aberdeen chief executive Duncan Fraser said boss Derek McInnes chose Sheerin after \"a comprehensive process\". Speaking on the club's website, Fraser added: \"Despite wishing to retain Paul's services, Arbroath chairman John Christison was good to deal with and completely appreciated Paul's desire to come back to Aberdeen. \"Sheerin played for several Scottish clubs and also featured for Östersunds in Sweden before moving into coaching. He won a Scotland Under-21 cap in in the mid-1990s. Sheerin guided the Arbroath to their first national trophy in their history by winning the Scottish Third Division title and promotion in 2011.",
+    "summary": " Former Dons midfielder Sheerin, 39, has been player-manager at the Red Lichties since 2010, replacing Neil Cooper at Pittodrie. After Arbroath's relegation to Scottish League Two in 2013-14, Aberdeen chief executive Duncan Fraser stated that Derek McInnes chose Sheerin following a comprehensive process. Sheerin, who played for several Scottish clubs and Östersunds in Sweden, won a Scotland Under-21 cap in the mid-1990s. As player-manager, he led Arbroath to their first national trophy by winning the Scottish Third Division title and promotion in 2011.",
+    "annotations": [
+      {
+        "annot_id": 63,
+        "sample_id": 31,
+        "annotator": "3843397537424bf2ab4ca550533dd39e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "Both sub-sentences are correct. However, the source text never stated that these two events are time-related. The use of \"After\" to connect them is unnecessary.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "After Arbroath's relegation to Scottish League Two in 2013-14, Aberdeen chief executive Duncan Fraser stated that Derek McInnes chose Sheerin following a comprehensive process.",
+        "summary_start": 129,
+        "summary_end": 305
+      }
+    ],
+    "meta_model": "microsoft/Phi-3-mini-4k-instruct",
+    "meta_hhemv1": 0.99836,
+    "meta_hhem-2.1": 0.95634,
+    "meta_hhem-2.1-english": 0.99349,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 169
+  },
+  {
+    "sample_id": 32,
+    "source": "Former Dons midfielder Sheerin, 39, has been player-manager at the Red Lichties since 2010 and replaces Neil Cooper at Pittodrie. Arbroath were relegated to Scottish League Two after finishing season 2013-14 bottom of League One. Aberdeen chief executive Duncan Fraser said boss Derek McInnes chose Sheerin after \"a comprehensive process\". Speaking on the club's website, Fraser added: \"Despite wishing to retain Paul's services, Arbroath chairman John Christison was good to deal with and completely appreciated Paul's desire to come back to Aberdeen. \"Sheerin played for several Scottish clubs and also featured for Östersunds in Sweden before moving into coaching. He won a Scotland Under-21 cap in in the mid-1990s. Sheerin guided the Arbroath to their first national trophy in their history by winning the Scottish Third Division title and promotion in 2011.",
+    "summary": "Here's a concise summary of the passage:\n\nPaul Sheerin, a 39-year-old former Aberdeen midfielder, has been appointed as a coach at Aberdeen FC. He leaves his position as player-manager at Arbroath, where he had been since 2010. Sheerin led Arbroath to their first national trophy by winning the Scottish Third Division title in 2011, but the team was recently relegated to Scottish League Two. Aberdeen's manager Derek McInnes selected Sheerin after a thorough process, and the club's CEO Duncan Fraser praised Arbroath's chairman for his understanding of Sheerin's desire to return to Aberdeen. Sheerin has experience playing for various Scottish clubs and in Sweden, and also earned a Scotland Under-21 cap in the mid-1990s.",
+    "annotations": [
+      {
+        "annot_id": 35,
+        "sample_id": 32,
+        "annotator": "5d9f5e96a0454f2b9f06b31b449927ce",
+        "label": [
+          "Benign"
+        ],
+        "note": "Boss is not same with manager",
+        "annotator_name": "Weisi",
+        "summary_span": "Aberdeen's manager Derek McInnes selected Sheerin after a thorough process",
+        "summary_start": 394,
+        "summary_end": 468,
+        "source_span": "Aberdeen chief executive Duncan Fraser said boss Derek McInnes chose Sheerin after \"a comprehensive process\".",
+        "source_start": 230,
+        "source_end": 339
+      },
+      {
+        "annot_id": 64,
+        "sample_id": 32,
+        "annotator": "3843397537424bf2ab4ca550533dd39e",
+        "label": [
+          "Benign"
+        ],
+        "note": "The word \"recently\" is too vague and depends on the viewpoint. In the source text, the time period is specified as \"after finishing season 2013-14\".",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "recently",
+        "summary_start": 351,
+        "summary_end": 359
+      }
+    ],
+    "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
+    "meta_hhemv1": 0.72684,
+    "meta_hhem-2.1": 0.83347,
+    "meta_hhem-2.1-english": 0.82371,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 284
+  },
+  {
+    "sample_id": 33,
+    "source": "Former Dons midfielder Sheerin, 39, has been player-manager at the Red Lichties since 2010 and replaces Neil Cooper at Pittodrie. Arbroath were relegated to Scottish League Two after finishing season 2013-14 bottom of League One. Aberdeen chief executive Duncan Fraser said boss Derek McInnes chose Sheerin after \"a comprehensive process\". Speaking on the club's website, Fraser added: \"Despite wishing to retain Paul's services, Arbroath chairman John Christison was good to deal with and completely appreciated Paul's desire to come back to Aberdeen. \"Sheerin played for several Scottish clubs and also featured for Östersunds in Sweden before moving into coaching. He won a Scotland Under-21 cap in in the mid-1990s. Sheerin guided the Arbroath to their first national trophy in their history by winning the Scottish Third Division title and promotion in 2011.",
+    "summary": "Paul Sheerin, a former Aberdeen player, has been appointed as the new manager of Aberdeen FC, replacing Neil Cooper. Sheerin, who was previously the player-manager at Arbroath, was selected by Aberdeen's boss after a thorough evaluation process. Despite Arbroath's recent relegation, Sheerin's managerial success includes leading them to their first-ever national trophy by winning the Scottish Third Division title in 2011.",
+    "annotations": [
+      {
+        "annot_id": 65,
+        "sample_id": 33,
+        "annotator": "3843397537424bf2ab4ca550533dd39e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source text never stated that Sheerin was a former Aberdeen player.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "a former Aberdeen player",
+        "summary_start": 14,
+        "summary_end": 38
+      },
+      {
+        "annot_id": 89,
+        "sample_id": 33,
+        "annotator": "5d9f5e96a0454f2b9f06b31b449927ce",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "From source we cannot infer he is a former Aberdeen player.",
+        "annotator_name": "Weisi",
+        "summary_span": " a former Aberdeen player",
+        "summary_start": 13,
+        "summary_end": 38,
+        "source_span": "Speaking on the club's website, Fraser added: \"Despite wishing to retain Paul's services, Arbroath chairman John Christison was good to deal with and completely appreciated Paul's desire to come back to Aberdeen.",
+        "source_start": 340,
+        "source_end": 552
+      }
+    ],
+    "meta_model": "cohere/command-r-08-2024",
+    "meta_hhemv1": 0.88208,
+    "meta_hhem-2.1": 0.77143,
+    "meta_hhem-2.1-english": 0.89485,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 399
+  },
+  {
+    "sample_id": 34,
+    "source": "Former Dons midfielder Sheerin, 39, has been player-manager at the Red Lichties since 2010 and replaces Neil Cooper at Pittodrie. Arbroath were relegated to Scottish League Two after finishing season 2013-14 bottom of League One. Aberdeen chief executive Duncan Fraser said boss Derek McInnes chose Sheerin after \"a comprehensive process\". Speaking on the club's website, Fraser added: \"Despite wishing to retain Paul's services, Arbroath chairman John Christison was good to deal with and completely appreciated Paul's desire to come back to Aberdeen. \"Sheerin played for several Scottish clubs and also featured for Östersunds in Sweden before moving into coaching. He won a Scotland Under-21 cap in in the mid-1990s. Sheerin guided the Arbroath to their first national trophy in their history by winning the Scottish Third Division title and promotion in 2011.",
+    "summary": "Paul Sheerin, 39, who was a former midfielder for Dons and has been player-manager at Arbroath (nicknamed Red Lichties) since 2010, has been appointed as the new player-manager at Aberdeen, replacing Neil Cooper. Sheerin previously led Arbroath to their first national trophy by winning the Scottish Third Division title and securing promotion in 2011. Aberdeen's chief executive, Duncan Fraser, stated that Sheerin was chosen after a thorough process, despite Aberdeen wanting to retain his services. Arbroath was relegated to Scottish League Two after finishing bottom of League One in the 2013-14 season.",
+    "annotations": [
+      {
+        "annot_id": 36,
+        "sample_id": 34,
+        "annotator": "5d9f5e96a0454f2b9f06b31b449927ce",
+        "label": [
+          "Questionable"
+        ],
+        "note": "Without sports background, not sure if the Arbroath nickname Red Litchties can be inferred from source doc.",
+        "annotator_name": "Weisi",
+        "summary_span": "Paul Sheerin, 39, who was a former midfielder for Dons and has been player-manager at Arbroath (nicknamed Red Lichties) since 2010",
+        "summary_start": 0,
+        "summary_end": 130,
+        "source_span": "Former Dons midfielder Sheerin, 39, has been player-manager at the Red Lichties since 2010 and replaces Neil Cooper at Pittodrie.",
+        "source_start": 0,
+        "source_end": 129
+      },
+      {
+        "annot_id": 66,
+        "sample_id": 34,
+        "annotator": "3843397537424bf2ab4ca550533dd39e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "As someone with no background knowledge in this sport, all I could see in the source text is \"replaces Neil Cooper at Pittodrie\". Is Pittodrie the same as Aberdeen?",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "has been appointed as the new player-manager at Aberdeen",
+        "summary_start": 132,
+        "summary_end": 188
+      },
+      {
+        "annot_id": 67,
+        "sample_id": 34,
+        "annotator": "3843397537424bf2ab4ca550533dd39e",
+        "label": [
+          "Benign"
+        ],
+        "note": "Not \"Aberdeen\", but \"Arbroath chairman John Christison\".",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "despite Aberdeen wanting to retain his services",
+        "summary_start": 453,
+        "summary_end": 500
+      }
+    ],
+    "meta_model": "Qwen/Qwen2.5-7B-Instruct",
+    "meta_hhemv1": 0.97176,
+    "meta_hhem-2.1": 0.9448,
+    "meta_hhem-2.1-english": 0.98393,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 514
+  },
+  {
+    "sample_id": 35,
+    "source": "Former Dons midfielder Sheerin, 39, has been player-manager at the Red Lichties since 2010 and replaces Neil Cooper at Pittodrie. Arbroath were relegated to Scottish League Two after finishing season 2013-14 bottom of League One. Aberdeen chief executive Duncan Fraser said boss Derek McInnes chose Sheerin after \"a comprehensive process\". Speaking on the club's website, Fraser added: \"Despite wishing to retain Paul's services, Arbroath chairman John Christison was good to deal with and completely appreciated Paul's desire to come back to Aberdeen. \"Sheerin played for several Scottish clubs and also featured for Östersunds in Sweden before moving into coaching. He won a Scotland Under-21 cap in in the mid-1990s. Sheerin guided the Arbroath to their first national trophy in their history by winning the Scottish Third Division title and promotion in 2011.",
+    "summary": "Here is a concise summary of the passage:\n\nDerek McInnes has appointed Paul Sheerin as the new manager at Aberdeen, replacing Neil Cooper. Sheerin, a former Aberdeen midfielder, has been player-manager at Arbroath since 2010 and has guided the team to their first national trophy in 2011.",
+    "annotations": [
+      {
+        "annot_id": 37,
+        "sample_id": 35,
+        "annotator": "5d9f5e96a0454f2b9f06b31b449927ce",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Weisi",
+        "summary_span": "Sheerin, a former Aberdeen midfielder",
+        "summary_start": 139,
+        "summary_end": 176,
+        "source_span": "Former Dons midfielder Sheerin, 39, has been player-manager at the Red Lichties since 2010 and replaces Neil Cooper at Pittodrie.",
+        "source_start": 0,
+        "source_end": 129
+      }
+    ],
+    "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "meta_hhemv1": 0.80253,
+    "meta_hhem-2.1": 0.66294,
+    "meta_hhem-2.1-english": 0.71496,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 629
+  },
+  {
+    "sample_id": 36,
+    "source": "Former Dons midfielder Sheerin, 39, has been player-manager at the Red Lichties since 2010 and replaces Neil Cooper at Pittodrie. Arbroath were relegated to Scottish League Two after finishing season 2013-14 bottom of League One. Aberdeen chief executive Duncan Fraser said boss Derek McInnes chose Sheerin after \"a comprehensive process\". Speaking on the club's website, Fraser added: \"Despite wishing to retain Paul's services, Arbroath chairman John Christison was good to deal with and completely appreciated Paul's desire to come back to Aberdeen. \"Sheerin played for several Scottish clubs and also featured for Östersunds in Sweden before moving into coaching. He won a Scotland Under-21 cap in in the mid-1990s. Sheerin guided the Arbroath to their first national trophy in their history by winning the Scottish Third Division title and promotion in 2011.",
+    "summary": "Here is a concise summary of the passage:\n\nPaul Sheerin, 39, has been appointed as a replacement for Neil Cooper at Aberdeen's Pittodrie. Sheerin was previously player-manager at Arbroath, a position he held since 2010. He was chosen by Aberdeen boss Derek McInnes after a comprehensive process. Sheerin has a playing background in Scotland and Sweden, and has also coached Arbroath to their first national trophy, the Scottish Third Division title, in 2011.",
+    "annotations": [],
+    "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "meta_hhemv1": 0.95373,
+    "meta_hhem-2.1": 0.95274,
+    "meta_hhem-2.1-english": 0.97519,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 744
+  },
+  {
+    "sample_id": 37,
+    "source": "Former Dons midfielder Sheerin, 39, has been player-manager at the Red Lichties since 2010 and replaces Neil Cooper at Pittodrie. Arbroath were relegated to Scottish League Two after finishing season 2013-14 bottom of League One. Aberdeen chief executive Duncan Fraser said boss Derek McInnes chose Sheerin after \"a comprehensive process\". Speaking on the club's website, Fraser added: \"Despite wishing to retain Paul's services, Arbroath chairman John Christison was good to deal with and completely appreciated Paul's desire to come back to Aberdeen. \"Sheerin played for several Scottish clubs and also featured for Östersunds in Sweden before moving into coaching. He won a Scotland Under-21 cap in in the mid-1990s. Sheerin guided the Arbroath to their first national trophy in their history by winning the Scottish Third Division title and promotion in 2011.",
+    "summary": "Paul Sheerin, former midfielder for Aberdeen, has been appointed as the new manager of the team. Sheerin previously managed Arbroath, leading them to their first national trophy in 2011. He replaces Neil Cooper at Pittodrie. Aberdeen's chief executive, Duncan Fraser, stated that the decision was made after a thorough process and that Arbroath's chairman was understanding of Sheerin's desire to return to Aberdeen. \n",
+    "annotations": [
+      {
+        "annot_id": 38,
+        "sample_id": 37,
+        "annotator": "5d9f5e96a0454f2b9f06b31b449927ce",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Weisi",
+        "summary_span": "Paul Sheerin, former midfielder for Aberdeen, ",
+        "summary_start": 0,
+        "summary_end": 46,
+        "source_span": "Former Dons midfielder Sheerin, 39, has been player-manager at the Red Lichties since 2010 and replaces Neil Cooper at Pittodrie.",
+        "source_start": 0,
+        "source_end": 129
+      }
+    ],
+    "meta_model": "google/gemini-1.5-flash-001",
+    "meta_hhemv1": 0.99009,
+    "meta_hhem-2.1": 0.73804,
+    "meta_hhem-2.1-english": 0.84456,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 859
+  },
+  {
+    "sample_id": 38,
+    "source": "Former Dons midfielder Sheerin, 39, has been player-manager at the Red Lichties since 2010 and replaces Neil Cooper at Pittodrie. Arbroath were relegated to Scottish League Two after finishing season 2013-14 bottom of League One. Aberdeen chief executive Duncan Fraser said boss Derek McInnes chose Sheerin after \"a comprehensive process\". Speaking on the club's website, Fraser added: \"Despite wishing to retain Paul's services, Arbroath chairman John Christison was good to deal with and completely appreciated Paul's desire to come back to Aberdeen. \"Sheerin played for several Scottish clubs and also featured for Östersunds in Sweden before moving into coaching. He won a Scotland Under-21 cap in in the mid-1990s. Sheerin guided the Arbroath to their first national trophy in their history by winning the Scottish Third Division title and promotion in 2011.",
+    "summary": "The passage discusses the appointment of Paul Sheerin as the new manager of Aberdeen Football Club. Sheerin, a former midfielder for Aberdeen, has been the player-manager at Arbroath since 2010. Arbroath was relegated to Scottish League Two in the 2013-14 season. Aberdeen's CEO, Duncan Fraser, stated that Sheerin was chosen by boss Derek McInnes after a thorough selection process. Despite Arbroath's desire to retain Sheerin's services, they understood his desire to return to Aberdeen. Sheerin has played for various Scottish clubs and Östersunds in Sweden before transitioning into coaching. He led Arbroath to their first national trophy, winning the Scottish Third Division title and gaining promotion in 2011.",
+    "annotations": [
+      {
+        "annot_id": 39,
+        "sample_id": 38,
+        "annotator": "5d9f5e96a0454f2b9f06b31b449927ce",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Weisi",
+        "summary_span": ". Sheerin, a former midfielder for Aberdeen,",
+        "summary_start": 98,
+        "summary_end": 142,
+        "source_span": "Former Dons midfielder Sheerin, 39, has been player-manager at the Red Lichties since 2010 and replaces Neil Cooper at Pittodrie.",
+        "source_start": 0,
+        "source_end": 129
+      },
+      {
+        "annot_id": 68,
+        "sample_id": 38,
+        "annotator": "3843397537424bf2ab4ca550533dd39e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "Is \"Dons\" the same as \"Aberdeen\"?",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "a former midfielder for Aberdeen",
+        "summary_start": 109,
+        "summary_end": 141
+      }
+    ],
+    "meta_model": "openai/GPT-3.5-Turbo",
+    "meta_hhemv1": 0.72016,
+    "meta_hhem-2.1": 0.86672,
+    "meta_hhem-2.1-english": 0.96563,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 942
+  },
+  {
+    "sample_id": 39,
+    "source": "Former Dons midfielder Sheerin, 39, has been player-manager at the Red Lichties since 2010 and replaces Neil Cooper at Pittodrie. Arbroath were relegated to Scottish League Two after finishing season 2013-14 bottom of League One. Aberdeen chief executive Duncan Fraser said boss Derek McInnes chose Sheerin after \"a comprehensive process\". Speaking on the club's website, Fraser added: \"Despite wishing to retain Paul's services, Arbroath chairman John Christison was good to deal with and completely appreciated Paul's desire to come back to Aberdeen. \"Sheerin played for several Scottish clubs and also featured for Östersunds in Sweden before moving into coaching. He won a Scotland Under-21 cap in in the mid-1990s. Sheerin guided the Arbroath to their first national trophy in their history by winning the Scottish Third Division title and promotion in 2011.",
+    "summary": "Former Dons midfielder Paul Sheerin, 39, has been appointed to replace Neil Cooper at Pittodrie after serving as player-manager at Arbroath since 2010. Arbroath was relegated to Scottish League Two after finishing last in League One for the 2013-14 season. Aberdeen's chief executive, Duncan Fraser, stated that Sheerin was chosen by boss Derek McInnes following a thorough selection process. Despite Arbroath's desire to keep Sheerin, their chairman John Christison understood his wish to return to Aberdeen. Sheerin has played for several Scottish clubs and in Sweden, earning a Scotland Under-21 cap in the mid-1990s. He led Arbroath to their first national trophy by winning the Scottish Third Division title and securing promotion in 2011.",
+    "annotations": [],
+    "meta_model": "openai/gpt-4o",
+    "meta_hhemv1": 0.98531,
+    "meta_hhem-2.1": 0.91919,
+    "meta_hhem-2.1-english": 0.98357,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 1089
+  },
+  {
+    "sample_id": 40,
+    "source": "Rage Against the Machine . The same year , growing tensions over the direction of the band prompted de la Rocha to quit , leading to the band 's breakup . De la Rocha started a low-key solo career , while the rest of the band formed the rock supergroup Audioslave with Chris Cornell , then-former frontman of Soundgarden ; Audioslave recorded three albums before disbanding in 2007 . The same year , Rage Against the Machine announced a reunion and performed together for the first time in seven years at the Coachella Valley Music and Arts Festival in April 2007 . Renegades is the fourth studio album by the American rap metal band Rage Against the Machine , released on December 5 , 2000 by Epic Records .",
+    "summary": " Rage Against the Machine's lead vocalist, Zack de la Rocha, left the band in the same year due to creative differences, causing the band to disband. De la Rocha pursued a low-key solo career, while the remaining members formed Audioslave with Chris Cornell, the former frontman of Soundgarden. Audioslave released three albums before disbanding in 2007. In the same year, Rage Against the Machine reunited and performed at the Coachella Valley Music and Arts Festival. Their fourth studio album, \"Renegades,\" was released in 2000.",
+    "annotations": [
+      {
+        "annot_id": 11,
+        "sample_id": 40,
+        "annotator": "5d9f5e96a0454f2b9f06b31b449927ce",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The name Zack is not mentioned in source",
+        "annotator_name": "Weisi",
+        "summary_span": " Zack de la Rocha,",
+        "summary_start": 42,
+        "summary_end": 60
+      },
+      {
+        "annot_id": 12,
+        "sample_id": 40,
+        "annotator": "5d9f5e96a0454f2b9f06b31b449927ce",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The two expressions may not be same",
+        "annotator_name": "Weisi",
+        "summary_span": "creative differences",
+        "summary_start": 99,
+        "summary_end": 119,
+        "source_span": " tensions over the direction",
+        "source_start": 50,
+        "source_end": 78
+      },
+      {
+        "annot_id": 69,
+        "sample_id": 40,
+        "annotator": "3843397537424bf2ab4ca550533dd39e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source never mentioned \"creative differences\".",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "due to creative differences",
+        "summary_start": 92,
+        "summary_end": 119
+      },
+      {
+        "annot_id": 84,
+        "sample_id": 40,
+        "annotator": "3843397537424bf2ab4ca550533dd39e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "Zack is never mentioned in the source.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "Zack",
+        "summary_start": 43,
+        "summary_end": 47
+      }
+    ],
+    "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "meta_hhemv1": 0.53894,
+    "meta_hhem-2.1": 0.59429,
+    "meta_hhem-2.1-english": 0.78472,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 21
+  },
+  {
+    "sample_id": 41,
+    "source": "Rage Against the Machine . The same year , growing tensions over the direction of the band prompted de la Rocha to quit , leading to the band 's breakup . De la Rocha started a low-key solo career , while the rest of the band formed the rock supergroup Audioslave with Chris Cornell , then-former frontman of Soundgarden ; Audioslave recorded three albums before disbanding in 2007 . The same year , Rage Against the Machine announced a reunion and performed together for the first time in seven years at the Coachella Valley Music and Arts Festival in April 2007 . Renegades is the fourth studio album by the American rap metal band Rage Against the Machine , released on December 5 , 2000 by Epic Records .",
+    "summary": " Rage Against the Machine, a rap metal band, experienced a breakup in 1997 due to tensions, leading vocalist Zack de la Rocha to pursue a solo career. The remaining members formed the rock supergroup Audioslave with Soundgarden's Chris Cornell, releasing three albums before disbanding in 2007. In April 2007, Rage Against the Machine reunited and performed at Coachella Valley Music and Arts Festival. Their fourth studio album, \"Renegades,\" was released on December 5, 2000, by Epic Records. \n\nSummary: Rage Against the Machine, a rap metal band, broke up in 1997, with vocalist Zack de la Rocha starting a solo career. The remaining members formed Audioslave with Chris Cornell, which disbanded in 2007. The band reunited in 2007 and released their fourth album, \"Renegades,\" in 2000.",
+    "annotations": [
+      {
+        "annot_id": 9,
+        "sample_id": 41,
+        "annotator": "5d9f5e96a0454f2b9f06b31b449927ce",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "1997 is not mentioned and can not be inferred from source. ",
+        "annotator_name": "Weisi",
+        "summary_span": "experienced a breakup in 1997",
+        "summary_start": 45,
+        "summary_end": 74
+      },
+      {
+        "annot_id": 10,
+        "sample_id": 41,
+        "annotator": "5d9f5e96a0454f2b9f06b31b449927ce",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The name Zack is not mentioned in source",
+        "annotator_name": "Weisi",
+        "summary_span": "Zack",
+        "summary_start": 109,
+        "summary_end": 113
+      },
+      {
+        "annot_id": 70,
+        "sample_id": 41,
+        "annotator": "3843397537424bf2ab4ca550533dd39e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "This seems repetitive.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "Summary: Rage Against the Machine, a rap metal band, broke up in 1997, with vocalist Zack de la Rocha starting a solo career. The remaining members formed Audioslave with Chris Cornell, which disbanded in 2007. The band reunited in 2007 and released their fourth album, \"Renegades,\" in 2000.",
+        "summary_start": 496,
+        "summary_end": 787
+      },
+      {
+        "annot_id": 71,
+        "sample_id": 41,
+        "annotator": "3843397537424bf2ab4ca550533dd39e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source never mentioned \"1997\".",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "in 1997",
+        "summary_start": 67,
+        "summary_end": 74
+      },
+      {
+        "annot_id": 72,
+        "sample_id": 41,
+        "annotator": "3843397537424bf2ab4ca550533dd39e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source never mentioned \"1997\".",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "in 1997",
+        "summary_start": 558,
+        "summary_end": 565
+      }
+    ],
+    "meta_model": "microsoft/Phi-3-mini-4k-instruct",
+    "meta_hhemv1": 0.9918,
+    "meta_hhem-2.1": 0.92018,
+    "meta_hhem-2.1-english": 0.92711,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 136
+  },
+  {
+    "sample_id": 42,
+    "source": "Rage Against the Machine . The same year , growing tensions over the direction of the band prompted de la Rocha to quit , leading to the band 's breakup . De la Rocha started a low-key solo career , while the rest of the band formed the rock supergroup Audioslave with Chris Cornell , then-former frontman of Soundgarden ; Audioslave recorded three albums before disbanding in 2007 . The same year , Rage Against the Machine announced a reunion and performed together for the first time in seven years at the Coachella Valley Music and Arts Festival in April 2007 . Renegades is the fourth studio album by the American rap metal band Rage Against the Machine , released on December 5 , 2000 by Epic Records .",
+    "summary": "Here's a concise summary of the passage, covering the core pieces of information:\n\nRage Against the Machine broke up in 2000 due to internal tensions, with de la Rocha leaving to pursue a solo career. The remaining members formed Audioslave with Chris Cornell, which lasted until 2007. That same year, Rage Against the Machine reunited and performed at Coachella. The passage also mentions \"Renegades,\" the band's fourth studio album, released in December 2000 by Epic Records.",
+    "annotations": [
+      {
+        "annot_id": 8,
+        "sample_id": 42,
+        "annotator": "5d9f5e96a0454f2b9f06b31b449927ce",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source doesn't mention the exact year of the broke up.",
+        "annotator_name": "Weisi",
+        "summary_span": "Rage Against the Machine broke up in 2000 due to internal tensions",
+        "summary_start": 83,
+        "summary_end": 149
+      },
+      {
+        "annot_id": 73,
+        "sample_id": 42,
+        "annotator": "3843397537424bf2ab4ca550533dd39e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source never mentioned breaking up in 2000.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "broke up in 2000",
+        "summary_start": 108,
+        "summary_end": 124
+      }
+    ],
+    "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
+    "meta_hhemv1": 0.70607,
+    "meta_hhem-2.1": 0.83747,
+    "meta_hhem-2.1-english": 0.98849,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 251
+  },
+  {
+    "sample_id": 43,
+    "source": "Rage Against the Machine . The same year , growing tensions over the direction of the band prompted de la Rocha to quit , leading to the band 's breakup . De la Rocha started a low-key solo career , while the rest of the band formed the rock supergroup Audioslave with Chris Cornell , then-former frontman of Soundgarden ; Audioslave recorded three albums before disbanding in 2007 . The same year , Rage Against the Machine announced a reunion and performed together for the first time in seven years at the Coachella Valley Music and Arts Festival in April 2007 . Renegades is the fourth studio album by the American rap metal band Rage Against the Machine , released on December 5 , 2000 by Epic Records .",
+    "summary": "Rage Against the Machine, an American rap metal band, experienced internal tensions leading to the departure of de la Rocha and their subsequent breakup. De la Rocha pursued a solo career, while the remaining members formed Audioslave with Chris Cornell, releasing three albums. In 2007, Rage Against the Machine reunited, performing at Coachella, and their fourth album, 'Renegades', was released in 2000.",
+    "annotations": [
+      {
+        "annot_id": 7,
+        "sample_id": 43,
+        "annotator": "5d9f5e96a0454f2b9f06b31b449927ce",
+        "label": [
+          "Benign"
+        ],
+        "note": "The two expressions may not be same",
+        "annotator_name": "Weisi",
+        "summary_span": " internal tensions ",
+        "summary_start": 65,
+        "summary_end": 84,
+        "source_span": "growing tensions over the direction",
+        "source_start": 43,
+        "source_end": 78
+      }
+    ],
+    "meta_model": "cohere/command-r-08-2024",
+    "meta_hhemv1": 0.98315,
+    "meta_hhem-2.1": 0.97345,
+    "meta_hhem-2.1-english": 0.99471,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 366
+  },
+  {
+    "sample_id": 44,
+    "source": "Rage Against the Machine . The same year , growing tensions over the direction of the band prompted de la Rocha to quit , leading to the band 's breakup . De la Rocha started a low-key solo career , while the rest of the band formed the rock supergroup Audioslave with Chris Cornell , then-former frontman of Soundgarden ; Audioslave recorded three albums before disbanding in 2007 . The same year , Rage Against the Machine announced a reunion and performed together for the first time in seven years at the Coachella Valley Music and Arts Festival in April 2007 . Renegades is the fourth studio album by the American rap metal band Rage Against the Machine , released on December 5 , 2000 by Epic Records .",
+    "summary": "The passage discusses the dissolution of Rage Against the Machine due to growing tensions and Zack de la Rocha's departure, which led to the formation of Audioslave by the remaining members. It also mentions a reunion of Rage Against the Machine at Coachella in 2007 and provides details about their fourth studio album, \"Renegades,\" released in 2000.",
+    "annotations": [
+      {
+        "annot_id": 6,
+        "sample_id": 44,
+        "annotator": "5d9f5e96a0454f2b9f06b31b449927ce",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The name Zack is not mentioned in source.",
+        "annotator_name": "Weisi",
+        "summary_span": " Zack ",
+        "summary_start": 93,
+        "summary_end": 99
+      },
+      {
+        "annot_id": 74,
+        "sample_id": 44,
+        "annotator": "3843397537424bf2ab4ca550533dd39e",
+        "label": [
+          "Benign"
+        ],
+        "note": "I don't think the source text provides \"details\" about this album. It only mentioned this album.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "provides details about their fourth studio album, \"Renegades,\" released in 2000.",
+        "summary_start": 271,
+        "summary_end": 351
+      },
+      {
+        "annot_id": 83,
+        "sample_id": 44,
+        "annotator": "3843397537424bf2ab4ca550533dd39e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "Zack is never mentioned in the source.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "Zack",
+        "summary_start": 94,
+        "summary_end": 98
+      }
+    ],
+    "meta_model": "Qwen/Qwen2.5-7B-Instruct",
+    "meta_hhemv1": 0.94586,
+    "meta_hhem-2.1": 0.89225,
+    "meta_hhem-2.1-english": 0.98678,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 481
+  },
+  {
+    "sample_id": 45,
+    "source": "Rage Against the Machine . The same year , growing tensions over the direction of the band prompted de la Rocha to quit , leading to the band 's breakup . De la Rocha started a low-key solo career , while the rest of the band formed the rock supergroup Audioslave with Chris Cornell , then-former frontman of Soundgarden ; Audioslave recorded three albums before disbanding in 2007 . The same year , Rage Against the Machine announced a reunion and performed together for the first time in seven years at the Coachella Valley Music and Arts Festival in April 2007 . Renegades is the fourth studio album by the American rap metal band Rage Against the Machine , released on December 5 , 2000 by Epic Records .",
+    "summary": "Here is a concise summary of the passage:\n\nRage Against the Machine broke up in 2000 due to internal tensions, with Tom Morello, Brad Wilk, and Tim Commerford forming Audioslave with Chris Cornell. The band reunited in 2007, performing at Coachella, and released the album \"Renegades\" in 2000.",
+    "annotations": [
+      {
+        "annot_id": 5,
+        "sample_id": 45,
+        "annotator": "5d9f5e96a0454f2b9f06b31b449927ce",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source doesn't mention the rest band members' name (Tom, Brad and Tim)",
+        "annotator_name": "Weisi",
+        "summary_span": "Rage Against the Machine broke up in 2000 due to internal tensions, with Tom Morello, Brad Wilk, and Tim Commerford forming Audioslave with Chris Cornell.",
+        "summary_start": 43,
+        "summary_end": 197,
+        "source_span": "De la Rocha started a low-key solo career , while the rest of the band formed the rock supergroup Audioslave with Chris Cornell , then-former frontman of Soundgarden ; Audioslave recorded three albums before disbanding in 2007 .",
+        "source_start": 155,
+        "source_end": 383
+      },
+      {
+        "annot_id": 75,
+        "sample_id": 45,
+        "annotator": "3843397537424bf2ab4ca550533dd39e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source never mentioned they broke up in 2000.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "in 2000",
+        "summary_start": 77,
+        "summary_end": 84
+      },
+      {
+        "annot_id": 76,
+        "sample_id": 45,
+        "annotator": "3843397537424bf2ab4ca550533dd39e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source never mentioned these people.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "with Tom Morello, Brad Wilk, and Tim Commerford",
+        "summary_start": 111,
+        "summary_end": 158
+      },
+      {
+        "annot_id": 90,
+        "sample_id": 45,
+        "annotator": "5d9f5e96a0454f2b9f06b31b449927ce",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "These names are not mentioned in source.",
+        "annotator_name": "Weisi",
+        "summary_span": "with Tom Morello, Brad Wilk, and Tim Commerford",
+        "summary_start": 111,
+        "summary_end": 158
+      }
+    ],
+    "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "meta_hhemv1": 0.4305,
+    "meta_hhem-2.1": 0.04171,
+    "meta_hhem-2.1-english": 0.01084,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 596
+  },
+  {
+    "sample_id": 46,
+    "source": "Rage Against the Machine . The same year , growing tensions over the direction of the band prompted de la Rocha to quit , leading to the band 's breakup . De la Rocha started a low-key solo career , while the rest of the band formed the rock supergroup Audioslave with Chris Cornell , then-former frontman of Soundgarden ; Audioslave recorded three albums before disbanding in 2007 . The same year , Rage Against the Machine announced a reunion and performed together for the first time in seven years at the Coachella Valley Music and Arts Festival in April 2007 . Renegades is the fourth studio album by the American rap metal band Rage Against the Machine , released on December 5 , 2000 by Epic Records .",
+    "summary": "Here is a concise summary of the passage:\n\nRage Against the Machine broke up in 2000 after vocalist de la Rocha quit due to creative differences. De la Rocha pursued a solo career, while the remaining band members formed Audioslave with Chris Cornell, releasing three albums before disbanding in 2007. That same year, Rage Against the Machine reunited and performed at Coachella, marking their first performance together in seven years.",
+    "annotations": [
+      {
+        "annot_id": 4,
+        "sample_id": 46,
+        "annotator": "5d9f5e96a0454f2b9f06b31b449927ce",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Create difference is not same with tensions over the direction.",
+        "annotator_name": "Weisi",
+        "summary_span": "Rage Against the Machine broke up in 2000 after vocalist de la Rocha quit due to creative differences.",
+        "summary_start": 43,
+        "summary_end": 145,
+        "source_span": "The same year , growing tensions over the direction of the band prompted de la Rocha to quit , leading to the band 's breakup .",
+        "source_start": 27,
+        "source_end": 154
+      },
+      {
+        "annot_id": 77,
+        "sample_id": 46,
+        "annotator": "3843397537424bf2ab4ca550533dd39e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source never mentioned creative differences.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "due to creative differences",
+        "summary_start": 117,
+        "summary_end": 144
+      }
+    ],
+    "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "meta_hhemv1": 0.60437,
+    "meta_hhem-2.1": 0.75525,
+    "meta_hhem-2.1-english": 0.96969,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 711
+  },
+  {
+    "sample_id": 47,
+    "source": "Rage Against the Machine . The same year , growing tensions over the direction of the band prompted de la Rocha to quit , leading to the band 's breakup . De la Rocha started a low-key solo career , while the rest of the band formed the rock supergroup Audioslave with Chris Cornell , then-former frontman of Soundgarden ; Audioslave recorded three albums before disbanding in 2007 . The same year , Rage Against the Machine announced a reunion and performed together for the first time in seven years at the Coachella Valley Music and Arts Festival in April 2007 . Renegades is the fourth studio album by the American rap metal band Rage Against the Machine , released on December 5 , 2000 by Epic Records .",
+    "summary": "Rage Against the Machine's fourth studio album, *Renegades*, was released in 2000.  The band broke up in 2000 after lead singer Zack de la Rocha left due to creative differences.  De la Rocha began a solo career while the rest of the band formed Audioslave with Chris Cornell.  Audioslave disbanded in 2007, the same year Rage Against the Machine reunited and performed at Coachella. \n",
+    "annotations": [
+      {
+        "annot_id": 3,
+        "sample_id": 47,
+        "annotator": "5d9f5e96a0454f2b9f06b31b449927ce",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "(1) The name Zack is not mentioned in the source\n(2) The reason is tensions over the direction, which is not same with creative differences in summary.",
+        "annotator_name": "Weisi",
+        "summary_span": "The band broke up in 2000 after lead singer Zack de la Rocha left due to creative differences.",
+        "summary_start": 84,
+        "summary_end": 178,
+        "source_span": "The same year , growing tensions over the direction of the band prompted de la Rocha to quit , leading to the band 's breakup .",
+        "source_start": 27,
+        "source_end": 154
+      },
+      {
+        "annot_id": 78,
+        "sample_id": 47,
+        "annotator": "3843397537424bf2ab4ca550533dd39e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source never mentioned creative differences.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "due to creative differences",
+        "summary_start": 150,
+        "summary_end": 177
+      },
+      {
+        "annot_id": 79,
+        "sample_id": 47,
+        "annotator": "3843397537424bf2ab4ca550533dd39e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source never mentioned they broke up in 2000.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "broke up in 2000",
+        "summary_start": 93,
+        "summary_end": 109
+      },
+      {
+        "annot_id": 82,
+        "sample_id": 47,
+        "annotator": "3843397537424bf2ab4ca550533dd39e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "Zack is not mentioned in the source.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "Zack",
+        "summary_start": 128,
+        "summary_end": 132
+      }
+    ],
+    "meta_model": "google/gemini-1.5-flash-001",
+    "meta_hhemv1": 0.45191,
+    "meta_hhem-2.1": 0.40751,
+    "meta_hhem-2.1-english": 0.57738,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 826
+  },
+  {
+    "sample_id": 48,
+    "source": "Rage Against the Machine . The same year , growing tensions over the direction of the band prompted de la Rocha to quit , leading to the band 's breakup . De la Rocha started a low-key solo career , while the rest of the band formed the rock supergroup Audioslave with Chris Cornell , then-former frontman of Soundgarden ; Audioslave recorded three albums before disbanding in 2007 . The same year , Rage Against the Machine announced a reunion and performed together for the first time in seven years at the Coachella Valley Music and Arts Festival in April 2007 . Renegades is the fourth studio album by the American rap metal band Rage Against the Machine , released on December 5 , 2000 by Epic Records .",
+    "summary": "The passage discusses the history of the band Rage Against the Machine. It mentions that tensions within the band led to the departure of vocalist Zack de la Rocha and the subsequent breakup of the band. De la Rocha pursued a solo career while the remaining members formed the supergroup Audioslave. Audioslave released three albums before disbanding in 2007. In the same year, Rage Against the Machine announced a reunion and performed at the Coachella Valley Music and Arts Festival. The passage also briefly mentions that \"Renegades\" is the band's fourth studio album, released in 2000.",
+    "annotations": [
+      {
+        "annot_id": 2,
+        "sample_id": 48,
+        "annotator": "5d9f5e96a0454f2b9f06b31b449927ce",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Doesn't mention the name Zack from source",
+        "annotator_name": "Weisi",
+        "summary_span": "It mentions that tensions within the band led to the departure of vocalist Zack de la Rocha and the subsequent breakup of the band. ",
+        "summary_start": 72,
+        "summary_end": 204
+      },
+      {
+        "annot_id": 81,
+        "sample_id": 48,
+        "annotator": "3843397537424bf2ab4ca550533dd39e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "Zack is not mentioned in the source text.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "Zack",
+        "summary_start": 147,
+        "summary_end": 151
+      }
+    ],
+    "meta_model": "openai/GPT-3.5-Turbo",
+    "meta_hhemv1": 0.81867,
+    "meta_hhem-2.1": 0.86021,
+    "meta_hhem-2.1-english": 0.97219,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 966
+  },
+  {
+    "sample_id": 49,
+    "source": "Rage Against the Machine . The same year , growing tensions over the direction of the band prompted de la Rocha to quit , leading to the band 's breakup . De la Rocha started a low-key solo career , while the rest of the band formed the rock supergroup Audioslave with Chris Cornell , then-former frontman of Soundgarden ; Audioslave recorded three albums before disbanding in 2007 . The same year , Rage Against the Machine announced a reunion and performed together for the first time in seven years at the Coachella Valley Music and Arts Festival in April 2007 . Renegades is the fourth studio album by the American rap metal band Rage Against the Machine , released on December 5 , 2000 by Epic Records .",
+    "summary": "Rage Against the Machine experienced a breakup when de la Rocha quit due to growing tensions in the band. De la Rocha pursued a solo career, while the remaining members formed Audioslave with Chris Cornell, releasing three albums before disbanding in 2007. That same year, Rage Against the Machine reunited and performed at the Coachella Valley Music and Arts Festival. Their fourth studio album, \"Renegades,\" was released on December 5, 2000, by Epic Records.",
+    "annotations": [
+      {
+        "annot_id": 1,
+        "sample_id": 49,
+        "annotator": "5d9f5e96a0454f2b9f06b31b449927ce",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "tensions over the direction is not same with tensions in the band",
+        "annotator_name": "Weisi",
+        "summary_span": "Rage Against the Machine experienced a breakup when de la Rocha quit due to growing tensions in the band.",
+        "summary_start": 0,
+        "summary_end": 105,
+        "source_span": "Rage Against the Machine . The same year , growing tensions over the direction of the band prompted de la Rocha to quit , ",
+        "source_start": 0,
+        "source_end": 122
+      }
+    ],
+    "meta_model": "openai/gpt-4o",
+    "meta_hhemv1": 0.99371,
+    "meta_hhem-2.1": 0.98032,
+    "meta_hhem-2.1-english": 0.99701,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 1056
+  }
+]

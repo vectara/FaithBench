@@ -1,0 +1,1804 @@
+[
+  {
+    "sample_id": 0,
+    "source": "Poseidon (film) . Poseidon grossed $ 181,674,817 at the worldwide box office on a budget of $ 160 million .",
+    "summary": " The film \"Poseidon\" grossed $181,674,817 at the worldwide box office, with a production budget of $160 million.",
+    "annotations": [
+      {
+        "annot_id": 1,
+        "sample_id": 0,
+        "annotator": "a3ac21668e6249b7978617da547f2708",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "\"budget\" (source) vs. \"production budget\" (summary)\nThe budget for a movie may also include non-production budget such as distribution, advertising. ",
+        "annotator_name": "forrest",
+        "summary_span": "production",
+        "summary_start": 78,
+        "summary_end": 88
+      },
+      {
+        "annot_id": 60,
+        "sample_id": 0,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "\"budget\" (source) vs. \"production budget\" (summary) The budget for a movie may also include non-production budget such as distribution, advertising. ",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "production",
+        "summary_start": 78,
+        "summary_end": 88
+      }
+    ],
+    "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "meta_hhemv1": 0.9995,
+    "meta_hhem-2.1": 0.52694,
+    "meta_hhem-2.1-english": 0.98313,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 15
+  },
+  {
+    "sample_id": 1,
+    "source": "Poseidon (film) . Poseidon grossed $ 181,674,817 at the worldwide box office on a budget of $ 160 million .",
+    "summary": " Poseidon, a film, grossed $181,674,817 worldwide from a budget of $160 million.",
+    "annotations": [],
+    "meta_model": "microsoft/Phi-3-mini-4k-instruct",
+    "meta_hhemv1": 0.99971,
+    "meta_hhem-2.1": 0.8193,
+    "meta_hhem-2.1-english": 0.99252,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 130
+  },
+  {
+    "sample_id": 2,
+    "source": "Poseidon (film) . Poseidon grossed $ 181,674,817 at the worldwide box office on a budget of $ 160 million .",
+    "summary": "Here's a concise summary of the passage, covering the core pieces of information:\n\nThe passage provides financial information about the film \"Poseidon.\" It states that the movie had a production budget of $160 million and generated $181,674,817 in worldwide box office revenue.",
+    "annotations": [
+      {
+        "annot_id": 2,
+        "sample_id": 2,
+        "annotator": "a3ac21668e6249b7978617da547f2708",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "\"budget\" (source) vs. \"production budget\" (summary)",
+        "annotator_name": "forrest",
+        "summary_span": "production",
+        "summary_start": 184,
+        "summary_end": 194
+      },
+      {
+        "annot_id": 46,
+        "sample_id": 2,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Questionable"
+        ],
+        "note": "This sentence is correct, but I'm not sure whether we want this sentence to appear in the summary. When a reader sees this sentence, he/she probably will assume that this passage is longer than one sentence and provides more details on the financial information of \"Poseidon\".",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "The passage provides financial information about the film \"Poseidon.\"",
+        "summary_start": 83,
+        "summary_end": 152
+      },
+      {
+        "annot_id": 61,
+        "sample_id": 2,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "\"budget\" (source) vs. \"production budget\" (summary)",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "production",
+        "summary_start": 184,
+        "summary_end": 194
+      }
+    ],
+    "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
+    "meta_hhemv1": 0.99828,
+    "meta_hhem-2.1": 0.81147,
+    "meta_hhem-2.1-english": 0.98099,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 245
+  },
+  {
+    "sample_id": 3,
+    "source": "Poseidon (film) . Poseidon grossed $ 181,674,817 at the worldwide box office on a budget of $ 160 million .",
+    "summary": "The film Poseidon was a moderate financial success, generating worldwide box office revenue of over $181 million against a production budget of $160 million.",
+    "annotations": [
+      {
+        "annot_id": 3,
+        "sample_id": 3,
+        "annotator": "a3ac21668e6249b7978617da547f2708",
+        "label": [
+          "Benign"
+        ],
+        "note": "it requires knowledge about the movie industry to judge whether it was a \"moderate financial success\"",
+        "annotator_name": "forrest",
+        "summary_span": "a moderate financial success",
+        "summary_start": 22,
+        "summary_end": 50
+      },
+      {
+        "annot_id": 4,
+        "sample_id": 3,
+        "annotator": "a3ac21668e6249b7978617da547f2708",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "budget (source) vs. production budget (summary)",
+        "annotator_name": "forrest",
+        "summary_span": "a production budget",
+        "summary_start": 121,
+        "summary_end": 140,
+        "source_span": "a budget",
+        "source_start": 80,
+        "source_end": 88
+      },
+      {
+        "annot_id": 45,
+        "sample_id": 3,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Benign"
+        ],
+        "note": "The source text implies a net positive profit. However, the word \"moderate\" is a subjective opinion that the source text did not mention. It depends on perspectives and reference points for comparison.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "moderate financial success",
+        "summary_start": 24,
+        "summary_end": 50
+      },
+      {
+        "annot_id": 62,
+        "sample_id": 3,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "\"budget\" (source) vs. \"production budget\" (summary)",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "production",
+        "summary_start": 123,
+        "summary_end": 133
+      }
+    ],
+    "meta_model": "cohere/command-r-08-2024",
+    "meta_hhemv1": 0.94354,
+    "meta_hhem-2.1": 0.46406,
+    "meta_hhem-2.1-english": 0.70875,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 360
+  },
+  {
+    "sample_id": 4,
+    "source": "Poseidon (film) . Poseidon grossed $ 181,674,817 at the worldwide box office on a budget of $ 160 million .",
+    "summary": "The film Poseidon earned $181,674,817 worldwide, exceeding its $160 million budget.",
+    "annotations": [
+      {
+        "annot_id": 5,
+        "sample_id": 4,
+        "annotator": "a3ac21668e6249b7978617da547f2708",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source does not compare the budget over the income. ",
+        "annotator_name": "forrest",
+        "summary_span": "exceeding",
+        "summary_start": 49,
+        "summary_end": 58,
+        "source_span": "grossed",
+        "source_start": 27,
+        "source_end": 34
+      },
+      {
+        "annot_id": 6,
+        "sample_id": 4,
+        "annotator": "a3ac21668e6249b7978617da547f2708",
+        "label": [
+          "Questionable"
+        ],
+        "note": "some may argue the subtle difference between \"gross\" and \"earn\". ",
+        "annotator_name": "forrest",
+        "summary_span": "earned",
+        "summary_start": 18,
+        "summary_end": 24,
+        "source_span": "grossed ",
+        "source_start": 27,
+        "source_end": 35
+      },
+      {
+        "annot_id": 63,
+        "sample_id": 4,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source does not compare the budget over the income. ",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "exceeding",
+        "summary_start": 49,
+        "summary_end": 58
+      }
+    ],
+    "meta_model": "Qwen/Qwen2.5-7B-Instruct",
+    "meta_hhemv1": 0.92902,
+    "meta_hhem-2.1": 0.32927,
+    "meta_hhem-2.1-english": 0.44929,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 475
+  },
+  {
+    "sample_id": 5,
+    "source": "Poseidon (film) . Poseidon grossed $ 181,674,817 at the worldwide box office on a budget of $ 160 million .",
+    "summary": "The film Poseidon grossed $181,674,817 at the worldwide box office on a budget of $160 million.",
+    "annotations": [],
+    "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "meta_hhemv1": 0.99947,
+    "meta_hhem-2.1": 0.72865,
+    "meta_hhem-2.1-english": 0.98402,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 590
+  },
+  {
+    "sample_id": 6,
+    "source": "Poseidon (film) . Poseidon grossed $ 181,674,817 at the worldwide box office on a budget of $ 160 million .",
+    "summary": "Here is a concise summary of the passage:\n\nThe film \"Poseidon\" grossed $181,674,817 worldwide on a budget of $160 million.",
+    "annotations": [],
+    "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "meta_hhemv1": 0.99169,
+    "meta_hhem-2.1": 0.7752,
+    "meta_hhem-2.1-english": 0.98362,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 705
+  },
+  {
+    "sample_id": 7,
+    "source": "Poseidon (film) . Poseidon grossed $ 181,674,817 at the worldwide box office on a budget of $ 160 million .",
+    "summary": "The film \"Poseidon\" made $181,674,817 worldwide, exceeding its $160 million budget. \n",
+    "annotations": [
+      {
+        "annot_id": 7,
+        "sample_id": 7,
+        "annotator": "a3ac21668e6249b7978617da547f2708",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source does not compare the budget and the earning. ",
+        "annotator_name": "forrest",
+        "summary_span": "exceeding",
+        "summary_start": 49,
+        "summary_end": 58
+      },
+      {
+        "annot_id": 64,
+        "sample_id": 7,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source does not compare the budget and the earning. ",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "exceeding",
+        "summary_start": 49,
+        "summary_end": 58
+      }
+    ],
+    "meta_model": "google/gemini-1.5-flash-001",
+    "meta_hhemv1": 0.91724,
+    "meta_hhem-2.1": 0.38565,
+    "meta_hhem-2.1-english": 0.53784,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 820
+  },
+  {
+    "sample_id": 8,
+    "source": "Poseidon (film) . Poseidon grossed $ 181,674,817 at the worldwide box office on a budget of $ 160 million .",
+    "summary": "The film \"Poseidon\" earned $181,674,817 at the global box office, while its production budget was $160 million.",
+    "annotations": [
+      {
+        "annot_id": 8,
+        "sample_id": 8,
+        "annotator": "a3ac21668e6249b7978617da547f2708",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "budget (source) vs. production budget (summary)",
+        "annotator_name": "forrest",
+        "summary_span": " production budget",
+        "summary_start": 75,
+        "summary_end": 93,
+        "source_span": "budget ",
+        "source_start": 82,
+        "source_end": 89
+      },
+      {
+        "annot_id": 65,
+        "sample_id": 8,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "budget (source) vs. production budget (summary)",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "production",
+        "summary_start": 76,
+        "summary_end": 86
+      }
+    ],
+    "meta_model": "openai/GPT-3.5-Turbo",
+    "meta_hhemv1": 0.99948,
+    "meta_hhem-2.1": 0.71826,
+    "meta_hhem-2.1-english": 0.98916,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 965
+  },
+  {
+    "sample_id": 9,
+    "source": "Poseidon (film) . Poseidon grossed $ 181,674,817 at the worldwide box office on a budget of $ 160 million .",
+    "summary": "\"Poseidon\" grossed $181,674,817 worldwide on a budget of $160 million.",
+    "annotations": [],
+    "meta_model": "openai/gpt-4o",
+    "meta_hhemv1": 0.99955,
+    "meta_hhem-2.1": 0.7828,
+    "meta_hhem-2.1-english": 0.9873,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 1050
+  },
+  {
+    "sample_id": 10,
+    "source": "`` Hourglass '' is a song by British electronic duo Disclosure . Hourglass is singer-songwriter James Taylor 's fourteenth studio album .",
+    "summary": " The passage describes that \"Hourglass\" is a song by the British electronic duo Disclosure. This song is featured on singer-songwriter James Taylor's fourteenth studio album.",
+    "annotations": [
+      {
+        "annot_id": 9,
+        "sample_id": 10,
+        "annotator": "a3ac21668e6249b7978617da547f2708",
+        "label": [
+          "Unwanted"
+        ],
+        "note": "The source does not say whether the two occurrences of  \"Hourglass\" is the same song. ",
+        "annotator_name": "forrest",
+        "summary_span": "This song is featured on singer-songwriter James Taylor's fourteenth studio album.",
+        "summary_start": 92,
+        "summary_end": 174
+      },
+      {
+        "annot_id": 47,
+        "sample_id": 10,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "This is false. Hourglass refers to 2 entities: a song from Disclosure, and an album from James Taylor. The 2 entities are not related. ",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "This song is featured on singer-songwriter James Taylor's fourteenth studio album.",
+        "summary_start": 92,
+        "summary_end": 174
+      }
+    ],
+    "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "meta_hhemv1": 0.98921,
+    "meta_hhem-2.1": 0.85293,
+    "meta_hhem-2.1-english": 0.98901,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 6
+  },
+  {
+    "sample_id": 11,
+    "source": "`` Hourglass '' is a song by British electronic duo Disclosure . Hourglass is singer-songwriter James Taylor 's fourteenth studio album .",
+    "summary": " \"Hourglass\" is a song by British electronic duo Disclosure. It is associated with singer-songwriter James Taylor's fourteenth studio album. However, the passage does not directly link the song \"Hourglass\" to James Taylor's album. The information provided seems to be incorrect or misleading. The song \"Hourglass\" is indeed by Disclosure, but it is not mentioned in the passage that it is part of James Taylor's album. The correct information should be that \"Hourglass\" is a song by Disclosure, and it is not directly related to James Taylor's album.",
+    "annotations": [
+      {
+        "annot_id": 10,
+        "sample_id": 11,
+        "annotator": "a3ac21668e6249b7978617da547f2708",
+        "label": [
+          "Unwanted"
+        ],
+        "note": "The summary itself is conflicting. Neither of the two conflicting statements are supported by the source because the source does not say whether the two occurrences of Hourglass are the same/related song. ",
+        "annotator_name": "forrest",
+        "summary_span": "The song \"Hourglass\" is indeed by Disclosure, but it is not mentioned in the passage that it is part of James Taylor's album. The correct information should be that \"Hourglass\" is a song by Disclosure, and it is not directly related to James Taylor's album.",
+        "summary_start": 293,
+        "summary_end": 550
+      },
+      {
+        "annot_id": 48,
+        "sample_id": 11,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The 2 entities are not related. ",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "It is associated with singer-songwriter James Taylor's fourteenth studio album. ",
+        "summary_start": 61,
+        "summary_end": 141
+      },
+      {
+        "annot_id": 49,
+        "sample_id": 11,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "This is hallucination. This LLM couldn't figure out the fact that \"Hourglass\" refers to two independent entities.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "However, the passage does not directly link the song \"Hourglass\" to James Taylor's album. The information provided seems to be incorrect or misleading. The song \"Hourglass\" is indeed by Disclosure, but it is not mentioned in the passage that it is part of James Taylor's album. The correct information should be that \"Hourglass\" is a song by Disclosure, and it is not directly related to James Taylor's album.",
+        "summary_start": 141,
+        "summary_end": 550
+      }
+    ],
+    "meta_model": "microsoft/Phi-3-mini-4k-instruct",
+    "meta_hhemv1": 0.74738,
+    "meta_hhem-2.1": 0.4276,
+    "meta_hhem-2.1-english": 0.69388,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 121
+  },
+  {
+    "sample_id": 12,
+    "source": "`` Hourglass '' is a song by British electronic duo Disclosure . Hourglass is singer-songwriter James Taylor 's fourteenth studio album .",
+    "summary": "I apologize, but there appears to be some confusion in the passage provided. The passage contains two unrelated statements about different songs/albums called \"Hourglass\":\n\n1. \" Hourglass\" is a song by the British electronic duo Disclosure. \n\n2. \" Hourglass\" is also the name of singer-songwriter James Taylor's fourteenth studio album. \n\nThese are two separate pieces of information about different musical works that happen to share the same title. There is no additional context or connection provided between these two statements in the given passage.",
+    "annotations": [
+      {
+        "annot_id": 11,
+        "sample_id": 12,
+        "annotator": "a3ac21668e6249b7978617da547f2708",
+        "label": [
+          "Benign"
+        ],
+        "note": "The source does not support nor refute that the two occurrences of Hourglass are about the same song. But the summary states they are different, which is very likely from the way that the source was written and is supported by the world knowledge. ",
+        "annotator_name": "forrest",
+        "summary_span": "hese are two separate pieces of information about different musical works that happen to share the same title. ",
+        "summary_start": 340,
+        "summary_end": 451
+      },
+      {
+        "annot_id": 50,
+        "sample_id": 12,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "While the source text needs a better structure, the LLM should NOT say stuff like this when generating a summary.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "I apologize, but there appears to be some confusion in the passage provided. ",
+        "summary_start": 0,
+        "summary_end": 77
+      }
+    ],
+    "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
+    "meta_hhemv1": 0.68265,
+    "meta_hhem-2.1": 0.71502,
+    "meta_hhem-2.1-english": 0.80713,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 236
+  },
+  {
+    "sample_id": 13,
+    "source": "`` Hourglass '' is a song by British electronic duo Disclosure . Hourglass is singer-songwriter James Taylor 's fourteenth studio album .",
+    "summary": "Disclosure, a British electronic duo, released a song titled \"Hourglass\". James Taylor, a singer-songwriter, also has a studio album named 'Hourglass', which is his fourteenth.",
+    "annotations": [
+      {
+        "annot_id": 12,
+        "sample_id": 13,
+        "annotator": "a3ac21668e6249b7978617da547f2708",
+        "label": [
+          "Unwanted"
+        ],
+        "note": "The source does not say whether the two occurrences of Hourglass are the same or different songs. ",
+        "annotator_name": "forrest",
+        "summary_span": "Disclosure, a British electronic duo, released a song titled \"Hourglass\". James Taylor, a singer-songwriter, also has a studio album named 'Hourglass', which is his fourteenth.",
+        "summary_start": 0,
+        "summary_end": 176
+      }
+    ],
+    "meta_model": "cohere/command-r-08-2024",
+    "meta_hhemv1": 0.002,
+    "meta_hhem-2.1": 0.91704,
+    "meta_hhem-2.1-english": 0.98997,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 351
+  },
+  {
+    "sample_id": 14,
+    "source": "`` Hourglass '' is a song by British electronic duo Disclosure . Hourglass is singer-songwriter James Taylor 's fourteenth studio album .",
+    "summary": "The passage states that \"Hourglass\" is a song by the British electronic duo Disclosure and also refers to the fourteenth studio album by singer-songwriter James Taylor.",
+    "annotations": [
+      {
+        "annot_id": 13,
+        "sample_id": 14,
+        "annotator": "a3ac21668e6249b7978617da547f2708",
+        "label": [
+          "Unwanted"
+        ],
+        "note": "The source does not say whether the two occurrences of Hourglass are the same or different songs. ",
+        "annotator_name": "forrest",
+        "summary_span": "The passage states that \"Hourglass\" is a song by the British electronic duo Disclosure and also refers to the fourteenth studio album by singer-songwriter James Taylor.",
+        "summary_start": 0,
+        "summary_end": 168
+      }
+    ],
+    "meta_model": "Qwen/Qwen2.5-7B-Instruct",
+    "meta_hhemv1": 0.99603,
+    "meta_hhem-2.1": 0.90546,
+    "meta_hhem-2.1-english": 0.98738,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 466
+  },
+  {
+    "sample_id": 15,
+    "source": "`` Hourglass '' is a song by British electronic duo Disclosure . Hourglass is singer-songwriter James Taylor 's fourteenth studio album .",
+    "summary": "The passage describes two separate pieces of information: a song called \"Hourglass\" by British electronic duo Disclosure, and a studio album also called \"Hourglass\" by singer-songwriter James Taylor.",
+    "annotations": [
+      {
+        "annot_id": 14,
+        "sample_id": 15,
+        "annotator": "a3ac21668e6249b7978617da547f2708",
+        "label": [
+          "Benign"
+        ],
+        "note": "The source does not support nor refute that the two occurrences of Hourglass are about the same song. But the summary states they are different, which is very likely from the way that the source was written and is supported by the world knowledge.",
+        "annotator_name": "forrest",
+        "summary_span": "two separate pieces of information",
+        "summary_start": 22,
+        "summary_end": 56
+      }
+    ],
+    "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "meta_hhemv1": 0.05244,
+    "meta_hhem-2.1": 0.83265,
+    "meta_hhem-2.1-english": 0.95585,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 581
+  },
+  {
+    "sample_id": 16,
+    "source": "`` Hourglass '' is a song by British electronic duo Disclosure . Hourglass is singer-songwriter James Taylor 's fourteenth studio album .",
+    "summary": "Here is a concise summary of the passage:\n\nThe passage mentions two separate entities: a song called \"Hourglass\" by the British electronic duo Disclosure, and a studio album called \"Hourglass\" by singer-songwriter James Taylor, which is his fourteenth studio album.",
+    "annotations": [
+      {
+        "annot_id": 15,
+        "sample_id": 16,
+        "annotator": "a3ac21668e6249b7978617da547f2708",
+        "label": [
+          "Benign"
+        ],
+        "note": "The source does not support nor refute that the two occurrences of Hourglass are about the same song. But the summary states they are different, which is very likely from the way that the source was written and is supported by the world knowledge.",
+        "annotator_name": "forrest",
+        "summary_span": "two separate entities",
+        "summary_start": 64,
+        "summary_end": 85
+      }
+    ],
+    "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "meta_hhemv1": 0.09749,
+    "meta_hhem-2.1": 0.86311,
+    "meta_hhem-2.1-english": 0.96136,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 696
+  },
+  {
+    "sample_id": 17,
+    "source": "`` Hourglass '' is a song by British electronic duo Disclosure . Hourglass is singer-songwriter James Taylor 's fourteenth studio album .",
+    "summary": "\"Hourglass\" is a song by British electronic duo Disclosure, and it is featured on singer-songwriter James Taylor's fourteenth studio album. \n",
+    "annotations": [
+      {
+        "annot_id": 16,
+        "sample_id": 17,
+        "annotator": "a3ac21668e6249b7978617da547f2708",
+        "label": [
+          "Unwanted"
+        ],
+        "note": "The summary sounds that the two Hourglass mentioned in the source are the same song. But the source does not imply that. ",
+        "annotator_name": "forrest",
+        "summary_span": "\"Hourglass\" is a song by British electronic duo Disclosure, and it is featured on singer-songwriter James Taylor's fourteenth studio album. \n",
+        "summary_start": 0,
+        "summary_end": 141
+      },
+      {
+        "annot_id": 51,
+        "sample_id": 17,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "They are 2 separate entities.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": ", and it is featured on singer-songwriter James Taylor's fourteenth studio album. \n",
+        "summary_start": 58,
+        "summary_end": 141
+      }
+    ],
+    "meta_model": "google/gemini-1.5-flash-001",
+    "meta_hhemv1": 0.98964,
+    "meta_hhem-2.1": 0.79114,
+    "meta_hhem-2.1-english": 0.98215,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 811
+  },
+  {
+    "sample_id": 18,
+    "source": "`` Hourglass '' is a song by British electronic duo Disclosure . Hourglass is singer-songwriter James Taylor 's fourteenth studio album .",
+    "summary": "The passage describes two different things: a song called \"Hourglass\" by the British electronic duo Disclosure, and a fourteenth studio album by singer-songwriter James Taylor.",
+    "annotations": [
+      {
+        "annot_id": 17,
+        "sample_id": 18,
+        "annotator": "a3ac21668e6249b7978617da547f2708",
+        "label": [
+          "Benign"
+        ],
+        "note": "The source does not support nor refute that the two occurrences of Hourglass are about the same song. But the summary states they are different, which is very likely from the way that the source was written and is supported by the world knowledge.",
+        "annotator_name": "forrest",
+        "summary_span": "two different things",
+        "summary_start": 22,
+        "summary_end": 42
+      }
+    ],
+    "meta_model": "openai/GPT-3.5-Turbo",
+    "meta_hhemv1": 0.96773,
+    "meta_hhem-2.1": 0.89714,
+    "meta_hhem-2.1-english": 0.98406,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 990
+  },
+  {
+    "sample_id": 19,
+    "source": "`` Hourglass '' is a song by British electronic duo Disclosure . Hourglass is singer-songwriter James Taylor 's fourteenth studio album .",
+    "summary": "\"Hourglass\" is a song by the British electronic duo Disclosure. Additionally, \"Hourglass\" is the fourteenth studio album by singer-songwriter James Taylor.",
+    "annotations": [],
+    "meta_model": "openai/gpt-4o",
+    "meta_hhemv1": 0.0158,
+    "meta_hhem-2.1": 0.8886,
+    "meta_hhem-2.1-english": 0.99376,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 1041
+  },
+  {
+    "sample_id": 20,
+    "source": "As of , more than cases of COVID-19 have been reported in more than 190 countries and 200 territories , resulting in more than deaths .",
+    "summary": " The passage indicates that as of a certain point, over 10 million cases of COVID-19 have been reported in more than 190 countries and 200 territories, leading to over 500,000 deaths.",
+    "annotations": [
+      {
+        "annot_id": 18,
+        "sample_id": 20,
+        "annotator": "a3ac21668e6249b7978617da547f2708",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source does not mention the numbers \"10 million\" and \"500,000\". ",
+        "annotator_name": "forrest",
+        "summary_span": "10 million cases of COVID-19 have been reported in more than 190 countries and 200 territories, leading to over 500,000",
+        "summary_start": 56,
+        "summary_end": 175
+      },
+      {
+        "annot_id": 52,
+        "sample_id": 20,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Questionable"
+        ],
+        "note": "There is missing information in the source text. I wouldn't call this a hallucination, but I would like to point out the source text is unusable.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "as of a certain point,",
+        "summary_start": 28,
+        "summary_end": 50
+      },
+      {
+        "annot_id": 53,
+        "sample_id": 20,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "Since the source text never mentioned how many cases, this number is fake.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "over 10 million cases",
+        "summary_start": 51,
+        "summary_end": 72
+      },
+      {
+        "annot_id": 54,
+        "sample_id": 20,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "Since the source text never mentioned the exact number, this number is fake.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "leading to over 500,000 deaths",
+        "summary_start": 152,
+        "summary_end": 182
+      }
+    ],
+    "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "meta_hhemv1": 0.05188,
+    "meta_hhem-2.1": 0.04757,
+    "meta_hhem-2.1-english": 0.06595,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 0,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 112
+  },
+  {
+    "sample_id": 21,
+    "source": "As of , more than cases of COVID-19 have been reported in more than 190 countries and 200 territories , resulting in more than deaths .",
+    "summary": " As of the date mentioned, over 190 countries and 200 territories have reported more than cases of COVID-19, leading to over deaths. ( Note: The actual numbers for cases and deaths are missing in the provided passage and should be replaced with the specific figures.)",
+    "annotations": [],
+    "meta_model": "microsoft/Phi-3-mini-4k-instruct",
+    "meta_hhemv1": 0.71401,
+    "meta_hhem-2.1": 0.53845,
+    "meta_hhem-2.1-english": 0.95383,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 227
+  },
+  {
+    "sample_id": 22,
+    "source": "As of , more than cases of COVID-19 have been reported in more than 190 countries and 200 territories , resulting in more than deaths .",
+    "summary": "Based solely on the information provided in the passage, here is a concise summary covering the core pieces of information:\n\nCOVID-19 has spread globally, with cases reported in over 190 countries and 200 territories. The pandemic has resulted in more than deaths. However, the passage does not provide specific numbers for total cases or deaths, nor does it give a precise date for when this information was current.",
+    "annotations": [
+      {
+        "annot_id": 19,
+        "sample_id": 22,
+        "annotator": "a3ac21668e6249b7978617da547f2708",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source does not mention the spread of COVID but with common sense we can infer that. ",
+        "annotator_name": "forrest",
+        "summary_span": "COVID-19 has spread globally",
+        "summary_start": 125,
+        "summary_end": 153
+      }
+    ],
+    "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
+    "meta_hhemv1": 0.28443,
+    "meta_hhem-2.1": 0.44591,
+    "meta_hhem-2.1-english": 0.89385,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 0,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 342
+  },
+  {
+    "sample_id": 23,
+    "source": "As of , more than cases of COVID-19 have been reported in more than 190 countries and 200 territories , resulting in more than deaths .",
+    "summary": "\"The COVID-19 pandemic has affected over 190 countries and 200 territories, with a global case count surpassing an unspecified number and a death toll exceeding an unspecified amount.\"",
+    "annotations": [],
+    "meta_model": "cohere/command-r-08-2024",
+    "meta_hhemv1": 0.80032,
+    "meta_hhem-2.1": 0.42381,
+    "meta_hhem-2.1-english": 0.79355,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 457
+  },
+  {
+    "sample_id": 24,
+    "source": "As of , more than cases of COVID-19 have been reported in more than 190 countries and 200 territories , resulting in more than deaths .",
+    "summary": "As of the given time point, over 190 countries and 200 territories have reported more than a certain number of COVID-19 cases, with the total exceeding a specific death count.",
+    "annotations": [],
+    "meta_model": "Qwen/Qwen2.5-7B-Instruct",
+    "meta_hhemv1": 0.98682,
+    "meta_hhem-2.1": 0.73012,
+    "meta_hhem-2.1-english": 0.97192,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 572
+  },
+  {
+    "sample_id": 25,
+    "source": "As of , more than cases of COVID-19 have been reported in more than 190 countries and 200 territories , resulting in more than deaths .",
+    "summary": "Here is a concise summary of the passage:\n\nAs of an unspecified date, there have been over  cases of COVID-19 reported in over 190 countries and 200 territories, resulting in over deaths.",
+    "annotations": [],
+    "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "meta_hhemv1": 0.78207,
+    "meta_hhem-2.1": 0.18209,
+    "meta_hhem-2.1-english": 0.88661,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 687
+  },
+  {
+    "sample_id": 26,
+    "source": "As of , more than cases of COVID-19 have been reported in more than 190 countries and 200 territories , resulting in more than deaths .",
+    "summary": "Here is a concise summary of the passage:\n\n* More than cases of COVID-19 have been reported\n* Cases have been reported in more than 190 countries and 200 territories\n* More than deaths have resulted from COVID-19",
+    "annotations": [],
+    "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "meta_hhemv1": 0.94081,
+    "meta_hhem-2.1": 0.83235,
+    "meta_hhem-2.1-english": 0.98715,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 802
+  },
+  {
+    "sample_id": 27,
+    "source": "As of , more than cases of COVID-19 have been reported in more than 190 countries and 200 territories , resulting in more than deaths .",
+    "summary": "As of the time of this writing, over 190 countries and 200 territories have reported more than  cases of COVID-19, resulting in more than  deaths. \n",
+    "annotations": [],
+    "meta_model": "google/gemini-1.5-flash-001",
+    "meta_hhemv1": 0.99443,
+    "meta_hhem-2.1": 0.65749,
+    "meta_hhem-2.1-english": 0.99395,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 917
+  },
+  {
+    "sample_id": 28,
+    "source": "As of , more than cases of COVID-19 have been reported in more than 190 countries and 200 territories , resulting in more than deaths .",
+    "summary": "The passage states that there have been numerous cases of COVID-19 reported in over 190 countries and 200 territories. It also mentions that there have been deaths as a result of the virus.",
+    "annotations": [],
+    "meta_model": "openai/GPT-3.5-Turbo",
+    "meta_hhemv1": 0.98512,
+    "meta_hhem-2.1": 0.93502,
+    "meta_hhem-2.1-english": 0.99527,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 929
+  },
+  {
+    "sample_id": 29,
+    "source": "As of , more than cases of COVID-19 have been reported in more than 190 countries and 200 territories , resulting in more than deaths .",
+    "summary": "As of [date], more than [number] cases of COVID-19 have been reported in over 190 countries and 200 territories, resulting in more than [number] deaths.",
+    "annotations": [],
+    "meta_model": "openai/gpt-4o",
+    "meta_hhemv1": 0.98723,
+    "meta_hhem-2.1": 0.56885,
+    "meta_hhem-2.1-english": 0.95542,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 1147
+  },
+  {
+    "sample_id": 30,
+    "source": "As of 22 February 2020 , 77,984 cases have been confirmed , including in all provinces of China and more than two dozen other countries .",
+    "summary": " On February 22, 2020, there were 77,984 confirmed cases of a virus, present in all provinces of China and more than two dozen other countries.",
+    "annotations": [
+      {
+        "annot_id": 20,
+        "sample_id": 30,
+        "annotator": "a3ac21668e6249b7978617da547f2708",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "As of (source) vs. On (summary) ",
+        "annotator_name": "forrest",
+        "summary_span": "On ",
+        "summary_start": 1,
+        "summary_end": 4,
+        "source_span": "As of",
+        "source_start": 0,
+        "source_end": 5
+      },
+      {
+        "annot_id": 21,
+        "sample_id": 30,
+        "annotator": "a3ac21668e6249b7978617da547f2708",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source does not say whether the cases are of a virus. ",
+        "annotator_name": "forrest",
+        "summary_span": "a virus",
+        "summary_start": 60,
+        "summary_end": 67
+      },
+      {
+        "annot_id": 66,
+        "sample_id": 30,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "As of (source) vs. On (summary) ",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "On",
+        "summary_start": 1,
+        "summary_end": 3
+      },
+      {
+        "annot_id": 67,
+        "sample_id": 30,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source does not say whether the cases are of a virus. ",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "a virus",
+        "summary_start": 60,
+        "summary_end": 67
+      }
+    ],
+    "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "meta_hhemv1": 0.99584,
+    "meta_hhem-2.1": 0.65742,
+    "meta_hhem-2.1-english": 0.97682,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 113
+  },
+  {
+    "sample_id": 31,
+    "source": "As of 22 February 2020 , 77,984 cases have been confirmed , including in all provinces of China and more than two dozen other countries .",
+    "summary": " As of February 22, 2020, there have been 77,984 confirmed cases of a certain disease, spreading across all provinces of China and more than 24 other countries.",
+    "annotations": [
+      {
+        "annot_id": 43,
+        "sample_id": 31,
+        "annotator": "a3ac21668e6249b7978617da547f2708",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "the source does not say the cases are about a disease",
+        "annotator_name": "forrest",
+        "summary_span": "of a certain disease",
+        "summary_start": 65,
+        "summary_end": 85
+      },
+      {
+        "annot_id": 78,
+        "sample_id": 31,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "the source does not say the cases are about a disease",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "of a certain disease",
+        "summary_start": 65,
+        "summary_end": 85
+      }
+    ],
+    "meta_model": "microsoft/Phi-3-mini-4k-instruct",
+    "meta_hhemv1": 0.9799,
+    "meta_hhem-2.1": 0.56879,
+    "meta_hhem-2.1-english": 0.85591,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 228
+  },
+  {
+    "sample_id": 32,
+    "source": "As of 22 February 2020 , 77,984 cases have been confirmed , including in all provinces of China and more than two dozen other countries .",
+    "summary": "Here is a concise summary of the key information in the provided passage:\n\nAs of February 22, 2020:\n- 77,984 cases have been confirmed\n- Cases have been confirmed in all provinces of China\n- Cases have been confirmed in over 25 other countries outside of China\n\nThis summary covers the core pieces of information about the number of confirmed cases and their geographic spread as described in the short passage.",
+    "annotations": [
+      {
+        "annot_id": 22,
+        "sample_id": 32,
+        "annotator": "a3ac21668e6249b7978617da547f2708",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "more than two dozen (source) vs. over 25 ( summary)",
+        "annotator_name": "forrest",
+        "summary_span": "25",
+        "summary_start": 225,
+        "summary_end": 227,
+        "source_span": "two dozen",
+        "source_start": 110,
+        "source_end": 119
+      },
+      {
+        "annot_id": 55,
+        "sample_id": 32,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source text states \"more than two dozen other countries\". \"Two dozen\" means 24. \"more than 24\" is not the same as \"over 25\".",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "Cases have been confirmed in over 25 other countries outside of China",
+        "summary_start": 191,
+        "summary_end": 260
+      }
+    ],
+    "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
+    "meta_hhemv1": 0.99495,
+    "meta_hhem-2.1": 0.3536,
+    "meta_hhem-2.1-english": 0.91204,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 343
+  },
+  {
+    "sample_id": 33,
+    "source": "As of 22 February 2020 , 77,984 cases have been confirmed , including in all provinces of China and more than two dozen other countries .",
+    "summary": "As of February 22, 2020, nearly 78,000 cases of the disease were confirmed, spreading across all of China's provinces and over 24 other countries worldwide.",
+    "annotations": [
+      {
+        "annot_id": 42,
+        "sample_id": 33,
+        "annotator": "a3ac21668e6249b7978617da547f2708",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "the source does not say the cases are about a disease",
+        "annotator_name": "forrest",
+        "summary_span": "of the disease ",
+        "summary_start": 45,
+        "summary_end": 60
+      },
+      {
+        "annot_id": 77,
+        "sample_id": 33,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "the source does not say the cases are about a disease",
+        "annotator_name": "Renyi Qu",
+        "summary_span": " of the disease",
+        "summary_start": 44,
+        "summary_end": 59
+      }
+    ],
+    "meta_model": "cohere/command-r-08-2024",
+    "meta_hhemv1": 0.93212,
+    "meta_hhem-2.1": 0.72305,
+    "meta_hhem-2.1-english": 0.92361,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 458
+  },
+  {
+    "sample_id": 34,
+    "source": "As of 22 February 2020 , 77,984 cases have been confirmed , including in all provinces of China and more than two dozen other countries .",
+    "summary": "As of 22 February 2020, there were 77,984 confirmed cases of the disease, present in all Chinese provinces and over two dozen other countries.",
+    "annotations": [
+      {
+        "annot_id": 41,
+        "sample_id": 34,
+        "annotator": "a3ac21668e6249b7978617da547f2708",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "the source does not say the cases are about a disease",
+        "annotator_name": "forrest",
+        "summary_span": "of the disease",
+        "summary_start": 58,
+        "summary_end": 72
+      },
+      {
+        "annot_id": 76,
+        "sample_id": 34,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "the source does not say the cases are about a disease",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "of the disease",
+        "summary_start": 58,
+        "summary_end": 72
+      }
+    ],
+    "meta_model": "Qwen/Qwen2.5-7B-Instruct",
+    "meta_hhemv1": 0.99732,
+    "meta_hhem-2.1": 0.72086,
+    "meta_hhem-2.1-english": 0.98571,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 573
+  },
+  {
+    "sample_id": 35,
+    "source": "As of 22 February 2020 , 77,984 cases have been confirmed , including in all provinces of China and more than two dozen other countries .",
+    "summary": "As of 22 February 2020, there were 77,984 confirmed cases of an illness, spread across all provinces of China and over 25 other countries.",
+    "annotations": [
+      {
+        "annot_id": 27,
+        "sample_id": 35,
+        "annotator": "a3ac21668e6249b7978617da547f2708",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "more than two dozen (source) vs. over 25 (summary)",
+        "annotator_name": "forrest",
+        "summary_span": "over 25",
+        "summary_start": 114,
+        "summary_end": 121,
+        "source_span": "more than two dozen ",
+        "source_start": 100,
+        "source_end": 120
+      },
+      {
+        "annot_id": 40,
+        "sample_id": 35,
+        "annotator": "a3ac21668e6249b7978617da547f2708",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "the source does not say the cases are about an illness",
+        "annotator_name": "forrest",
+        "summary_span": " of an illness",
+        "summary_start": 57,
+        "summary_end": 71
+      },
+      {
+        "annot_id": 56,
+        "sample_id": 35,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "Again, \"two dozen\" is 24, not 25.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "over 25 other countries.",
+        "summary_start": 114,
+        "summary_end": 138
+      },
+      {
+        "annot_id": 68,
+        "sample_id": 35,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "the source does not say the cases are about an illness",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "of an illness,",
+        "summary_start": 58,
+        "summary_end": 72
+      }
+    ],
+    "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "meta_hhemv1": 0.98997,
+    "meta_hhem-2.1": 0.45265,
+    "meta_hhem-2.1-english": 0.83724,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 688
+  },
+  {
+    "sample_id": 36,
+    "source": "As of 22 February 2020 , 77,984 cases have been confirmed , including in all provinces of China and more than two dozen other countries .",
+    "summary": "Here is a concise summary of the passage:\n\nAs of February 22, 2020, there were 77,984 confirmed cases, spanning all provinces of China and over two dozen other countries.",
+    "annotations": [],
+    "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "meta_hhemv1": 0.98942,
+    "meta_hhem-2.1": 0.77467,
+    "meta_hhem-2.1-english": 0.99131,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 803
+  },
+  {
+    "sample_id": 37,
+    "source": "As of 22 February 2020 , 77,984 cases have been confirmed , including in all provinces of China and more than two dozen other countries .",
+    "summary": "As of February 22, 2020, there were 77,984 confirmed cases of the virus, including cases in all provinces of China and over two dozen other countries. \n",
+    "annotations": [
+      {
+        "annot_id": 28,
+        "sample_id": 37,
+        "annotator": "a3ac21668e6249b7978617da547f2708",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "the source does not mention any virus",
+        "annotator_name": "forrest",
+        "summary_span": "of the virus",
+        "summary_start": 59,
+        "summary_end": 71
+      },
+      {
+        "annot_id": 69,
+        "sample_id": 37,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "the source does not mention any virus",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "of the virus",
+        "summary_start": 59,
+        "summary_end": 71
+      }
+    ],
+    "meta_model": "google/gemini-1.5-flash-001",
+    "meta_hhemv1": 0.99771,
+    "meta_hhem-2.1": 0.69823,
+    "meta_hhem-2.1-english": 0.98597,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 918
+  },
+  {
+    "sample_id": 38,
+    "source": "As of 22 February 2020 , 77,984 cases have been confirmed , including in all provinces of China and more than two dozen other countries .",
+    "summary": "The passage states that as of 22 February 2020, there have been 77,984 confirmed cases of a certain issue. These cases have been reported in all provinces of China as well as in more than two dozen other countries.",
+    "annotations": [],
+    "meta_model": "openai/GPT-3.5-Turbo",
+    "meta_hhemv1": 0.9987,
+    "meta_hhem-2.1": 0.88377,
+    "meta_hhem-2.1-english": 0.98553,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 930
+  },
+  {
+    "sample_id": 39,
+    "source": "As of 22 February 2020 , 77,984 cases have been confirmed , including in all provinces of China and more than two dozen other countries .",
+    "summary": "As of 22 February 2020, 77,984 cases have been confirmed, including cases in all provinces of China and in more than two dozen other countries.",
+    "annotations": [],
+    "meta_model": "openai/gpt-4o",
+    "meta_hhemv1": 0.99946,
+    "meta_hhem-2.1": 0.75456,
+    "meta_hhem-2.1-english": 0.99302,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 1148
+  },
+  {
+    "sample_id": 40,
+    "source": "As of 22 February 2020 , 78,629 cases have been confirmed , including in all provinces of China and more than two dozen other countries .",
+    "summary": " On February 22, 2020, there were 78,629 confirmed cases of a virus, with infections reported in all provinces of China and over two dozen other countries.",
+    "annotations": [
+      {
+        "annot_id": 39,
+        "sample_id": 40,
+        "annotator": "a3ac21668e6249b7978617da547f2708",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "the source does not say the cases are about a virus",
+        "annotator_name": "forrest",
+        "summary_span": "of a virus",
+        "summary_start": 57,
+        "summary_end": 67
+      },
+      {
+        "annot_id": 75,
+        "sample_id": 40,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "the source does not say the cases are about a virus",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "of a virus",
+        "summary_start": 57,
+        "summary_end": 67
+      }
+    ],
+    "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "meta_hhemv1": 0.9971,
+    "meta_hhem-2.1": 0.73738,
+    "meta_hhem-2.1-english": 0.98219,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 114
+  },
+  {
+    "sample_id": 41,
+    "source": "As of 22 February 2020 , 78,629 cases have been confirmed , including in all provinces of China and more than two dozen other countries .",
+    "summary": " As of February 22, 2020, there have been 78,629 confirmed cases of a certain disease, spreading across all provinces of China and more than 24 other countries.",
+    "annotations": [
+      {
+        "annot_id": 38,
+        "sample_id": 41,
+        "annotator": "a3ac21668e6249b7978617da547f2708",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "the source does not say the cases are about a disease",
+        "annotator_name": "forrest",
+        "summary_span": "of a certain disease",
+        "summary_start": 65,
+        "summary_end": 85
+      },
+      {
+        "annot_id": 74,
+        "sample_id": 41,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "the source does not say the cases are about a disease",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "of a certain disease",
+        "summary_start": 65,
+        "summary_end": 85
+      }
+    ],
+    "meta_model": "microsoft/Phi-3-mini-4k-instruct",
+    "meta_hhemv1": 0.98468,
+    "meta_hhem-2.1": 0.54835,
+    "meta_hhem-2.1-english": 0.84439,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 229
+  },
+  {
+    "sample_id": 42,
+    "source": "As of 22 February 2020 , 78,629 cases have been confirmed , including in all provinces of China and more than two dozen other countries .",
+    "summary": "Here is a concise summary of the key information in the provided passage:\n\nAs of February 22, 2020:\n- 78,629 cases have been confirmed\n- Cases have been confirmed in all provinces of China\n- Cases have been confirmed in over 25 other countries outside of China\n\nThis summary covers the core pieces of information about the number of confirmed cases and their geographic spread as described in the short passage.",
+    "annotations": [
+      {
+        "annot_id": 30,
+        "sample_id": 42,
+        "annotator": "a3ac21668e6249b7978617da547f2708",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "more than two dozen (source) vs. over 25 (summary)",
+        "annotator_name": "forrest",
+        "summary_span": " over 25",
+        "summary_start": 219,
+        "summary_end": 227,
+        "source_span": "more than two dozen",
+        "source_start": 100,
+        "source_end": 119
+      },
+      {
+        "annot_id": 57,
+        "sample_id": 42,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "Again, 24, not 25.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "over 25 other countries",
+        "summary_start": 220,
+        "summary_end": 243
+      }
+    ],
+    "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
+    "meta_hhemv1": 0.99505,
+    "meta_hhem-2.1": 0.36214,
+    "meta_hhem-2.1-english": 0.91361,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 344
+  },
+  {
+    "sample_id": 43,
+    "source": "As of 22 February 2020 , 78,629 cases have been confirmed , including in all provinces of China and more than two dozen other countries .",
+    "summary": "As of February 22, 2020, nearly 78,629 cases of the disease were confirmed, spreading across all of China's provinces and over 24 other countries.",
+    "annotations": [
+      {
+        "annot_id": 32,
+        "sample_id": 43,
+        "annotator": "a3ac21668e6249b7978617da547f2708",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "the source does not say the cases are of a disease.",
+        "annotator_name": "forrest",
+        "summary_span": "of the disease ",
+        "summary_start": 45,
+        "summary_end": 60
+      },
+      {
+        "annot_id": 58,
+        "sample_id": 43,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "Not \"nearly\", but \"exactly\".",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "nearly",
+        "summary_start": 25,
+        "summary_end": 31
+      },
+      {
+        "annot_id": 70,
+        "sample_id": 43,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "the source does not say the cases are of a disease.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "of the disease",
+        "summary_start": 45,
+        "summary_end": 59
+      }
+    ],
+    "meta_model": "cohere/command-r-08-2024",
+    "meta_hhemv1": 0.97639,
+    "meta_hhem-2.1": 0.75066,
+    "meta_hhem-2.1-english": 0.95957,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 459
+  },
+  {
+    "sample_id": 44,
+    "source": "As of 22 February 2020 , 78,629 cases have been confirmed , including in all provinces of China and more than two dozen other countries .",
+    "summary": "As of 22 February 2020, there were 78,629 confirmed cases of the disease, present in all Chinese provinces and over two dozen other countries.",
+    "annotations": [
+      {
+        "annot_id": 37,
+        "sample_id": 44,
+        "annotator": "a3ac21668e6249b7978617da547f2708",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "the source does not say the cases are about a disease",
+        "annotator_name": "forrest",
+        "summary_span": " of the disease",
+        "summary_start": 57,
+        "summary_end": 72
+      },
+      {
+        "annot_id": 72,
+        "sample_id": 44,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "the source does not say the cases are about an disease",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "of the disease",
+        "summary_start": 58,
+        "summary_end": 72
+      }
+    ],
+    "meta_model": "Qwen/Qwen2.5-7B-Instruct",
+    "meta_hhemv1": 0.99775,
+    "meta_hhem-2.1": 0.71975,
+    "meta_hhem-2.1-english": 0.98457,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 574
+  },
+  {
+    "sample_id": 45,
+    "source": "As of 22 February 2020 , 78,629 cases have been confirmed , including in all provinces of China and more than two dozen other countries .",
+    "summary": "As of February 22, 2020, there were 78,629 confirmed cases of an unknown illness, spread across China and 26 other countries.",
+    "annotations": [
+      {
+        "annot_id": 35,
+        "sample_id": 45,
+        "annotator": "a3ac21668e6249b7978617da547f2708",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "the source does not say the cases are about an illness",
+        "annotator_name": "forrest",
+        "summary_span": "of an unknown illness,",
+        "summary_start": 59,
+        "summary_end": 81
+      },
+      {
+        "annot_id": 59,
+        "sample_id": 45,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "24. Not 26.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "26",
+        "summary_start": 106,
+        "summary_end": 108
+      },
+      {
+        "annot_id": 71,
+        "sample_id": 45,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "the source does not say the cases are about an illness",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "of an unknown illness",
+        "summary_start": 59,
+        "summary_end": 80
+      }
+    ],
+    "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "meta_hhemv1": 0.77847,
+    "meta_hhem-2.1": 0.29437,
+    "meta_hhem-2.1-english": 0.14592,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 689
+  },
+  {
+    "sample_id": 46,
+    "source": "As of 22 February 2020 , 78,629 cases have been confirmed , including in all provinces of China and more than two dozen other countries .",
+    "summary": "Here is a concise summary of the passage:\n\nAs of 22 February 2020, there were 78,629 confirmed cases of a certain condition, affecting all provinces of China and over two dozen other countries.",
+    "annotations": [],
+    "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "meta_hhemv1": 0.984,
+    "meta_hhem-2.1": 0.67676,
+    "meta_hhem-2.1-english": 0.97077,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 804
+  },
+  {
+    "sample_id": 47,
+    "source": "As of 22 February 2020 , 78,629 cases have been confirmed , including in all provinces of China and more than two dozen other countries .",
+    "summary": "As of February 22, 2020, there were 78,629 confirmed cases of the virus, including cases in all provinces of China and over two dozen other countries. \n",
+    "annotations": [
+      {
+        "annot_id": 36,
+        "sample_id": 47,
+        "annotator": "a3ac21668e6249b7978617da547f2708",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "the source does not say the cases are about a virus",
+        "annotator_name": "forrest",
+        "summary_span": "of the virus",
+        "summary_start": 59,
+        "summary_end": 71
+      },
+      {
+        "annot_id": 73,
+        "sample_id": 47,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "the source does not say the cases are about a virus",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "of the virus",
+        "summary_start": 59,
+        "summary_end": 71
+      }
+    ],
+    "meta_model": "google/gemini-1.5-flash-001",
+    "meta_hhemv1": 0.99769,
+    "meta_hhem-2.1": 0.69674,
+    "meta_hhem-2.1-english": 0.98562,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 919
+  },
+  {
+    "sample_id": 48,
+    "source": "As of 22 February 2020 , 78,629 cases have been confirmed , including in all provinces of China and more than two dozen other countries .",
+    "summary": "The passage states that as of 22 February 2020, there have been 78,629 confirmed cases of a certain issue. These cases have been reported in all provinces of China as well as in more than two dozen other countries.",
+    "annotations": [],
+    "meta_model": "openai/GPT-3.5-Turbo",
+    "meta_hhemv1": 0.99884,
+    "meta_hhem-2.1": 0.88337,
+    "meta_hhem-2.1-english": 0.98534,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 931
+  },
+  {
+    "sample_id": 49,
+    "source": "As of 22 February 2020 , 78,629 cases have been confirmed , including in all provinces of China and more than two dozen other countries .",
+    "summary": "As of 22 February 2020, there have been 78,629 confirmed cases, including in all provinces of China and over two dozen other countries.",
+    "annotations": [],
+    "meta_model": "openai/gpt-4o",
+    "meta_hhemv1": 0.9996,
+    "meta_hhem-2.1": 0.79969,
+    "meta_hhem-2.1-english": 0.99608,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 1149
+  }
+]

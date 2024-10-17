@@ -1,0 +1,1929 @@
+[
+  {
+    "sample_id": 0,
+    "source": "The Millers . The multi-camera series aired from October 3 , 2013 to July 18 , 2015 and ran 34 episodes over two seasons on CBS . CBS announced the cancellation of The Millers on November 14 , 2014 , four episodes into the show 's second season .",
+    "summary": " The passage discusses a multi-camera television series called \"The Millers,\" which aired on CBS from October 3, 2013, to July 18, 2015, spanning two seasons and 34 episodes. The show was canceled by CBS on November 14, 2014, four episodes into its second season.",
+    "annotations": [
+      {
+        "annot_id": 34,
+        "sample_id": 0,
+        "annotator": "1612324899bf4cdb8108aa6a26aa285c",
+        "label": [
+          "Benign"
+        ],
+        "note": "The announcement to cancel the show was made 4 episodes into the second season",
+        "annotator_name": "Vivek",
+        "summary_span": "The show was canceled by CBS on November 14, 2014, four episodes into its second season.",
+        "summary_start": 175,
+        "summary_end": 263
+      }
+    ],
+    "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "meta_hhemv1": 0.99865,
+    "meta_hhem-2.1": 0.96263,
+    "meta_hhem-2.1-english": 0.99389,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 4
+  },
+  {
+    "sample_id": 1,
+    "source": "The Millers . The multi-camera series aired from October 3 , 2013 to July 18 , 2015 and ran 34 episodes over two seasons on CBS . CBS announced the cancellation of The Millers on November 14 , 2014 , four episodes into the show 's second season .",
+    "summary": " The Millers was a multi-camera series that aired on CBS from October 3, 2013, to July 18, 2015, with 34 episodes over two seasons. The show was canceled by CBS on November 14, 2014, after four episodes into its second season.",
+    "annotations": [],
+    "meta_model": "microsoft/Phi-3-mini-4k-instruct",
+    "meta_hhemv1": 0.99937,
+    "meta_hhem-2.1": 0.94381,
+    "meta_hhem-2.1-english": 0.99506,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 119
+  },
+  {
+    "sample_id": 2,
+    "source": "The Millers . The multi-camera series aired from October 3 , 2013 to July 18 , 2015 and ran 34 episodes over two seasons on CBS . CBS announced the cancellation of The Millers on November 14 , 2014 , four episodes into the show 's second season .",
+    "summary": "Here's a concise summary of the passage, covering the core pieces of information:\n\nThe Millers was a multi-camera television series that aired on CBS. It premiered on October 3, 2013, and concluded on July 18, 2015. The show ran for a total of 34 episodes across two seasons. CBS announced the cancellation of The Millers on November 14, 2014, shortly after the second season had begun, with only four episodes having aired at that point.",
+    "annotations": [],
+    "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
+    "meta_hhemv1": 0.93724,
+    "meta_hhem-2.1": 0.82342,
+    "meta_hhem-2.1-english": 0.93975,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 234
+  },
+  {
+    "sample_id": 3,
+    "source": "The Millers . The multi-camera series aired from October 3 , 2013 to July 18 , 2015 and ran 34 episodes over two seasons on CBS . CBS announced the cancellation of The Millers on November 14 , 2014 , four episodes into the show 's second season .",
+    "summary": "The Millers, a multi-camera sitcom, aired for two seasons on CBS, premiering in October 2013 and concluding in July 2015. It consisted of 34 episodes, but CBS cancelled the show in November 2014 during its second season.",
+    "annotations": [
+      {
+        "annot_id": 8,
+        "sample_id": 3,
+        "annotator": "227d8ce4a1cf4e098ed6db7c1cfda021",
+        "label": [
+          "Benign"
+        ],
+        "note": "external knowledge",
+        "annotator_name": "Rogger",
+        "summary_span": "sitcom",
+        "summary_start": 28,
+        "summary_end": 34
+      },
+      {
+        "annot_id": 36,
+        "sample_id": 3,
+        "annotator": "1612324899bf4cdb8108aa6a26aa285c",
+        "label": [
+          "Benign"
+        ],
+        "note": "CBS announced cancellation of show in the second season",
+        "annotator_name": "Vivek",
+        "summary_span": "but CBS cancelled the show in November 2014 during its second season.",
+        "summary_start": 151,
+        "summary_end": 220
+      },
+      {
+        "annot_id": 65,
+        "sample_id": 3,
+        "annotator": "d71bd7b676634bc89873d301ec8f7ed2",
+        "label": [
+          "Benign"
+        ],
+        "note": "using external knowledge",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "sitcom",
+        "summary_start": 28,
+        "summary_end": 34,
+        "source_span": "The multi-camera series aired from October 3 , 2013 to July 18 , 2015 and ran 34 episodes over two seasons on CBS .",
+        "source_start": 14,
+        "source_end": 129
+      },
+      {
+        "annot_id": 69,
+        "sample_id": 3,
+        "annotator": "1612324899bf4cdb8108aa6a26aa285c",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Vivek",
+        "summary_span": "sitcom",
+        "summary_start": 28,
+        "summary_end": 34
+      }
+    ],
+    "meta_model": "cohere/command-r-08-2024",
+    "meta_hhemv1": 0.94708,
+    "meta_hhem-2.1": 0.81778,
+    "meta_hhem-2.1-english": 0.97379,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 349
+  },
+  {
+    "sample_id": 4,
+    "source": "The Millers . The multi-camera series aired from October 3 , 2013 to July 18 , 2015 and ran 34 episodes over two seasons on CBS . CBS announced the cancellation of The Millers on November 14 , 2014 , four episodes into the show 's second season .",
+    "summary": "The multi-camera series \"The Millers\" aired on CBS from October 3, 2013, to July 18, 2015, spanning two seasons with a total of 34 episodes. The show was cancelled by CBS on November 14, 2014, during its second season.",
+    "annotations": [
+      {
+        "annot_id": 37,
+        "sample_id": 4,
+        "annotator": "1612324899bf4cdb8108aa6a26aa285c",
+        "label": [
+          "Benign"
+        ],
+        "note": "The announcement to cancel the show was made in the second season",
+        "annotator_name": "Vivek",
+        "summary_span": "The show was cancelled by CBS on November 14, 2014, during its second season.",
+        "summary_start": 141,
+        "summary_end": 218
+      }
+    ],
+    "meta_model": "Qwen/Qwen2.5-7B-Instruct",
+    "meta_hhemv1": 0.99867,
+    "meta_hhem-2.1": 0.81747,
+    "meta_hhem-2.1-english": 0.98474,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 464
+  },
+  {
+    "sample_id": 5,
+    "source": "The Millers . The multi-camera series aired from October 3 , 2013 to July 18 , 2015 and ran 34 episodes over two seasons on CBS . CBS announced the cancellation of The Millers on November 14 , 2014 , four episodes into the show 's second season .",
+    "summary": "Here is a concise summary of the passage:\n\nThe Millers was a multi-camera series that aired on CBS from October 2013 to July 2015, spanning two seasons with 34 episodes. The show was cancelled by CBS on November 14, 2014, during its second season.",
+    "annotations": [
+      {
+        "annot_id": 29,
+        "sample_id": 5,
+        "annotator": "1612324899bf4cdb8108aa6a26aa285c",
+        "label": [],
+        "note": "",
+        "annotator_name": "Vivek",
+        "summary_span": "October 2013",
+        "summary_start": 104,
+        "summary_end": 116
+      },
+      {
+        "annot_id": 30,
+        "sample_id": 5,
+        "annotator": "1612324899bf4cdb8108aa6a26aa285c",
+        "label": [
+          "Questionable"
+        ],
+        "note": "",
+        "annotator_name": "Vivek",
+        "summary_span": "July 2015",
+        "summary_start": 120,
+        "summary_end": 129
+      },
+      {
+        "annot_id": 38,
+        "sample_id": 5,
+        "annotator": "1612324899bf4cdb8108aa6a26aa285c",
+        "label": [
+          "Benign"
+        ],
+        "note": "The announcement to cancel the show was made",
+        "annotator_name": "Vivek",
+        "summary_span": "The show was cancelled by CBS on November 14, 2014, during its second season.",
+        "summary_start": 170,
+        "summary_end": 247
+      }
+    ],
+    "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "meta_hhemv1": 0.99306,
+    "meta_hhem-2.1": 0.81833,
+    "meta_hhem-2.1-english": 0.97271,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 579
+  },
+  {
+    "sample_id": 6,
+    "source": "The Millers . The multi-camera series aired from October 3 , 2013 to July 18 , 2015 and ran 34 episodes over two seasons on CBS . CBS announced the cancellation of The Millers on November 14 , 2014 , four episodes into the show 's second season .",
+    "summary": "Here is a concise summary of the passage:\n\nThe Millers is a multi-camera series that aired on CBS from 2013 to 2015, spanning 2 seasons and 34 episodes. The show was cancelled on November 14, 2014, during its second season.",
+    "annotations": [
+      {
+        "annot_id": 39,
+        "sample_id": 6,
+        "annotator": "1612324899bf4cdb8108aa6a26aa285c",
+        "label": [
+          "Benign"
+        ],
+        "note": "Announcement to cancel != cancellation",
+        "annotator_name": "Vivek",
+        "summary_span": "The show was cancelled on November 14, 2014, during its second season.",
+        "summary_start": 153,
+        "summary_end": 223
+      }
+    ],
+    "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "meta_hhemv1": 0.99418,
+    "meta_hhem-2.1": 0.86669,
+    "meta_hhem-2.1-english": 0.96983,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 694
+  },
+  {
+    "sample_id": 7,
+    "source": "The Millers . The multi-camera series aired from October 3 , 2013 to July 18 , 2015 and ran 34 episodes over two seasons on CBS . CBS announced the cancellation of The Millers on November 14 , 2014 , four episodes into the show 's second season .",
+    "summary": "The Millers was a multi-camera sitcom that aired on CBS for two seasons, from October 3, 2013 to July 18, 2015. The show was canceled by CBS on November 14, 2014, after only four episodes of its second season. \n",
+    "annotations": [
+      {
+        "annot_id": 9,
+        "sample_id": 7,
+        "annotator": "227d8ce4a1cf4e098ed6db7c1cfda021",
+        "label": [
+          "Benign"
+        ],
+        "note": "External knowledge",
+        "annotator_name": "Rogger",
+        "summary_span": "sitcom ",
+        "summary_start": 31,
+        "summary_end": 38
+      },
+      {
+        "annot_id": 31,
+        "sample_id": 7,
+        "annotator": "1612324899bf4cdb8108aa6a26aa285c",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The decision to cancel the show was made 4 episodes into the second season.",
+        "annotator_name": "Vivek",
+        "summary_span": "after only four episodes of its second season.",
+        "summary_start": 163,
+        "summary_end": 209,
+        "source_span": "CBS announced the cancellation of The Millers on November 14 , 2014 , four episodes into the show 's second season .",
+        "source_start": 130,
+        "source_end": 246
+      },
+      {
+        "annot_id": 66,
+        "sample_id": 7,
+        "annotator": "d71bd7b676634bc89873d301ec8f7ed2",
+        "label": [
+          "Benign"
+        ],
+        "note": "external knowledge",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "sitcom",
+        "summary_start": 31,
+        "summary_end": 37,
+        "source_span": "The multi-camera series aired from October 3 , 2013 to July 18 , 2015 and ran 34 episodes over two seasons on CBS .",
+        "source_start": 14,
+        "source_end": 129
+      },
+      {
+        "annot_id": 70,
+        "sample_id": 7,
+        "annotator": "1612324899bf4cdb8108aa6a26aa285c",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Vivek",
+        "summary_span": "sitcom",
+        "summary_start": 31,
+        "summary_end": 37
+      }
+    ],
+    "meta_model": "google/gemini-1.5-flash-001",
+    "meta_hhemv1": 0.90967,
+    "meta_hhem-2.1": 0.75794,
+    "meta_hhem-2.1-english": 0.86862,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 809
+  },
+  {
+    "sample_id": 8,
+    "source": "The Millers . The multi-camera series aired from October 3 , 2013 to July 18 , 2015 and ran 34 episodes over two seasons on CBS . CBS announced the cancellation of The Millers on November 14 , 2014 , four episodes into the show 's second season .",
+    "summary": "The passage provides information about a TV series called \"The Millers.\" It aired from October 3, 2013, to July 18, 2015, and had a total of 34 episodes over two seasons on CBS. However, CBS announced the cancellation of the show on November 14, 2014, after only four episodes of the second season had aired.",
+    "annotations": [],
+    "meta_model": "openai/GPT-3.5-Turbo",
+    "meta_hhemv1": 0.99474,
+    "meta_hhem-2.1": 0.94158,
+    "meta_hhem-2.1-english": 0.97869,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 974
+  },
+  {
+    "sample_id": 9,
+    "source": "The Millers . The multi-camera series aired from October 3 , 2013 to July 18 , 2015 and ran 34 episodes over two seasons on CBS . CBS announced the cancellation of The Millers on November 14 , 2014 , four episodes into the show 's second season .",
+    "summary": "\"The Millers\" was a multi-camera series that aired on CBS from October 3, 2013, to July 18, 2015, running for 34 episodes over two seasons. CBS canceled the show on November 14, 2014, after four episodes of the second season had aired.",
+    "annotations": [
+      {
+        "annot_id": 40,
+        "sample_id": 9,
+        "annotator": "1612324899bf4cdb8108aa6a26aa285c",
+        "label": [
+          "Benign"
+        ],
+        "note": "CBS announced to cancel the show",
+        "annotator_name": "Vivek",
+        "summary_span": "CBS canceled the show on November 14, 2014, after four episodes of the second season had aired.",
+        "summary_start": 140,
+        "summary_end": 235
+      }
+    ],
+    "meta_model": "openai/gpt-4o",
+    "meta_hhemv1": 0.99812,
+    "meta_hhem-2.1": 0.89486,
+    "meta_hhem-2.1-english": 0.88554,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 1039
+  },
+  {
+    "sample_id": 10,
+    "source": "Lake Providence is a town in and the parish seat of East Carroll Parish in northeastern Louisiana , United States . University of Mississippi . About 55 percent of its undergraduates and 60 percent overall come from Mississippi , and 23 percent are minorities ; international students come from 90 nations .",
+    "summary": " Lake Providence is a town located in East Carroll Parish, northeastern Louisiana, USA. The passage mentions that the University of Mississippi, which has a significant presence in the area, has a majority of its undergraduate and overall students originating from Mississippi (55% and 60% respectively). Additionally, 23% of the students are minorities, and international students hail from 90 different countries.",
+    "annotations": [
+      {
+        "annot_id": 10,
+        "sample_id": 10,
+        "annotator": "227d8ce4a1cf4e098ed6db7c1cfda021",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "Subjective",
+        "annotator_name": "Rogger",
+        "summary_span": "which has a significant presence in the area",
+        "summary_start": 145,
+        "summary_end": 189
+      },
+      {
+        "annot_id": 41,
+        "sample_id": 10,
+        "annotator": "1612324899bf4cdb8108aa6a26aa285c",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "This part cannot be inferred from the provided information",
+        "annotator_name": "Vivek",
+        "summary_span": " has a significant presence in the area",
+        "summary_start": 150,
+        "summary_end": 189
+      },
+      {
+        "annot_id": 67,
+        "sample_id": 10,
+        "annotator": "d71bd7b676634bc89873d301ec8f7ed2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "not mentioned",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "which has a significant presence in the area",
+        "summary_start": 145,
+        "summary_end": 189
+      }
+    ],
+    "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "meta_hhemv1": 0.97387,
+    "meta_hhem-2.1": 0.96092,
+    "meta_hhem-2.1-english": 0.93227,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 20
+  },
+  {
+    "sample_id": 11,
+    "source": "Lake Providence is a town in and the parish seat of East Carroll Parish in northeastern Louisiana , United States . University of Mississippi . About 55 percent of its undergraduates and 60 percent overall come from Mississippi , and 23 percent are minorities ; international students come from 90 nations .",
+    "summary": " Lake Providence is a town in northeastern Louisiana, serving as the parish seat of East Carroll Parish. The University of Mississippi, located in Lake Providence, has approximately 55% of its undergraduates and 60% of its overall student population from Mississippi. Additionally, 23% of the students are minorities, with international students hailing from 90 different nations.",
+    "annotations": [
+      {
+        "annot_id": 2,
+        "sample_id": 11,
+        "annotator": "d71bd7b676634bc89873d301ec8f7ed2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the university is not located in Lake Provindence",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "The University of Mississippi, located in Lake Providence, has approximately 55% of its undergraduates and 60% of its overall student population from Mississippi.",
+        "summary_start": 105,
+        "summary_end": 267,
+        "source_span": "Lake Providence is a town in and the parish seat of East Carroll Parish in northeastern Louisiana , United States . University of Mississippi . About 55 percent of its undergraduates and 60 percent overall come from Mississippi , and 23 percent are minorities ; international students come from 90 nations .",
+        "source_start": 0,
+        "source_end": 307
+      },
+      {
+        "annot_id": 11,
+        "sample_id": 11,
+        "annotator": "227d8ce4a1cf4e098ed6db7c1cfda021",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Rogger",
+        "summary_span": " located in Lake Providence",
+        "summary_start": 135,
+        "summary_end": 162
+      },
+      {
+        "annot_id": 42,
+        "sample_id": 11,
+        "annotator": "1612324899bf4cdb8108aa6a26aa285c",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "This is not mentioned in the passage",
+        "annotator_name": "Vivek",
+        "summary_span": "University of Mississippi, located in Lake Providence",
+        "summary_start": 109,
+        "summary_end": 162
+      }
+    ],
+    "meta_model": "microsoft/Phi-3-mini-4k-instruct",
+    "meta_hhemv1": 0.99643,
+    "meta_hhem-2.1": 0.92989,
+    "meta_hhem-2.1-english": 0.97355,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 135
+  },
+  {
+    "sample_id": 12,
+    "source": "Lake Providence is a town in and the parish seat of East Carroll Parish in northeastern Louisiana , United States . University of Mississippi . About 55 percent of its undergraduates and 60 percent overall come from Mississippi , and 23 percent are minorities ; international students come from 90 nations .",
+    "summary": "Based solely on the provided passage, I can offer the following concise summary:\n\nLake Providence is a town located in northeastern Louisiana, United States. It serves as the parish seat of East Carroll Parish. The passage then abruptly shifts to information about the University of Mississippi, stating that 55% of its undergraduate students and 60% of its overall student population come from Mississippi. Additionally, 23% of the university's students are minorities, and it has international students from 90 different countries. \n\nIt's important to note that the passage appears to contain two unrelated pieces of information without a clear connection between them.",
+    "annotations": [],
+    "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
+    "meta_hhemv1": 0.78302,
+    "meta_hhem-2.1": 0.85168,
+    "meta_hhem-2.1-english": 0.94151,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 250
+  },
+  {
+    "sample_id": 13,
+    "source": "Lake Providence is a town in and the parish seat of East Carroll Parish in northeastern Louisiana , United States . University of Mississippi . About 55 percent of its undergraduates and 60 percent overall come from Mississippi , and 23 percent are minorities ; international students come from 90 nations .",
+    "summary": "Lake Providence is a town in northeastern Louisiana, serving as the parish seat of East Carroll Parish. The University of Mississippi, located nearby, has a diverse student body, with 55% of undergraduates and 60% overall from Mississippi, 23% minorities, and international students from 90 countries.",
+    "annotations": [
+      {
+        "annot_id": 3,
+        "sample_id": 13,
+        "annotator": "d71bd7b676634bc89873d301ec8f7ed2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "no information about the location of the university",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "The University of Mississippi, located nearby, has a diverse student body, with 55% of undergraduates and 60% overall from Mississippi, 23% minorities, and international students from 90 countries.",
+        "summary_start": 104,
+        "summary_end": 301,
+        "source_span": "Lake Providence is a town in and the parish seat of East Carroll Parish in northeastern Louisiana , United States . University of Mississippi . About 55 percent of its undergraduates and 60 percent overall come from Mississippi , and 23 percent are minorities ; international students come from 90 nations .",
+        "source_start": 0,
+        "source_end": 307
+      },
+      {
+        "annot_id": 12,
+        "sample_id": 13,
+        "annotator": "227d8ce4a1cf4e098ed6db7c1cfda021",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Rogger",
+        "summary_span": " located nearby",
+        "summary_start": 134,
+        "summary_end": 149
+      },
+      {
+        "annot_id": 43,
+        "sample_id": 13,
+        "annotator": "1612324899bf4cdb8108aa6a26aa285c",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "No verifiable source in the passage",
+        "annotator_name": "Vivek",
+        "summary_span": "University of Mississippi, located nearby,",
+        "summary_start": 108,
+        "summary_end": 150
+      }
+    ],
+    "meta_model": "cohere/command-r-08-2024",
+    "meta_hhemv1": 0.99269,
+    "meta_hhem-2.1": 0.90627,
+    "meta_hhem-2.1-english": 0.90909,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 365
+  },
+  {
+    "sample_id": 14,
+    "source": "Lake Providence is a town in and the parish seat of East Carroll Parish in northeastern Louisiana , United States . University of Mississippi . About 55 percent of its undergraduates and 60 percent overall come from Mississippi , and 23 percent are minorities ; international students come from 90 nations .",
+    "summary": "Lake Providence is the parish seat of East Carroll Parish in northeastern Louisiana. It has a university with about 55% of undergraduates and 60% overall coming from Mississippi, 23% minority students, and international students from 90 countries.",
+    "annotations": [
+      {
+        "annot_id": 4,
+        "sample_id": 14,
+        "annotator": "d71bd7b676634bc89873d301ec8f7ed2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "not mentioned about lake providence's university",
+        "annotator_name": "Yujia Tang",
+        "summary_span": " It has a university with about 55% of undergraduates and 60% overall coming from Mississippi, 23% minority students, and international students from 90 countries.",
+        "summary_start": 84,
+        "summary_end": 247,
+        "source_span": "Lake Providence is a town in and the parish seat of East Carroll Parish in northeastern Louisiana , United States . University of Mississippi . About 55 percent of its undergraduates and 60 percent overall come from Mississippi , and 23 percent are minorities ; international students come from 90 nations .",
+        "source_start": 0,
+        "source_end": 307
+      },
+      {
+        "annot_id": 13,
+        "sample_id": 14,
+        "annotator": "227d8ce4a1cf4e098ed6db7c1cfda021",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Rogger",
+        "summary_span": "It has a university",
+        "summary_start": 85,
+        "summary_end": 104
+      },
+      {
+        "annot_id": 44,
+        "sample_id": 14,
+        "annotator": "1612324899bf4cdb8108aa6a26aa285c",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "This says that Univ. of Missippi is located in Lake Providence",
+        "annotator_name": "Vivek",
+        "summary_span": "It has a university with about 55% of undergraduates and 60% overall coming from Mississippi,",
+        "summary_start": 85,
+        "summary_end": 178
+      }
+    ],
+    "meta_model": "Qwen/Qwen2.5-7B-Instruct",
+    "meta_hhemv1": 0.98166,
+    "meta_hhem-2.1": 0.94976,
+    "meta_hhem-2.1-english": 0.98215,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 480
+  },
+  {
+    "sample_id": 15,
+    "source": "Lake Providence is a town in and the parish seat of East Carroll Parish in northeastern Louisiana , United States . University of Mississippi . About 55 percent of its undergraduates and 60 percent overall come from Mississippi , and 23 percent are minorities ; international students come from 90 nations .",
+    "summary": "There is no passage provided. You asked me to summarize a passage, but you didn't provide one.",
+    "annotations": [
+      {
+        "annot_id": 14,
+        "sample_id": 15,
+        "annotator": "227d8ce4a1cf4e098ed6db7c1cfda021",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "No summary",
+        "annotator_name": "Rogger",
+        "summary_span": "There is no passage provided. You asked me to summarize a passage, but you didn't provide one.",
+        "summary_start": 0,
+        "summary_end": 94
+      }
+    ],
+    "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "meta_hhemv1": 0.05844,
+    "meta_hhem-2.1": 0.63865,
+    "meta_hhem-2.1-english": 0.73733,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 0,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 595
+  },
+  {
+    "sample_id": 16,
+    "source": "Lake Providence is a town in and the parish seat of East Carroll Parish in northeastern Louisiana , United States . University of Mississippi . About 55 percent of its undergraduates and 60 percent overall come from Mississippi , and 23 percent are minorities ; international students come from 90 nations .",
+    "summary": "Here is a concise summary of the passage:\n\nThe passage describes two unrelated entities: Lake Providence, a town in northeastern Louisiana, and the University of Mississippi. Key information about the University of Mississippi includes: 55% of undergraduates and 60% overall are from Mississippi, 23% are minorities, and international students come from 90 nations.",
+    "annotations": [],
+    "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "meta_hhemv1": 0.78557,
+    "meta_hhem-2.1": 0.8049,
+    "meta_hhem-2.1-english": 0.90054,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 710
+  },
+  {
+    "sample_id": 17,
+    "source": "Lake Providence is a town in and the parish seat of East Carroll Parish in northeastern Louisiana , United States . University of Mississippi . About 55 percent of its undergraduates and 60 percent overall come from Mississippi , and 23 percent are minorities ; international students come from 90 nations .",
+    "summary": "Lake Providence is a town in Louisiana that is the parish seat of East Carroll Parish. The University of Mississippi has a student body that is 55% undergraduate and 60% overall from Mississippi. 23% of the student body are minorities and international students come from 90 nations. \n",
+    "annotations": [],
+    "meta_model": "google/gemini-1.5-flash-001",
+    "meta_hhemv1": 0.99786,
+    "meta_hhem-2.1": 0.9167,
+    "meta_hhem-2.1-english": 0.97011,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 825
+  },
+  {
+    "sample_id": 18,
+    "source": "Lake Providence is a town in and the parish seat of East Carroll Parish in northeastern Louisiana , United States . University of Mississippi . About 55 percent of its undergraduates and 60 percent overall come from Mississippi , and 23 percent are minorities ; international students come from 90 nations .",
+    "summary": "The passage provides information about Lake Providence, a town in northeastern Louisiana. It is the parish seat of East Carroll Parish. The passage also mentions the University of Mississippi, stating that about 55 percent of its undergraduates and 60 percent overall come from Mississippi. Additionally, it mentions that 23 percent of the students are minorities and that international students come from 90 nations.",
+    "annotations": [],
+    "meta_model": "openai/GPT-3.5-Turbo",
+    "meta_hhemv1": 0.99727,
+    "meta_hhem-2.1": 0.97809,
+    "meta_hhem-2.1-english": 0.99342,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 951
+  },
+  {
+    "sample_id": 19,
+    "source": "Lake Providence is a town in and the parish seat of East Carroll Parish in northeastern Louisiana , United States . University of Mississippi . About 55 percent of its undergraduates and 60 percent overall come from Mississippi , and 23 percent are minorities ; international students come from 90 nations .",
+    "summary": "Lake Providence is a town and the parish seat of East Carroll Parish in northeastern Louisiana, United States. At the University of Mississippi, about 55 percent of undergraduates and 60 percent overall are from Mississippi, 23 percent are minorities, and international students come from 90 nations.",
+    "annotations": [],
+    "meta_model": "openai/gpt-4o",
+    "meta_hhemv1": 0.99643,
+    "meta_hhem-2.1": 0.94706,
+    "meta_hhem-2.1-english": 0.99387,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 1055
+  },
+  {
+    "sample_id": 20,
+    "source": "McManus netted from close range on the quarter-hour mark to open the scoring and Ross Forbes' deflected strike quickly doubled Morton's lead. A shot by Kyle McAusland pulled Alloa back into the game before half-time. But another McManus finish and one by Denny Johnstone late on ensured a comfortable win for the hosts.",
+    "summary": " In the provided passage, Morton scored four goals against Alloa, with McManus scoring twice and Denny Johnstone scoring once. The first goal was scored by McManus at the quarter-hour mark, and Ross Forbes' deflected strike made it 2-0. Alloa scored one goal before half-time, but McManus and Johnstone scored in the second half to secure a comfortable 4-1 win for Morton at home.",
+    "annotations": [],
+    "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "meta_hhemv1": 0.67436,
+    "meta_hhem-2.1": 0.48138,
+    "meta_hhem-2.1-english": 0.91066,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 40
+  },
+  {
+    "sample_id": 21,
+    "source": "McManus netted from close range on the quarter-hour mark to open the scoring and Ross Forbes' deflected strike quickly doubled Morton's lead. A shot by Kyle McAusland pulled Alloa back into the game before half-time. But another McManus finish and one by Denny Johnstone late on ensured a comfortable win for the hosts.",
+    "summary": " McManus scored early in the game, and Ross Forbes doubled Morton's lead with a deflected strike. Kyle McAusland's shot gave Alloa a chance, but McManus and Denny Johnstone's goals secured a comfortable win for Morton.",
+    "annotations": [
+      {
+        "annot_id": 45,
+        "sample_id": 21,
+        "annotator": "1612324899bf4cdb8108aa6a26aa285c",
+        "label": [
+          "Questionable"
+        ],
+        "note": "Can quarter-hour mark be considered early?",
+        "annotator_name": "Vivek",
+        "summary_span": "early in the game",
+        "summary_start": 16,
+        "summary_end": 33
+      },
+      {
+        "annot_id": 46,
+        "sample_id": 21,
+        "annotator": "1612324899bf4cdb8108aa6a26aa285c",
+        "label": [
+          "Benign"
+        ],
+        "note": "Does not dis-ambiguate that this is the second goal from McManus",
+        "annotator_name": "Vivek",
+        "summary_span": "McManus",
+        "summary_start": 145,
+        "summary_end": 152
+      }
+    ],
+    "meta_model": "microsoft/Phi-3-mini-4k-instruct",
+    "meta_hhemv1": 0.99885,
+    "meta_hhem-2.1": 0.9027,
+    "meta_hhem-2.1-english": 0.99338,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 155
+  },
+  {
+    "sample_id": 22,
+    "source": "McManus netted from close range on the quarter-hour mark to open the scoring and Ross Forbes' deflected strike quickly doubled Morton's lead. A shot by Kyle McAusland pulled Alloa back into the game before half-time. But another McManus finish and one by Denny Johnstone late on ensured a comfortable win for the hosts.",
+    "summary": "Here's a concise summary of the passage, covering the core pieces of information:\n\nThe passage describes a football match between Morton and Alloa. Morton won the game 4-1. McManus scored two goals for Morton, while Forbes and Johnstone each scored one. McAusland scored the only goal for Alloa. Morton took an early 2-0 lead, Alloa pulled one back before halftime, but Morton secured the win with two more goals in the second half.",
+    "annotations": [
+      {
+        "annot_id": 63,
+        "sample_id": 22,
+        "annotator": "227d8ce4a1cf4e098ed6db7c1cfda021",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Rogger",
+        "summary_span": "football match",
+        "summary_start": 107,
+        "summary_end": 121
+      }
+    ],
+    "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
+    "meta_hhemv1": 0.57524,
+    "meta_hhem-2.1": 0.09842,
+    "meta_hhem-2.1-english": 0.37253,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 270
+  },
+  {
+    "sample_id": 23,
+    "source": "McManus netted from close range on the quarter-hour mark to open the scoring and Ross Forbes' deflected strike quickly doubled Morton's lead. A shot by Kyle McAusland pulled Alloa back into the game before half-time. But another McManus finish and one by Denny Johnstone late on ensured a comfortable win for the hosts.",
+    "summary": "Morton defeated Alloa in a football match with a final score of 4-1. McManus and Johnstone scored two goals each for Morton, while McAusland scored Alloa's only goal.",
+    "annotations": [
+      {
+        "annot_id": 5,
+        "sample_id": 23,
+        "annotator": "d71bd7b676634bc89873d301ec8f7ed2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Mcmanus 2, Ross 1, Denny 1",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "McManus and Johnstone scored two goals each for Morton, while McAusland scored Alloa's only goal.",
+        "summary_start": 69,
+        "summary_end": 166,
+        "source_span": "McManus netted from close range on the quarter-hour mark to open the scoring and Ross Forbes' deflected strike quickly doubled Morton's lead. A shot by Kyle McAusland pulled Alloa back into the game before half-time. But another McManus finish and one by Denny Johnstone late on ensured a comfortable win for the hosts.",
+        "source_start": 0,
+        "source_end": 319
+      },
+      {
+        "annot_id": 15,
+        "sample_id": 23,
+        "annotator": "227d8ce4a1cf4e098ed6db7c1cfda021",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "McManus scored 2\nForbes scores 1\nJohnstone scored 1",
+        "annotator_name": "Rogger",
+        "summary_span": "McManus and Johnstone scored two goals each for Morton",
+        "summary_start": 69,
+        "summary_end": 123
+      },
+      {
+        "annot_id": 47,
+        "sample_id": 23,
+        "annotator": "1612324899bf4cdb8108aa6a26aa285c",
+        "label": [
+          "Unwanted"
+        ],
+        "note": "This is wrong deduction",
+        "annotator_name": "Vivek",
+        "summary_span": "McManus and Johnstone scored two goals",
+        "summary_start": 69,
+        "summary_end": 107
+      },
+      {
+        "annot_id": 48,
+        "sample_id": 23,
+        "annotator": "1612324899bf4cdb8108aa6a26aa285c",
+        "label": [
+          "Benign"
+        ],
+        "note": "No mention of football match in passage",
+        "annotator_name": "Vivek",
+        "summary_span": "football match",
+        "summary_start": 27,
+        "summary_end": 41
+      },
+      {
+        "annot_id": 62,
+        "sample_id": 23,
+        "annotator": "227d8ce4a1cf4e098ed6db7c1cfda021",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Rogger",
+        "summary_span": "football match",
+        "summary_start": 27,
+        "summary_end": 41
+      }
+    ],
+    "meta_model": "cohere/command-r-08-2024",
+    "meta_hhemv1": 0.16219,
+    "meta_hhem-2.1": 0.05278,
+    "meta_hhem-2.1-english": 0.06489,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 385
+  },
+  {
+    "sample_id": 24,
+    "source": "McManus netted from close range on the quarter-hour mark to open the scoring and Ross Forbes' deflected strike quickly doubled Morton's lead. A shot by Kyle McAusland pulled Alloa back into the game before half-time. But another McManus finish and one by Denny Johnstone late on ensured a comfortable win for the hosts.",
+    "summary": "The passage describes a football match where Morton scored first through McManus's goal, followed by a second goal for Morton due to a deflection. Alloa briefly reduced the deficit with a goal by McAusland before half-time. Morton secured their victory with additional goals from McManus and Johnstone in the latter part of the game.",
+    "annotations": [
+      {
+        "annot_id": 49,
+        "sample_id": 24,
+        "annotator": "1612324899bf4cdb8108aa6a26aa285c",
+        "label": [
+          "Benign"
+        ],
+        "note": "No mention of football",
+        "annotator_name": "Vivek",
+        "summary_span": "football match",
+        "summary_start": 24,
+        "summary_end": 38
+      },
+      {
+        "annot_id": 68,
+        "sample_id": 24,
+        "annotator": "d71bd7b676634bc89873d301ec8f7ed2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "due to a deflection is vague",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "due to a deflection",
+        "summary_start": 126,
+        "summary_end": 145,
+        "source_span": "McManus netted from close range on the quarter-hour mark to open the scoring and Ross Forbes' deflected strike quickly doubled Morton's lead.",
+        "source_start": 0,
+        "source_end": 141
+      },
+      {
+        "annot_id": 73,
+        "sample_id": 24,
+        "annotator": "227d8ce4a1cf4e098ed6db7c1cfda021",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Rogger",
+        "summary_span": " football match",
+        "summary_start": 23,
+        "summary_end": 38
+      }
+    ],
+    "meta_model": "Qwen/Qwen2.5-7B-Instruct",
+    "meta_hhemv1": 0.98619,
+    "meta_hhem-2.1": 0.48264,
+    "meta_hhem-2.1-english": 0.84074,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 500
+  },
+  {
+    "sample_id": 25,
+    "source": "McManus netted from close range on the quarter-hour mark to open the scoring and Ross Forbes' deflected strike quickly doubled Morton's lead. A shot by Kyle McAusland pulled Alloa back into the game before half-time. But another McManus finish and one by Denny Johnstone late on ensured a comfortable win for the hosts.",
+    "summary": "Here is a concise summary of the passage:\n\nMorton scored twice in the first half, with McManus netting twice and Ross Forbes also scoring, before Alloa pulled back with a shot by Kyle McAusland. Morton then scored again in the second half to seal a comfortable win.",
+    "annotations": [
+      {
+        "annot_id": 6,
+        "sample_id": 25,
+        "annotator": "d71bd7b676634bc89873d301ec8f7ed2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "McManus scored only 1 in the first half",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Morton scored twice in the first half, with McManus netting twice and Ross Forbes also scoring, before Alloa pulled back with a shot by Kyle McAusland.",
+        "summary_start": 43,
+        "summary_end": 194,
+        "source_span": "McManus netted from close range on the quarter-hour mark to open the scoring and Ross Forbes' deflected strike quickly doubled Morton's lead.",
+        "source_start": 0,
+        "source_end": 141
+      },
+      {
+        "annot_id": 50,
+        "sample_id": 25,
+        "annotator": "1612324899bf4cdb8108aa6a26aa285c",
+        "label": [
+          "Unwanted"
+        ],
+        "note": "McManus netted once in first and once in second half\n",
+        "annotator_name": "Vivek",
+        "summary_span": "McManus netting twice",
+        "summary_start": 87,
+        "summary_end": 108
+      },
+      {
+        "annot_id": 51,
+        "sample_id": 25,
+        "annotator": "1612324899bf4cdb8108aa6a26aa285c",
+        "label": [
+          "Unwanted"
+        ],
+        "note": "Morton scored twice in second half",
+        "annotator_name": "Vivek",
+        "summary_span": " Morton then scored again in the second half",
+        "summary_start": 194,
+        "summary_end": 238
+      },
+      {
+        "annot_id": 92,
+        "sample_id": 25,
+        "annotator": "227d8ce4a1cf4e098ed6db7c1cfda021",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "McManus net once first half\nthen another goal in the second half",
+        "annotator_name": "Rogger",
+        "summary_span": "\n\nMorton scored twice in the first half",
+        "summary_start": 41,
+        "summary_end": 80,
+        "source_span": "McManus netted from close range on the quarter-hour mark to open the scoring and Ross Forbes' deflected strike quickly doubled Morton's lead. A shot by Kyle McAusland pulled Alloa back into the game before half-time. But another McManus finish and one by Denny Johnstone late on ensured a comfortable win for the hosts.",
+        "source_start": 0,
+        "source_end": 319
+      }
+    ],
+    "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "meta_hhemv1": 0.76635,
+    "meta_hhem-2.1": 0.56951,
+    "meta_hhem-2.1-english": 0.97449,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 615
+  },
+  {
+    "sample_id": 26,
+    "source": "McManus netted from close range on the quarter-hour mark to open the scoring and Ross Forbes' deflected strike quickly doubled Morton's lead. A shot by Kyle McAusland pulled Alloa back into the game before half-time. But another McManus finish and one by Denny Johnstone late on ensured a comfortable win for the hosts.",
+    "summary": "Here is a concise summary of the passage:\n\nMorton scored first through McManus (15'), then Ross Forbes doubled the lead. Alloa pulled one back through Kyle McAusland before halftime. Morton secured the win with goals from McManus (again) and Denny Johnstone late in the game.",
+    "annotations": [
+      {
+        "annot_id": 52,
+        "sample_id": 26,
+        "annotator": "1612324899bf4cdb8108aa6a26aa285c",
+        "label": [
+          "Unwanted"
+        ],
+        "note": "The time of goal is made up",
+        "annotator_name": "Vivek",
+        "summary_span": "McManus (15')",
+        "summary_start": 71,
+        "summary_end": 84
+      }
+    ],
+    "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "meta_hhemv1": 0.60843,
+    "meta_hhem-2.1": 0.31593,
+    "meta_hhem-2.1-english": 0.73766,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 730
+  },
+  {
+    "sample_id": 27,
+    "source": "McManus netted from close range on the quarter-hour mark to open the scoring and Ross Forbes' deflected strike quickly doubled Morton's lead. A shot by Kyle McAusland pulled Alloa back into the game before half-time. But another McManus finish and one by Denny Johnstone late on ensured a comfortable win for the hosts.",
+    "summary": "Morton defeated Alloa 4-1. McManus scored two goals for Morton, while Forbes and Johnstone each scored one. McAusland scored the lone goal for Alloa. \n",
+    "annotations": [],
+    "meta_model": "google/gemini-1.5-flash-001",
+    "meta_hhemv1": 0.08254,
+    "meta_hhem-2.1": 0.05447,
+    "meta_hhem-2.1-english": 0.12567,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 845
+  },
+  {
+    "sample_id": 28,
+    "source": "McManus netted from close range on the quarter-hour mark to open the scoring and Ross Forbes' deflected strike quickly doubled Morton's lead. A shot by Kyle McAusland pulled Alloa back into the game before half-time. But another McManus finish and one by Denny Johnstone late on ensured a comfortable win for the hosts.",
+    "summary": "In this passage, Morton scored the first goal through McManus, followed by a deflected strike by Forbes to double their lead. Alloa managed to pull one back before half-time through McAusland's shot. However, Morton secured a comfortable win with another goal from McManus and one from Johnstone late in the game.",
+    "annotations": [],
+    "meta_model": "openai/GPT-3.5-Turbo",
+    "meta_hhemv1": 0.99595,
+    "meta_hhem-2.1": 0.72088,
+    "meta_hhem-2.1-english": 0.97879,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 954
+  },
+  {
+    "sample_id": 29,
+    "source": "McManus netted from close range on the quarter-hour mark to open the scoring and Ross Forbes' deflected strike quickly doubled Morton's lead. A shot by Kyle McAusland pulled Alloa back into the game before half-time. But another McManus finish and one by Denny Johnstone late on ensured a comfortable win for the hosts.",
+    "summary": "McManus scored early to give Morton the lead, followed by a deflected goal from Ross Forbes. Kyle McAusland scored for Alloa before half-time, but further goals from McManus and Denny Johnstone secured a comfortable win for Morton.",
+    "annotations": [
+      {
+        "annot_id": 53,
+        "sample_id": 29,
+        "annotator": "1612324899bf4cdb8108aa6a26aa285c",
+        "label": [
+          "Questionable"
+        ],
+        "note": "Not sure if quarter-hour is early",
+        "annotator_name": "Vivek",
+        "summary_span": "scored early",
+        "summary_start": 8,
+        "summary_end": 20
+      }
+    ],
+    "meta_model": "openai/gpt-4o",
+    "meta_hhemv1": 0.99882,
+    "meta_hhem-2.1": 0.826,
+    "meta_hhem-2.1-english": 0.97156,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 1075
+  },
+  {
+    "sample_id": 30,
+    "source": "Homer ( Ὅμηρος [ hómɛːros ] , Hómēros ) is the name ascribed by the ancient Greeks to the author of the Iliad and the Odyssey , two epic poems which are the central works of ancient Greek literature . The Thicket is an mystery/suspense novel written by American author Joe R. Lansdale .",
+    "summary": " The passage provides information about two distinct works:\n\n1. The Iliad and the Odyssey: These are epic poems that are central to ancient Greek literature. They were attributed to a Greek author named Homer. \n\n2. The Thicket: This is a mystery/suspense novel written by American author Joe R. Lansdale. The passage does not provide any details about the content of this novel.",
+    "annotations": [
+      {
+        "annot_id": 54,
+        "sample_id": 30,
+        "annotator": "1612324899bf4cdb8108aa6a26aa285c",
+        "label": [
+          "Benign"
+        ],
+        "note": "Passage does not mention that Homer is Greek",
+        "annotator_name": "Vivek",
+        "summary_span": "Greek author named Home",
+        "summary_start": 184,
+        "summary_end": 207
+      },
+      {
+        "annot_id": 77,
+        "sample_id": 30,
+        "annotator": "d71bd7b676634bc89873d301ec8f7ed2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The ancient Greeks ascribed the name Homer to the poems.",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "They were attributed to a Greek author named Homer.",
+        "summary_start": 158,
+        "summary_end": 209,
+        "source_span": "Homer ( Ὅμηρος [ hómɛːros ] , Hómēros ) is the name ascribed by the ancient Greeks to the author of the Iliad and the Odyssey , two epic poems which are the central works of ancient Greek literature .",
+        "source_start": 0,
+        "source_end": 205
+      }
+    ],
+    "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "meta_hhemv1": 0.01079,
+    "meta_hhem-2.1": 0.56965,
+    "meta_hhem-2.1-english": 0.81621,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 0,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 19
+  },
+  {
+    "sample_id": 31,
+    "source": "Homer ( Ὅμηρος [ hómɛːros ] , Hómēros ) is the name ascribed by the ancient Greeks to the author of the Iliad and the Odyssey , two epic poems which are the central works of ancient Greek literature . The Thicket is an mystery/suspense novel written by American author Joe R. Lansdale .",
+    "summary": " Homer is the ancient Greek author credited with writing the Iliad and the Odyssey, two significant epic poems in Greek literature. The Thicket is a mystery/suspense novel by American author Joe R. Lansdale.",
+    "annotations": [
+      {
+        "annot_id": 55,
+        "sample_id": 31,
+        "annotator": "1612324899bf4cdb8108aa6a26aa285c",
+        "label": [
+          "Benign"
+        ],
+        "note": "Passage does not mention that Homer is Greek",
+        "annotator_name": "Vivek",
+        "summary_span": "Homer is the ancient Greek author",
+        "summary_start": 1,
+        "summary_end": 34
+      },
+      {
+        "annot_id": 74,
+        "sample_id": 31,
+        "annotator": "227d8ce4a1cf4e098ed6db7c1cfda021",
+        "label": [
+          "Benign"
+        ],
+        "note": "No explicit mention",
+        "annotator_name": "Rogger",
+        "summary_span": "Homer is the ancient Greek author ",
+        "summary_start": 1,
+        "summary_end": 35
+      },
+      {
+        "annot_id": 78,
+        "sample_id": 31,
+        "annotator": "d71bd7b676634bc89873d301ec8f7ed2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the name is ascribed by the Greeks",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Homer is the ancient Greek author credited with writing the Iliad and the Odyssey",
+        "summary_start": 1,
+        "summary_end": 82,
+        "source_span": "Homer ( Ὅμηρος [ hómɛːros ] , Hómēros ) is the name ascribed by the ancient Greeks to the author of the Iliad and the Odyssey , two epic poems which are the central works of ancient Greek literature .",
+        "source_start": 0,
+        "source_end": 205
+      }
+    ],
+    "meta_model": "microsoft/Phi-3-mini-4k-instruct",
+    "meta_hhemv1": 0.99824,
+    "meta_hhem-2.1": 0.93369,
+    "meta_hhem-2.1-english": 0.99273,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 134
+  },
+  {
+    "sample_id": 32,
+    "source": "Homer ( Ὅμηρος [ hómɛːros ] , Hómēros ) is the name ascribed by the ancient Greeks to the author of the Iliad and the Odyssey , two epic poems which are the central works of ancient Greek literature . The Thicket is an mystery/suspense novel written by American author Joe R. Lansdale .",
+    "summary": "Based on the provided passage, here is a concise summary covering the core information:\n\n1. Homer is the name given by ancient Greeks to the author of two epic poems. \n2. These poems are the Iliad and the Odyssey. \n3. The Iliad and the Odyssey are considered central works of ancient Greek literature. \n4. The Thicket is a mystery/suspense novel. \n5. The Thicket was written by Joe R. Lansdale, an American author. \n\nThis summary covers the main points about Homer and his works, as well as the brief mention of The Thicket and its author, as described in the passage.",
+    "annotations": [],
+    "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
+    "meta_hhemv1": 0.85881,
+    "meta_hhem-2.1": 0.80664,
+    "meta_hhem-2.1-english": 0.93372,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 249
+  },
+  {
+    "sample_id": 33,
+    "source": "Homer ( Ὅμηρος [ hómɛːros ] , Hómēros ) is the name ascribed by the ancient Greeks to the author of the Iliad and the Odyssey , two epic poems which are the central works of ancient Greek literature . The Thicket is an mystery/suspense novel written by American author Joe R. Lansdale .",
+    "summary": "The ancient Greeks attributed the authorship of the foundational epic poems, the Iliad and the Odyssey, to Homer. Joe R. Lansdale, an American author, penned the mystery-thriller novel, The Thicket.",
+    "annotations": [
+      {
+        "annot_id": 19,
+        "sample_id": 33,
+        "annotator": "227d8ce4a1cf4e098ed6db7c1cfda021",
+        "label": [
+          "Benign"
+        ],
+        "note": "thriller ~ suspense",
+        "annotator_name": "Rogger",
+        "summary_span": "thriller ",
+        "summary_start": 170,
+        "summary_end": 179,
+        "source_span": "suspense ",
+        "source_start": 232,
+        "source_end": 241
+      },
+      {
+        "annot_id": 79,
+        "sample_id": 33,
+        "annotator": "d71bd7b676634bc89873d301ec8f7ed2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The Greeks didn't attribute authorship to Homer. They ascribed.",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "The ancient Greeks attributed the authorship of the foundational epic poems",
+        "summary_start": 0,
+        "summary_end": 75,
+        "source_span": "Homer ( Ὅμηρος [ hómɛːros ] , Hómēros ) is the name ascribed by the ancient Greeks to the author of the Iliad and the Odyssey , two epic poems which are the central works of ancient Greek literature .",
+        "source_start": 0,
+        "source_end": 205
+      }
+    ],
+    "meta_model": "cohere/command-r-08-2024",
+    "meta_hhemv1": 0.99672,
+    "meta_hhem-2.1": 0.96239,
+    "meta_hhem-2.1-english": 0.99685,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 364
+  },
+  {
+    "sample_id": 34,
+    "source": "Homer ( Ὅμηρος [ hómɛːros ] , Hómēros ) is the name ascribed by the ancient Greeks to the author of the Iliad and the Odyssey , two epic poems which are the central works of ancient Greek literature . The Thicket is an mystery/suspense novel written by American author Joe R. Lansdale .",
+    "summary": "The passage provides information about Homer, credited by ancient Greeks as the author of the Iliad and Odyssey, which are central works of ancient Greek literature. It also mentions \"The Thicket,\" a mystery/suspense novel authored by Joe R. Lansdale.",
+    "annotations": [
+      {
+        "annot_id": 80,
+        "sample_id": 34,
+        "annotator": "d71bd7b676634bc89873d301ec8f7ed2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "ascribed but not credited. ascribe equals to give the name to the author.",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "The passage provides information about Homer, credited by ancient Greeks as the author of the Iliad and Odyssey",
+        "summary_start": 0,
+        "summary_end": 111,
+        "source_span": "Homer ( Ὅμηρος [ hómɛːros ] , Hómēros ) is the name ascribed by the ancient Greeks to the author of the Iliad and the Odyssey , two epic poems which are the central works of ancient Greek literature .",
+        "source_start": 0,
+        "source_end": 205
+      }
+    ],
+    "meta_model": "Qwen/Qwen2.5-7B-Instruct",
+    "meta_hhemv1": 0.99418,
+    "meta_hhem-2.1": 0.97907,
+    "meta_hhem-2.1-english": 0.99713,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 479
+  },
+  {
+    "sample_id": 35,
+    "source": "Homer ( Ὅμηρος [ hómɛːros ] , Hómēros ) is the name ascribed by the ancient Greeks to the author of the Iliad and the Odyssey , two epic poems which are the central works of ancient Greek literature . The Thicket is an mystery/suspense novel written by American author Joe R. Lansdale .",
+    "summary": "Here is a concise summary of the passage:\n\nThe passage mentions Homer, an ancient Greek author, and his epic poems the Iliad and the Odyssey, which are central works of ancient Greek literature.",
+    "annotations": [
+      {
+        "annot_id": 56,
+        "sample_id": 35,
+        "annotator": "1612324899bf4cdb8108aa6a26aa285c",
+        "label": [
+          "Benign"
+        ],
+        "note": "Passage does not mention that Homer is Greek",
+        "annotator_name": "Vivek",
+        "summary_span": "an ancient Greek author",
+        "summary_start": 71,
+        "summary_end": 94
+      },
+      {
+        "annot_id": 75,
+        "sample_id": 35,
+        "annotator": "227d8ce4a1cf4e098ed6db7c1cfda021",
+        "label": [
+          "Benign"
+        ],
+        "note": "No explicit mention",
+        "annotator_name": "Rogger",
+        "summary_span": "an ancient Greek author",
+        "summary_start": 71,
+        "summary_end": 94
+      },
+      {
+        "annot_id": 81,
+        "sample_id": 35,
+        "annotator": "d71bd7b676634bc89873d301ec8f7ed2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "No evidence shows that Homer is an ancient Greek author.",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "The passage mentions Homer, an ancient Greek author",
+        "summary_start": 43,
+        "summary_end": 94,
+        "source_span": "Homer ( Ὅμηρος [ hómɛːros ] , Hómēros ) is the name ascribed by the ancient Greeks to the author of the Iliad and the Odyssey , two epic poems which are the central works of ancient Greek literature .",
+        "source_start": 0,
+        "source_end": 205
+      }
+    ],
+    "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "meta_hhemv1": 0.9489,
+    "meta_hhem-2.1": 0.95562,
+    "meta_hhem-2.1-english": 0.99285,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 594
+  },
+  {
+    "sample_id": 36,
+    "source": "Homer ( Ὅμηρος [ hómɛːros ] , Hómēros ) is the name ascribed by the ancient Greeks to the author of the Iliad and the Odyssey , two epic poems which are the central works of ancient Greek literature . The Thicket is an mystery/suspense novel written by American author Joe R. Lansdale .",
+    "summary": "Here is a concise summary of the passage:\n\nThe passage mentions two separate pieces of information. Firstly, it describes Homer, the ancient Greek author of the epic poems \"Iliad\" and \"Odyssey\", which are central to ancient Greek literature. Secondly, it mentions \"The Thicket\", a mystery/suspense novel written by American author Joe R. Lansdale.",
+    "annotations": [
+      {
+        "annot_id": 57,
+        "sample_id": 36,
+        "annotator": "1612324899bf4cdb8108aa6a26aa285c",
+        "label": [
+          "Benign"
+        ],
+        "note": "Passage does not mention that Homer is Greek",
+        "annotator_name": "Vivek",
+        "summary_span": "the ancient Greek author",
+        "summary_start": 129,
+        "summary_end": 153
+      },
+      {
+        "annot_id": 76,
+        "sample_id": 36,
+        "annotator": "227d8ce4a1cf4e098ed6db7c1cfda021",
+        "label": [
+          "Benign"
+        ],
+        "note": "No explicit mention",
+        "annotator_name": "Rogger",
+        "summary_span": "the ancient Greek author",
+        "summary_start": 129,
+        "summary_end": 153
+      },
+      {
+        "annot_id": 82,
+        "sample_id": 36,
+        "annotator": "d71bd7b676634bc89873d301ec8f7ed2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Homer is just a name. No evidence shows that he was the ancient Greek author.",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Firstly, it describes Homer, the ancient Greek author of the epic poems",
+        "summary_start": 100,
+        "summary_end": 171,
+        "source_span": "Homer ( Ὅμηρος [ hómɛːros ] , Hómēros ) is the name ascribed by the ancient Greeks to the author of the Iliad and the Odyssey , two epic poems which are the central works of ancient Greek literature .",
+        "source_start": 0,
+        "source_end": 205
+      }
+    ],
+    "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "meta_hhemv1": 0.98376,
+    "meta_hhem-2.1": 0.95773,
+    "meta_hhem-2.1-english": 0.98953,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 709
+  },
+  {
+    "sample_id": 37,
+    "source": "Homer ( Ὅμηρος [ hómɛːros ] , Hómēros ) is the name ascribed by the ancient Greeks to the author of the Iliad and the Odyssey , two epic poems which are the central works of ancient Greek literature . The Thicket is an mystery/suspense novel written by American author Joe R. Lansdale .",
+    "summary": "Homer is credited with writing the Iliad and the Odyssey, two epic poems considered central to ancient Greek literature. The Thicket is a mystery/suspense novel written by American author Joe R. Lansdale. \n",
+    "annotations": [
+      {
+        "annot_id": 83,
+        "sample_id": 37,
+        "annotator": "d71bd7b676634bc89873d301ec8f7ed2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Not credited, the name Homer is ascribed or given by the ancient Greeks.",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Homer is credited with writing the Iliad and the Odyssey",
+        "summary_start": 0,
+        "summary_end": 56,
+        "source_span": "Homer ( Ὅμηρος [ hómɛːros ] , Hómēros ) is the name ascribed by the ancient Greeks to the author of the Iliad and the Odyssey , two epic poems which are the central works of ancient Greek literature .",
+        "source_start": 0,
+        "source_end": 205
+      }
+    ],
+    "meta_model": "google/gemini-1.5-flash-001",
+    "meta_hhemv1": 0.98264,
+    "meta_hhem-2.1": 0.9685,
+    "meta_hhem-2.1-english": 0.99619,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 824
+  },
+  {
+    "sample_id": 38,
+    "source": "Homer ( Ὅμηρος [ hómɛːros ] , Hómēros ) is the name ascribed by the ancient Greeks to the author of the Iliad and the Odyssey , two epic poems which are the central works of ancient Greek literature . The Thicket is an mystery/suspense novel written by American author Joe R. Lansdale .",
+    "summary": "The passage provides information about two different subjects: Homer and the novel \"The Thicket\" by Joe R. Lansdale. It states that Homer is the name given to the author of the ancient Greek epic poems, the Iliad and the Odyssey, which are considered central works of ancient Greek literature. On the other hand, \"The Thicket\" is described as a mystery/suspense novel written by American author Joe R. Lansdale.",
+    "annotations": [],
+    "meta_model": "openai/GPT-3.5-Turbo",
+    "meta_hhemv1": 0.99691,
+    "meta_hhem-2.1": 0.9665,
+    "meta_hhem-2.1-english": 0.99385,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 948
+  },
+  {
+    "sample_id": 39,
+    "source": "Homer ( Ὅμηρος [ hómɛːros ] , Hómēros ) is the name ascribed by the ancient Greeks to the author of the Iliad and the Odyssey , two epic poems which are the central works of ancient Greek literature . The Thicket is an mystery/suspense novel written by American author Joe R. Lansdale .",
+    "summary": "Homer is the name given by the ancient Greeks to the author of the Iliad and the Odyssey, two central works of ancient Greek literature. \" The Thicket\" is a mystery/suspense novel by American author Joe R. Lansdale.",
+    "annotations": [],
+    "meta_model": "openai/gpt-4o",
+    "meta_hhemv1": 0.999,
+    "meta_hhem-2.1": 0.93078,
+    "meta_hhem-2.1-english": 0.99398,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 1054
+  },
+  {
+    "sample_id": 40,
+    "source": "Excuse My French is the debut studio album by American rapper French Montana . Excuse My French is a 2014 Egyptian film Comedy directed by Amr Salama , based on Salama 's own experiences at a public middle school in Egypt after his return from Saudi Arabia . Benjamin Paul Ballance-Drew ( born 22 October 1983 ) , primarily known as Plan B or Ben Drew , is a British hip hop recording artist , actor , film director and producer .",
+    "summary": " The passage provides information about two distinct entities:\n\n1. French Montana: He is an American rapper and his debut studio album is titled Excuse My French. \n\n2. Plan B (Benjamin Paul Ballance-Drew): He is a British hip hop recording artist, actor, film director, and producer. No specific details about him were mentioned regarding an album or film. \n\nAdditionally, there is a separate entity, Excuse My French, but it is unclear whether it refers to the album by French Montana or the 2014 Egyptian film directed by Amr Salama. Without further context, it is difficult to definitively say which entity the title Excuse My French refers to in the passage.",
+    "annotations": [
+      {
+        "annot_id": 58,
+        "sample_id": 40,
+        "annotator": "1612324899bf4cdb8108aa6a26aa285c",
+        "label": [
+          "Unwanted"
+        ],
+        "note": "The inference that French Montana is a 'he' is not supported by the passage",
+        "annotator_name": "Vivek",
+        "summary_span": "He is an American rapper and his debut studio album is titled Excuse My French.",
+        "summary_start": 83,
+        "summary_end": 162
+      },
+      {
+        "annot_id": 84,
+        "sample_id": 40,
+        "annotator": "d71bd7b676634bc89873d301ec8f7ed2",
+        "label": [
+          "Questionable"
+        ],
+        "note": "\"He\" is questionable from the source.",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "French Montana: He is an American rapper and his debut studio album is titled Excuse My French.",
+        "summary_start": 67,
+        "summary_end": 162,
+        "source_span": "Excuse My French is the debut studio album by American rapper French Montana .",
+        "source_start": 0,
+        "source_end": 78
+      },
+      {
+        "annot_id": 86,
+        "sample_id": 40,
+        "annotator": "d71bd7b676634bc89873d301ec8f7ed2",
+        "label": [
+          "Questionable"
+        ],
+        "note": "No evidence shows that Plan B is a male.",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Plan B (Benjamin Paul Ballance-Drew): He is a British hip hop recording artist, actor, film director, and producer. No specific details about him were mentioned regarding an album or film.",
+        "summary_start": 168,
+        "summary_end": 356,
+        "source_span": "Benjamin Paul Ballance-Drew ( born 22 October 1983 ) , primarily known as Plan B or Ben Drew , is a British hip hop recording artist , actor , film director and producer .",
+        "source_start": 259,
+        "source_end": 430
+      },
+      {
+        "annot_id": 87,
+        "sample_id": 40,
+        "annotator": "d71bd7b676634bc89873d301ec8f7ed2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source has clearly showed the separate entity is the 2014 Egyptian film.",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Additionally, there is a separate entity, Excuse My French, but it is unclear whether it refers to the album by French Montana or the 2014 Egyptian film directed by Amr Salama.",
+        "summary_start": 359,
+        "summary_end": 535,
+        "source_span": "Excuse My French is a 2014 Egyptian film Comedy directed by Amr Salama , based on Salama 's own experiences at a public middle school in Egypt after his return from Saudi Arabia .",
+        "source_start": 79,
+        "source_end": 258
+      }
+    ],
+    "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "meta_hhemv1": 0.79302,
+    "meta_hhem-2.1": 0.38515,
+    "meta_hhem-2.1-english": 0.94686,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 18
+  },
+  {
+    "sample_id": 41,
+    "source": "Excuse My French is the debut studio album by American rapper French Montana . Excuse My French is a 2014 Egyptian film Comedy directed by Amr Salama , based on Salama 's own experiences at a public middle school in Egypt after his return from Saudi Arabia . Benjamin Paul Ballance-Drew ( born 22 October 1983 ) , primarily known as Plan B or Ben Drew , is a British hip hop recording artist , actor , film director and producer .",
+    "summary": " Excuse My French is the debut studio album by American rapper French Montana. The 2014 Egyptian film of the same name is a comedy directed by Amr Salama, based on his experiences at a public middle school in Egypt after returning from Saudi Arabia. Benjamin Paul Ballance-Drew, also known as Plan B or Ben Drew, is a British hip hop recording artist, actor, film director, and producer. \n\n(Note: The passage provided does not directly relate to the rapper French Montana's album, but rather to the Egyptian film \"Excuse My French.\" The summary has been adjusted to focus on the information provided in the passage.)",
+    "annotations": [
+      {
+        "annot_id": 20,
+        "sample_id": 41,
+        "annotator": "227d8ce4a1cf4e098ed6db7c1cfda021",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Three entities, none are related to others. ",
+        "annotator_name": "Rogger",
+        "summary_span": "(Note: The passage provided does not directly relate to the rapper French Montana's album, but rather to the Egyptian film \"Excuse My French.\"",
+        "summary_start": 390,
+        "summary_end": 532
+      },
+      {
+        "annot_id": 71,
+        "sample_id": 41,
+        "annotator": "1612324899bf4cdb8108aa6a26aa285c",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Vivek",
+        "summary_span": "Note: The passage provided does not directly relate to the rapper French Montana's album, but rather to the Egyptian film \"Excuse My French.\"",
+        "summary_start": 391,
+        "summary_end": 532
+      }
+    ],
+    "meta_model": "microsoft/Phi-3-mini-4k-instruct",
+    "meta_hhemv1": 0.95716,
+    "meta_hhem-2.1": 0.86832,
+    "meta_hhem-2.1-english": 0.98187,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 133
+  },
+  {
+    "sample_id": 42,
+    "source": "Excuse My French is the debut studio album by American rapper French Montana . Excuse My French is a 2014 Egyptian film Comedy directed by Amr Salama , based on Salama 's own experiences at a public middle school in Egypt after his return from Saudi Arabia . Benjamin Paul Ballance-Drew ( born 22 October 1983 ) , primarily known as Plan B or Ben Drew , is a British hip hop recording artist , actor , film director and producer .",
+    "summary": "Here's a concise summary of the passage, covering the core pieces of information:\n\nThe passage mentions three distinct topics:\n\n1. \" Excuse My French\" is the debut studio album by American rapper French Montana. \n\n2. \" Excuse My French\" is also the title of a 2014 Egyptian comedy film directed by Amr Salama, based on his personal experiences in an Egyptian public middle school after returning from Saudi Arabia. \n\n3. Benjamin Paul Ballance-Drew, born on October 22, 1983, is a British artist known professionally as Plan B or Ben Drew. He is a hip hop recording artist, actor, film director, and producer.",
+    "annotations": [
+      {
+        "annot_id": 61,
+        "sample_id": 42,
+        "annotator": "227d8ce4a1cf4e098ed6db7c1cfda021",
+        "label": [
+          "Benign"
+        ],
+        "note": "primarily ~ professionally",
+        "annotator_name": "Rogger",
+        "summary_span": "professionally ",
+        "summary_start": 501,
+        "summary_end": 516,
+        "source_span": "primarily ",
+        "source_start": 314,
+        "source_end": 324
+      },
+      {
+        "annot_id": 72,
+        "sample_id": 42,
+        "annotator": "1612324899bf4cdb8108aa6a26aa285c",
+        "label": [
+          "Questionable"
+        ],
+        "note": "",
+        "annotator_name": "Vivek",
+        "summary_span": "professionally",
+        "summary_start": 501,
+        "summary_end": 515
+      },
+      {
+        "annot_id": 88,
+        "sample_id": 42,
+        "annotator": "d71bd7b676634bc89873d301ec8f7ed2",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the word \"professionally\" does not show in the source",
+        "annotator_name": "Yujia Tang",
+        "summary_span": " is a British artist known professionally as Plan B or Ben Drew",
+        "summary_start": 474,
+        "summary_end": 537,
+        "source_span": "Benjamin Paul Ballance-Drew ( born 22 October 1983 ) , primarily known as Plan B or Ben Drew , is a British hip hop recording artist , actor , film director and producer .",
+        "source_start": 259,
+        "source_end": 430
+      },
+      {
+        "annot_id": 89,
+        "sample_id": 42,
+        "annotator": "d71bd7b676634bc89873d301ec8f7ed2",
+        "label": [
+          "Questionable"
+        ],
+        "note": "\"He\" is questionable",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "He is a hip hop recording artist, actor, film director, and producer.",
+        "summary_start": 539,
+        "summary_end": 608,
+        "source_span": "Benjamin Paul Ballance-Drew ( born 22 October 1983 ) , primarily known as Plan B or Ben Drew , is a British hip hop recording artist , actor , film director and producer .",
+        "source_start": 259,
+        "source_end": 430
+      }
+    ],
+    "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
+    "meta_hhemv1": 0.9175,
+    "meta_hhem-2.1": 0.93905,
+    "meta_hhem-2.1-english": 0.97757,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 248
+  },
+  {
+    "sample_id": 43,
+    "source": "Excuse My French is the debut studio album by American rapper French Montana . Excuse My French is a 2014 Egyptian film Comedy directed by Amr Salama , based on Salama 's own experiences at a public middle school in Egypt after his return from Saudi Arabia . Benjamin Paul Ballance-Drew ( born 22 October 1983 ) , primarily known as Plan B or Ben Drew , is a British hip hop recording artist , actor , film director and producer .",
+    "summary": "Excuse My French is a term that refers to two different works: the debut album of American rapper French Montana, and an Egyptian comedy film directed by Amr Salama, based on his experiences in a public middle school. Additionally, British artist Benjamin Paul Ballance-Drew, known as Plan B or Ben Drew, is a prominent figure in the music and film industries as a hip-hop artist, actor, director, and producer.",
+    "annotations": [
+      {
+        "annot_id": 22,
+        "sample_id": 43,
+        "annotator": "227d8ce4a1cf4e098ed6db7c1cfda021",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "Not mentioned",
+        "annotator_name": "Rogger",
+        "summary_span": "prominent figure",
+        "summary_start": 310,
+        "summary_end": 326
+      },
+      {
+        "annot_id": 59,
+        "sample_id": 43,
+        "annotator": "1612324899bf4cdb8108aa6a26aa285c",
+        "label": [
+          "Unwanted"
+        ],
+        "note": "Passage does not mention that Plan B is a prominent figure",
+        "annotator_name": "Vivek",
+        "summary_span": "prominent figure",
+        "summary_start": 310,
+        "summary_end": 326
+      },
+      {
+        "annot_id": 90,
+        "sample_id": 43,
+        "annotator": "d71bd7b676634bc89873d301ec8f7ed2",
+        "label": [
+          "Benign"
+        ],
+        "note": "prominent figure is from some external knowledge",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "is a prominent figure",
+        "summary_start": 305,
+        "summary_end": 326,
+        "source_span": "Benjamin Paul Ballance-Drew ( born 22 October 1983 ) , primarily known as Plan B or Ben Drew , is a British hip hop recording artist , actor , film director and producer .",
+        "source_start": 259,
+        "source_end": 430
+      }
+    ],
+    "meta_model": "cohere/command-r-08-2024",
+    "meta_hhemv1": 0.84065,
+    "meta_hhem-2.1": 0.91558,
+    "meta_hhem-2.1-english": 0.94738,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 363
+  },
+  {
+    "sample_id": 44,
+    "source": "Excuse My French is the debut studio album by American rapper French Montana . Excuse My French is a 2014 Egyptian film Comedy directed by Amr Salama , based on Salama 's own experiences at a public middle school in Egypt after his return from Saudi Arabia . Benjamin Paul Ballance-Drew ( born 22 October 1983 ) , primarily known as Plan B or Ben Drew , is a British hip hop recording artist , actor , film director and producer .",
+    "summary": "The passage provides information about three distinct topics: \n1. \" Excuse My French\" - an American rapper's debut studio album released in 2014. \n2. A 2014 Egyptian comedy film titled \"Excuse My French,\" directed by Amr Salama. \n3. Benjamin Paul Ballance-Drew, also known as Plan B or Ben Drew, a British hip hop artist with additional roles as an actor, film director, and producer.",
+    "annotations": [
+      {
+        "annot_id": 23,
+        "sample_id": 44,
+        "annotator": "227d8ce4a1cf4e098ed6db7c1cfda021",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "Not mentioned",
+        "annotator_name": "Rogger",
+        "summary_span": " released in 2014",
+        "summary_start": 127,
+        "summary_end": 144
+      },
+      {
+        "annot_id": 60,
+        "sample_id": 44,
+        "annotator": "1612324899bf4cdb8108aa6a26aa285c",
+        "label": [
+          "Unwanted"
+        ],
+        "note": "Confused with Excuse My French movie",
+        "annotator_name": "Vivek",
+        "summary_span": "debut studio album released in 2014.",
+        "summary_start": 109,
+        "summary_end": 145
+      },
+      {
+        "annot_id": 91,
+        "sample_id": 44,
+        "annotator": "d71bd7b676634bc89873d301ec8f7ed2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The year 2014 is  wrongly summarized for the album's release date.",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "1. \" Excuse My French\" - an American rapper's debut studio album released in 2014.",
+        "summary_start": 63,
+        "summary_end": 145,
+        "source_span": "Excuse My French is the debut studio album by American rapper French Montana . Excuse My French is a 2014 Egyptian film Comedy directed by Amr Salama , based on Salama 's own experiences at a public middle school in Egypt after his return from Saudi Arabia .",
+        "source_start": 0,
+        "source_end": 258
+      }
+    ],
+    "meta_model": "Qwen/Qwen2.5-7B-Instruct",
+    "meta_hhemv1": 0.9503,
+    "meta_hhem-2.1": 0.93032,
+    "meta_hhem-2.1-english": 0.98736,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 478
+  },
+  {
+    "sample_id": 45,
+    "source": "Excuse My French is the debut studio album by American rapper French Montana . Excuse My French is a 2014 Egyptian film Comedy directed by Amr Salama , based on Salama 's own experiences at a public middle school in Egypt after his return from Saudi Arabia . Benjamin Paul Ballance-Drew ( born 22 October 1983 ) , primarily known as Plan B or Ben Drew , is a British hip hop recording artist , actor , film director and producer .",
+    "summary": "Here is a concise summary of the passage:\n\nThe passage mentions two distinct topics: \n\n1. The 2014 Egyptian film \"Excuse My French\", a comedy directed by Amr Salama. \n2. Two individuals: French Montana, an American rapper, and Plan B (Ben Drew), a British hip hop artist, actor, and film director.",
+    "annotations": [],
+    "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "meta_hhemv1": 0.89971,
+    "meta_hhem-2.1": 0.92735,
+    "meta_hhem-2.1-english": 0.97135,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 593
+  },
+  {
+    "sample_id": 46,
+    "source": "Excuse My French is the debut studio album by American rapper French Montana . Excuse My French is a 2014 Egyptian film Comedy directed by Amr Salama , based on Salama 's own experiences at a public middle school in Egypt after his return from Saudi Arabia . Benjamin Paul Ballance-Drew ( born 22 October 1983 ) , primarily known as Plan B or Ben Drew , is a British hip hop recording artist , actor , film director and producer .",
+    "summary": "Here is a concise summary of the passage, covering the core pieces of information described:\n\nThe passage mentions three unrelated pieces of information: \n\n1. \" Excuse My French\" is the debut studio album by American rapper French Montana. \n2. \" Excuse My French\" is also a 2014 Egyptian comedy film directed by Amr Salama, based on his own experiences. \n3. Benjamin Paul Ballance-Drew, also known as Plan B, is a British hip hop artist, actor, film director, and producer, born on October 22, 1983.",
+    "annotations": [],
+    "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "meta_hhemv1": 0.51782,
+    "meta_hhem-2.1": 0.8301,
+    "meta_hhem-2.1-english": 0.91398,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 708
+  },
+  {
+    "sample_id": 47,
+    "source": "Excuse My French is the debut studio album by American rapper French Montana . Excuse My French is a 2014 Egyptian film Comedy directed by Amr Salama , based on Salama 's own experiences at a public middle school in Egypt after his return from Saudi Arabia . Benjamin Paul Ballance-Drew ( born 22 October 1983 ) , primarily known as Plan B or Ben Drew , is a British hip hop recording artist , actor , film director and producer .",
+    "summary": "French Montana's debut studio album is titled *Excuse My French*.  The 2014 Egyptian comedy film *Excuse My French* is directed by Amr Salama and based on his experiences at a public middle school in Egypt.  British hip hop recording artist, actor, film director, and producer Benjamin Paul Ballance-Drew, known as Plan B or Ben Drew, was born on October 22, 1983. \n",
+    "annotations": [],
+    "meta_model": "google/gemini-1.5-flash-001",
+    "meta_hhemv1": 0.99851,
+    "meta_hhem-2.1": 0.93814,
+    "meta_hhem-2.1-english": 0.98446,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 823
+  },
+  {
+    "sample_id": 48,
+    "source": "Excuse My French is the debut studio album by American rapper French Montana . Excuse My French is a 2014 Egyptian film Comedy directed by Amr Salama , based on Salama 's own experiences at a public middle school in Egypt after his return from Saudi Arabia . Benjamin Paul Ballance-Drew ( born 22 October 1983 ) , primarily known as Plan B or Ben Drew , is a British hip hop recording artist , actor , film director and producer .",
+    "summary": "The passage discusses three different topics: the debut studio album by American rapper French Montana called \"Excuse My French,\" a 2014 Egyptian comedy film also titled \"Excuse My French,\" and the British hip hop recording artist, actor, film director, and producer known as Plan B or Ben Drew.",
+    "annotations": [],
+    "meta_model": "openai/GPT-3.5-Turbo",
+    "meta_hhemv1": 0.95375,
+    "meta_hhem-2.1": 0.95687,
+    "meta_hhem-2.1-english": 0.98759,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 940
+  },
+  {
+    "sample_id": 49,
+    "source": "Excuse My French is the debut studio album by American rapper French Montana . Excuse My French is a 2014 Egyptian film Comedy directed by Amr Salama , based on Salama 's own experiences at a public middle school in Egypt after his return from Saudi Arabia . Benjamin Paul Ballance-Drew ( born 22 October 1983 ) , primarily known as Plan B or Ben Drew , is a British hip hop recording artist , actor , film director and producer .",
+    "summary": "The passage provides information about three subjects: \"Excuse My French,\" which is both the debut studio album by American rapper French Montana and a 2014 Egyptian comedy film directed by Amr Salama based on his middle school experiences in Egypt. Additionally, it introduces Benjamin Paul Ballance-Drew, known as Plan B or Ben Drew, a British hip hop artist, actor, film director, and producer.",
+    "annotations": [],
+    "meta_model": "openai/gpt-4o",
+    "meta_hhemv1": 0.98353,
+    "meta_hhem-2.1": 0.95541,
+    "meta_hhem-2.1-english": 0.98949,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 1053
+  }
+]
