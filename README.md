@@ -52,3 +52,6 @@ Samples are in this format
   ...
 ]
 ```    
+
+## License: 
+CC BY-NC-SA. You cannot use this dataset to train machine learning models for commercial use. This model is only for research purpose. 
