@@ -54,4 +54,7 @@ Samples are in this format
 ```    
 
 ## License: 
-CC BY-NC-SA. You cannot use this dataset to train machine learning models for commercial use. This model is only for research purpose. 
+CC BY-NC-SA. 
+
+By NC, you are prohibited to use any derivation of this dataset to produce anything for commercial use, including but not limited to, finetuning commercial models using the dataset directly or indirectly. Indirect use includes but is not limited to using this dataset to augment more training data for training a model and using this dataset to train a model that infludences the training of another commercial model. 
+This dataset can only be used for research purpose. 
