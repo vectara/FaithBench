@@ -1,0 +1,2812 @@
+{
+  "samples": [
+    {
+      "sample_id": 0,
+      "source": "The Giants got a short-handed opener through player-coach Derrick Walser but Jeff Dimmen pulled the Panthers level. In the second period Mike Forney's powerplay breakaway goal make it 2-1 with Andy Bohmback equalising. Mike Radja scored from an acute angle and James Desmarais made it 4-2 before Nottingham's David Ling got one back. The teams meet again on Saturday night in the second match of their double-header. Nottingham lead the league on 28 points, with Sheffield Steelers on 27 and Belfast 25.",
+      "summary": " In the passage, a hockey game between the Giants and the Panthers is described. The Giants scored first through Derrick Walser, but the Panthers equalized through Jeff Dimmen. In the second period, Mike Forney scored a powerplay breakaway goal for the Giants, making it 2-1. Andy Bohmback equalized for the Panthers again. Mike Radja scored from an acute angle for the Giants, and James Desmarais made it 4-2. Nottingham scored one back through David Ling. The teams will meet again on Saturday night for their second match of a double-header. As of the game, Nottingham leads the league with 28 points, followed by Sheffield Steelers with 27 points and Belfast with 25 points.",
+      "annotations": [
+        {
+          "annot_id": 1,
+          "annotator_id": "62d9bb022a0a4fa590c17e1ae961a9b8",
+          "annotator_name": "Suleman",
+          "label": [
+            "Questionable"
+          ],
+          "note": "The passage doesn't mention which team the goal scorers belonged to",
+          "summary_span": "Mike Forney scored a powerplay breakaway goal for the Giants, making it 2-1. Andy Bohmback equalized for the Panthers again. Mike Radja scored from an acute angle for the Giants, ",
+          "summary_start": 199,
+          "summary_end": 378,
+          "source_span": "In the second period Mike Forney's powerplay breakaway goal make it 2-1 with Andy Bohmback equalising.",
+          "source_start": 116,
+          "source_end": 218
+        },
+        {
+          "annot_id": 17,
+          "annotator_id": "10daac7422b54e31888db442f27eb08f",
+          "annotator_name": "Amin Ahmad",
+          "label": [
+            "Questionable",
+            "Benign"
+          ],
+          "note": "This is accurate, and actually helps a basic reader like me understand the passage better. On the other hand, it's not explicitly stated in the source that it's a hockey game, but it's definitely implied by the action statements and the names of the teams.",
+          "summary_span": "a hockey game between the Giants and the Panthers is described",
+          "summary_start": 17,
+          "summary_end": 79,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 89,
+          "annotator_id": "62d9bb022a0a4fa590c17e1ae961a9b8",
+          "annotator_name": "Suleman",
+          "label": [
+            "Unwanted",
+            "Unwanted.Extrinsic"
+          ],
+          "note": "The model is adding information that isn't contained in the passage about it being a hockey game.",
+          "summary_span": " a hockey game between the Giants and the Panthers is described. ",
+          "summary_start": 16,
+          "summary_end": 81,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 106,
+          "annotator_id": "f0a2b58d1adc41e389cc35a9829ebc1e",
+          "annotator_name": "Chenyu Xu",
+          "label": [
+            "Benign"
+          ],
+          "note": "",
+          "summary_span": "a hockey game",
+          "summary_start": 17,
+          "summary_end": 30,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        }
+      ],
+      "metadata": {
+        "summarizer": "mistralai/Mistral-7B-Instruct-v0.3",
+        "hhemv1": 0.91462,
+        "hhem-2.1": 0.93565,
+        "hhem-2.1-english": 0.99222,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 26
+      }
+    },
+    {
+      "sample_id": 1,
+      "source": "The Giants got a short-handed opener through player-coach Derrick Walser but Jeff Dimmen pulled the Panthers level. In the second period Mike Forney's powerplay breakaway goal make it 2-1 with Andy Bohmback equalising. Mike Radja scored from an acute angle and James Desmarais made it 4-2 before Nottingham's David Ling got one back. The teams meet again on Saturday night in the second match of their double-header. Nottingham lead the league on 28 points, with Sheffield Steelers on 27 and Belfast 25.",
+      "summary": " The Giants started the game with a short-handed opener by Derrick Walser, but Jeff Dimmen leveled the score for the Panthers. Mike Forney scored a powerplay goal, making it 2-1, but Andy Bohmback equalized. Mike Radja then scored from an acute angle, and James Desmarais made it 4-2. Nottingham's David Ling scored a goal to make it 4-3. The teams will meet again in a double-header on Saturday night, with Nottingham leading the league with 28 points, followed by Sheffield Steelers with 27 and Belfast with 25.",
+      "annotations": [],
+      "metadata": {
+        "summarizer": "microsoft/Phi-3-mini-4k-instruct",
+        "hhemv1": 0.99359,
+        "hhem-2.1": 0.48649,
+        "hhem-2.1-english": 0.9813,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 0,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 141
+      }
+    },
+    {
+      "sample_id": 2,
+      "source": "The Giants got a short-handed opener through player-coach Derrick Walser but Jeff Dimmen pulled the Panthers level. In the second period Mike Forney's powerplay breakaway goal make it 2-1 with Andy Bohmback equalising. Mike Radja scored from an acute angle and James Desmarais made it 4-2 before Nottingham's David Ling got one back. The teams meet again on Saturday night in the second match of their double-header. Nottingham lead the league on 28 points, with Sheffield Steelers on 27 and Belfast 25.",
+      "summary": "Here's a concise summary of the passage, covering the core pieces of information:\n\nThe passage describes a hockey game between the Giants and the Panthers. The Giants initially took the lead, but the Panthers equalized. The second period saw the Giants score twice more, while the Panthers managed one goal. The final score was 4-3 in favor of the Giants. The passage mentions that the teams will play again the following night. It concludes by stating the current league standings, with Nottingham leading, followed by Sheffield Steelers and Belfast.",
+      "annotations": [
+        {
+          "annot_id": 2,
+          "annotator_id": "62d9bb022a0a4fa590c17e1ae961a9b8",
+          "annotator_name": "Suleman",
+          "label": [
+            "Questionable"
+          ],
+          "note": "The passage does not mention who scored for which team.",
+          "summary_span": " The second period saw the Giants score twice more, while the Panthers managed one goal. The final score was 4-3 in favor of the Giants. ",
+          "summary_start": 219,
+          "summary_end": 356,
+          "source_span": "Mike Radja scored from an acute angle and James Desmarais made it 4-2 before Nottingham's David Ling got one back.",
+          "source_start": 219,
+          "source_end": 333
+        },
+        {
+          "annot_id": 18,
+          "annotator_id": "10daac7422b54e31888db442f27eb08f",
+          "annotator_name": "Amin Ahmad",
+          "label": [
+            "Questionable",
+            "Benign"
+          ],
+          "note": "Again, the source passage does not explicitly mention a hockey game, although that is clearly what is being discussed. For a lay reader like me, it makes it clearer what is being discussed to include this information, but I'm not sure whether it counts as a hallucination.",
+          "summary_span": "\nThe passage describes a hockey game between the Giants and the Panthers.",
+          "summary_start": 82,
+          "summary_end": 155,
+          "source_span": "Mike Radja scored from an acute angle and James Desmarais made it 4-2 before Nottingham's David Ling got one back.",
+          "source_start": 219,
+          "source_end": 333
+        },
+        {
+          "annot_id": 19,
+          "annotator_id": "10daac7422b54e31888db442f27eb08f",
+          "annotator_name": "Amin Ahmad",
+          "label": [
+            "Benign"
+          ],
+          "note": "This is accurate, but not explicitly stated in the passage.",
+          "summary_span": "The final score was 4-3 in favor of the Giants.",
+          "summary_start": 308,
+          "summary_end": 355,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 20,
+          "annotator_id": "10daac7422b54e31888db442f27eb08f",
+          "annotator_name": "Amin Ahmad",
+          "label": [
+            "Unwanted"
+          ],
+          "note": "This statement admits two interpretations: (a) Sheffield and Belfast are tied for second (b) Sheffield is second and Belfast is third.\n\nThe original source only admits a single interpretation, which is (b), so I've marked this unwanted.",
+          "summary_span": "followed by Sheffield Steelers and Belfast.",
+          "summary_start": 508,
+          "summary_end": 551,
+          "source_span": "Mike Radja scored from an acute angle and James Desmarais made it 4-2 before Nottingham's David Ling got one back.",
+          "source_start": 219,
+          "source_end": 333
+        },
+        {
+          "annot_id": 21,
+          "annotator_id": "10daac7422b54e31888db442f27eb08f",
+          "annotator_name": "Amin Ahmad",
+          "label": [
+            "Unwanted"
+          ],
+          "note": "The source states the teams will meet again on Saturday night, not on the following night. In my research, it seems like it's often the case in double-header matches that the second match is the following night, but again, this is too far outside the source.",
+          "summary_span": "the following night",
+          "summary_start": 408,
+          "summary_end": 427,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 90,
+          "annotator_id": "62d9bb022a0a4fa590c17e1ae961a9b8",
+          "annotator_name": "Suleman",
+          "label": [
+            "Unwanted",
+            "Unwanted.Extrinsic"
+          ],
+          "note": "Extrinsic information added that the game was a hockey game.",
+          "summary_span": "The passage describes a hockey game ",
+          "summary_start": 83,
+          "summary_end": 119,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 91,
+          "annotator_id": "62d9bb022a0a4fa590c17e1ae961a9b8",
+          "annotator_name": "Suleman",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "The teams will meet on saturday night, not the following night.",
+          "summary_span": "the teams will play again the following night. ",
+          "summary_start": 382,
+          "summary_end": 429,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 104,
+          "annotator_id": "f0a2b58d1adc41e389cc35a9829ebc1e",
+          "annotator_name": "Chenyu Xu",
+          "label": [
+            "Benign"
+          ],
+          "note": "",
+          "summary_span": "The final score was 4-3 in favor of the Giants.",
+          "summary_start": 308,
+          "summary_end": 355,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 105,
+          "annotator_id": "f0a2b58d1adc41e389cc35a9829ebc1e",
+          "annotator_name": "Chenyu Xu",
+          "label": [
+            "Benign"
+          ],
+          "note": "",
+          "summary_span": "a hockey game",
+          "summary_start": 105,
+          "summary_end": 118,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 107,
+          "annotator_id": "f0a2b58d1adc41e389cc35a9829ebc1e",
+          "annotator_name": "Chenyu Xu",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "",
+          "summary_span": "the teams will play again the following night.",
+          "summary_start": 382,
+          "summary_end": 428,
+          "source_span": "The teams meet again on Saturday night",
+          "source_start": 334,
+          "source_end": 372
+        }
+      ],
+      "metadata": {
+        "summarizer": "Anthropic/claude-3-5-sonnet-20240620",
+        "hhemv1": 0.67678,
+        "hhem-2.1": 0.20311,
+        "hhem-2.1-english": 0.56081,
+        "trueteacher": 0,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 0,
+        "gpt-4-turbo": 0,
+        "gpt_4o": 1,
+        "raw_sample_id": 256
+      }
+    },
+    {
+      "sample_id": 3,
+      "source": "The Giants got a short-handed opener through player-coach Derrick Walser but Jeff Dimmen pulled the Panthers level. In the second period Mike Forney's powerplay breakaway goal make it 2-1 with Andy Bohmback equalising. Mike Radja scored from an acute angle and James Desmarais made it 4-2 before Nottingham's David Ling got one back. The teams meet again on Saturday night in the second match of their double-header. Nottingham lead the league on 28 points, with Sheffield Steelers on 27 and Belfast 25.",
+      "summary": "The Giants and the Panthers played a close game, with the Giants taking the lead multiple times but the Panthers equalising. The game ended 4-2 to the Giants. The teams will play again on Saturday in a double-header. Nottingham currently leads the league with 28 points, closely followed by Sheffield and Belfast.",
+      "annotations": [
+        {
+          "annot_id": 4,
+          "annotator_id": "62d9bb022a0a4fa590c17e1ae961a9b8",
+          "annotator_name": "Suleman",
+          "label": [
+            "Benign"
+          ],
+          "note": "The game being close is subjective, but true.",
+          "summary_span": "The Giants and the Panthers played a close game",
+          "summary_start": 0,
+          "summary_end": 47,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 5,
+          "annotator_id": "62d9bb022a0a4fa590c17e1ae961a9b8",
+          "annotator_name": "Suleman",
+          "label": [
+            "Questionable"
+          ],
+          "note": "Passage does not explicitly mention which team was in the lead.",
+          "summary_span": "game ended 4-2 to the Giants",
+          "summary_start": 129,
+          "summary_end": 157,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 22,
+          "annotator_id": "10daac7422b54e31888db442f27eb08f",
+          "annotator_name": "Amin Ahmad",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "The game ended with a 4-3 score to the Giants. The summary does not account for David Ling's goal.",
+          "summary_span": "The game ended 4-2 to the Giants.",
+          "summary_start": 125,
+          "summary_end": 158,
+          "source_span": "Mike Radja scored from an acute angle and James Desmarais made it 4-2 before Nottingham's David Ling got one back. ",
+          "source_start": 219,
+          "source_end": 334
+        },
+        {
+          "annot_id": 23,
+          "annotator_id": "10daac7422b54e31888db442f27eb08f",
+          "annotator_name": "Amin Ahmad",
+          "label": [
+            "Questionable"
+          ],
+          "note": "As with the previous summary, closely followed by \"Sheffield and Belfast\" leaves it up to interpretation how Sheffield and Belfast rank relative to one another. ",
+          "summary_span": "closely followed by Sheffield and Belfast.",
+          "summary_start": 271,
+          "summary_end": 313,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 76,
+          "annotator_id": "f0a2b58d1adc41e389cc35a9829ebc1e",
+          "annotator_name": "Chenyu Xu",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "The game ended 4-3 to the giants.",
+          "summary_span": "The game ended 4-2 to the Giants. ",
+          "summary_start": 125,
+          "summary_end": 159,
+          "source_span": "Mike Radja scored from an acute angle and James Desmarais made it 4-2 before Nottingham's David Ling got one back.",
+          "source_start": 219,
+          "source_end": 333
+        },
+        {
+          "annot_id": 92,
+          "annotator_id": "62d9bb022a0a4fa590c17e1ae961a9b8",
+          "annotator_name": "Suleman",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "The game ended 4-3",
+          "summary_span": "The game ended 4-2 to the Giants.",
+          "summary_start": 125,
+          "summary_end": 158,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        }
+      ],
+      "metadata": {
+        "summarizer": "cohere/command-r-08-2024",
+        "hhemv1": 0.85781,
+        "hhem-2.1": 0.32852,
+        "hhem-2.1-english": 0.93676,
+        "trueteacher": 0,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 0,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 371
+      }
+    },
+    {
+      "sample_id": 4,
+      "source": "The Giants got a short-handed opener through player-coach Derrick Walser but Jeff Dimmen pulled the Panthers level. In the second period Mike Forney's powerplay breakaway goal make it 2-1 with Andy Bohmback equalising. Mike Radja scored from an acute angle and James Desmarais made it 4-2 before Nottingham's David Ling got one back. The teams meet again on Saturday night in the second match of their double-header. Nottingham lead the league on 28 points, with Sheffield Steelers on 27 and Belfast 25.",
+      "summary": "The passage describes a hockey game between the Giants and the Panthers. Key events include goals from Derrick Walser, Jeff Dimmen, Mike Forney, Andy Bohmback, Mike Radja, and David Ling. The score oscillated throughout the game, ending at 4-2 in favor of the Giants. Additionally, it mentions that the teams will play each other again in a double-header, with Nottingham leading the league with 28 points.",
+      "annotations": [
+        {
+          "annot_id": 6,
+          "annotator_id": "62d9bb022a0a4fa590c17e1ae961a9b8",
+          "annotator_name": "Suleman",
+          "label": [
+            "Unwanted",
+            "Unwanted.Extrinsic"
+          ],
+          "note": "The passage does not state what sport was being played.",
+          "summary_span": "The passage describes a hockey game ",
+          "summary_start": 0,
+          "summary_end": 36,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 7,
+          "annotator_id": "62d9bb022a0a4fa590c17e1ae961a9b8",
+          "annotator_name": "Suleman",
+          "label": [
+            "Questionable"
+          ],
+          "note": "Passage does not state which team had the lead at the end.",
+          "summary_span": "ending at 4-2 in favor of the Giants.",
+          "summary_start": 230,
+          "summary_end": 267,
+          "source_span": "Mike Radja scored from an acute angle and James Desmarais made it 4-2 before Nottingham's David Ling got one back.",
+          "source_start": 219,
+          "source_end": 333
+        },
+        {
+          "annot_id": 24,
+          "annotator_id": "10daac7422b54e31888db442f27eb08f",
+          "annotator_name": "Amin Ahmad",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "The final score was 4-3, not 4-2, because David Ling \"got one back\".",
+          "summary_span": "The score oscillated throughout the game, ending at 4-2 in favor of the Giants.",
+          "summary_start": 188,
+          "summary_end": 267,
+          "source_span": " Mike Radja scored from an acute angle and James Desmarais made it 4-2 before Nottingham's David Ling got one back.",
+          "source_start": 218,
+          "source_end": 333
+        },
+        {
+          "annot_id": 25,
+          "annotator_id": "10daac7422b54e31888db442f27eb08f",
+          "annotator_name": "Amin Ahmad",
+          "label": [
+            "Questionable",
+            "Benign"
+          ],
+          "note": "It does describe a hockey game, although that is not explicitly mentioned in the passage. However, it is clearly implied and this is either questionable or benign in my view.",
+          "summary_span": "a hockey game",
+          "summary_start": 22,
+          "summary_end": 35,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 26,
+          "annotator_id": "10daac7422b54e31888db442f27eb08f",
+          "annotator_name": "Amin Ahmad",
+          "label": [
+            "Unwanted"
+          ],
+          "note": "Given that the summary appears to attempt an exhaustive enumeration of the goal-scorers, I observe that James Desmarais is excluded from the list. This might be linked to the hallucinated score as well (4-2 instead of 4-3).",
+          "summary_span": "Derrick Walser, Jeff Dimmen, Mike Forney, Andy Bohmback, Mike Radja, and David Ling",
+          "summary_start": 103,
+          "summary_end": 186,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 77,
+          "annotator_id": "f0a2b58d1adc41e389cc35a9829ebc1e",
+          "annotator_name": "Chenyu Xu",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "The game ended 4-3 to the Giants.",
+          "summary_span": "ending at 4-2 in favor of the Giants.",
+          "summary_start": 230,
+          "summary_end": 267,
+          "source_span": "Mike Radja scored from an acute angle and James Desmarais made it 4-2 before Nottingham's David Ling got one back.",
+          "source_start": 219,
+          "source_end": 333
+        },
+        {
+          "annot_id": 93,
+          "annotator_id": "62d9bb022a0a4fa590c17e1ae961a9b8",
+          "annotator_name": "Suleman",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "The game ended 4-3 with David Ling's goal.",
+          "summary_span": " ending at 4-2 in favor of the Giants.",
+          "summary_start": 229,
+          "summary_end": 267,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 108,
+          "annotator_id": "f0a2b58d1adc41e389cc35a9829ebc1e",
+          "annotator_name": "Chenyu Xu",
+          "label": [
+            "Benign"
+          ],
+          "note": "",
+          "summary_span": "a hockey game",
+          "summary_start": 22,
+          "summary_end": 35,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        }
+      ],
+      "metadata": {
+        "summarizer": "Qwen/Qwen2.5-7B-Instruct",
+        "hhemv1": 0.86735,
+        "hhem-2.1": 0.53055,
+        "hhem-2.1-english": 0.87959,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 0,
+        "raw_sample_id": 486
+      }
+    },
+    {
+      "sample_id": 5,
+      "source": "The Giants got a short-handed opener through player-coach Derrick Walser but Jeff Dimmen pulled the Panthers level. In the second period Mike Forney's powerplay breakaway goal make it 2-1 with Andy Bohmback equalising. Mike Radja scored from an acute angle and James Desmarais made it 4-2 before Nottingham's David Ling got one back. The teams meet again on Saturday night in the second match of their double-header. Nottingham lead the league on 28 points, with Sheffield Steelers on 27 and Belfast 25.",
+      "summary": "Here is a concise summary of the passage:\n\nThe Giants and Panthers played a close game, with each team scoring multiple goals. The Giants took the lead, but the Panthers equalized several times, with the final score being 4-3 in favor of the Giants. The teams will meet again on Saturday night.",
+      "annotations": [
+        {
+          "annot_id": 8,
+          "annotator_id": "62d9bb022a0a4fa590c17e1ae961a9b8",
+          "annotator_name": "Suleman",
+          "label": [
+            "Benign"
+          ],
+          "note": "The game being close is subjective but true.",
+          "summary_span": "The Giants and Panthers played a close game",
+          "summary_start": 43,
+          "summary_end": 86,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 9,
+          "annotator_id": "62d9bb022a0a4fa590c17e1ae961a9b8",
+          "annotator_name": "Suleman",
+          "label": [
+            "Questionable"
+          ],
+          "note": "The passage does not explicitly state which team had the lead",
+          "summary_span": "with the final score being 4-3 in favor of the Giants",
+          "summary_start": 195,
+          "summary_end": 248,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        }
+      ],
+      "metadata": {
+        "summarizer": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+        "hhemv1": 0.55459,
+        "hhem-2.1": 0.0866,
+        "hhem-2.1-english": 0.22712,
+        "trueteacher": 0,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 0,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 601
+      }
+    },
+    {
+      "sample_id": 6,
+      "source": "The Giants got a short-handed opener through player-coach Derrick Walser but Jeff Dimmen pulled the Panthers level. In the second period Mike Forney's powerplay breakaway goal make it 2-1 with Andy Bohmback equalising. Mike Radja scored from an acute angle and James Desmarais made it 4-2 before Nottingham's David Ling got one back. The teams meet again on Saturday night in the second match of their double-header. Nottingham lead the league on 28 points, with Sheffield Steelers on 27 and Belfast 25.",
+      "summary": "Here is a concise summary of the passage:\n\nThe Giants and Panthers played a match, with the Giants initially taking the lead through Derrick Walser, but the Panthers equalizing through Jeff Dimmen. The Giants then took a 4-2 lead with goals from Mike Forney, Mike Radja, and James Desmarais, before the Panthers' David Ling scored to make it 4-3. The teams will meet again on Saturday night.",
+      "annotations": [
+        {
+          "annot_id": 10,
+          "annotator_id": "62d9bb022a0a4fa590c17e1ae961a9b8",
+          "annotator_name": "Suleman",
+          "label": [
+            "Questionable"
+          ],
+          "note": "The passage does not mention which team the players scoring belonged to.",
+          "summary_span": "The Giants then took a 4-2 lead with goals from Mike Forney, Mike Radja, and James Desmarais, before the Panthers' David Ling scored to make it 4-3. ",
+          "summary_start": 198,
+          "summary_end": 347,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 27,
+          "annotator_id": "10daac7422b54e31888db442f27eb08f",
+          "annotator_name": "Amin Ahmad",
+          "label": [
+            "Unwanted"
+          ],
+          "note": "This sentence is strangely structured. It mentions 3 players who took the Giants to 4 points, but also mentions the Giants taking a 4-2 lead. While the Panthers scorer was mentioned in the 1-1 equalizing case, the fact that it's omitted in the second case (Andy Bohmback), leads the viewer to suspect a mistake in the summary itself, and even to question the final score of 4-3.",
+          "summary_span": "The Giants then took a 4-2 lead with goals from Mike Forney, Mike Radja, and James Desmarais",
+          "summary_start": 198,
+          "summary_end": 290,
+          "source_span": "The Giants got a short-handed opener through player-coach Derrick Walser but Jeff Dimmen pulled the Panthers level. In the second period Mike Forney's powerplay breakaway goal make it 2-1 with Andy Bohmback equalising. Mike Radja scored from an acute angle and James Desmarais made it 4-2 before Nottingham's David Ling got one back.",
+          "source_start": 0,
+          "source_end": 333
+        }
+      ],
+      "metadata": {
+        "summarizer": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+        "hhemv1": 0.75215,
+        "hhem-2.1": 0.19332,
+        "hhem-2.1-english": 0.44832,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 0,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 716
+      }
+    },
+    {
+      "sample_id": 7,
+      "source": "The Giants got a short-handed opener through player-coach Derrick Walser but Jeff Dimmen pulled the Panthers level. In the second period Mike Forney's powerplay breakaway goal make it 2-1 with Andy Bohmback equalising. Mike Radja scored from an acute angle and James Desmarais made it 4-2 before Nottingham's David Ling got one back. The teams meet again on Saturday night in the second match of their double-header. Nottingham lead the league on 28 points, with Sheffield Steelers on 27 and Belfast 25.",
+      "summary": "The Nottingham Panthers and the Sheffield Giants played a close game, with the Giants winning 4-3. The Giants were short-handed for the opener, but Jeff Dimmen tied the game for the Panthers. Mike Forney scored a powerplay breakaway goal to put the Panthers ahead, but Andy Bohmback tied the game again. Mike Radja and James Desmarais scored for the Giants, while David Ling scored for the Panthers. The teams will play again on Saturday night. Nottingham leads the league with 28 points, followed by Sheffield Steelers with 27 and Belfast with 25. \n",
+      "annotations": [
+        {
+          "annot_id": 11,
+          "annotator_id": "62d9bb022a0a4fa590c17e1ae961a9b8",
+          "annotator_name": "Suleman",
+          "label": [
+            "Unwanted",
+            "Unwanted.Extrinsic"
+          ],
+          "note": "1. The passage does not mention whether Nottingham was Panthers or Sheffield was Giants, the game being close is also subjective.",
+          "summary_span": "The Nottingham Panthers and the Sheffield Giants played a close game",
+          "summary_start": 0,
+          "summary_end": 68,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 13,
+          "annotator_id": "62d9bb022a0a4fa590c17e1ae961a9b8",
+          "annotator_name": "Suleman",
+          "label": [
+            "Questionable"
+          ],
+          "note": "The passage does not state which player scored for which team.",
+          "summary_span": " Mike Forney scored a powerplay breakaway goal to put the Panthers ahead, but Andy Bohmback tied the game again. Mike Radja and James Desmarais scored for the Giants, while David Ling scored for the Panthers. T",
+          "summary_start": 191,
+          "summary_end": 401,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 28,
+          "annotator_id": "10daac7422b54e31888db442f27eb08f",
+          "annotator_name": "Amin Ahmad",
+          "label": [
+            "Unwanted"
+          ],
+          "note": "\"Short-handed for the opener\" implies they were short a man. \"Got a short-handed opener\", from the source, implies they were short a man and scored.\n\nGiven the subsequent clause in the summary, \", but Jeff Dimmen tied the game\", I feel like this sentence from the summary is essentially a non-sequitur.",
+          "summary_span": "The Giants were short-handed for the opener",
+          "summary_start": 99,
+          "summary_end": 142,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 78,
+          "annotator_id": "f0a2b58d1adc41e389cc35a9829ebc1e",
+          "annotator_name": "Chenyu Xu",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "The giants got a short-handed opener they are not short-handed for the opener.",
+          "summary_span": "The Giants were short-handed for the opener",
+          "summary_start": 99,
+          "summary_end": 142,
+          "source_span": "The Giants got a short-handed opener through player-coach Derrick Walser",
+          "source_start": 0,
+          "source_end": 72
+        },
+        {
+          "annot_id": 94,
+          "annotator_id": "62d9bb022a0a4fa590c17e1ae961a9b8",
+          "annotator_name": "Suleman",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "The LLM is using the wrong sentence structure which changes the meaning.",
+          "summary_span": "The Giants were short-handed for the opener,",
+          "summary_start": 99,
+          "summary_end": 143,
+          "source_span": "The Giants got a short-handed opener through player-coach Derrick Walser but Jeff Dimmen pulled the Panthers level.",
+          "source_start": 0,
+          "source_end": 115
+        }
+      ],
+      "metadata": {
+        "summarizer": "google/gemini-1.5-flash-001",
+        "hhemv1": 0.20683,
+        "hhem-2.1": 0.15597,
+        "hhem-2.1-english": 0.53439,
+        "trueteacher": 0,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 0,
+        "gpt-4-turbo": 0,
+        "gpt_4o": 0,
+        "raw_sample_id": 831
+      }
+    },
+    {
+      "sample_id": 8,
+      "source": "The Giants got a short-handed opener through player-coach Derrick Walser but Jeff Dimmen pulled the Panthers level. In the second period Mike Forney's powerplay breakaway goal make it 2-1 with Andy Bohmback equalising. Mike Radja scored from an acute angle and James Desmarais made it 4-2 before Nottingham's David Ling got one back. The teams meet again on Saturday night in the second match of their double-header. Nottingham lead the league on 28 points, with Sheffield Steelers on 27 and Belfast 25.",
+      "summary": "The passage describes a hockey game between the Giants and the Panthers. The Giants had a short-handed opener by Derrick Walser, but the Panthers managed to equalize through Jeff Dimmen. In the second period, Mike Forney scored a powerplay breakaway goal to give the Giants a 2-1 lead, which was later equalized by Andy Bohmback. The Giants then scored two more goals through Mike Radja and James Desmarais, making it 4-2. Nottingham's David Ling scored a goal to bring the score to 4-3. The teams will meet again for a second match on Saturday night. Nottingham currently leads the league with 28 points, followed by Sheffield Steelers with 27 points and Belfast with 25 points.",
+      "annotations": [
+        {
+          "annot_id": 14,
+          "annotator_id": "62d9bb022a0a4fa590c17e1ae961a9b8",
+          "annotator_name": "Suleman",
+          "label": [
+            "Unwanted",
+            "Unwanted.Extrinsic"
+          ],
+          "note": "The passage does not mention which sport is being played.",
+          "summary_span": "The passage describes a hockey game ",
+          "summary_start": 0,
+          "summary_end": 36,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 15,
+          "annotator_id": "62d9bb022a0a4fa590c17e1ae961a9b8",
+          "annotator_name": "Suleman",
+          "label": [
+            "Questionable"
+          ],
+          "note": "The passage does not explicitly mention which team the scorers were from.",
+          "summary_span": "n the second period, Mike Forney scored a powerplay breakaway goal to give the Giants a 2-1 lead, which was later equalized by Andy Bohmback. The Giants then scored two more goals through Mike Radja and James Desmarais, making it 4-2. Nottingham's David Ling scored a goal to bring the score to 4-3. ",
+          "summary_start": 188,
+          "summary_end": 488,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 29,
+          "annotator_id": "10daac7422b54e31888db442f27eb08f",
+          "annotator_name": "Amin Ahmad",
+          "label": [
+            "Benign"
+          ],
+          "note": "I want to point out that this is not a summary. It is actually an expansion of the original text to make it more readable to a non-hockey expert. It does not contain hallucinations, but is much clearer.",
+          "summary_span": "The passage describes a hockey game between the Giants and the Panthers. The Giants had a short-handed opener by Derrick Walser, but the Panthers managed to equalize through Jeff Dimmen. In the second period, Mike Forney scored a powerplay breakaway goal to give the Giants a 2-1 lead, which was later equalized by Andy Bohmback. The Giants then scored two more goals through Mike Radja and James Desmarais, making it 4-2. Nottingham's David Ling scored a goal to bring the score to 4-3. The teams will meet again for a second match on Saturday night. Nottingham currently leads the league with 28 points, followed by Sheffield Steelers with 27 points and Belfast with 25 points.",
+          "summary_start": 0,
+          "summary_end": 679,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 109,
+          "annotator_id": "f0a2b58d1adc41e389cc35a9829ebc1e",
+          "annotator_name": "Chenyu Xu",
+          "label": [
+            "Benign"
+          ],
+          "note": "",
+          "summary_span": "a hockey game",
+          "summary_start": 22,
+          "summary_end": 35,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        }
+      ],
+      "metadata": {
+        "summarizer": "openai/GPT-3.5-Turbo",
+        "hhemv1": 0.82796,
+        "hhem-2.1": 0.55754,
+        "hhem-2.1-english": 0.98734,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 973
+      }
+    },
+    {
+      "sample_id": 9,
+      "source": "The Giants got a short-handed opener through player-coach Derrick Walser but Jeff Dimmen pulled the Panthers level. In the second period Mike Forney's powerplay breakaway goal make it 2-1 with Andy Bohmback equalising. Mike Radja scored from an acute angle and James Desmarais made it 4-2 before Nottingham's David Ling got one back. The teams meet again on Saturday night in the second match of their double-header. Nottingham lead the league on 28 points, with Sheffield Steelers on 27 and Belfast 25.",
+      "summary": "The Giants initially led through Derrick Walser, but Jeff Dimmen equalized for the Panthers. In the second period, Mike Forney scored for the Giants, followed by an equalizer from Andy Bohmback. Mike Radja and James Desmarais then extended the Giants' lead to 4-2 before David Ling scored for Nottingham. The teams will play again on Saturday. Nottingham leads the league with 28 points, followed by Sheffield Steelers with 27 and Belfast with 25.",
+      "annotations": [
+        {
+          "annot_id": 16,
+          "annotator_id": "62d9bb022a0a4fa590c17e1ae961a9b8",
+          "annotator_name": "Suleman",
+          "label": [
+            "Questionable"
+          ],
+          "note": "The passage does not explicitly mention which teams the scorers scored goals for.",
+          "summary_span": " In the second period, Mike Forney scored for the Giants, followed by an equalizer from Andy Bohmback. Mike Radja and James Desmarais then extended the Giants' lead to 4-2 before David Ling scored for Nottingham. ",
+          "summary_start": 92,
+          "summary_end": 305,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        }
+      ],
+      "metadata": {
+        "summarizer": "openai/gpt-4o",
+        "hhemv1": 0.81128,
+        "hhem-2.1": 0.82013,
+        "hhem-2.1-english": 0.98989,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 1061
+      }
+    },
+    {
+      "sample_id": 10,
+      "source": "Anne Rice . Born in New Orleans , Rice spent much of her early life there before moving to Texas , and later to San Francisco . Route 495 is a 3.45 mi freeway in Hudson County , New Jersey , in the United States that connects the New Jersey Turnpike ( Interstate 95 , I-95 ) at exits 16E and 17 in Secaucus to New York State Route 495 ( NY 495 ) inside the Lincoln Tunnel in Weehawken , providing access to Midtown Manhattan .",
+      "summary": " Anne Rice, born in New Orleans, lived in various places including Texas and San Francisco. The passage also describes Route 495, a 3.45-mile freeway in Hudson County, New Jersey. This route connects the New Jersey Turnpike (I-95) at exits 16E and 17 in Secaucus to New York State Route 495 inside the Lincoln Tunnel in Weehawken, providing access to Midtown Manhattan.",
+      "annotations": [],
+      "metadata": {
+        "summarizer": "mistralai/Mistral-7B-Instruct-v0.3",
+        "hhemv1": 0.98776,
+        "hhem-2.1": 0.98398,
+        "hhem-2.1-english": 0.99762,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 0,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 2
+      }
+    },
+    {
+      "sample_id": 11,
+      "source": "Anne Rice . Born in New Orleans , Rice spent much of her early life there before moving to Texas , and later to San Francisco . Route 495 is a 3.45 mi freeway in Hudson County , New Jersey , in the United States that connects the New Jersey Turnpike ( Interstate 95 , I-95 ) at exits 16E and 17 in Secaucus to New York State Route 495 ( NY 495 ) inside the Lincoln Tunnel in Weehawken , providing access to Midtown Manhattan .",
+      "summary": " Anne Rice, born in New Orleans, spent her early life there, then moved to Texas and San Francisco. Route 495 is a 3.45-mile freeway in Hudson County, New Jersey, connecting the New Jersey Turnpike (I-95) at exits 16E and 17 in Secaucus to New York State Route 495 (NY 495) inside the Lincoln Tunnel in Weehawken, offering access to Midtown Manhattan.",
+      "annotations": [],
+      "metadata": {
+        "summarizer": "microsoft/Phi-3-mini-4k-instruct",
+        "hhemv1": 0.99879,
+        "hhem-2.1": 0.96634,
+        "hhem-2.1-english": 0.99863,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 0,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 117
+      }
+    },
+    {
+      "sample_id": 12,
+      "source": "Anne Rice . Born in New Orleans , Rice spent much of her early life there before moving to Texas , and later to San Francisco . Route 495 is a 3.45 mi freeway in Hudson County , New Jersey , in the United States that connects the New Jersey Turnpike ( Interstate 95 , I-95 ) at exits 16E and 17 in Secaucus to New York State Route 495 ( NY 495 ) inside the Lincoln Tunnel in Weehawken , providing access to Midtown Manhattan .",
+      "summary": "Here's a concise summary of the passage, covering the core pieces of information:\n\nThe passage contains two unrelated pieces of information:\n\n1. Anne Rice: \n- Born in New Orleans\n- Spent much of her early life in New Orleans\n- Later moved to Texas and then to San Francisco\n\n2. Route 495:\n- A 3.45-mile freeway in Hudson County, New Jersey, USA\n- Connects the New Jersey Turnpike (I-95) at exits 16E and 17 in Secaucus\n- Extends to New York State Route 495 inside the Lincoln Tunnel in Weehawken\n- Provides access to Midtown Manhattan",
+      "annotations": [],
+      "metadata": {
+        "summarizer": "Anthropic/claude-3-5-sonnet-20240620",
+        "hhemv1": 0.30199,
+        "hhem-2.1": 0.77252,
+        "hhem-2.1-english": 0.88056,
+        "trueteacher": 0,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 0,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 232
+      }
+    },
+    {
+      "sample_id": 13,
+      "source": "Anne Rice . Born in New Orleans , Rice spent much of her early life there before moving to Texas , and later to San Francisco . Route 495 is a 3.45 mi freeway in Hudson County , New Jersey , in the United States that connects the New Jersey Turnpike ( Interstate 95 , I-95 ) at exits 16E and 17 in Secaucus to New York State Route 495 ( NY 495 ) inside the Lincoln Tunnel in Weehawken , providing access to Midtown Manhattan .",
+      "summary": "Anne Rice, a New Orleans native, relocated to Texas and then San Francisco. Route 495, a 3.45-mile freeway in Hudson County, New Jersey, links the New Jersey Turnpike (I-95) to New York State Route 495 within the Lincoln Tunnel, facilitating travel to Midtown Manhattan.",
+      "annotations": [],
+      "metadata": {
+        "summarizer": "cohere/command-r-08-2024",
+        "hhemv1": 0.99959,
+        "hhem-2.1": 0.95766,
+        "hhem-2.1-english": 0.99895,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 0,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 347
+      }
+    },
+    {
+      "sample_id": 14,
+      "source": "Anne Rice . Born in New Orleans , Rice spent much of her early life there before moving to Texas , and later to San Francisco . Route 495 is a 3.45 mi freeway in Hudson County , New Jersey , in the United States that connects the New Jersey Turnpike ( Interstate 95 , I-95 ) at exits 16E and 17 in Secaucus to New York State Route 495 ( NY 495 ) inside the Lincoln Tunnel in Weehawken , providing access to Midtown Manhattan .",
+      "summary": "The passage provides biographical information about Anne Rice, including her birthplace in New Orleans and subsequent moves to Texas and San Francisco. It also describes Route 495, a 3.45 mile freeway in Hudson County, New Jersey, which connects the New Jersey Turnpike to New York State Route 495 inside the Lincoln Tunnel, offering access to Midtown Manhattan.",
+      "annotations": [],
+      "metadata": {
+        "summarizer": "Qwen/Qwen2.5-7B-Instruct",
+        "hhemv1": 0.99908,
+        "hhem-2.1": 0.97571,
+        "hhem-2.1-english": 0.99753,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 0,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 462
+      }
+    },
+    {
+      "sample_id": 15,
+      "source": "Anne Rice . Born in New Orleans , Rice spent much of her early life there before moving to Texas , and later to San Francisco . Route 495 is a 3.45 mi freeway in Hudson County , New Jersey , in the United States that connects the New Jersey Turnpike ( Interstate 95 , I-95 ) at exits 16E and 17 in Secaucus to New York State Route 495 ( NY 495 ) inside the Lincoln Tunnel in Weehawken , providing access to Midtown Manhattan .",
+      "summary": "Here is a concise summary of the passage:\n\nThe passage describes two main topics: \n\n1. The early life of Anne Rice, who was born in New Orleans and moved to Texas and San Francisco. \n2. Route 495, a 3.45-mile freeway in Hudson County, New Jersey, which connects the New Jersey Turnpike to New York State Route 495 inside the Lincoln Tunnel.",
+      "annotations": [],
+      "metadata": {
+        "summarizer": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+        "hhemv1": 0.97719,
+        "hhem-2.1": 0.94298,
+        "hhem-2.1-english": 0.99558,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 0,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 577
+      }
+    },
+    {
+      "sample_id": 16,
+      "source": "Anne Rice . Born in New Orleans , Rice spent much of her early life there before moving to Texas , and later to San Francisco . Route 495 is a 3.45 mi freeway in Hudson County , New Jersey , in the United States that connects the New Jersey Turnpike ( Interstate 95 , I-95 ) at exits 16E and 17 in Secaucus to New York State Route 495 ( NY 495 ) inside the Lincoln Tunnel in Weehawken , providing access to Midtown Manhattan .",
+      "summary": "Here is a concise summary of the passage, covering the core pieces of information described:\n\nThe passage describes two separate topics. Firstly, it mentions Anne Rice, an author born in New Orleans, who spent time in Texas and San Francisco. Secondly, it describes Route 495, a 3.45-mile freeway in New Jersey that connects to the New Jersey Turnpike and provides access to Midtown Manhattan via the Lincoln Tunnel.",
+      "annotations": [
+        {
+          "annot_id": 30,
+          "annotator_id": "10daac7422b54e31888db442f27eb08f",
+          "annotator_name": "Amin Ahmad",
+          "label": [
+            "Unwanted",
+            "Unwanted.Extrinsic"
+          ],
+          "note": "While it's true Anne Rice is an author, this information is not in the source.",
+          "summary_span": " an author born in New Orleans",
+          "summary_start": 168,
+          "summary_end": 198,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 95,
+          "annotator_id": "62d9bb022a0a4fa590c17e1ae961a9b8",
+          "annotator_name": "Suleman",
+          "label": [
+            "Unwanted",
+            "Unwanted.Extrinsic"
+          ],
+          "note": "The passage doesn't mention if she is an Author.",
+          "summary_span": "an author born in New Orleans, ",
+          "summary_start": 169,
+          "summary_end": 200,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 110,
+          "annotator_id": "f0a2b58d1adc41e389cc35a9829ebc1e",
+          "annotator_name": "Chenyu Xu",
+          "label": [
+            "Benign"
+          ],
+          "note": "",
+          "summary_span": "Anne Rice, an author",
+          "summary_start": 158,
+          "summary_end": 178,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        }
+      ],
+      "metadata": {
+        "summarizer": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+        "hhemv1": 0.91591,
+        "hhem-2.1": 0.93751,
+        "hhem-2.1-english": 0.98588,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 0,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 692
+      }
+    },
+    {
+      "sample_id": 17,
+      "source": "Anne Rice . Born in New Orleans , Rice spent much of her early life there before moving to Texas , and later to San Francisco . Route 495 is a 3.45 mi freeway in Hudson County , New Jersey , in the United States that connects the New Jersey Turnpike ( Interstate 95 , I-95 ) at exits 16E and 17 in Secaucus to New York State Route 495 ( NY 495 ) inside the Lincoln Tunnel in Weehawken , providing access to Midtown Manhattan .",
+      "summary": "Anne Rice was born in New Orleans and lived there for a portion of her early life before moving to Texas and later San Francisco. Route 495 is a 3.45 mile freeway in New Jersey that connects the New Jersey Turnpike to New York State Route 495 inside the Lincoln Tunnel, providing access to Midtown Manhattan. \n",
+      "annotations": [],
+      "metadata": {
+        "summarizer": "google/gemini-1.5-flash-001",
+        "hhemv1": 0.99546,
+        "hhem-2.1": 0.93909,
+        "hhem-2.1-english": 0.99825,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 0,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 807
+      }
+    },
+    {
+      "sample_id": 18,
+      "source": "Anne Rice . Born in New Orleans , Rice spent much of her early life there before moving to Texas , and later to San Francisco . Route 495 is a 3.45 mi freeway in Hudson County , New Jersey , in the United States that connects the New Jersey Turnpike ( Interstate 95 , I-95 ) at exits 16E and 17 in Secaucus to New York State Route 495 ( NY 495 ) inside the Lincoln Tunnel in Weehawken , providing access to Midtown Manhattan .",
+      "summary": "The passage provides information about Anne Rice, who was born in New Orleans and later moved to Texas and San Francisco. It also mentions Route 495, a freeway in Hudson County, New Jersey, that connects the New Jersey Turnpike to New York State Route 495, providing access to Midtown Manhattan.",
+      "annotations": [],
+      "metadata": {
+        "summarizer": "openai/GPT-3.5-Turbo",
+        "hhemv1": 0.99611,
+        "hhem-2.1": 0.97843,
+        "hhem-2.1-english": 0.99813,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 0,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 927
+      }
+    },
+    {
+      "sample_id": 19,
+      "source": "Anne Rice . Born in New Orleans , Rice spent much of her early life there before moving to Texas , and later to San Francisco . Route 495 is a 3.45 mi freeway in Hudson County , New Jersey , in the United States that connects the New Jersey Turnpike ( Interstate 95 , I-95 ) at exits 16E and 17 in Secaucus to New York State Route 495 ( NY 495 ) inside the Lincoln Tunnel in Weehawken , providing access to Midtown Manhattan .",
+      "summary": "Anne Rice, originally from New Orleans, later lived in Texas and San Francisco. Route 495 is a 3.45-mile freeway in Hudson County, New Jersey, connecting the New Jersey Turnpike (I-95) in Secaucus to New York State Route 495 inside the Lincoln Tunnel in Weehawken, facilitating access to Midtown Manhattan.",
+      "annotations": [],
+      "metadata": {
+        "summarizer": "openai/gpt-4o",
+        "hhemv1": 0.99917,
+        "hhem-2.1": 0.9766,
+        "hhem-2.1-english": 0.99843,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 0,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 1037
+      }
+    },
+    {
+      "sample_id": 20,
+      "source": "Home for the Holidays is a 1972 American made-for-television horror film directed by John Llewellyn Moxey , produced by Aaron Spelling and starring Sally Field , Eleanor Parker , Julie Harris , Jessica Walter and Walter Brennan which premiered on ABC on November 28 , 1972 . Home for the Holidays (1995 film) . The film stars Holly Hunter , Robert Downey Jr. , Anne Bancroft , Charles Durning , Dylan McDermott , Geraldine Chaplin , Steve Guttenberg , Cynthia Stevenson , Claire Danes , Austin Pendleton and David Strathairn .",
+      "summary": " The passage describes two films titled \"Home for the Holidays.\" The first, a 1972 American made-for-television horror film, was directed by John Llewellyn Moxey, produced by Aaron Spelling, and starred Sally Field, Eleanor Parker, Julie Harris, Jessica Walter, and Walter Brennan. It premiered on ABC on November 28, 1972. The second film, a 1995 film of the same name, stars Holly Hunter, Robert Downey Jr., Anne Bancroft, Charles Durning, Dylan McDermott, Geraldine Chaplin, Steve Guttenberg, Cynthia Stevenson, Claire Danes, Austin Pendleton, and David Strathairn. However, the passage does not provide any details about the plot or content of either film.",
+      "annotations": [
+        {
+          "annot_id": 44,
+          "annotator_id": "10daac7422b54e31888db442f27eb08f",
+          "annotator_name": "Amin Ahmad",
+          "label": [
+            "Questionable"
+          ],
+          "note": "This note is not a hallucination, but not asked for, either.",
+          "summary_span": "However, the passage does not provide any details about the plot or content of either film.",
+          "summary_start": 569,
+          "summary_end": 660,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 111,
+          "annotator_id": "f0a2b58d1adc41e389cc35a9829ebc1e",
+          "annotator_name": "Chenyu Xu",
+          "label": [
+            "Unwanted",
+            "Unwanted.Extrinsic"
+          ],
+          "note": "",
+          "summary_span": "However, the passage does not provide any details about the plot or content of either film.",
+          "summary_start": 569,
+          "summary_end": 660,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        }
+      ],
+      "metadata": {
+        "summarizer": "mistralai/Mistral-7B-Instruct-v0.3",
+        "hhemv1": 0.52599,
+        "hhem-2.1": 0.77668,
+        "hhem-2.1-english": 0.96613,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 8
+      }
+    },
+    {
+      "sample_id": 21,
+      "source": "Home for the Holidays is a 1972 American made-for-television horror film directed by John Llewellyn Moxey , produced by Aaron Spelling and starring Sally Field , Eleanor Parker , Julie Harris , Jessica Walter and Walter Brennan which premiered on ABC on November 28 , 1972 . Home for the Holidays (1995 film) . The film stars Holly Hunter , Robert Downey Jr. , Anne Bancroft , Charles Durning , Dylan McDermott , Geraldine Chaplin , Steve Guttenberg , Cynthia Stevenson , Claire Danes , Austin Pendleton and David Strathairn .",
+      "summary": " \"Home for the Holidays\" is a 1972 American made-for-television horror film directed by John Llewellyn Moxey, produced by Aaron Spelling, and starring Sally Field, Eleanor Parker, Julie Harris, Jessica Walter, and Walter Brennan. It premiered on ABC on November 28, 1972. The 1995 film, also titled \"Home for the Holidays,\" stars Holly Hunter, Robert Downey Jr., Anne Bancroft, Charles Durning, Dylan McDermott, Geraldine Chaplin, Steve Guttenberg, Cynthia Stevenson, Claire Danes, Austin Pendleton, and David Strathairn.",
+      "annotations": [],
+      "metadata": {
+        "summarizer": "microsoft/Phi-3-mini-4k-instruct",
+        "hhemv1": 0.99717,
+        "hhem-2.1": 0.934,
+        "hhem-2.1-english": 0.99131,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 0,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 123
+      }
+    },
+    {
+      "sample_id": 22,
+      "source": "Home for the Holidays is a 1972 American made-for-television horror film directed by John Llewellyn Moxey , produced by Aaron Spelling and starring Sally Field , Eleanor Parker , Julie Harris , Jessica Walter and Walter Brennan which premiered on ABC on November 28 , 1972 . Home for the Holidays (1995 film) . The film stars Holly Hunter , Robert Downey Jr. , Anne Bancroft , Charles Durning , Dylan McDermott , Geraldine Chaplin , Steve Guttenberg , Cynthia Stevenson , Claire Danes , Austin Pendleton and David Strathairn .",
+      "summary": "Here's a concise summary of the passage, covering the core pieces of information:\n\nThe passage describes two different films titled \"Home for the Holidays\":\n\n1. A 1972 American made-for-television horror film:\n- Directed by John Llewellyn Moxey\n- Produced by Aaron Spelling\n- Starred Sally Field, Eleanor Parker, Julie Harris, Jessica Walter, and Walter Brennan\n- Premiered on ABC on November 28, 1972\n\n2. A 1995 film:\n- Starred Holly Hunter, Robert Downey Jr., Anne Bancroft, Charles Durning, Dylan McDermott, Geraldine Chaplin, Steve Guttenberg, Cynthia Stevenson, Claire Danes, Austin Pendleton, and David Strathairn\n\nThe passage provides basic information about these two separate films that share the same title but are from different years and genres.",
+      "annotations": [
+        {
+          "annot_id": 31,
+          "annotator_id": "62d9bb022a0a4fa590c17e1ae961a9b8",
+          "annotator_name": "Suleman",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "The passage does not mention that the films are from different genres, just different years.",
+          "summary_span": "but are from different years and genres.",
+          "summary_start": 717,
+          "summary_end": 757,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 45,
+          "annotator_id": "10daac7422b54e31888db442f27eb08f",
+          "annotator_name": "Amin Ahmad",
+          "label": [
+            "Unwanted",
+            "Unwanted.Extrinsic"
+          ],
+          "note": "While it's clear that the films are from different years, it's not clear that they are from different genres, since only the genre of the first film is given (horror).",
+          "summary_span": "and genres.",
+          "summary_start": 746,
+          "summary_end": 757,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 79,
+          "annotator_id": "f0a2b58d1adc41e389cc35a9829ebc1e",
+          "annotator_name": "Chenyu Xu",
+          "label": [
+            "Questionable"
+          ],
+          "note": "The source didn't mention the genre of the second film.",
+          "summary_span": "two separate films that share the same title but are from different years and genres.",
+          "summary_start": 672,
+          "summary_end": 757,
+          "source_span": "Home for the Holidays is a 1972 American made-for-television horror film directed by John Llewellyn Moxey , produced by Aaron Spelling and starring Sally Field , Eleanor Parker , Julie Harris , Jessica Walter and Walter Brennan which premiered on ABC on November 28 , 1972 . Home for the Holidays (1995 film) . The film stars Holly Hunter , Robert Downey Jr. , Anne Bancroft , Charles Durning , Dylan McDermott , Geraldine Chaplin , Steve Guttenberg , Cynthia Stevenson , Claire Danes , Austin Pendleton and David Strathairn .",
+          "source_start": 0,
+          "source_end": 526
+        }
+      ],
+      "metadata": {
+        "summarizer": "Anthropic/claude-3-5-sonnet-20240620",
+        "hhemv1": 0.92629,
+        "hhem-2.1": 0.84641,
+        "hhem-2.1-english": 0.8679,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 0,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 238
+      }
+    },
+    {
+      "sample_id": 23,
+      "source": "Home for the Holidays is a 1972 American made-for-television horror film directed by John Llewellyn Moxey , produced by Aaron Spelling and starring Sally Field , Eleanor Parker , Julie Harris , Jessica Walter and Walter Brennan which premiered on ABC on November 28 , 1972 . Home for the Holidays (1995 film) . The film stars Holly Hunter , Robert Downey Jr. , Anne Bancroft , Charles Durning , Dylan McDermott , Geraldine Chaplin , Steve Guttenberg , Cynthia Stevenson , Claire Danes , Austin Pendleton and David Strathairn .",
+      "summary": "Home for the Holidays is a horror film title used for two American films. The first is a 1972 made-for-television film directed by John Llewellyn Moxey and produced by Aaron Spelling, starring Sally Field, Eleanor Parker, Julie Harris, Jessica Walter, and Walter Brennan. It premiered on ABC in 1972. The second film with the same title was released in 1995 and features a cast including Holly Hunter, Robert Downey Jr., Anne Bancroft, and Charles Durning.",
+      "annotations": [
+        {
+          "annot_id": 32,
+          "annotator_id": "62d9bb022a0a4fa590c17e1ae961a9b8",
+          "annotator_name": "Suleman",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "Only the first movie is a horror movie, the passage doesn't specify the genre of the second movie.",
+          "summary_span": "Home for the Holidays is a horror film title used for two American films. ",
+          "summary_start": 0,
+          "summary_end": 74,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 46,
+          "annotator_id": "10daac7422b54e31888db442f27eb08f",
+          "annotator_name": "Amin Ahmad",
+          "label": [
+            "Unwanted"
+          ],
+          "note": "This is incorrect. Only the first film is identified as being a horror film. The source passage does not comment on the genre of the second film.",
+          "summary_span": "Home for the Holidays is a horror film title used for two American films",
+          "summary_start": 0,
+          "summary_end": 72,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 112,
+          "annotator_id": "f0a2b58d1adc41e389cc35a9829ebc1e",
+          "annotator_name": "Chenyu Xu",
+          "label": [
+            "Unwanted.Extrinsic",
+            "Questionable"
+          ],
+          "note": "",
+          "summary_span": "Home for the Holidays is a horror film title used for two American films.",
+          "summary_start": 0,
+          "summary_end": 73,
+          "source_span": "Home for the Holidays is a 1972 American made-for-television horror film directed by John Llewellyn Moxey , produced by Aaron Spelling and starring Sally Field , Eleanor Parker , Julie Harris , Jessica Walter and Walter Brennan which premiered on ABC on November 28 , 1972 . Home for the Holidays (1995 film) . The film stars Holly Hunter , Robert Downey Jr. , Anne Bancroft , Charles Durning , Dylan McDermott , Geraldine Chaplin , Steve Guttenberg , Cynthia Stevenson , Claire Danes , Austin Pendleton and David Strathairn .",
+          "source_start": 0,
+          "source_end": 526
+        }
+      ],
+      "metadata": {
+        "summarizer": "cohere/command-r-08-2024",
+        "hhemv1": 0.97936,
+        "hhem-2.1": 0.91657,
+        "hhem-2.1-english": 0.98224,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 353
+      }
+    },
+    {
+      "sample_id": 24,
+      "source": "Home for the Holidays is a 1972 American made-for-television horror film directed by John Llewellyn Moxey , produced by Aaron Spelling and starring Sally Field , Eleanor Parker , Julie Harris , Jessica Walter and Walter Brennan which premiered on ABC on November 28 , 1972 . Home for the Holidays (1995 film) . The film stars Holly Hunter , Robert Downey Jr. , Anne Bancroft , Charles Durning , Dylan McDermott , Geraldine Chaplin , Steve Guttenberg , Cynthia Stevenson , Claire Danes , Austin Pendleton and David Strathairn .",
+      "summary": "The passage describes two films titled \"Home for the Holidays.\" The first is a 1972 made-for-television horror film directed by John Llewellyn Moxey, produced by Aaron Spelling, and starring Sally Field, Eleanor Parker, Julie Harris, Jessica Walter, and Walter Brennan, which aired on ABC on November 28, 1972. The second is a 1995 film starring Holly Hunter, Robert Downey Jr., Anne Bancroft, Charles Durning, Dylan McDermott, Geraldine Chaplin, Steve Guttenberg, Cynthia Stevenson, Claire Danes, Austin Pendleton, and David Strathairn.",
+      "annotations": [],
+      "metadata": {
+        "summarizer": "Qwen/Qwen2.5-7B-Instruct",
+        "hhemv1": 0.95089,
+        "hhem-2.1": 0.97158,
+        "hhem-2.1-english": 0.99248,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 468
+      }
+    },
+    {
+      "sample_id": 25,
+      "source": "Home for the Holidays is a 1972 American made-for-television horror film directed by John Llewellyn Moxey , produced by Aaron Spelling and starring Sally Field , Eleanor Parker , Julie Harris , Jessica Walter and Walter Brennan which premiered on ABC on November 28 , 1972 . Home for the Holidays (1995 film) . The film stars Holly Hunter , Robert Downey Jr. , Anne Bancroft , Charles Durning , Dylan McDermott , Geraldine Chaplin , Steve Guttenberg , Cynthia Stevenson , Claire Danes , Austin Pendleton and David Strathairn .",
+      "summary": "Here is a concise summary of the passage:\n\nThe passage describes two films titled \"Home for the Holidays\". The first film is a 1972 made-for-television horror film starring Sally Field and others, which premiered on ABC on November 28, 1972. The second film is a 1995 film starring Holly Hunter and others, but the plot and details of this film are not described in the passage.",
+      "annotations": [],
+      "metadata": {
+        "summarizer": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+        "hhemv1": 0.27013,
+        "hhem-2.1": 0.49055,
+        "hhem-2.1-english": 0.94021,
+        "trueteacher": 0,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 0,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 583
+      }
+    },
+    {
+      "sample_id": 26,
+      "source": "Home for the Holidays is a 1972 American made-for-television horror film directed by John Llewellyn Moxey , produced by Aaron Spelling and starring Sally Field , Eleanor Parker , Julie Harris , Jessica Walter and Walter Brennan which premiered on ABC on November 28 , 1972 . Home for the Holidays (1995 film) . The film stars Holly Hunter , Robert Downey Jr. , Anne Bancroft , Charles Durning , Dylan McDermott , Geraldine Chaplin , Steve Guttenberg , Cynthia Stevenson , Claire Danes , Austin Pendleton and David Strathairn .",
+      "summary": "Here is a concise summary of the passage:\n\nThere are two films titled \"Home for the Holidays\". The first, a 1972 made-for-TV horror film, was directed by John Llewellyn Moxey, produced by Aaron Spelling, and starred Sally Field and Eleanor Parker. The second, a 1995 film, starred Holly Hunter, Robert Downey Jr., and Anne Bancroft.",
+      "annotations": [
+        {
+          "annot_id": 47,
+          "annotator_id": "10daac7422b54e31888db442f27eb08f",
+          "annotator_name": "Amin Ahmad",
+          "label": [
+            "Unwanted",
+            "Unwanted.Extrinsic",
+            "Questionable"
+          ],
+          "note": "The phrase \"There are two films titled...\" is ambiguous. It could mean either \"There are exactly two films titled...\" or \"There are at least two films titled...\". For native speakers of English, the bias is towards the first meaning. However, the source material never makes the claim that there are exactly two films titled \"Home for the Holidays\". Rather, it discusses two films titled \"Home for the Holidays\".\n\nSo if this sentence said \"The passage discusses two films titled ...\" it would NOT be a hallucination, but, as written, it tends in that direction.",
+          "summary_span": "There are two films titled \"Home for the Holidays\".",
+          "summary_start": 43,
+          "summary_end": 94,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 48,
+          "annotator_id": "10daac7422b54e31888db442f27eb08f",
+          "annotator_name": "Amin Ahmad",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "The starring list is 5 people, not 2 people. It would have been okay to say \"and starred actors including Sally Field and Eleanor Parker\". That would make it clear that there are others who are not mentioned.\n\nAs written, though, it's a hallucination.",
+          "summary_span": "and starred Sally Field and Eleanor Parker",
+          "summary_start": 204,
+          "summary_end": 246,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 49,
+          "annotator_id": "10daac7422b54e31888db442f27eb08f",
+          "annotator_name": "Amin Ahmad",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "The starring list is 11 people, not 3 people. It would have been okay to say \"and starred actors including Sally Field and Eleanor Parker\". That would make it clear that there are others who are not mentioned.\n\nAs written, though, it's a hallucination.",
+          "summary_span": "and starred Sally Field and Eleanor Parker",
+          "summary_start": 204,
+          "summary_end": 246,
+          "source_span": "The film stars Holly Hunter , Robert Downey Jr. , Anne Bancroft , Charles Durning , Dylan McDermott , Geraldine Chaplin , Steve Guttenberg , Cynthia Stevenson , Claire Danes , Austin Pendleton and David Strathairn .",
+          "source_start": 311,
+          "source_end": 526
+        },
+        {
+          "annot_id": 96,
+          "annotator_id": "62d9bb022a0a4fa590c17e1ae961a9b8",
+          "annotator_name": "Suleman",
+          "label": [
+            "Questionable"
+          ],
+          "note": "It starred these two people but also starred other actors.",
+          "summary_span": "and starred Sally Field and Eleanor Parker.",
+          "summary_start": 204,
+          "summary_end": 247,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        }
+      ],
+      "metadata": {
+        "summarizer": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+        "hhemv1": 0.94744,
+        "hhem-2.1": 0.91235,
+        "hhem-2.1-english": 0.96594,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 0,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 698
+      }
+    },
+    {
+      "sample_id": 27,
+      "source": "Home for the Holidays is a 1972 American made-for-television horror film directed by John Llewellyn Moxey , produced by Aaron Spelling and starring Sally Field , Eleanor Parker , Julie Harris , Jessica Walter and Walter Brennan which premiered on ABC on November 28 , 1972 . Home for the Holidays (1995 film) . The film stars Holly Hunter , Robert Downey Jr. , Anne Bancroft , Charles Durning , Dylan McDermott , Geraldine Chaplin , Steve Guttenberg , Cynthia Stevenson , Claire Danes , Austin Pendleton and David Strathairn .",
+      "summary": "\"Home for the Holidays\" is a horror film that premiered on ABC in 1972, starring Sally Field, Eleanor Parker, Julie Harris, Jessica Walter, and Walter Brennan. A second film with the same name was released in 1995, starring Holly Hunter, Robert Downey Jr., Anne Bancroft, Charles Durning, Dylan McDermott, Geraldine Chaplin, Steve Guttenberg, Cynthia Stevenson, Claire Danes, Austin Pendleton, and David Strathairn. \n",
+      "annotations": [],
+      "metadata": {
+        "summarizer": "google/gemini-1.5-flash-001",
+        "hhemv1": 0.84767,
+        "hhem-2.1": 0.89036,
+        "hhem-2.1-english": 0.90759,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 0,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 813
+      }
+    },
+    {
+      "sample_id": 28,
+      "source": "Home for the Holidays is a 1972 American made-for-television horror film directed by John Llewellyn Moxey , produced by Aaron Spelling and starring Sally Field , Eleanor Parker , Julie Harris , Jessica Walter and Walter Brennan which premiered on ABC on November 28 , 1972 . Home for the Holidays (1995 film) . The film stars Holly Hunter , Robert Downey Jr. , Anne Bancroft , Charles Durning , Dylan McDermott , Geraldine Chaplin , Steve Guttenberg , Cynthia Stevenson , Claire Danes , Austin Pendleton and David Strathairn .",
+      "summary": "The passage describes two different films titled \"Home for the Holidays.\" The first one is a 1972 American made-for-television horror film directed by John Llewellyn Moxey and produced by Aaron Spelling. It stars Sally Field, Eleanor Parker, Julie Harris, Jessica Walter, and Walter Brennan. The film premiered on ABC on November 28, 1972. The second film titled \"Home for the Holidays\" is from 1995 and stars Holly Hunter, Robert Downey Jr., Anne Bancroft, Charles Durning, Dylan McDermott, Geraldine Chaplin, Steve Guttenberg, Cynthia Stevenson, Claire Danes, Austin Pendleton, and David Strathairn.",
+      "annotations": [],
+      "metadata": {
+        "summarizer": "openai/GPT-3.5-Turbo",
+        "hhemv1": 0.939,
+        "hhem-2.1": 0.97284,
+        "hhem-2.1-english": 0.992,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 947
+      }
+    },
+    {
+      "sample_id": 29,
+      "source": "Home for the Holidays is a 1972 American made-for-television horror film directed by John Llewellyn Moxey , produced by Aaron Spelling and starring Sally Field , Eleanor Parker , Julie Harris , Jessica Walter and Walter Brennan which premiered on ABC on November 28 , 1972 . Home for the Holidays (1995 film) . The film stars Holly Hunter , Robert Downey Jr. , Anne Bancroft , Charles Durning , Dylan McDermott , Geraldine Chaplin , Steve Guttenberg , Cynthia Stevenson , Claire Danes , Austin Pendleton and David Strathairn .",
+      "summary": "\"Home for the Holidays\" is a 1972 American made-for-television horror film directed by John Llewellyn Moxey, produced by Aaron Spelling, and starring Sally Field, Eleanor Parker, Julie Harris, Jessica Walter, and Walter Brennan. It premiered on ABC on November 28, 1972. There is also a 1995 film with the same title, starring Holly Hunter, Robert Downey Jr., Anne Bancroft, Charles Durning, Dylan McDermott, Geraldine Chaplin, Steve Guttenberg, Cynthia Stevenson, Claire Danes, Austin Pendleton, and David Strathairn.",
+      "annotations": [],
+      "metadata": {
+        "summarizer": "openai/gpt-4o",
+        "hhemv1": 0.91964,
+        "hhem-2.1": 0.92002,
+        "hhem-2.1-english": 0.98787,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 1043
+      }
+    },
+    {
+      "sample_id": 30,
+      "source": "The Dons loaned Smith, 21, to United in July and he has five goals this season. Scotland Under-21 cap Smith made his Aberdeen debut in 2012 and has scored four times in 89 appearances for the Pittodrie side. \" It's a brilliant acquisition for us,\" boss Jack Ross told St Mirren's official website. \" Cammy is a really good player and someone I didn't think we'd be able to get because he was at Dundee United. \" He's a good, mature boy and I think he'll be a good fit and gives us another option in the attacking area.\" Championship bottom side St Mirren host Falkirk on Saturday.",
+      "summary": " In the provided passage, it is stated that Cameron Smith, a 21-year-old football player who has scored five goals this season while on loan from Dundee United to United, previously made his Aberdeen debut in 2012 and scored four times in 89 appearances for the Pittodrie side. Jack Ross, the boss of St Mirren, a Championship bottom side, has expressed his excitement about Smith joining their team, referring to him as a \"really good player\" and a \"good, mature boy\" who will provide another option in the attacking area. The passage concludes with the information that St Mirren will host Falkirk on Saturday.",
+      "annotations": [
+        {
+          "annot_id": 33,
+          "annotator_id": "62d9bb022a0a4fa590c17e1ae961a9b8",
+          "annotator_name": "Suleman",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "The Dons loaned the player, not Dundee United",
+          "summary_span": "while on loan from Dundee United to United,",
+          "summary_start": 127,
+          "summary_end": 170,
+          "source_span": "The Dons loaned Smith, 21, to United in July and he has five goals this season.",
+          "source_start": 0,
+          "source_end": 79
+        },
+        {
+          "annot_id": 51,
+          "annotator_id": "10daac7422b54e31888db442f27eb08f",
+          "annotator_name": "Amin Ahmad",
+          "label": [
+            "Unwanted",
+            "Unwanted.Extrinsic"
+          ],
+          "note": "He is discussed in the source as Cammy and Smith. Cameron is his full name, but that's not mentioned in the source.",
+          "summary_span": "Cameron Smith",
+          "summary_start": 44,
+          "summary_end": 57,
+          "source_span": "The Dons loaned Smith, 21, to United in July and he has five goals this season. Scotland Under-21 cap Smith made his Aberdeen debut in 2012 and has scored four times in 89 appearances for the Pittodrie side. \" It's a brilliant acquisition for us,\" boss Jack Ross told St Mirren's official website. \" Cammy is a really good player and someone I didn't think we'd be able to get because he was at Dundee United. \"",
+          "source_start": 0,
+          "source_end": 411
+        },
+        {
+          "annot_id": 52,
+          "annotator_id": "10daac7422b54e31888db442f27eb08f",
+          "annotator_name": "Amin Ahmad",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "He's on loan from the Aberdeen Dons to Dundee United, according to the source.",
+          "summary_span": "on loan from Dundee United to United",
+          "summary_start": 133,
+          "summary_end": 169,
+          "source_span": "The Dons loaned Smith, 21, to United in July and he has five goals this season",
+          "source_start": 0,
+          "source_end": 78
+        },
+        {
+          "annot_id": 97,
+          "annotator_id": "62d9bb022a0a4fa590c17e1ae961a9b8",
+          "annotator_name": "Suleman",
+          "label": [
+            "Unwanted",
+            "Unwanted.Extrinsic"
+          ],
+          "note": "The name is Cammy Smith in the passage.",
+          "summary_span": "Cameron Smith, a 21-year-old football player",
+          "summary_start": 44,
+          "summary_end": 88,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 113,
+          "annotator_id": "f0a2b58d1adc41e389cc35a9829ebc1e",
+          "annotator_name": "Chenyu Xu",
+          "label": [
+            "Unwanted",
+            "Unwanted.Extrinsic"
+          ],
+          "note": "",
+          "summary_span": "Cameron Smith",
+          "summary_start": 44,
+          "summary_end": 57,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 114,
+          "annotator_id": "f0a2b58d1adc41e389cc35a9829ebc1e",
+          "annotator_name": "Chenyu Xu",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "",
+          "summary_span": "on loan from Dundee United to United",
+          "summary_start": 133,
+          "summary_end": 169,
+          "source_span": "The Dons loaned Smith, 21, to United in July and he has five goals this season.",
+          "source_start": 0,
+          "source_end": 79
+        }
+      ],
+      "metadata": {
+        "summarizer": "mistralai/Mistral-7B-Instruct-v0.3",
+        "hhemv1": 0.99583,
+        "hhem-2.1": 0.95077,
+        "hhem-2.1-english": 0.98916,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 0,
+        "gpt-4-turbo": 0,
+        "gpt_4o": 1,
+        "raw_sample_id": 30
+      }
+    },
+    {
+      "sample_id": 31,
+      "source": "The Dons loaned Smith, 21, to United in July and he has five goals this season. Scotland Under-21 cap Smith made his Aberdeen debut in 2012 and has scored four times in 89 appearances for the Pittodrie side. \" It's a brilliant acquisition for us,\" boss Jack Ross told St Mirren's official website. \" Cammy is a really good player and someone I didn't think we'd be able to get because he was at Dundee United. \" He's a good, mature boy and I think he'll be a good fit and gives us another option in the attacking area.\" Championship bottom side St Mirren host Falkirk on Saturday.",
+      "summary": " Scottish Under-21 player Smith, who previously played for Aberdeen, was loaned to United in July and has scored five goals this season. St Mirren manager Jack Ross praised the acquisition, stating that Smith is a good, mature player who will be a good fit and provide an additional option in the attacking area. Smith made his debut for Aberdeen in 2012 and has scored four goals in 89 appearances for the team. St Mirren will face Falkirk in the upcoming match.",
+      "annotations": [
+        {
+          "annot_id": 61,
+          "annotator_id": "10daac7422b54e31888db442f27eb08f",
+          "annotator_name": "Amin Ahmad",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "This is incorrect. He did not praise the acquisition by United, but rather the acquisition by St. Mirren from Aberdeen.",
+          "summary_span": "St Mirren manager Jack Ross praised the acquisition",
+          "summary_start": 137,
+          "summary_end": 188,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 98,
+          "annotator_id": "62d9bb022a0a4fa590c17e1ae961a9b8",
+          "annotator_name": "Suleman",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "The passage doesnt mention Jack being the manager for St. Mirren.",
+          "summary_span": "St Mirren manager Jack Ross ",
+          "summary_start": 137,
+          "summary_end": 165,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        }
+      ],
+      "metadata": {
+        "summarizer": "microsoft/Phi-3-mini-4k-instruct",
+        "hhemv1": 0.99926,
+        "hhem-2.1": 0.96642,
+        "hhem-2.1-english": 0.99655,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 0,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 145
+      }
+    },
+    {
+      "sample_id": 32,
+      "source": "The Dons loaned Smith, 21, to United in July and he has five goals this season. Scotland Under-21 cap Smith made his Aberdeen debut in 2012 and has scored four times in 89 appearances for the Pittodrie side. \" It's a brilliant acquisition for us,\" boss Jack Ross told St Mirren's official website. \" Cammy is a really good player and someone I didn't think we'd be able to get because he was at Dundee United. \" He's a good, mature boy and I think he'll be a good fit and gives us another option in the attacking area.\" Championship bottom side St Mirren host Falkirk on Saturday.",
+      "summary": "Here's a concise summary of the passage, covering the core pieces of information:\n\nCammy Smith, a 21-year-old footballer, has been loaned from Aberdeen to St Mirren. He previously played for Dundee United, scoring five goals this season. Smith, who has represented Scotland's Under-21 team, made his Aberdeen debut in 2012 and has scored four goals in 89 appearances for them. St Mirren's manager, Jack Ross, expressed enthusiasm about the acquisition, praising Smith's abilities and maturity. St Mirren, currently at the bottom of the Championship, are set to play Falkirk in their next match.",
+      "annotations": [
+        {
+          "annot_id": 34,
+          "annotator_id": "62d9bb022a0a4fa590c17e1ae961a9b8",
+          "annotator_name": "Suleman",
+          "label": [
+            "Unwanted",
+            "Unwanted.Extrinsic"
+          ],
+          "note": "Wrong team names that have loaned/gotten the player.",
+          "summary_span": "has been loaned from Aberdeen to St Mirren",
+          "summary_start": 122,
+          "summary_end": 164,
+          "source_span": "The Dons loaned Smith, 21, to United in July and he has five goals this season.",
+          "source_start": 0,
+          "source_end": 79
+        },
+        {
+          "annot_id": 35,
+          "annotator_id": "62d9bb022a0a4fa590c17e1ae961a9b8",
+          "annotator_name": "Suleman",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "On Saturday, not on their next Match.",
+          "summary_span": "are set to play Falkirk in their next match.",
+          "summary_start": 550,
+          "summary_end": 594,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 82,
+          "annotator_id": "f0a2b58d1adc41e389cc35a9829ebc1e",
+          "annotator_name": "Chenyu Xu",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "Cammy Smith was acquired by St Mirren while on load from The Dons to United. ",
+          "summary_span": "\nCammy Smith, a 21-year-old footballer, has been loaned from Aberdeen to St Mirren.",
+          "summary_start": 82,
+          "summary_end": 165,
+          "source_span": "The Dons loaned Smith, 21, to United in July and he has five goals this season. Scotland Under-21 cap Smith made his Aberdeen debut in 2012 and has scored four times in 89 appearances for the Pittodrie side. \" It's a brilliant acquisition for us,\" boss Jack Ross told St Mirren's official website. \" Cammy is a really good player and someone I didn't think we'd be able to get because he was at Dundee United. \"",
+          "source_start": 0,
+          "source_end": 411
+        },
+        {
+          "annot_id": 115,
+          "annotator_id": "f0a2b58d1adc41e389cc35a9829ebc1e",
+          "annotator_name": "Chenyu Xu",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "",
+          "summary_span": "are set to play Falkirk in their next match.",
+          "summary_start": 550,
+          "summary_end": 594,
+          "source_span": "host Falkirk on Saturday.",
+          "source_start": 555,
+          "source_end": 580
+        }
+      ],
+      "metadata": {
+        "summarizer": "Anthropic/claude-3-5-sonnet-20240620",
+        "hhemv1": 0.57995,
+        "hhem-2.1": 0.88639,
+        "hhem-2.1-english": 0.96088,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 0,
+        "gpt_4o": 0,
+        "raw_sample_id": 260
+      }
+    },
+    {
+      "sample_id": 33,
+      "source": "The Dons loaned Smith, 21, to United in July and he has five goals this season. Scotland Under-21 cap Smith made his Aberdeen debut in 2012 and has scored four times in 89 appearances for the Pittodrie side. \" It's a brilliant acquisition for us,\" boss Jack Ross told St Mirren's official website. \" Cammy is a really good player and someone I didn't think we'd be able to get because he was at Dundee United. \" He's a good, mature boy and I think he'll be a good fit and gives us another option in the attacking area.\" Championship bottom side St Mirren host Falkirk on Saturday.",
+      "summary": "Aberdeen loanee Cammy Smith has joined St. Mirren on loan from Dundee United. The 21-year-old has been in good form, scoring five goals this season, including four in 89 appearances for Aberdeen since his debut in 2012. St. Mirren's manager, Jack Ross, expressed his delight with the signing, praising Smith's abilities and maturity. The move provides St. Mirren with an additional attacking option as they prepare to face Falkirk in their upcoming Championship fixture.",
+      "annotations": [
+        {
+          "annot_id": 36,
+          "annotator_id": "62d9bb022a0a4fa590c17e1ae961a9b8",
+          "annotator_name": "Suleman",
+          "label": [
+            "Unwanted",
+            "Unwanted.Extrinsic"
+          ],
+          "note": "Wrong team names.",
+          "summary_span": "Aberdeen loanee Cammy Smith has joined St. Mirren on loan from Dundee United.",
+          "summary_start": 0,
+          "summary_end": 77,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 37,
+          "annotator_id": "62d9bb022a0a4fa590c17e1ae961a9b8",
+          "annotator_name": "Suleman",
+          "label": [
+            "Questionable"
+          ],
+          "note": "This makes it sound like the four goals in 89 appearances are also in this season.",
+          "summary_span": "scoring five goals this season, including four in 89 appearances for Aberdeen since his debut in 2012",
+          "summary_start": 117,
+          "summary_end": 218,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 56,
+          "annotator_id": "10daac7422b54e31888db442f27eb08f",
+          "annotator_name": "Amin Ahmad",
+          "label": [
+            "Unwanted",
+            "Unwanted.Extrinsic"
+          ],
+          "note": "It's not stated that the five goals constitute good form, although it is implied in Jack Ross's enthusiasm.",
+          "summary_span": "has been in good form",
+          "summary_start": 94,
+          "summary_end": 115,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 57,
+          "annotator_id": "10daac7422b54e31888db442f27eb08f",
+          "annotator_name": "Amin Ahmad",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "This makes it sound like the five goals this season include the 4 out of 89 appearances, when in fact the count does not include those. It would be accurate to say: \"The 21 year old has been in good form, scoring five goals this season, as well as four in 89 appearances\"",
+          "summary_span": "including four in 89 appearances for Aberdeen since his debut in 2012",
+          "summary_start": 149,
+          "summary_end": 218,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 58,
+          "annotator_id": "10daac7422b54e31888db442f27eb08f",
+          "annotator_name": "Amin Ahmad",
+          "label": [
+            "Unwanted",
+            "Unwanted.Extrinsic"
+          ],
+          "note": "Not clear from the source that Cammy Smith will be in place for the match against Falkirk, which is happening very soon.",
+          "summary_span": "as they prepare to face Falkirk",
+          "summary_start": 399,
+          "summary_end": 430,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 59,
+          "annotator_id": "10daac7422b54e31888db442f27eb08f",
+          "annotator_name": "Amin Ahmad",
+          "label": [
+            "Unwanted",
+            "Unwanted.Extrinsic"
+          ],
+          "note": "Unclear that being a championship bottom side implies that the upcoming match is a \"Championship fixture\".",
+          "summary_span": "upcoming Championship fixture",
+          "summary_start": 440,
+          "summary_end": 469,
+          "source_span": "Championship bottom side St Mirren host Falkirk on Saturday.",
+          "source_start": 520,
+          "source_end": 580
+        },
+        {
+          "annot_id": 60,
+          "annotator_id": "10daac7422b54e31888db442f27eb08f",
+          "annotator_name": "Amin Ahmad",
+          "label": [
+            "Unwanted",
+            "Unwanted.Extrinsic"
+          ],
+          "note": "Cammy smith was loaned by Aberdeen first to Dundee, and then to St. Mirren. I don't believe he's on loan from Dundee United.",
+          "summary_span": "Aberdeen loanee Cammy Smith has joined St. Mirren on loan from Dundee United.",
+          "summary_start": 0,
+          "summary_end": 77,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 99,
+          "annotator_id": "62d9bb022a0a4fa590c17e1ae961a9b8",
+          "annotator_name": "Suleman",
+          "label": [
+            "Questionable"
+          ],
+          "note": "Could be inferred from the passage but not explicitly stated.",
+          "summary_span": "The 21-year-old has been in good form",
+          "summary_start": 78,
+          "summary_end": 115,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 116,
+          "annotator_id": "f0a2b58d1adc41e389cc35a9829ebc1e",
+          "annotator_name": "Chenyu Xu",
+          "label": [
+            "Unwanted",
+            "Unwanted.Extrinsic"
+          ],
+          "note": "",
+          "summary_span": "The 21-year-old has been in good form",
+          "summary_start": 78,
+          "summary_end": 115,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 117,
+          "annotator_id": "f0a2b58d1adc41e389cc35a9829ebc1e",
+          "annotator_name": "Chenyu Xu",
+          "label": [
+            "Unwanted",
+            "Unwanted.Extrinsic"
+          ],
+          "note": "",
+          "summary_span": "as they prepare to face Falkirk",
+          "summary_start": 399,
+          "summary_end": 430,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 118,
+          "annotator_id": "f0a2b58d1adc41e389cc35a9829ebc1e",
+          "annotator_name": "Chenyu Xu",
+          "label": [
+            "Unwanted",
+            "Unwanted.Extrinsic"
+          ],
+          "note": "",
+          "summary_span": "upcoming Championship fixture.",
+          "summary_start": 440,
+          "summary_end": 470,
+          "source_span": "Championship bottom side St Mirren host Falkirk on Saturday.",
+          "source_start": 520,
+          "source_end": 580
+        },
+        {
+          "annot_id": 119,
+          "annotator_id": "f0a2b58d1adc41e389cc35a9829ebc1e",
+          "annotator_name": "Chenyu Xu",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "",
+          "summary_span": "Aberdeen loanee Cammy Smith has joined St. Mirren on loan from Dundee United.",
+          "summary_start": 0,
+          "summary_end": 77,
+          "source_span": "The Dons loaned Smith, 21, to United in July and he has five goals this season. Scotland Under-21 cap Smith made his Aberdeen debut in 2012 and has scored four times in 89 appearances for the Pittodrie side. \" It's a brilliant acquisition for us,\" boss Jack Ross told St Mirren's official website. \"",
+          "source_start": 0,
+          "source_end": 299
+        }
+      ],
+      "metadata": {
+        "summarizer": "cohere/command-r-08-2024",
+        "hhemv1": 0.97125,
+        "hhem-2.1": 0.92162,
+        "hhem-2.1-english": 0.98503,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 0,
+        "gpt-4-turbo": 0,
+        "gpt_4o": 0,
+        "raw_sample_id": 375
+      }
+    },
+    {
+      "sample_id": 34,
+      "source": "The Dons loaned Smith, 21, to United in July and he has five goals this season. Scotland Under-21 cap Smith made his Aberdeen debut in 2012 and has scored four times in 89 appearances for the Pittodrie side. \" It's a brilliant acquisition for us,\" boss Jack Ross told St Mirren's official website. \" Cammy is a really good player and someone I didn't think we'd be able to get because he was at Dundee United. \" He's a good, mature boy and I think he'll be a good fit and gives us another option in the attacking area.\" Championship bottom side St Mirren host Falkirk on Saturday.",
+      "summary": "The passage discusses the transfer of Cammy Smith from Dundee United to St Mirren on loan. Smith, a 21-year-old Scotland Under-21 player, has scored five goals this season. He previously played for Aberdeen, making his debut in 2012 and scoring four goals in 89 appearances. Manager Jack Ross expresses satisfaction with the acquisition, seeing Smith as a good fit and an additional attacking option for the team. St Mirren, currently in the Championship table's bottom position, will play against Falkirk on Saturday.",
+      "annotations": [
+        {
+          "annot_id": 38,
+          "annotator_id": "62d9bb022a0a4fa590c17e1ae961a9b8",
+          "annotator_name": "Suleman",
+          "label": [
+            "Unwanted",
+            "Unwanted.Extrinsic"
+          ],
+          "note": "The passage does not mention these teams names as loanee/loaner",
+          "summary_span": "The passage discusses the transfer of Cammy Smith from Dundee United to St Mirren on loan.",
+          "summary_start": 0,
+          "summary_end": 90,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 62,
+          "annotator_id": "10daac7422b54e31888db442f27eb08f",
+          "annotator_name": "Amin Ahmad",
+          "label": [
+            "Questionable"
+          ],
+          "note": "The way this is written, it appears he was loaned from Dundee to St. Mirren, but my understanding is that he finished his period at Dundee, returned to Aberdeen, and was loaned to St. Mirren.",
+          "summary_span": "transfer of Cammy Smith from Dundee United to St Mirren on loan",
+          "summary_start": 26,
+          "summary_end": 89,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 120,
+          "annotator_id": "f0a2b58d1adc41e389cc35a9829ebc1e",
+          "annotator_name": "Chenyu Xu",
+          "label": [
+            "Questionable"
+          ],
+          "note": "",
+          "summary_span": "The passage discusses the transfer of Cammy Smith from Dundee United to St Mirren on loan.",
+          "summary_start": 0,
+          "summary_end": 90,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        }
+      ],
+      "metadata": {
+        "summarizer": "Qwen/Qwen2.5-7B-Instruct",
+        "hhemv1": 0.82289,
+        "hhem-2.1": 0.95616,
+        "hhem-2.1-english": 0.98724,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 490
+      }
+    },
+    {
+      "sample_id": 35,
+      "source": "The Dons loaned Smith, 21, to United in July and he has five goals this season. Scotland Under-21 cap Smith made his Aberdeen debut in 2012 and has scored four times in 89 appearances for the Pittodrie side. \" It's a brilliant acquisition for us,\" boss Jack Ross told St Mirren's official website. \" Cammy is a really good player and someone I didn't think we'd be able to get because he was at Dundee United. \" He's a good, mature boy and I think he'll be a good fit and gives us another option in the attacking area.\" Championship bottom side St Mirren host Falkirk on Saturday.",
+      "summary": "Here is a concise summary of the passage:\n\nAberdeen loaned Cammy Smith, a 21-year-old Scotland Under-21 cap, to St Mirren in July. Smith has scored 5 goals this season and has made 89 appearances for Aberdeen, scoring 4 times. St Mirren boss Jack Ross sees Smith as a \"brilliant acquisition\" and a good fit for the team.",
+      "annotations": [
+        {
+          "annot_id": 39,
+          "annotator_id": "62d9bb022a0a4fa590c17e1ae961a9b8",
+          "annotator_name": "Suleman",
+          "label": [
+            "Unwanted",
+            "Unwanted.Extrinsic"
+          ],
+          "note": "The team names who loaned and got the player dont match.",
+          "summary_span": "Here is a concise summary of the passage:\n\nAberdeen loaned Cammy Smith, a 21-year-old Scotland Under-21 cap, to St Mirren in July. ",
+          "summary_start": 0,
+          "summary_end": 131,
+          "source_span": "The Dons loaned Smith, 21, to United in July and he has five goals this season.",
+          "source_start": 0,
+          "source_end": 79
+        },
+        {
+          "annot_id": 63,
+          "annotator_id": "10daac7422b54e31888db442f27eb08f",
+          "annotator_name": "Amin Ahmad",
+          "label": [
+            "Questionable"
+          ],
+          "note": "The way this sentence is written, it's very unclear that the 5 goals are from this season (presumably with Dundee), while the 4 for 89 record is from his time with the Dons.",
+          "summary_span": "Smith has scored 5 goals this season and has made 89 appearances for Aberdeen, scoring 4 times.",
+          "summary_start": 131,
+          "summary_end": 226,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 83,
+          "annotator_id": "f0a2b58d1adc41e389cc35a9829ebc1e",
+          "annotator_name": "Chenyu Xu",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "Sammy Smith is loaned to United, not St Mirren.",
+          "summary_span": "\nAberdeen loaned Cammy Smith, a 21-year-old Scotland Under-21 cap, to St Mirren in July.",
+          "summary_start": 42,
+          "summary_end": 130,
+          "source_span": "The Dons loaned Smith, 21, to United in July",
+          "source_start": 0,
+          "source_end": 44
+        }
+      ],
+      "metadata": {
+        "summarizer": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+        "hhemv1": 0.65428,
+        "hhem-2.1": 0.83875,
+        "hhem-2.1-english": 0.98835,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 0,
+        "gpt_4o": 0,
+        "raw_sample_id": 605
+      }
+    },
+    {
+      "sample_id": 36,
+      "source": "The Dons loaned Smith, 21, to United in July and he has five goals this season. Scotland Under-21 cap Smith made his Aberdeen debut in 2012 and has scored four times in 89 appearances for the Pittodrie side. \" It's a brilliant acquisition for us,\" boss Jack Ross told St Mirren's official website. \" Cammy is a really good player and someone I didn't think we'd be able to get because he was at Dundee United. \" He's a good, mature boy and I think he'll be a good fit and gives us another option in the attacking area.\" Championship bottom side St Mirren host Falkirk on Saturday.",
+      "summary": "Here is a concise summary of the passage:\n\nCammy Smith, a 21-year-old Scotland Under-21 cap, has joined St Mirren on loan from Aberdeen, having previously been loaned to Dundee United. He has scored 5 goals this season and 4 in 89 appearances for Aberdeen. St Mirren boss Jack Ross is pleased with the acquisition, believing Smith will be a good fit and provide another attacking option.",
+      "annotations": [
+        {
+          "annot_id": 40,
+          "annotator_id": "62d9bb022a0a4fa590c17e1ae961a9b8",
+          "annotator_name": "Suleman",
+          "label": [
+            "Unwanted",
+            "Unwanted.Extrinsic"
+          ],
+          "note": "Team names are inferred",
+          "summary_span": "has joined St Mirren on loan from Aberdeen, ",
+          "summary_start": 93,
+          "summary_end": 137,
+          "source_span": "The Dons loaned Smith, 21, to United in July and he has five goals this season.",
+          "source_start": 0,
+          "source_end": 79
+        },
+        {
+          "annot_id": 41,
+          "annotator_id": "62d9bb022a0a4fa590c17e1ae961a9b8",
+          "annotator_name": "Suleman",
+          "label": [
+            "Unwanted",
+            "Unwanted.Extrinsic"
+          ],
+          "note": "This information is not in the passage.",
+          "summary_span": "having previously been loaned to Dundee United. ",
+          "summary_start": 137,
+          "summary_end": 185,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 64,
+          "annotator_id": "10daac7422b54e31888db442f27eb08f",
+          "annotator_name": "Amin Ahmad",
+          "label": [],
+          "note": "Of all this summaries, this seems to be the only one that gets everything right, including the technicalities of the loan. It's actually much clearer than the original source. Kudos!",
+          "summary_span": "Here is a concise summary of the passage:\n\nCammy Smith, a 21-year-old Scotland Under-21 cap, has joined St Mirren on loan from Aberdeen, having previously been loaned to Dundee United. He has scored 5 goals this season and 4 in 89 appearances for Aberdeen. St Mirren boss Jack Ross is pleased with the acquisition, believing Smith will be a good fit and provide another attacking option.",
+          "summary_start": 0,
+          "summary_end": 387,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 121,
+          "annotator_id": "f0a2b58d1adc41e389cc35a9829ebc1e",
+          "annotator_name": "Chenyu Xu",
+          "label": [
+            "Questionable"
+          ],
+          "note": "",
+          "summary_span": "has joined St Mirren on loan from Aberdeen",
+          "summary_start": 93,
+          "summary_end": 135,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        }
+      ],
+      "metadata": {
+        "summarizer": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+        "hhemv1": 0.95569,
+        "hhem-2.1": 0.90665,
+        "hhem-2.1-english": 0.97985,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 0,
+        "raw_sample_id": 720
+      }
+    },
+    {
+      "sample_id": 37,
+      "source": "The Dons loaned Smith, 21, to United in July and he has five goals this season. Scotland Under-21 cap Smith made his Aberdeen debut in 2012 and has scored four times in 89 appearances for the Pittodrie side. \" It's a brilliant acquisition for us,\" boss Jack Ross told St Mirren's official website. \" Cammy is a really good player and someone I didn't think we'd be able to get because he was at Dundee United. \" He's a good, mature boy and I think he'll be a good fit and gives us another option in the attacking area.\" Championship bottom side St Mirren host Falkirk on Saturday.",
+      "summary": "Cammy Smith, a 21-year-old forward on loan from Aberdeen, has joined St Mirren. Smith has scored five goals for Dundee United this season and has made 89 appearances for Aberdeen. St Mirren manager Jack Ross believes Smith will be a good addition to the team and will provide another attacking option. \n",
+      "annotations": [
+        {
+          "annot_id": 42,
+          "annotator_id": "62d9bb022a0a4fa590c17e1ae961a9b8",
+          "annotator_name": "Suleman",
+          "label": [
+            "Unwanted",
+            "Unwanted.Extrinsic"
+          ],
+          "note": "The passage does not mention him being a forward.",
+          "summary_span": "Cammy Smith, a 21-year-old forward ",
+          "summary_start": 0,
+          "summary_end": 35,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 65,
+          "annotator_id": "10daac7422b54e31888db442f27eb08f",
+          "annotator_name": "Amin Ahmad",
+          "label": [
+            "Benign"
+          ],
+          "note": "The source calls him \"boss\" but in football terminology, this is interchangeable with manager. Manager is the formal title, though.",
+          "summary_span": "St Mirren manager Jack Ross ",
+          "summary_start": 180,
+          "summary_end": 208,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 84,
+          "annotator_id": "f0a2b58d1adc41e389cc35a9829ebc1e",
+          "annotator_name": "Chenyu Xu",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "Cammy scored 5 goals in total this season, only 1 of them was for Dundee United.",
+          "summary_span": "Smith has scored five goals for Dundee United this season ",
+          "summary_start": 80,
+          "summary_end": 138,
+          "source_span": "The Dons loaned Smith, 21, to United in July and he has five goals this season. Scotland Under-21 cap Smith made his Aberdeen debut in 2012 and has scored four times in 89 appearances for the Pittodrie side.",
+          "source_start": 0,
+          "source_end": 207
+        },
+        {
+          "annot_id": 122,
+          "annotator_id": "f0a2b58d1adc41e389cc35a9829ebc1e",
+          "annotator_name": "Chenyu Xu",
+          "label": [
+            "Unwanted",
+            "Unwanted.Extrinsic"
+          ],
+          "note": "",
+          "summary_span": "Cammy Smith, a 21-year-old forward",
+          "summary_start": 0,
+          "summary_end": 34,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        }
+      ],
+      "metadata": {
+        "summarizer": "google/gemini-1.5-flash-001",
+        "hhemv1": 0.98892,
+        "hhem-2.1": 0.89321,
+        "hhem-2.1-english": 0.96428,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 0,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 0,
+        "raw_sample_id": 835
+      }
+    },
+    {
+      "sample_id": 38,
+      "source": "The Dons loaned Smith, 21, to United in July and he has five goals this season. Scotland Under-21 cap Smith made his Aberdeen debut in 2012 and has scored four times in 89 appearances for the Pittodrie side. \" It's a brilliant acquisition for us,\" boss Jack Ross told St Mirren's official website. \" Cammy is a really good player and someone I didn't think we'd be able to get because he was at Dundee United. \" He's a good, mature boy and I think he'll be a good fit and gives us another option in the attacking area.\" Championship bottom side St Mirren host Falkirk on Saturday.",
+      "summary": "The passage discusses the loan of 21-year-old player Cammy Smith from Aberdeen to St Mirren. Smith has scored five goals this season and has previously scored four times in 89 appearances for Aberdeen. St Mirren's manager, Jack Ross, believes that Smith is a valuable addition to the team and will provide another attacking option. St Mirren, currently at the bottom of the Championship, will be hosting Falkirk on Saturday.",
+      "annotations": [
+        {
+          "annot_id": 43,
+          "annotator_id": "62d9bb022a0a4fa590c17e1ae961a9b8",
+          "annotator_name": "Suleman",
+          "label": [
+            "Unwanted",
+            "Unwanted.Extrinsic"
+          ],
+          "note": "The passage does not mention these names for the loanee/loaner teams.",
+          "summary_span": "The passage discusses the loan of 21-year-old player Cammy Smith from Aberdeen to St Mirren.",
+          "summary_start": 0,
+          "summary_end": 92,
+          "source_span": "The Dons loaned Smith, 21, to United in July and he has five goals this season.",
+          "source_start": 0,
+          "source_end": 79
+        },
+        {
+          "annot_id": 66,
+          "annotator_id": "10daac7422b54e31888db442f27eb08f",
+          "annotator_name": "Amin Ahmad",
+          "label": [
+            "Benign"
+          ],
+          "note": "The source calls him \"boss\" but in football terminology, this is interchangeable with manager. Manager is the formal title, though.",
+          "summary_span": "manager",
+          "summary_start": 214,
+          "summary_end": 221,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 100,
+          "annotator_id": "62d9bb022a0a4fa590c17e1ae961a9b8",
+          "annotator_name": "Suleman",
+          "label": [
+            "Unwanted",
+            "Unwanted.Extrinsic"
+          ],
+          "note": "The passage does not mention that Jack was the St. Mirren manaager.",
+          "summary_span": " St Mirren's manager, Jack Ross, ",
+          "summary_start": 201,
+          "summary_end": 234,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 123,
+          "annotator_id": "f0a2b58d1adc41e389cc35a9829ebc1e",
+          "annotator_name": "Chenyu Xu",
+          "label": [
+            "Benign"
+          ],
+          "note": "",
+          "summary_span": "St Mirren's manager, Jack Ross",
+          "summary_start": 202,
+          "summary_end": 232,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        }
+      ],
+      "metadata": {
+        "summarizer": "openai/GPT-3.5-Turbo",
+        "hhemv1": 0.98098,
+        "hhem-2.1": 0.94301,
+        "hhem-2.1-english": 0.98986,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 0,
+        "gpt_4o": 1,
+        "raw_sample_id": 972
+      }
+    },
+    {
+      "sample_id": 39,
+      "source": "The Dons loaned Smith, 21, to United in July and he has five goals this season. Scotland Under-21 cap Smith made his Aberdeen debut in 2012 and has scored four times in 89 appearances for the Pittodrie side. \" It's a brilliant acquisition for us,\" boss Jack Ross told St Mirren's official website. \" Cammy is a really good player and someone I didn't think we'd be able to get because he was at Dundee United. \" He's a good, mature boy and I think he'll be a good fit and gives us another option in the attacking area.\" Championship bottom side St Mirren host Falkirk on Saturday.",
+      "summary": "The Dons loaned 21-year-old Smith to United in July, and he has scored five goals this season. Smith, a Scotland Under-21 cap, debuted for Aberdeen in 2012, scoring four times in 89 appearances. St Mirren's boss, Jack Ross, praised Smith as a valuable acquisition, noting his maturity and potential to enhance their attacking options. St Mirren, currently at the bottom of the Championship, will host Falkirk on Saturday.",
+      "annotations": [
+        {
+          "annot_id": 67,
+          "annotator_id": "10daac7422b54e31888db442f27eb08f",
+          "annotator_name": "Amin Ahmad",
+          "label": [
+            "Questionable"
+          ],
+          "note": "While the is close to the source, it's written in a way that suggests Jack Ross is commenting on Smith's loan to United, not his loan to St. Mirren.",
+          "summary_span": "praised Smith as a valuable acquisition",
+          "summary_start": 224,
+          "summary_end": 263,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        }
+      ],
+      "metadata": {
+        "summarizer": "openai/gpt-4o",
+        "hhemv1": 0.99957,
+        "hhem-2.1": 0.93831,
+        "hhem-2.1-english": 0.99449,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 1065
+      }
+    },
+    {
+      "sample_id": 40,
+      "source": "Billy Ray Cyrus is an American country music singer , songwriter , actor and philanthropist , who helped make country music a worldwide phenomenon . Excuse My French is the debut studio album by American rapper French Montana . Excuse My French is a 2014 Egyptian film Comedy directed by Amr Salama , based on Salama 's own experiences at a public middle school in Egypt after his return from Saudi Arabia . The film was initially deemed too sensitive by the censorship board and Salama was forced to adjust the script while trying to preserve the film 's core concept of religious discrimination .",
+      "summary": " The passage provides information about three distinct entities:\n\n1. Billy Ray Cyrus: An American multi-talented individual known for his work in country music, acting, songwriting, and philanthropy. He played a significant role in popularizing country music globally. \n\n2. Excuse My French: Refers to two different entities:\n   - The debut studio album by American rapper French Montana. \n   - A 2014 Egyptian film comedy directed by Amr Salama, which was initially deemed too sensitive by the censorship board and required script adjustments to preserve its core concept of religious discrimination. The film is based on Salama's own experiences at a public middle school in Egypt after his return from Saudi Arabia. \n\nIn summary, the passage discusses Billy Ray Cyrus's contributions to country music, introduces French Montana's debut album, and describes a sensitive Egyptian film titled Excuse My French, which was directed by Amr Salama and faced censorship issues.",
+      "annotations": [
+        {
+          "annot_id": 68,
+          "annotator_id": "10daac7422b54e31888db442f27eb08f",
+          "annotator_name": "Amin Ahmad",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "This suggests that the script adjustments were necessary to preserve its core concept. This is wrong. The script adjustments were to please the censors, and they were made \"while trying to preserve the film's core message\". It's a bad mistake.",
+          "summary_span": "required script adjustments to preserve its core concept of religious discrimination",
+          "summary_start": 516,
+          "summary_end": 600,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 69,
+          "annotator_id": "10daac7422b54e31888db442f27eb08f",
+          "annotator_name": "Amin Ahmad",
+          "label": [
+            "Questionable"
+          ],
+          "note": "This is a summary in a summary.",
+          "summary_span": "\nIn summary, the passage discusses Billy Ray Cyrus's contributions to country music, introduces French Montana's debut album, and describes a sensitive Egyptian film titled Excuse My French, which was directed by Amr Salama and faced censorship issues.",
+          "summary_start": 720,
+          "summary_end": 972,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 101,
+          "annotator_id": "62d9bb022a0a4fa590c17e1ae961a9b8",
+          "annotator_name": "Suleman",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "The adjustments werent required to preserve the core concept of religious discrimination.",
+          "summary_span": "required script adjustments to preserve its core concept of religious discrimination.",
+          "summary_start": 516,
+          "summary_end": 601,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 124,
+          "annotator_id": "f0a2b58d1adc41e389cc35a9829ebc1e",
+          "annotator_name": "Chenyu Xu",
+          "label": [
+            "Questionable"
+          ],
+          "note": "",
+          "summary_span": "\n\nIn summary, the passage discusses Billy Ray Cyrus's contributions to country music, introduces French Montana's debut album, and describes a sensitive Egyptian film titled Excuse My French, which was directed by Amr Salama and faced censorship issues.",
+          "summary_start": 719,
+          "summary_end": 972,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        }
+      ],
+      "metadata": {
+        "summarizer": "mistralai/Mistral-7B-Instruct-v0.3",
+        "hhemv1": 0.98241,
+        "hhem-2.1": 0.92613,
+        "hhem-2.1-english": 0.98639,
+        "trueteacher": 0,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 12
+      }
+    },
+    {
+      "sample_id": 41,
+      "source": "Billy Ray Cyrus is an American country music singer , songwriter , actor and philanthropist , who helped make country music a worldwide phenomenon . Excuse My French is the debut studio album by American rapper French Montana . Excuse My French is a 2014 Egyptian film Comedy directed by Amr Salama , based on Salama 's own experiences at a public middle school in Egypt after his return from Saudi Arabia . The film was initially deemed too sensitive by the censorship board and Salama was forced to adjust the script while trying to preserve the film 's core concept of religious discrimination .",
+      "summary": " Billy Ray Cyrus is an American country music singer, songwriter, actor, and philanthropist who contributed to the global popularity of country music. \" Excuse My French\" is a 2014 Egyptian comedy film directed by Amr Salama, based on his personal experiences at a public middle school in Egypt after returning from Saudi Arabia. The film faced censorship issues, leading Salama to modify the script while maintaining its central theme of religious discrimination. \n\nNote: The passage provided does not mention French Montana, so the summary does not include information about the rapper's debut studio album.",
+      "annotations": [
+        {
+          "annot_id": 50,
+          "annotator_id": "62d9bb022a0a4fa590c17e1ae961a9b8",
+          "annotator_name": "Suleman",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "The passage does mention French Montana",
+          "summary_span": "he passage provided does not mention French Montana, so the summary does not include information about the rapper's debut studio album.",
+          "summary_start": 474,
+          "summary_end": 609,
+          "source_span": "Excuse My French is the debut studio album by American rapper French Montana .",
+          "source_start": 149,
+          "source_end": 227
+        },
+        {
+          "annot_id": 70,
+          "annotator_id": "10daac7422b54e31888db442f27eb08f",
+          "annotator_name": "Amin Ahmad",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "This is untrue, the passage does mention French Montana.",
+          "summary_span": "Note: The passage provided does not mention French Montana, so the summary does not include information about the rapper's debut studio album.",
+          "summary_start": 467,
+          "summary_end": 609,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 85,
+          "annotator_id": "f0a2b58d1adc41e389cc35a9829ebc1e",
+          "annotator_name": "Chenyu Xu",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "The passage MENTIONED French Montana.",
+          "summary_span": "\n\nNote: The passage provided does not mention French Montana, so the summary does not include information about the rapper's debut studio album.",
+          "summary_start": 465,
+          "summary_end": 609,
+          "source_span": "Excuse My French is the debut studio album by American rapper French Montana .",
+          "source_start": 149,
+          "source_end": 227
+        }
+      ],
+      "metadata": {
+        "summarizer": "microsoft/Phi-3-mini-4k-instruct",
+        "hhemv1": 0.99689,
+        "hhem-2.1": 0.87146,
+        "hhem-2.1-english": 0.98141,
+        "trueteacher": 0,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 127
+      }
+    },
+    {
+      "sample_id": 42,
+      "source": "Billy Ray Cyrus is an American country music singer , songwriter , actor and philanthropist , who helped make country music a worldwide phenomenon . Excuse My French is the debut studio album by American rapper French Montana . Excuse My French is a 2014 Egyptian film Comedy directed by Amr Salama , based on Salama 's own experiences at a public middle school in Egypt after his return from Saudi Arabia . The film was initially deemed too sensitive by the censorship board and Salama was forced to adjust the script while trying to preserve the film 's core concept of religious discrimination .",
+      "summary": "Here's a concise summary of the passage, covering the core pieces of information:\n\nThe passage describes three unrelated topics:\n\n1. Billy Ray Cyrus: An American country music singer, songwriter, actor, and philanthropist who contributed to making country music popular worldwide. \n\n2. \" Excuse My French\": The debut studio album by American rapper French Montana. \n\n3. \" Excuse My French\": A 2014 Egyptian comedy film directed by Amr Salama, based on his personal experiences in an Egyptian public middle school after returning from Saudi Arabia. The film faced censorship issues due to its sensitive content about religious discrimination, requiring script adjustments.",
+      "annotations": [
+        {
+          "annot_id": 86,
+          "annotator_id": "f0a2b58d1adc41e389cc35a9829ebc1e",
+          "annotator_name": "Chenyu Xu",
+          "label": [
+            "Unwanted",
+            "Unwanted.Extrinsic"
+          ],
+          "note": "The source didn't mention that the film has sensitive content about religious discrimination, just stating that the film was deemed sensitive.",
+          "summary_span": "The film faced censorship issues due to its sensitive content about religious discrimination",
+          "summary_start": 548,
+          "summary_end": 640,
+          "source_span": "The film was initially deemed too sensitive by the censorship board ",
+          "source_start": 408,
+          "source_end": 476
+        }
+      ],
+      "metadata": {
+        "summarizer": "Anthropic/claude-3-5-sonnet-20240620",
+        "hhemv1": 0.90921,
+        "hhem-2.1": 0.78412,
+        "hhem-2.1-english": 0.95496,
+        "trueteacher": 0,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 0,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 242
+      }
+    },
+    {
+      "sample_id": 43,
+      "source": "Billy Ray Cyrus is an American country music singer , songwriter , actor and philanthropist , who helped make country music a worldwide phenomenon . Excuse My French is the debut studio album by American rapper French Montana . Excuse My French is a 2014 Egyptian film Comedy directed by Amr Salama , based on Salama 's own experiences at a public middle school in Egypt after his return from Saudi Arabia . The film was initially deemed too sensitive by the censorship board and Salama was forced to adjust the script while trying to preserve the film 's core concept of religious discrimination .",
+      "summary": "Billy Ray Cyrus is an American country music artist who contributed to the genre's global popularity. Excuse My French is a shared title for American rapper French Montana's debut album and an Egyptian comedy film directed by Amr Salama. The film, based on Salama's experiences, faced censorship challenges due to its religious discrimination theme.",
+      "annotations": [
+        {
+          "annot_id": 71,
+          "annotator_id": "10daac7422b54e31888db442f27eb08f",
+          "annotator_name": "Amin Ahmad",
+          "label": [
+            "Unwanted",
+            "Unwanted.Extrinsic"
+          ],
+          "note": "The sources states the film was initially deemed to sensitive, but doesn't say why. The summary states that the reason was its religious discrimination theme. That's a reasonable assumption, but not true to the source.",
+          "summary_span": "due to its religious discrimination theme",
+          "summary_start": 307,
+          "summary_end": 348,
+          "source_span": " The film was initially deemed too sensitive by the censorship board",
+          "source_start": 407,
+          "source_end": 475
+        },
+        {
+          "annot_id": 87,
+          "annotator_id": "f0a2b58d1adc41e389cc35a9829ebc1e",
+          "annotator_name": "Chenyu Xu",
+          "label": [
+            "Unwanted",
+            "Unwanted.Extrinsic"
+          ],
+          "note": "The source passage didn't mention that the censorship was due to its religious discrimination theme.",
+          "summary_span": "faced censorship challenges due to its religious discrimination theme.",
+          "summary_start": 279,
+          "summary_end": 349,
+          "source_span": "The film was initially deemed too sensitive by the censorship board and Salama was forced to adjust the script while trying to preserve the film 's core concept of religious discrimination .",
+          "source_start": 408,
+          "source_end": 598
+        }
+      ],
+      "metadata": {
+        "summarizer": "cohere/command-r-08-2024",
+        "hhemv1": 0.99367,
+        "hhem-2.1": 0.96134,
+        "hhem-2.1-english": 0.99331,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 357
+      }
+    },
+    {
+      "sample_id": 44,
+      "source": "Billy Ray Cyrus is an American country music singer , songwriter , actor and philanthropist , who helped make country music a worldwide phenomenon . Excuse My French is the debut studio album by American rapper French Montana . Excuse My French is a 2014 Egyptian film Comedy directed by Amr Salama , based on Salama 's own experiences at a public middle school in Egypt after his return from Saudi Arabia . The film was initially deemed too sensitive by the censorship board and Salama was forced to adjust the script while trying to preserve the film 's core concept of religious discrimination .",
+      "summary": "The passage provides summaries of three distinct works: Billy Ray Cyrus's contributions to country music, French Montana's debut studio album titled \"Excuse My French,\" and a 2014 Egyptian comedy film also named \"Excuse My French\" directed by Amr Salama, which faced initial censorship issues due to its focus on religious discrimination.",
+      "annotations": [
+        {
+          "annot_id": 72,
+          "annotator_id": "10daac7422b54e31888db442f27eb08f",
+          "annotator_name": "Amin Ahmad",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "While the source states that the film was deemed to sensitive by the censorship board, it doesn't say why. The summary claims that it was due to its focus on religious discrimination, which is unsupported by the source.",
+          "summary_span": "which faced initial censorship issues due to its focus on religious discrimination",
+          "summary_start": 255,
+          "summary_end": 337,
+          "source_span": "The film was initially deemed too sensitive by the censorship board and Salama was forced to adjust the script while trying to preserve the film 's core concept of religious discrimination .",
+          "source_start": 408,
+          "source_end": 598
+        },
+        {
+          "annot_id": 88,
+          "annotator_id": "f0a2b58d1adc41e389cc35a9829ebc1e",
+          "annotator_name": "Chenyu Xu",
+          "label": [
+            "Unwanted",
+            "Unwanted.Extrinsic"
+          ],
+          "note": "The source passage didn't mention that the censorship was due to its religious discrimination theme.",
+          "summary_span": " faced initial censorship issues due to its focus on religious discrimination.",
+          "summary_start": 260,
+          "summary_end": 338,
+          "source_span": "The film was initially deemed too sensitive by the censorship board and Salama was forced to adjust the script while trying to preserve the film 's core concept of religious discrimination .",
+          "source_start": 408,
+          "source_end": 598
+        }
+      ],
+      "metadata": {
+        "summarizer": "Qwen/Qwen2.5-7B-Instruct",
+        "hhemv1": 0.92572,
+        "hhem-2.1": 0.92901,
+        "hhem-2.1-english": 0.98889,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 472
+      }
+    },
+    {
+      "sample_id": 45,
+      "source": "Billy Ray Cyrus is an American country music singer , songwriter , actor and philanthropist , who helped make country music a worldwide phenomenon . Excuse My French is the debut studio album by American rapper French Montana . Excuse My French is a 2014 Egyptian film Comedy directed by Amr Salama , based on Salama 's own experiences at a public middle school in Egypt after his return from Saudi Arabia . The film was initially deemed too sensitive by the censorship board and Salama was forced to adjust the script while trying to preserve the film 's core concept of religious discrimination .",
+      "summary": "Here is a concise summary of the passage:\n\nThe passage describes four different entities: Billy Ray Cyrus, an American country music artist; Excuse My French, a 2014 album by American rapper French Montana; a 2014 Egyptian film also titled Excuse My French, directed by Amr Salama; and a brief mention of Salama's personal experiences that inspired the film.",
+      "annotations": [
+        {
+          "annot_id": 73,
+          "annotator_id": "10daac7422b54e31888db442f27eb08f",
+          "annotator_name": "Amin Ahmad",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "Only three entities are discussed, while the summary claims four. It tries to count Amr Salama's personal experiences as an \"entity\", which is just weird.",
+          "summary_span": "The passage describes four different entities",
+          "summary_start": 43,
+          "summary_end": 88,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 74,
+          "annotator_id": "10daac7422b54e31888db442f27eb08f",
+          "annotator_name": "Amin Ahmad",
+          "label": [
+            "Unwanted",
+            "Unwanted.Extrinsic"
+          ],
+          "note": "The summary claims that Excuse my French is a 2014 album. The source states that it is an album but doesn't assign a date.",
+          "summary_span": " Excuse My French, a 2014 album by American rapper French Montana",
+          "summary_start": 140,
+          "summary_end": 205,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 102,
+          "annotator_id": "62d9bb022a0a4fa590c17e1ae961a9b8",
+          "annotator_name": "Suleman",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "The passage does not mention four entities.",
+          "summary_span": "The passage describes four different entities: ",
+          "summary_start": 43,
+          "summary_end": 90,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 103,
+          "annotator_id": "62d9bb022a0a4fa590c17e1ae961a9b8",
+          "annotator_name": "Suleman",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "The passage does not mention the album's release date.",
+          "summary_span": "a 2014 album by American rapper French Montana",
+          "summary_start": 159,
+          "summary_end": 205,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 125,
+          "annotator_id": "f0a2b58d1adc41e389cc35a9829ebc1e",
+          "annotator_name": "Chenyu Xu",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "",
+          "summary_span": "\nThe passage describes four different entities",
+          "summary_start": 42,
+          "summary_end": 88,
+          "source_span": "Billy Ray Cyrus is an American country music singer , songwriter , actor and philanthropist , who helped make country music a worldwide phenomenon . Excuse My French is the debut studio album by American rapper French Montana . Excuse My French is a 2014 Egyptian film Comedy directed by Amr Salama , based on Salama 's own experiences at a public middle school in Egypt after his return from Saudi Arabia . The film was initially deemed too sensitive by the censorship board and Salama was forced to adjust the script while trying to preserve the film 's core concept of religious discrimination .",
+          "source_start": 0,
+          "source_end": 598
+        },
+        {
+          "annot_id": 126,
+          "annotator_id": "f0a2b58d1adc41e389cc35a9829ebc1e",
+          "annotator_name": "Chenyu Xu",
+          "label": [
+            "Unwanted",
+            "Unwanted.Extrinsic"
+          ],
+          "note": "",
+          "summary_span": "Excuse My French, a 2014 album by American rapper French Montana",
+          "summary_start": 141,
+          "summary_end": 205,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        }
+      ],
+      "metadata": {
+        "summarizer": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+        "hhemv1": 0.94578,
+        "hhem-2.1": 0.93937,
+        "hhem-2.1-english": 0.99014,
+        "trueteacher": 0,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 0,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 0,
+        "raw_sample_id": 587
+      }
+    },
+    {
+      "sample_id": 46,
+      "source": "Billy Ray Cyrus is an American country music singer , songwriter , actor and philanthropist , who helped make country music a worldwide phenomenon . Excuse My French is the debut studio album by American rapper French Montana . Excuse My French is a 2014 Egyptian film Comedy directed by Amr Salama , based on Salama 's own experiences at a public middle school in Egypt after his return from Saudi Arabia . The film was initially deemed too sensitive by the censorship board and Salama was forced to adjust the script while trying to preserve the film 's core concept of religious discrimination .",
+      "summary": "Here is a concise summary of the passage, covering the core pieces of information:\n\nThe passage describes two separate entities named \"Excuse My French\": a debut studio album by American rapper French Montana, and a 2014 Egyptian film directed by Amr Salama, which tackles the topic of religious discrimination. Additionally, the passage briefly mentions American country music singer Billy Ray Cyrus, who helped popularize country music worldwide.",
+      "annotations": [],
+      "metadata": {
+        "summarizer": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+        "hhemv1": 0.94796,
+        "hhem-2.1": 0.88307,
+        "hhem-2.1-english": 0.98296,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 0,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 702
+      }
+    },
+    {
+      "sample_id": 47,
+      "source": "Billy Ray Cyrus is an American country music singer , songwriter , actor and philanthropist , who helped make country music a worldwide phenomenon . Excuse My French is the debut studio album by American rapper French Montana . Excuse My French is a 2014 Egyptian film Comedy directed by Amr Salama , based on Salama 's own experiences at a public middle school in Egypt after his return from Saudi Arabia . The film was initially deemed too sensitive by the censorship board and Salama was forced to adjust the script while trying to preserve the film 's core concept of religious discrimination .",
+      "summary": "Billy Ray Cyrus is an American country music singer, songwriter, actor, and philanthropist who helped make country music popular worldwide.  \"Excuse My French\" is the name of both a debut studio album by American rapper French Montana and a 2014 Egyptian comedy film directed by Amr Salama. The film, based on Salama's own experiences, was initially deemed too sensitive by the censorship board and Salama was forced to adjust the script while trying to preserve the film's core concept of religious discrimination. \n",
+      "annotations": [],
+      "metadata": {
+        "summarizer": "google/gemini-1.5-flash-001",
+        "hhemv1": 0.99881,
+        "hhem-2.1": 0.97629,
+        "hhem-2.1-english": 0.99485,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 817
+      }
+    },
+    {
+      "sample_id": 48,
+      "source": "Billy Ray Cyrus is an American country music singer , songwriter , actor and philanthropist , who helped make country music a worldwide phenomenon . Excuse My French is the debut studio album by American rapper French Montana . Excuse My French is a 2014 Egyptian film Comedy directed by Amr Salama , based on Salama 's own experiences at a public middle school in Egypt after his return from Saudi Arabia . The film was initially deemed too sensitive by the censorship board and Salama was forced to adjust the script while trying to preserve the film 's core concept of religious discrimination .",
+      "summary": "The passage discusses three different individuals and their respective works. Billy Ray Cyrus is an American country music singer, songwriter, actor, and philanthropist who played a significant role in popularizing country music worldwide. French Montana is an American rapper, and \"Excuse My French\" is his debut studio album. Additionally, \"Excuse My French\" is also the title of a 2014 Egyptian comedy film directed by Amr Salama. The film is based on Salama's personal experiences at a public middle school in Egypt after returning from Saudi Arabia and explores the theme of religious discrimination.",
+      "annotations": [],
+      "metadata": {
+        "summarizer": "openai/GPT-3.5-Turbo",
+        "hhemv1": 0.96663,
+        "hhem-2.1": 0.97499,
+        "hhem-2.1-english": 0.99218,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 932
+      }
+    },
+    {
+      "sample_id": 49,
+      "source": "Billy Ray Cyrus is an American country music singer , songwriter , actor and philanthropist , who helped make country music a worldwide phenomenon . Excuse My French is the debut studio album by American rapper French Montana . Excuse My French is a 2014 Egyptian film Comedy directed by Amr Salama , based on Salama 's own experiences at a public middle school in Egypt after his return from Saudi Arabia . The film was initially deemed too sensitive by the censorship board and Salama was forced to adjust the script while trying to preserve the film 's core concept of religious discrimination .",
+      "summary": "Billy Ray Cyrus is an American country music singer, songwriter, actor, and philanthropist known for popularizing country music globally. \" Excuse My French\" is the debut studio album by American rapper French Montana. Additionally, \"Excuse My French\" is a 2014 Egyptian comedy film directed by Amr Salama, based on his experiences at a public middle school in Egypt after returning from Saudi Arabia. The film faced censorship issues due to its sensitive content on religious discrimination, leading Salama to modify the script while maintaining its core message.",
+      "annotations": [
+        {
+          "annot_id": 75,
+          "annotator_id": "10daac7422b54e31888db442f27eb08f",
+          "annotator_name": "Amin Ahmad",
+          "label": [
+            "Unwanted",
+            "Unwanted.Extrinsic"
+          ],
+          "note": "While the source states that the film was deemed to sensitive by the censorship board, it doesn't say why. The summary claims that it was due to its focus on religious discrimination, which is unsupported by the source.",
+          "summary_span": "The film faced censorship issues due to its sensitive content on religious discrimination",
+          "summary_start": 402,
+          "summary_end": 491,
+          "source_span": "The film was initially deemed too sensitive by the censorship board and Salama was forced to adjust the script while trying to preserve the film 's core concept of religious discrimination .",
+          "source_start": 408,
+          "source_end": 598
+        },
+        {
+          "annot_id": 127,
+          "annotator_id": "f0a2b58d1adc41e389cc35a9829ebc1e",
+          "annotator_name": "Chenyu Xu",
+          "label": [
+            "Unwanted",
+            "Unwanted.Extrinsic"
+          ],
+          "note": "",
+          "summary_span": "The film faced censorship issues due to its sensitive content on religious discrimination",
+          "summary_start": 402,
+          "summary_end": 491,
+          "source_span": "The film was initially deemed too sensitive by the censorship board and Salama was forced to adjust the script while trying to preserve the film 's core concept of religious discrimination .",
+          "source_start": 408,
+          "source_end": 598
+        }
+      ],
+      "metadata": {
+        "summarizer": "openai/gpt-4o",
+        "hhemv1": 0.99923,
+        "hhem-2.1": 0.904,
+        "hhem-2.1-english": 0.99144,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 0,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 1047
+      }
+    }
+  ]
+}

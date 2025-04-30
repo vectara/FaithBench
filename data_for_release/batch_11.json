@@ -1,0 +1,2143 @@
+{
+  "samples": [
+    {
+      "sample_id": 0,
+      "source": "the city of eugene in the united states has been awarded the rights to host the 2021 iaaf world championships . \nthe decision was taken by the international association of athletics federations council , who decided to bypass the usual bidding process because of what it saw as a ` unique strategic opportunity to host the iaaf world championships for the first time in the usa ' . \neugene failed last november in its bid to host the 2019 event , which was instead awarded to doha , but a recent presentation to the iaaf persuaded the governing body the city has what it takes to stage a world championships . \neugene in the united states has been awarded the rights to host the 2021 iaaf world championships\nqatar captial doha , home to the aspire dome , beat eugene to host the 2019 event\n` in granting the championships to eugene the iaaf council have made a clear choice on a strategic decision that enables us to take advantage of a unique opportunity that may never arise again , whereby public authorities , the private sector , the national olympic committee , nbc and a particularly enthusiastic public are joining forces , ' iaaf president lamine diack said in a statement . \n` although this decision departs from the usual procedure , i am delighted that my council colleagues understood the enormous opportunity presented to us to access a key market and have taken a decision in the interest of the global development of our sport . ' \nthe 2007 world championships held in osaka , japan was also awarded without a bidding process . \nmo farah won gold in the men 's 10000 metres during the 2019 iaaf world athletics championships in moscow",
+      "summary": " The city of Eugene in the United States has been awarded the rights to host the 2021 IAAF World Championships. This decision was made by the International Association of Athletics Federations (IAAF) Council, who bypassed the usual bidding process due to a strategic opportunity to host the IAAF World Championships for the first time in the USA. Eugene previously failed to host the 2019 event, which was instead awarded to Doha, Qatar. The IAAF Council's decision was based on a recent presentation that convinced them of Eugene's ability to stage a world championships. The 2007 World Championships held in Osaka, Japan, was also awarded without a bidding process. IAAF President Lamine Diack expressed enthusiasm about the decision, stating that it presents a unique opportunity for public authorities, the private sector, the national Olympic committee, NBC, and an enthusiastic public to join forces. This decision departs from the usual procedure, but Diack is pleased that the Council understood the opportunity to access a key market and made a decision in the interest of the global development of the sport.",
+      "annotations": [],
+      "metadata": {
+        "summarizer": "mistralai/Mistral-7B-Instruct-v0.3",
+        "hhemv1": 0.51213,
+        "hhem-2.1": 0.93568,
+        "hhem-2.1-english": 0.99252,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 76
+      }
+    },
+    {
+      "sample_id": 1,
+      "source": "the city of eugene in the united states has been awarded the rights to host the 2021 iaaf world championships . \nthe decision was taken by the international association of athletics federations council , who decided to bypass the usual bidding process because of what it saw as a ` unique strategic opportunity to host the iaaf world championships for the first time in the usa ' . \neugene failed last november in its bid to host the 2019 event , which was instead awarded to doha , but a recent presentation to the iaaf persuaded the governing body the city has what it takes to stage a world championships . \neugene in the united states has been awarded the rights to host the 2021 iaaf world championships\nqatar captial doha , home to the aspire dome , beat eugene to host the 2019 event\n` in granting the championships to eugene the iaaf council have made a clear choice on a strategic decision that enables us to take advantage of a unique opportunity that may never arise again , whereby public authorities , the private sector , the national olympic committee , nbc and a particularly enthusiastic public are joining forces , ' iaaf president lamine diack said in a statement . \n` although this decision departs from the usual procedure , i am delighted that my council colleagues understood the enormous opportunity presented to us to access a key market and have taken a decision in the interest of the global development of our sport . ' \nthe 2007 world championships held in osaka , japan was also awarded without a bidding process . \nmo farah won gold in the men 's 10000 metres during the 2019 iaaf world athletics championships in moscow",
+      "summary": " Eugene, United States, has been granted the rights to host the 2021 IAAF World Championships, bypassing the usual bidding process due to a unique strategic opportunity. This decision was made by the IAAF Council, who saw the chance to host the event for the first time in the USA. Eugene previously lost the bid to host the 2019 event to Doha, Qatar. The IAAF Council's decision was based on the collaboration between public authorities, the private sector, the national Olympic Committee, NBC, and an enthusiastic public. This is not the first time a championship was awarded without a bidding process, as the 2007 World Championships in Osaka, Japan, was also granted without a bidding process. \n\nNote: The information about Mo Farah winning gold in the men's 10,000 meters during the 2019 IAAF World Championships in Moscow is not directly related to the passage and has been omitted from the summary.",
+      "annotations": [
+        {
+          "annot_id": 1,
+          "annotator_id": "3dbe982ebbaf46cfa500375857a5c2fd",
+          "annotator_name": "Rogger",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "no mention of based on the collaboration. But the decision can enable such joining forces.",
+          "summary_span": "based on the collaboration between public authorities, the private sector, the national Olympic Committee, NBC, and an enthusiastic public.",
+          "summary_start": 384,
+          "summary_end": 523,
+          "source_span": "enables us to take advantage of a unique opportunity that may never arise again , whereby public authorities , the private sector , the national olympic committee , nbc and a particularly enthusiastic public are joining forces , ' iaaf president lamine diack said in a statement",
+          "source_start": 904,
+          "source_end": 1182
+        },
+        {
+          "annot_id": 42,
+          "annotator_id": "5e3dc734a1b7499d9c166bf020ef6ff8",
+          "annotator_name": "Matt",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "Eugene is a city in Oregon and though the source material doesn't provide it, this summary should at least not try to classify it in the hierarchy of the US.\n\nIn my opinion this should be either just \"The city of Eugene\" or a benign hallucination of \"Eugene, OR in the United States\" could also be acceptable.",
+          "summary_span": "Eugene, United States",
+          "summary_start": 1,
+          "summary_end": 22,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 109,
+          "annotator_id": "5e3dc734a1b7499d9c166bf020ef6ff8",
+          "annotator_name": "Matt",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "No mention of based on in the source material",
+          "summary_span": "based on the collaboration between public authorities, the private sector, the national Olympic Committee, NBC, and an enthusiastic public",
+          "summary_start": 384,
+          "summary_end": 522,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        }
+      ],
+      "metadata": {
+        "summarizer": "microsoft/Phi-3-mini-4k-instruct",
+        "hhemv1": 0.20178,
+        "hhem-2.1": 0.9018,
+        "hhem-2.1-english": 0.96895,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 191
+      }
+    },
+    {
+      "sample_id": 2,
+      "source": "the city of eugene in the united states has been awarded the rights to host the 2021 iaaf world championships . \nthe decision was taken by the international association of athletics federations council , who decided to bypass the usual bidding process because of what it saw as a ` unique strategic opportunity to host the iaaf world championships for the first time in the usa ' . \neugene failed last november in its bid to host the 2019 event , which was instead awarded to doha , but a recent presentation to the iaaf persuaded the governing body the city has what it takes to stage a world championships . \neugene in the united states has been awarded the rights to host the 2021 iaaf world championships\nqatar captial doha , home to the aspire dome , beat eugene to host the 2019 event\n` in granting the championships to eugene the iaaf council have made a clear choice on a strategic decision that enables us to take advantage of a unique opportunity that may never arise again , whereby public authorities , the private sector , the national olympic committee , nbc and a particularly enthusiastic public are joining forces , ' iaaf president lamine diack said in a statement . \n` although this decision departs from the usual procedure , i am delighted that my council colleagues understood the enormous opportunity presented to us to access a key market and have taken a decision in the interest of the global development of our sport . ' \nthe 2007 world championships held in osaka , japan was also awarded without a bidding process . \nmo farah won gold in the men 's 10000 metres during the 2019 iaaf world athletics championships in moscow",
+      "summary": "Here's a concise summary of the passage, covering the core pieces of information:\n\nThe city of Eugene, USA, has been awarded the hosting rights for the 2021 IAAF World Championships. The IAAF Council made this decision by bypassing the usual bidding process, citing a unique opportunity to host the event in the USA for the first time. Eugene had previously failed in its bid to host the 2019 event, which was awarded to Doha, Qatar. IAAF President Lamine Diack emphasized the strategic importance of this decision, highlighting the collaboration between public authorities, the private sector, the National Olympic Committee, NBC, and public enthusiasm. This departure from the usual procedure is seen as an opportunity to access a key market and promote global development of the sport. It's noted that the 2007 World Championships in Osaka, Japan, were also awarded without a bidding process.",
+      "annotations": [
+        {
+          "annot_id": 45,
+          "annotator_id": "5e3dc734a1b7499d9c166bf020ef6ff8",
+          "annotator_name": "Matt",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "Eugene is a city in Oregon (most likely; it could technically be other cities named Eugene) so this should say: The city of Eugene, OR, USA",
+          "summary_span": "The city of Eugene, USA, ",
+          "summary_start": 83,
+          "summary_end": 108,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 92,
+          "annotator_id": "c20b7109b1bc418fa8bd685412b1493d",
+          "annotator_name": "Yujia Tang",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "\"promote\" does not appeare in the source",
+          "summary_span": "promote global development of the sport.",
+          "summary_start": 748,
+          "summary_end": 788,
+          "source_span": "\n` although this decision departs from the usual procedure , i am delighted that my council colleagues understood the enormous opportunity presented to us to access a key market and have taken a decision in the interest of the global development of our sport . '",
+          "source_start": 1185,
+          "source_end": 1447
+        },
+        {
+          "annot_id": 110,
+          "annotator_id": "5e3dc734a1b7499d9c166bf020ef6ff8",
+          "annotator_name": "Matt",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "Promote does not appear in the source",
+          "summary_span": "promote global development",
+          "summary_start": 748,
+          "summary_end": 774,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        }
+      ],
+      "metadata": {
+        "summarizer": "Anthropic/claude-3-5-sonnet-20240620",
+        "hhemv1": 0.37071,
+        "hhem-2.1": 0.94381,
+        "hhem-2.1-english": 0.98876,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 306
+      }
+    },
+    {
+      "sample_id": 3,
+      "source": "the city of eugene in the united states has been awarded the rights to host the 2021 iaaf world championships . \nthe decision was taken by the international association of athletics federations council , who decided to bypass the usual bidding process because of what it saw as a ` unique strategic opportunity to host the iaaf world championships for the first time in the usa ' . \neugene failed last november in its bid to host the 2019 event , which was instead awarded to doha , but a recent presentation to the iaaf persuaded the governing body the city has what it takes to stage a world championships . \neugene in the united states has been awarded the rights to host the 2021 iaaf world championships\nqatar captial doha , home to the aspire dome , beat eugene to host the 2019 event\n` in granting the championships to eugene the iaaf council have made a clear choice on a strategic decision that enables us to take advantage of a unique opportunity that may never arise again , whereby public authorities , the private sector , the national olympic committee , nbc and a particularly enthusiastic public are joining forces , ' iaaf president lamine diack said in a statement . \n` although this decision departs from the usual procedure , i am delighted that my council colleagues understood the enormous opportunity presented to us to access a key market and have taken a decision in the interest of the global development of our sport . ' \nthe 2007 world championships held in osaka , japan was also awarded without a bidding process . \nmo farah won gold in the men 's 10000 metres during the 2019 iaaf world athletics championships in moscow",
+      "summary": "The city of Eugene, USA, has been chosen to host the 2021 IAAF World Championships, bypassing the typical bidding process. This decision was made by the IAAF Council to bring the event to the USA for the first time. Eugene previously lost the bid for the 2019 championships to Doha, Qatar, but a recent presentation convinced the IAAF of the city's capabilities. The IAAF President highlighted the strategic opportunity and the support from various sectors in Eugene. The 2007 championships in Osaka, Japan, were also awarded without bidding.",
+      "annotations": [
+        {
+          "annot_id": 46,
+          "annotator_id": "5e3dc734a1b7499d9c166bf020ef6ff8",
+          "annotator_name": "Matt",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "This is missing \"OR\" or \"Oregon\" to appropriately describe where Eugene is",
+          "summary_span": "The city of Eugene, USA",
+          "summary_start": 0,
+          "summary_end": 23,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 93,
+          "annotator_id": "c20b7109b1bc418fa8bd685412b1493d",
+          "annotator_name": "Yujia Tang",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "the city is awarded not chosen",
+          "summary_span": "The city of Eugene, USA, has been chosen ",
+          "summary_start": 0,
+          "summary_end": 41,
+          "source_span": "the city of eugene in the united states has been awarded the rights to host the 2021 iaaf world championships .",
+          "source_start": 0,
+          "source_end": 111
+        }
+      ],
+      "metadata": {
+        "summarizer": "cohere/command-r-08-2024",
+        "hhemv1": 0.24288,
+        "hhem-2.1": 0.97639,
+        "hhem-2.1-english": 0.99279,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 421
+      }
+    },
+    {
+      "sample_id": 4,
+      "source": "the city of eugene in the united states has been awarded the rights to host the 2021 iaaf world championships . \nthe decision was taken by the international association of athletics federations council , who decided to bypass the usual bidding process because of what it saw as a ` unique strategic opportunity to host the iaaf world championships for the first time in the usa ' . \neugene failed last november in its bid to host the 2019 event , which was instead awarded to doha , but a recent presentation to the iaaf persuaded the governing body the city has what it takes to stage a world championships . \neugene in the united states has been awarded the rights to host the 2021 iaaf world championships\nqatar captial doha , home to the aspire dome , beat eugene to host the 2019 event\n` in granting the championships to eugene the iaaf council have made a clear choice on a strategic decision that enables us to take advantage of a unique opportunity that may never arise again , whereby public authorities , the private sector , the national olympic committee , nbc and a particularly enthusiastic public are joining forces , ' iaaf president lamine diack said in a statement . \n` although this decision departs from the usual procedure , i am delighted that my council colleagues understood the enormous opportunity presented to us to access a key market and have taken a decision in the interest of the global development of our sport . ' \nthe 2007 world championships held in osaka , japan was also awarded without a bidding process . \nmo farah won gold in the men 's 10000 metres during the 2019 iaaf world athletics championships in moscow",
+      "summary": "Eugene, Oregon has been awarded the rights to host the 2021 IAAF World Championships. This decision, made by the IAAF Council, bypassed the usual bidding process due to seeing a \"unique strategic opportunity\" to host the championships for the first time in the USA. Despite failing in its bid for the 2019 event, Eugene's recent presentation convinced the governing body of its capability. The IAAF president highlighted the strategic advantages of hosting in Eugene, including support from public authorities, the private sector, and NBC. This decision is similar to the 2007 World Championships in Osaka, which were also awarded without a bidding process.",
+      "annotations": [
+        {
+          "annot_id": 2,
+          "annotator_id": "3dbe982ebbaf46cfa500375857a5c2fd",
+          "annotator_name": "Rogger",
+          "label": [
+            "Benign"
+          ],
+          "note": "external knowledge",
+          "summary_span": "Oregon",
+          "summary_start": 8,
+          "summary_end": 14,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 47,
+          "annotator_id": "5e3dc734a1b7499d9c166bf020ef6ff8",
+          "annotator_name": "Matt",
+          "label": [
+            "Benign"
+          ],
+          "note": "Although \"Oregon\" is not explicitly stated in the source material, it's the most widely known city of \"Eugene\" in the US (to my knowledge) and so this seems like a productive/helpful, benign hallucination",
+          "summary_span": "Eugene, Oregon",
+          "summary_start": 0,
+          "summary_end": 14,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        }
+      ],
+      "metadata": {
+        "summarizer": "Qwen/Qwen2.5-7B-Instruct",
+        "hhemv1": 0.16393,
+        "hhem-2.1": 0.86363,
+        "hhem-2.1-english": 0.96388,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 536
+      }
+    },
+    {
+      "sample_id": 5,
+      "source": "the city of eugene in the united states has been awarded the rights to host the 2021 iaaf world championships . \nthe decision was taken by the international association of athletics federations council , who decided to bypass the usual bidding process because of what it saw as a ` unique strategic opportunity to host the iaaf world championships for the first time in the usa ' . \neugene failed last november in its bid to host the 2019 event , which was instead awarded to doha , but a recent presentation to the iaaf persuaded the governing body the city has what it takes to stage a world championships . \neugene in the united states has been awarded the rights to host the 2021 iaaf world championships\nqatar captial doha , home to the aspire dome , beat eugene to host the 2019 event\n` in granting the championships to eugene the iaaf council have made a clear choice on a strategic decision that enables us to take advantage of a unique opportunity that may never arise again , whereby public authorities , the private sector , the national olympic committee , nbc and a particularly enthusiastic public are joining forces , ' iaaf president lamine diack said in a statement . \n` although this decision departs from the usual procedure , i am delighted that my council colleagues understood the enormous opportunity presented to us to access a key market and have taken a decision in the interest of the global development of our sport . ' \nthe 2007 world championships held in osaka , japan was also awarded without a bidding process . \nmo farah won gold in the men 's 10000 metres during the 2019 iaaf world athletics championships in moscow",
+      "summary": "Here is a concise summary of the passage:\n\nThe city of Eugene in the United States has been awarded the rights to host the 2021 IAAF World Championships. The IAAF Council made this decision without a bidding process, citing a \"unique strategic opportunity\" to host the event in the USA for the first time. This decision follows Eugene's failed bid to host the 2019 event, which was awarded to Doha, Qatar.",
+      "annotations": [],
+      "metadata": {
+        "summarizer": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+        "hhemv1": 0.28625,
+        "hhem-2.1": 0.98398,
+        "hhem-2.1-english": 0.99236,
+        "trueteacher": 0,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 651
+      }
+    },
+    {
+      "sample_id": 6,
+      "source": "the city of eugene in the united states has been awarded the rights to host the 2021 iaaf world championships . \nthe decision was taken by the international association of athletics federations council , who decided to bypass the usual bidding process because of what it saw as a ` unique strategic opportunity to host the iaaf world championships for the first time in the usa ' . \neugene failed last november in its bid to host the 2019 event , which was instead awarded to doha , but a recent presentation to the iaaf persuaded the governing body the city has what it takes to stage a world championships . \neugene in the united states has been awarded the rights to host the 2021 iaaf world championships\nqatar captial doha , home to the aspire dome , beat eugene to host the 2019 event\n` in granting the championships to eugene the iaaf council have made a clear choice on a strategic decision that enables us to take advantage of a unique opportunity that may never arise again , whereby public authorities , the private sector , the national olympic committee , nbc and a particularly enthusiastic public are joining forces , ' iaaf president lamine diack said in a statement . \n` although this decision departs from the usual procedure , i am delighted that my council colleagues understood the enormous opportunity presented to us to access a key market and have taken a decision in the interest of the global development of our sport . ' \nthe 2007 world championships held in osaka , japan was also awarded without a bidding process . \nmo farah won gold in the men 's 10000 metres during the 2019 iaaf world athletics championships in moscow",
+      "summary": "Here is a concise summary of the passage:\n\nThe city of Eugene in the United States has been awarded the rights to host the 2021 IAAF World Championships. The decision was made by the IAAF Council, who bypassed the usual bidding process due to a \"unique strategic opportunity\" to host the event in the USA for the first time. Eugene previously failed in its bid to host the 2019 event, which was awarded to Doha, Qatar. IAAF President Lamine Diack stated that the decision was made to take advantage of a unique opportunity to access a key market and promote the global development of athletics.",
+      "annotations": [
+        {
+          "annot_id": 50,
+          "annotator_id": "5e3dc734a1b7499d9c166bf020ef6ff8",
+          "annotator_name": "Matt",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "The source material talked about the global development of \"our sport\" and not \"athletics\". I think athletics is too broad of a term here when the source material is focused on a specific sport (though the sport is not mentioned)",
+          "summary_span": "promote the global development of athletics",
+          "summary_start": 550,
+          "summary_end": 593,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        }
+      ],
+      "metadata": {
+        "summarizer": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+        "hhemv1": 0.17615,
+        "hhem-2.1": 0.97069,
+        "hhem-2.1-english": 0.99544,
+        "trueteacher": 0,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 766
+      }
+    },
+    {
+      "sample_id": 7,
+      "source": "the city of eugene in the united states has been awarded the rights to host the 2021 iaaf world championships . \nthe decision was taken by the international association of athletics federations council , who decided to bypass the usual bidding process because of what it saw as a ` unique strategic opportunity to host the iaaf world championships for the first time in the usa ' . \neugene failed last november in its bid to host the 2019 event , which was instead awarded to doha , but a recent presentation to the iaaf persuaded the governing body the city has what it takes to stage a world championships . \neugene in the united states has been awarded the rights to host the 2021 iaaf world championships\nqatar captial doha , home to the aspire dome , beat eugene to host the 2019 event\n` in granting the championships to eugene the iaaf council have made a clear choice on a strategic decision that enables us to take advantage of a unique opportunity that may never arise again , whereby public authorities , the private sector , the national olympic committee , nbc and a particularly enthusiastic public are joining forces , ' iaaf president lamine diack said in a statement . \n` although this decision departs from the usual procedure , i am delighted that my council colleagues understood the enormous opportunity presented to us to access a key market and have taken a decision in the interest of the global development of our sport . ' \nthe 2007 world championships held in osaka , japan was also awarded without a bidding process . \nmo farah won gold in the men 's 10000 metres during the 2019 iaaf world athletics championships in moscow",
+      "summary": "The International Association of Athletics Federations (IAAF) Council awarded Eugene, Oregon the rights to host the 2021 IAAF World Championships. The council bypassed the usual bidding process because they saw a unique opportunity to host the championships in the United States for the first time. Eugene had previously failed to win the bid to host the 2019 event, which was awarded to Doha, Qatar. The IAAF Council was persuaded by Eugene's recent presentation and saw the opportunity to access a key market. The 2007 World Championships in Osaka, Japan were also awarded without a bidding process. \n",
+      "annotations": [
+        {
+          "annot_id": 3,
+          "annotator_id": "3dbe982ebbaf46cfa500375857a5c2fd",
+          "annotator_name": "Rogger",
+          "label": [
+            "Benign"
+          ],
+          "note": "External knowledge",
+          "summary_span": "Oregon",
+          "summary_start": 86,
+          "summary_end": 92,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 51,
+          "annotator_id": "5e3dc734a1b7499d9c166bf020ef6ff8",
+          "annotator_name": "Matt",
+          "label": [
+            "Benign"
+          ],
+          "note": "This is likely an appropriate hallucination to add additional context that Eugene is in the state of Oregon in the USA even though Oregon is never mentioned in the source material",
+          "summary_span": "awarded Eugene, Oregon",
+          "summary_start": 70,
+          "summary_end": 92,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        }
+      ],
+      "metadata": {
+        "summarizer": "google/gemini-1.5-flash-001",
+        "hhemv1": 0.35671,
+        "hhem-2.1": 0.94688,
+        "hhem-2.1-english": 0.99232,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 881
+      }
+    },
+    {
+      "sample_id": 8,
+      "source": "the city of eugene in the united states has been awarded the rights to host the 2021 iaaf world championships . \nthe decision was taken by the international association of athletics federations council , who decided to bypass the usual bidding process because of what it saw as a ` unique strategic opportunity to host the iaaf world championships for the first time in the usa ' . \neugene failed last november in its bid to host the 2019 event , which was instead awarded to doha , but a recent presentation to the iaaf persuaded the governing body the city has what it takes to stage a world championships . \neugene in the united states has been awarded the rights to host the 2021 iaaf world championships\nqatar captial doha , home to the aspire dome , beat eugene to host the 2019 event\n` in granting the championships to eugene the iaaf council have made a clear choice on a strategic decision that enables us to take advantage of a unique opportunity that may never arise again , whereby public authorities , the private sector , the national olympic committee , nbc and a particularly enthusiastic public are joining forces , ' iaaf president lamine diack said in a statement . \n` although this decision departs from the usual procedure , i am delighted that my council colleagues understood the enormous opportunity presented to us to access a key market and have taken a decision in the interest of the global development of our sport . ' \nthe 2007 world championships held in osaka , japan was also awarded without a bidding process . \nmo farah won gold in the men 's 10000 metres during the 2019 iaaf world athletics championships in moscow",
+      "summary": "The city of Eugene in the United States has been awarded the rights to host the 2021 IAAF World Championships. The decision was made by the International Association of Athletics Federations Council, who bypassed the usual bidding process due to a unique strategic opportunity to host the event in the USA. Eugene had previously failed in its bid to host the 2019 event, which was awarded to Doha. The IAAF Council made the decision to grant the championships to Eugene in order to take advantage of a unique opportunity and access a key market. The 2007 World Championships in Osaka, Japan were also awarded without a bidding process.",
+      "annotations": [],
+      "metadata": {
+        "summarizer": "openai/GPT-3.5-Turbo",
+        "hhemv1": 0.14697,
+        "hhem-2.1": 0.98146,
+        "hhem-2.1-english": 0.99674,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 1026
+      }
+    },
+    {
+      "sample_id": 9,
+      "source": "the city of eugene in the united states has been awarded the rights to host the 2021 iaaf world championships . \nthe decision was taken by the international association of athletics federations council , who decided to bypass the usual bidding process because of what it saw as a ` unique strategic opportunity to host the iaaf world championships for the first time in the usa ' . \neugene failed last november in its bid to host the 2019 event , which was instead awarded to doha , but a recent presentation to the iaaf persuaded the governing body the city has what it takes to stage a world championships . \neugene in the united states has been awarded the rights to host the 2021 iaaf world championships\nqatar captial doha , home to the aspire dome , beat eugene to host the 2019 event\n` in granting the championships to eugene the iaaf council have made a clear choice on a strategic decision that enables us to take advantage of a unique opportunity that may never arise again , whereby public authorities , the private sector , the national olympic committee , nbc and a particularly enthusiastic public are joining forces , ' iaaf president lamine diack said in a statement . \n` although this decision departs from the usual procedure , i am delighted that my council colleagues understood the enormous opportunity presented to us to access a key market and have taken a decision in the interest of the global development of our sport . ' \nthe 2007 world championships held in osaka , japan was also awarded without a bidding process . \nmo farah won gold in the men 's 10000 metres during the 2019 iaaf world athletics championships in moscow",
+      "summary": "The city of Eugene in the United States has been selected to host the 2021 IAAF World Championships. The International Association of Athletics Federations (IAAF) Council decided to bypass the usual bidding process, viewing it as a unique strategic opportunity to host the event in the USA for the first time. Eugene had previously failed to secure the 2019 event, which was awarded to Doha, Qatar. However, a recent presentation convinced the IAAF of Eugene's capability to host the championships. The decision was influenced by the collaboration of public authorities, the private sector, the national Olympic committee, NBC, and an enthusiastic public. This move is seen as beneficial for the global development of athletics. The 2007 World Championships in Osaka, Japan, were also awarded without a bidding process.",
+      "annotations": [
+        {
+          "annot_id": 4,
+          "annotator_id": "3dbe982ebbaf46cfa500375857a5c2fd",
+          "annotator_name": "Rogger",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "No mention the decision was influenced by these entities.",
+          "summary_span": "was influenced by the collaboration of public authorities, the private sector, the national Olympic committee, NBC, and an enthusiastic public.",
+          "summary_start": 512,
+          "summary_end": 655,
+          "source_span": "whereby public authorities , the private sector , the national olympic committee , nbc and a particularly enthusiastic public are joining forces , ' iaaf president lamine diack said in a statement . ",
+          "source_start": 986,
+          "source_end": 1185
+        },
+        {
+          "annot_id": 52,
+          "annotator_id": "5e3dc734a1b7499d9c166bf020ef6ff8",
+          "annotator_name": "Matt",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "The source material talks about \"global development of our sport\" and not \"athletics\". I think \"athletics\" is too broad here since the source material is focused on a specific sport (though the sport isn't mentioned)",
+          "summary_span": "the global development of athletics",
+          "summary_start": 692,
+          "summary_end": 727,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 111,
+          "annotator_id": "5e3dc734a1b7499d9c166bf020ef6ff8",
+          "annotator_name": "Matt",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "No mention of the decision being influenced by these things",
+          "summary_span": "was influenced by the collaboration of public authorities, the private sector, the national Olympic committee, NBC, and an enthusiastic public",
+          "summary_start": 512,
+          "summary_end": 654,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        }
+      ],
+      "metadata": {
+        "summarizer": "openai/gpt-4o",
+        "hhemv1": 0.46831,
+        "hhem-2.1": 0.97156,
+        "hhem-2.1-english": 0.99477,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 1111
+      }
+    },
+    {
+      "sample_id": 10,
+      "source": "at the grand old age of 75 , jack nicklaus is still capable of hitting aces . \nthe golden bear added another magic moment to his storied career at augusta national in the par-3 contest . \nstepping up to the tee on the 130-yard fourth , the greatest golfer of all time saw his shot sail beyond the flag before spinning back into the hole . \njack nicklaus gave the crowd something to cheer with a hole in one on the fourth during the par-3 contest\nnicklaus holds up his ball to an adoring crowd as gary player ( left ) and ben crenshaw salute the great\ncrenshaw and nicklaus fist pump following his ace on the 130-yard hole at augusta national\nnicklaus was playing alongside gary player and ben crenshaw as the first roar of masters week filled the skies in a sunswept georgia . \n` i had an interview this morning , and i said \" well , all i 've got to do is go out and win the par-3 and make a hole and one \" , and i make a hole in one , ' nicklaus said afterwards . \nthe ace was nicklaus ' first on the hallowed turf of augusta , but the veteran saw his achievement eclipsed by that of camilo villegas on a day which saw five hole-in-ones , levelling the record from 2002 . \nthe colombian followed nicklaus with an ace on the fourth and also managed one on the eighth , but he could n't quite land the title , losing out to world no 74 kevin streelman in a play-off . \nnicklaus became the youngest person to wear a green jacket in 1963 , and collected his sixth in 1986 . \nhe is one of five men to complete the career grand slam , an accolade which favourite rory mcilroy can achieve if he wins his third major in succession .",
+      "summary": " Jack Nicklaus, aged 75, achieved a hole-in-one on the 130-yard fourth hole during the Par-3 Contest at Augusta National. This was his first hole-in-one on the hallowed turf of Augusta. However, his achievement was eclipsed by Camilo Villegas, who also made two holes-in-one during the same event. Villegas made one on the fourth hole like Nicklaus and another on the eighth, but he lost out to Kevin Streelman in a play-off. Jack Nicklaus is a renowned golfer, having won the Masters Tournament six times, including being the youngest person to wear a green jacket in 1963. He is one of five men to complete the career Grand Slam. Rory McIlroy, a favorite, can achieve this accolade if he wins his third major in succession.",
+      "annotations": [
+        {
+          "annot_id": 65,
+          "annotator_id": "5e3dc734a1b7499d9c166bf020ef6ff8",
+          "annotator_name": "Matt",
+          "label": [
+            "Benign"
+          ],
+          "note": "This summary is connecting the \"green jacket\" with the broader context of having to win a Masters tournament to earn it.\n\nI think this adds accurate context that isn't otherwise available in the source material.",
+          "summary_span": "having won the Masters Tournament six times",
+          "summary_start": 462,
+          "summary_end": 505,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        }
+      ],
+      "metadata": {
+        "summarizer": "mistralai/Mistral-7B-Instruct-v0.3",
+        "hhemv1": 0.21955,
+        "hhem-2.1": 0.64274,
+        "hhem-2.1-english": 0.81424,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 90
+      }
+    },
+    {
+      "sample_id": 11,
+      "source": "at the grand old age of 75 , jack nicklaus is still capable of hitting aces . \nthe golden bear added another magic moment to his storied career at augusta national in the par-3 contest . \nstepping up to the tee on the 130-yard fourth , the greatest golfer of all time saw his shot sail beyond the flag before spinning back into the hole . \njack nicklaus gave the crowd something to cheer with a hole in one on the fourth during the par-3 contest\nnicklaus holds up his ball to an adoring crowd as gary player ( left ) and ben crenshaw salute the great\ncrenshaw and nicklaus fist pump following his ace on the 130-yard hole at augusta national\nnicklaus was playing alongside gary player and ben crenshaw as the first roar of masters week filled the skies in a sunswept georgia . \n` i had an interview this morning , and i said \" well , all i 've got to do is go out and win the par-3 and make a hole and one \" , and i make a hole in one , ' nicklaus said afterwards . \nthe ace was nicklaus ' first on the hallowed turf of augusta , but the veteran saw his achievement eclipsed by that of camilo villegas on a day which saw five hole-in-ones , levelling the record from 2002 . \nthe colombian followed nicklaus with an ace on the fourth and also managed one on the eighth , but he could n't quite land the title , losing out to world no 74 kevin streelman in a play-off . \nnicklaus became the youngest person to wear a green jacket in 1963 , and collected his sixth in 1986 . \nhe is one of five men to complete the career grand slam , an accolade which favourite rory mcilroy can achieve if he wins his third major in succession .",
+      "summary": " Jack Nicklaus, at 75 years old, hit a hole-in-one during the par-3 contest at Augusta National, adding another memorable moment to his illustrious career. Playing alongside Gary Player and Ben Crenshaw, Nicklaus achieved his first hole-in-one on Augusta's hallowed turf, but was later surpassed by Camilo Villegas, who also scored a hole-in-one on the fourth and eighth holes. Nicklaus is one of five men to complete the career grand slam and holds the record for being the youngest person to wear a green jacket in 1963.",
+      "annotations": [
+        {
+          "annot_id": 54,
+          "annotator_id": "5e3dc734a1b7499d9c166bf020ef6ff8",
+          "annotator_name": "Matt",
+          "label": [
+            "Benign"
+          ],
+          "note": "This is seemingly not faithful to the source context but reasonably and appropriately summarizes the intent of the source material well.",
+          "summary_span": "adding another memorable moment to his illustrious career",
+          "summary_start": 97,
+          "summary_end": 154,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 55,
+          "annotator_id": "5e3dc734a1b7499d9c166bf020ef6ff8",
+          "annotator_name": "Matt",
+          "label": [
+            "Benign"
+          ],
+          "note": "I think it's ok to say Nicklaus \"holds the record\" for being the youngest person to wear a green jacket but it is not explicitly stated in the source material.\n\nI think most people would reasonably infer that his status also makes him a record holder for this fact.",
+          "summary_span": "holds the record for being the youngest person to wear a green jacket in 1963.",
+          "summary_start": 444,
+          "summary_end": 522,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 94,
+          "annotator_id": "4bc88c2a6ac74237ac888f759feab282",
+          "annotator_name": "New User",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "no \"holds the record for being the youngest person\" in the source",
+          "summary_span": "holds the record for being the youngest person to wear a green jacket in 1963.",
+          "summary_start": 444,
+          "summary_end": 522,
+          "source_span": "\nnicklaus became the youngest person to wear a green jacket in 1963 , and collected his sixth in 1986 .",
+          "source_start": 1368,
+          "source_end": 1471
+        }
+      ],
+      "metadata": {
+        "summarizer": "microsoft/Phi-3-mini-4k-instruct",
+        "hhemv1": 0.07827,
+        "hhem-2.1": 0.94805,
+        "hhem-2.1-english": 0.99287,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 205
+      }
+    },
+    {
+      "sample_id": 12,
+      "source": "at the grand old age of 75 , jack nicklaus is still capable of hitting aces . \nthe golden bear added another magic moment to his storied career at augusta national in the par-3 contest . \nstepping up to the tee on the 130-yard fourth , the greatest golfer of all time saw his shot sail beyond the flag before spinning back into the hole . \njack nicklaus gave the crowd something to cheer with a hole in one on the fourth during the par-3 contest\nnicklaus holds up his ball to an adoring crowd as gary player ( left ) and ben crenshaw salute the great\ncrenshaw and nicklaus fist pump following his ace on the 130-yard hole at augusta national\nnicklaus was playing alongside gary player and ben crenshaw as the first roar of masters week filled the skies in a sunswept georgia . \n` i had an interview this morning , and i said \" well , all i 've got to do is go out and win the par-3 and make a hole and one \" , and i make a hole in one , ' nicklaus said afterwards . \nthe ace was nicklaus ' first on the hallowed turf of augusta , but the veteran saw his achievement eclipsed by that of camilo villegas on a day which saw five hole-in-ones , levelling the record from 2002 . \nthe colombian followed nicklaus with an ace on the fourth and also managed one on the eighth , but he could n't quite land the title , losing out to world no 74 kevin streelman in a play-off . \nnicklaus became the youngest person to wear a green jacket in 1963 , and collected his sixth in 1986 . \nhe is one of five men to complete the career grand slam , an accolade which favourite rory mcilroy can achieve if he wins his third major in succession .",
+      "summary": "Here's a concise summary of the passage:\n\nJack Nicklaus, at 75 years old, hit a hole-in-one during the par-3 contest at Augusta National. This occurred on the 130-yard fourth hole while playing alongside Gary Player and Ben Crenshaw. Nicklaus' ace was his first at Augusta, but it was one of five hole-in-ones that day, tying a record from 2002. Camilo Villegas also scored two aces but lost the contest to Kevin Streelman in a playoff. The passage mentions Nicklaus' impressive career, including his six Masters wins and status as one of five men to complete the career grand slam. It also notes that Rory McIlroy could achieve this feat if he wins the upcoming Masters.",
+      "annotations": [
+        {
+          "annot_id": 8,
+          "annotator_id": "3dbe982ebbaf46cfa500375857a5c2fd",
+          "annotator_name": "Rogger",
+          "label": [
+            "Questionable"
+          ],
+          "note": "wins his third major =? upcoming masters",
+          "summary_span": "It also notes that Rory McIlroy could achieve this feat if he wins the upcoming Masters.",
+          "summary_start": 583,
+          "summary_end": 671,
+          "source_span": "an accolade which favourite rory mcilroy can achieve if he wins his third major in succession .",
+          "source_start": 1531,
+          "source_end": 1626
+        },
+        {
+          "annot_id": 57,
+          "annotator_id": "5e3dc734a1b7499d9c166bf020ef6ff8",
+          "annotator_name": "Matt",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "The preceding \"The passage mentions...\" and \"It also notes...\" are unwanted here, in my opinion.\n\nIt would suffice to summarize the source material without leading in with these prefaces.",
+          "summary_span": "The passage mentions Nicklaus' impressive career, including his six Masters wins and status as one of five men to complete the career grand slam. It also notes that Rory McIlroy could achieve this feat if he wins the upcoming Masters.",
+          "summary_start": 437,
+          "summary_end": 671,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 97,
+          "annotator_id": "4bc88c2a6ac74237ac888f759feab282",
+          "annotator_name": "New User",
+          "label": [
+            "Benign"
+          ],
+          "note": "green jacket == Masters winner, using some external knowledge.",
+          "summary_span": " including his six Masters wins",
+          "summary_start": 486,
+          "summary_end": 517,
+          "source_span": "\nnicklaus became the youngest person to wear a green jacket in 1963 , and collected his sixth in 1986 .",
+          "source_start": 1368,
+          "source_end": 1471
+        }
+      ],
+      "metadata": {
+        "summarizer": "Anthropic/claude-3-5-sonnet-20240620",
+        "hhemv1": 0.27509,
+        "hhem-2.1": 0.65277,
+        "hhem-2.1-english": 0.9581,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 320
+      }
+    },
+    {
+      "sample_id": 13,
+      "source": "at the grand old age of 75 , jack nicklaus is still capable of hitting aces . \nthe golden bear added another magic moment to his storied career at augusta national in the par-3 contest . \nstepping up to the tee on the 130-yard fourth , the greatest golfer of all time saw his shot sail beyond the flag before spinning back into the hole . \njack nicklaus gave the crowd something to cheer with a hole in one on the fourth during the par-3 contest\nnicklaus holds up his ball to an adoring crowd as gary player ( left ) and ben crenshaw salute the great\ncrenshaw and nicklaus fist pump following his ace on the 130-yard hole at augusta national\nnicklaus was playing alongside gary player and ben crenshaw as the first roar of masters week filled the skies in a sunswept georgia . \n` i had an interview this morning , and i said \" well , all i 've got to do is go out and win the par-3 and make a hole and one \" , and i make a hole in one , ' nicklaus said afterwards . \nthe ace was nicklaus ' first on the hallowed turf of augusta , but the veteran saw his achievement eclipsed by that of camilo villegas on a day which saw five hole-in-ones , levelling the record from 2002 . \nthe colombian followed nicklaus with an ace on the fourth and also managed one on the eighth , but he could n't quite land the title , losing out to world no 74 kevin streelman in a play-off . \nnicklaus became the youngest person to wear a green jacket in 1963 , and collected his sixth in 1986 . \nhe is one of five men to complete the career grand slam , an accolade which favourite rory mcilroy can achieve if he wins his third major in succession .",
+      "summary": "Jack Nicklaus, aged 75, achieved a remarkable hole-in-one during the Par-3 contest at Augusta National, adding to his legendary golf career. This feat was witnessed by fellow golfers Gary Player and Ben Crenshaw. Nicklaus' achievement was one of five hole-in-ones that day, but he was outshone by Camilo Villegas, who made two. Nicklaus, the youngest Masters winner in 1963 and a six-time champion, is part of an elite group to achieve the career Grand Slam, a feat that Rory McIlroy could emulate with a win.",
+      "annotations": [
+        {
+          "annot_id": 9,
+          "annotator_id": "3dbe982ebbaf46cfa500375857a5c2fd",
+          "annotator_name": "Rogger",
+          "label": [
+            "Questionable"
+          ],
+          "note": "over simplification?",
+          "summary_span": "with a win",
+          "summary_start": 498,
+          "summary_end": 508,
+          "source_span": "if he wins his third major in succession",
+          "source_start": 1584,
+          "source_end": 1624
+        },
+        {
+          "annot_id": 58,
+          "annotator_id": "5e3dc734a1b7499d9c166bf020ef6ff8",
+          "annotator_name": "Matt",
+          "label": [
+            "Benign"
+          ],
+          "note": "I think this is a reasonable, benign hallucination that adds helpful context for readers like me who know little about golf.\n\nI believe the summary is adding to the context productively and is not misleading or wrong to the best of my knowledge.",
+          "summary_span": "Nicklaus, the youngest Masters winner in 1963 and a six-time champion",
+          "summary_start": 328,
+          "summary_end": 397,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 66,
+          "annotator_id": "5e3dc734a1b7499d9c166bf020ef6ff8",
+          "annotator_name": "Matt",
+          "label": [
+            "Questionable"
+          ],
+          "note": "It's unclear from the source material if this specific competition would be McIlroy's third win to achieve Grand Slam status. It's too vague, in my opinion, which could lead to misunderstanding by a reader.",
+          "summary_span": "a feat that Rory McIlroy could emulate with a win",
+          "summary_start": 459,
+          "summary_end": 508,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 96,
+          "annotator_id": "4bc88c2a6ac74237ac888f759feab282",
+          "annotator_name": "New User",
+          "label": [
+            "Benign",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "the source only says wear a green jacket. without external knowledge it cannot be summarized as the youngest Masters winner.",
+          "summary_span": "the youngest Masters winner in 1963 and a six-time champion",
+          "summary_start": 338,
+          "summary_end": 397,
+          "source_span": "\nnicklaus became the youngest person to wear a green jacket in 1963 , and collected his sixth in 1986 .",
+          "source_start": 1368,
+          "source_end": 1471
+        }
+      ],
+      "metadata": {
+        "summarizer": "cohere/command-r-08-2024",
+        "hhemv1": 0.6793,
+        "hhem-2.1": 0.62918,
+        "hhem-2.1-english": 0.40506,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 435
+      }
+    },
+    {
+      "sample_id": 14,
+      "source": "at the grand old age of 75 , jack nicklaus is still capable of hitting aces . \nthe golden bear added another magic moment to his storied career at augusta national in the par-3 contest . \nstepping up to the tee on the 130-yard fourth , the greatest golfer of all time saw his shot sail beyond the flag before spinning back into the hole . \njack nicklaus gave the crowd something to cheer with a hole in one on the fourth during the par-3 contest\nnicklaus holds up his ball to an adoring crowd as gary player ( left ) and ben crenshaw salute the great\ncrenshaw and nicklaus fist pump following his ace on the 130-yard hole at augusta national\nnicklaus was playing alongside gary player and ben crenshaw as the first roar of masters week filled the skies in a sunswept georgia . \n` i had an interview this morning , and i said \" well , all i 've got to do is go out and win the par-3 and make a hole and one \" , and i make a hole in one , ' nicklaus said afterwards . \nthe ace was nicklaus ' first on the hallowed turf of augusta , but the veteran saw his achievement eclipsed by that of camilo villegas on a day which saw five hole-in-ones , levelling the record from 2002 . \nthe colombian followed nicklaus with an ace on the fourth and also managed one on the eighth , but he could n't quite land the title , losing out to world no 74 kevin streelman in a play-off . \nnicklaus became the youngest person to wear a green jacket in 1963 , and collected his sixth in 1986 . \nhe is one of five men to complete the career grand slam , an accolade which favourite rory mcilroy can achieve if he wins his third major in succession .",
+      "summary": "Jack Nicklaus, at 75 years old, hit an ace during the par-3 contest at Augusta National, adding to his legendary golf career. He achieved this on the 130-yard fourth hole, impressing the crowd. This was Nicklaus's first ace at Augusta, though Camilo Villegas matched the feat on the same hole, along with another on the eighth, winning the contest. Nicklaus has won six green jackets and is one of five to complete the career grand slam.",
+      "annotations": [
+        {
+          "annot_id": 13,
+          "annotator_id": "3dbe982ebbaf46cfa500375857a5c2fd",
+          "annotator_name": "Rogger",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "Kevin streelman won",
+          "summary_span": "winning the contest.",
+          "summary_start": 328,
+          "summary_end": 348,
+          "source_span": "he colombian followed nicklaus with an ace on the fourth and also managed one on the eighth , but he could n't quite land the title , losing out to world no 74 kevin streelman in a play-off .",
+          "source_start": 1176,
+          "source_end": 1367
+        },
+        {
+          "annot_id": 60,
+          "annotator_id": "5e3dc734a1b7499d9c166bf020ef6ff8",
+          "annotator_name": "Matt",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "Villegas did make two hole-in-ones but did not win the contest. The contest was won by Kevin Streelman so this summary is incorrectly attributing the win to Villegas.",
+          "summary_span": "winning the contest",
+          "summary_start": 328,
+          "summary_end": 347,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 98,
+          "annotator_id": "4bc88c2a6ac74237ac888f759feab282",
+          "annotator_name": "New User",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "collected his sixth in 1986 does not mean has won six for now.",
+          "summary_span": "Nicklaus has won six green jackets",
+          "summary_start": 349,
+          "summary_end": 383,
+          "source_span": "\nnicklaus became the youngest person to wear a green jacket in 1963 , and collected his sixth in 1986 .",
+          "source_start": 1368,
+          "source_end": 1471
+        }
+      ],
+      "metadata": {
+        "summarizer": "Qwen/Qwen2.5-7B-Instruct",
+        "hhemv1": 0.12271,
+        "hhem-2.1": 0.92835,
+        "hhem-2.1-english": 0.97773,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 0,
+        "gpt_4o": 0,
+        "raw_sample_id": 550
+      }
+    },
+    {
+      "sample_id": 15,
+      "source": "at the grand old age of 75 , jack nicklaus is still capable of hitting aces . \nthe golden bear added another magic moment to his storied career at augusta national in the par-3 contest . \nstepping up to the tee on the 130-yard fourth , the greatest golfer of all time saw his shot sail beyond the flag before spinning back into the hole . \njack nicklaus gave the crowd something to cheer with a hole in one on the fourth during the par-3 contest\nnicklaus holds up his ball to an adoring crowd as gary player ( left ) and ben crenshaw salute the great\ncrenshaw and nicklaus fist pump following his ace on the 130-yard hole at augusta national\nnicklaus was playing alongside gary player and ben crenshaw as the first roar of masters week filled the skies in a sunswept georgia . \n` i had an interview this morning , and i said \" well , all i 've got to do is go out and win the par-3 and make a hole and one \" , and i make a hole in one , ' nicklaus said afterwards . \nthe ace was nicklaus ' first on the hallowed turf of augusta , but the veteran saw his achievement eclipsed by that of camilo villegas on a day which saw five hole-in-ones , levelling the record from 2002 . \nthe colombian followed nicklaus with an ace on the fourth and also managed one on the eighth , but he could n't quite land the title , losing out to world no 74 kevin streelman in a play-off . \nnicklaus became the youngest person to wear a green jacket in 1963 , and collected his sixth in 1986 . \nhe is one of five men to complete the career grand slam , an accolade which favourite rory mcilroy can achieve if he wins his third major in succession .",
+      "summary": "Here is a concise summary of the passage:\n\nJack Nicklaus, at the age of 75, achieved a hole-in-one on the 4th hole during the Par-3 Contest at Augusta National. This was his first ace on the hallowed turf of Augusta. Nicklaus' achievement was notable, but was later matched by Camilo Villegas, who also achieved two hole-in-ones on the day.",
+      "annotations": [
+        {
+          "annot_id": 99,
+          "annotator_id": "4bc88c2a6ac74237ac888f759feab282",
+          "annotator_name": "New User",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "not \"matched\" but \"eclipsed\" by Camilo",
+          "summary_span": "but was later matched by Camilo Villegas",
+          "summary_start": 252,
+          "summary_end": 292,
+          "source_span": "\nthe ace was nicklaus ' first on the hallowed turf of augusta , but the veteran saw his achievement eclipsed by that of camilo villegas on a day which saw five hole-in-ones , levelling the record from 2002 .",
+          "source_start": 966,
+          "source_end": 1173
+        }
+      ],
+      "metadata": {
+        "summarizer": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+        "hhemv1": 0.1094,
+        "hhem-2.1": 0.29481,
+        "hhem-2.1-english": 0.68721,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 665
+      }
+    },
+    {
+      "sample_id": 16,
+      "source": "at the grand old age of 75 , jack nicklaus is still capable of hitting aces . \nthe golden bear added another magic moment to his storied career at augusta national in the par-3 contest . \nstepping up to the tee on the 130-yard fourth , the greatest golfer of all time saw his shot sail beyond the flag before spinning back into the hole . \njack nicklaus gave the crowd something to cheer with a hole in one on the fourth during the par-3 contest\nnicklaus holds up his ball to an adoring crowd as gary player ( left ) and ben crenshaw salute the great\ncrenshaw and nicklaus fist pump following his ace on the 130-yard hole at augusta national\nnicklaus was playing alongside gary player and ben crenshaw as the first roar of masters week filled the skies in a sunswept georgia . \n` i had an interview this morning , and i said \" well , all i 've got to do is go out and win the par-3 and make a hole and one \" , and i make a hole in one , ' nicklaus said afterwards . \nthe ace was nicklaus ' first on the hallowed turf of augusta , but the veteran saw his achievement eclipsed by that of camilo villegas on a day which saw five hole-in-ones , levelling the record from 2002 . \nthe colombian followed nicklaus with an ace on the fourth and also managed one on the eighth , but he could n't quite land the title , losing out to world no 74 kevin streelman in a play-off . \nnicklaus became the youngest person to wear a green jacket in 1963 , and collected his sixth in 1986 . \nhe is one of five men to complete the career grand slam , an accolade which favourite rory mcilroy can achieve if he wins his third major in succession .",
+      "summary": "Here is a concise summary of the passage:\n\nAt the age of 75, Jack Nicklaus hit a hole-in-one on the 130-yard fourth hole at Augusta National during the par-3 contest. This was his first ace at Augusta and came during a round where he was playing alongside Gary Player and Ben Crenshaw. The achievement was part of a record-tying five hole-in-ones on the day, but was ultimately eclipsed by Camilo Villegas's two aces. The par-3 contest was won by Kevin Streelman in a play-off.",
+      "annotations": [
+        {
+          "annot_id": 12,
+          "annotator_id": "3dbe982ebbaf46cfa500375857a5c2fd",
+          "annotator_name": "Rogger",
+          "label": [
+            "Benign"
+          ],
+          "note": "subtle reasoning",
+          "summary_span": "The par-3 contest was won by Kevin Streelman in a play-off",
+          "summary_start": 418,
+          "summary_end": 476,
+          "source_span": "\nthe colombian followed nicklaus with an ace on the fourth and also managed one on the eighth , but he could n't quite land the title , losing out to world no 74 kevin streelman in a play-off .",
+          "source_start": 1174,
+          "source_end": 1367
+        },
+        {
+          "annot_id": 100,
+          "annotator_id": "4bc88c2a6ac74237ac888f759feab282",
+          "annotator_name": "New User",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "Th colombian was won by Kevin. Cannot summarized as the contest was won by Kevin.",
+          "summary_span": "The par-3 contest was won by Kevin Streelman in a play-off.",
+          "summary_start": 418,
+          "summary_end": 477,
+          "source_span": "\nthe colombian followed nicklaus with an ace on the fourth and also managed one on the eighth , but he could n't quite land the title , losing out to world no 74 kevin streelman in a play-off .",
+          "source_start": 1174,
+          "source_end": 1367
+        },
+        {
+          "annot_id": 112,
+          "annotator_id": "5e3dc734a1b7499d9c166bf020ef6ff8",
+          "annotator_name": "Matt",
+          "label": [
+            "Benign"
+          ],
+          "note": "Subtle reasoning",
+          "summary_span": "The par-3 contest was won by Kevin Streelman in a play-off.",
+          "summary_start": 418,
+          "summary_end": 477,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        }
+      ],
+      "metadata": {
+        "summarizer": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+        "hhemv1": 0.25129,
+        "hhem-2.1": 0.90935,
+        "hhem-2.1-english": 0.97566,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 780
+      }
+    },
+    {
+      "sample_id": 17,
+      "source": "at the grand old age of 75 , jack nicklaus is still capable of hitting aces . \nthe golden bear added another magic moment to his storied career at augusta national in the par-3 contest . \nstepping up to the tee on the 130-yard fourth , the greatest golfer of all time saw his shot sail beyond the flag before spinning back into the hole . \njack nicklaus gave the crowd something to cheer with a hole in one on the fourth during the par-3 contest\nnicklaus holds up his ball to an adoring crowd as gary player ( left ) and ben crenshaw salute the great\ncrenshaw and nicklaus fist pump following his ace on the 130-yard hole at augusta national\nnicklaus was playing alongside gary player and ben crenshaw as the first roar of masters week filled the skies in a sunswept georgia . \n` i had an interview this morning , and i said \" well , all i 've got to do is go out and win the par-3 and make a hole and one \" , and i make a hole in one , ' nicklaus said afterwards . \nthe ace was nicklaus ' first on the hallowed turf of augusta , but the veteran saw his achievement eclipsed by that of camilo villegas on a day which saw five hole-in-ones , levelling the record from 2002 . \nthe colombian followed nicklaus with an ace on the fourth and also managed one on the eighth , but he could n't quite land the title , losing out to world no 74 kevin streelman in a play-off . \nnicklaus became the youngest person to wear a green jacket in 1963 , and collected his sixth in 1986 . \nhe is one of five men to complete the career grand slam , an accolade which favourite rory mcilroy can achieve if he wins his third major in succession .",
+      "summary": "Jack Nicklaus, at 75 years old, aced the fourth hole during the par-3 contest at Augusta National. This was his first ace on the course. Five aces were made during the contest, tying the record set in 2002. Nicklaus' ace was followed by Camilo Villegas, who also aced the fourth hole and the eighth hole.  \n",
+      "annotations": [
+        {
+          "annot_id": 19,
+          "annotator_id": "3dbe982ebbaf46cfa500375857a5c2fd",
+          "annotator_name": "Rogger",
+          "label": [
+            "Questionable"
+          ],
+          "note": "Summary sounds like the first ace in his career. The source implies that the first ace in this particular field.",
+          "summary_span": "This was his first ace on the course.",
+          "summary_start": 99,
+          "summary_end": 136,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        }
+      ],
+      "metadata": {
+        "summarizer": "google/gemini-1.5-flash-001",
+        "hhemv1": 0.16838,
+        "hhem-2.1": 0.98616,
+        "hhem-2.1-english": 0.99125,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 895
+      }
+    },
+    {
+      "sample_id": 18,
+      "source": "at the grand old age of 75 , jack nicklaus is still capable of hitting aces . \nthe golden bear added another magic moment to his storied career at augusta national in the par-3 contest . \nstepping up to the tee on the 130-yard fourth , the greatest golfer of all time saw his shot sail beyond the flag before spinning back into the hole . \njack nicklaus gave the crowd something to cheer with a hole in one on the fourth during the par-3 contest\nnicklaus holds up his ball to an adoring crowd as gary player ( left ) and ben crenshaw salute the great\ncrenshaw and nicklaus fist pump following his ace on the 130-yard hole at augusta national\nnicklaus was playing alongside gary player and ben crenshaw as the first roar of masters week filled the skies in a sunswept georgia . \n` i had an interview this morning , and i said \" well , all i 've got to do is go out and win the par-3 and make a hole and one \" , and i make a hole in one , ' nicklaus said afterwards . \nthe ace was nicklaus ' first on the hallowed turf of augusta , but the veteran saw his achievement eclipsed by that of camilo villegas on a day which saw five hole-in-ones , levelling the record from 2002 . \nthe colombian followed nicklaus with an ace on the fourth and also managed one on the eighth , but he could n't quite land the title , losing out to world no 74 kevin streelman in a play-off . \nnicklaus became the youngest person to wear a green jacket in 1963 , and collected his sixth in 1986 . \nhe is one of five men to complete the career grand slam , an accolade which favourite rory mcilroy can achieve if he wins his third major in succession .",
+      "summary": "The passage describes how Jack Nicklaus, at the age of 75, hit a hole-in-one during the par-3 contest at Augusta National. This was Nicklaus' first hole-in-one at Augusta, and he celebrated with the crowd and his playing partners, Gary Player and Ben Crenshaw. However, his achievement was overshadowed by Camilo Villegas, who also hit two hole-in-ones during the contest. Nicklaus is a legendary golfer, having won six green jackets and being one of five men to complete the career grand slam.",
+      "annotations": [
+        {
+          "annot_id": 101,
+          "annotator_id": "4bc88c2a6ac74237ac888f759feab282",
+          "annotator_name": "New User",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "from the source we can say he may have more green jackets after 1986. But the summary is different.",
+          "summary_span": "having won six green jackets",
+          "summary_start": 405,
+          "summary_end": 433,
+          "source_span": "\nnicklaus became the youngest person to wear a green jacket in 1963 , and collected his sixth in 1986 .",
+          "source_start": 1368,
+          "source_end": 1471
+        }
+      ],
+      "metadata": {
+        "summarizer": "openai/GPT-3.5-Turbo",
+        "hhemv1": 0.12132,
+        "hhem-2.1": 0.41628,
+        "hhem-2.1-english": 0.28829,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 999
+      }
+    },
+    {
+      "sample_id": 19,
+      "source": "at the grand old age of 75 , jack nicklaus is still capable of hitting aces . \nthe golden bear added another magic moment to his storied career at augusta national in the par-3 contest . \nstepping up to the tee on the 130-yard fourth , the greatest golfer of all time saw his shot sail beyond the flag before spinning back into the hole . \njack nicklaus gave the crowd something to cheer with a hole in one on the fourth during the par-3 contest\nnicklaus holds up his ball to an adoring crowd as gary player ( left ) and ben crenshaw salute the great\ncrenshaw and nicklaus fist pump following his ace on the 130-yard hole at augusta national\nnicklaus was playing alongside gary player and ben crenshaw as the first roar of masters week filled the skies in a sunswept georgia . \n` i had an interview this morning , and i said \" well , all i 've got to do is go out and win the par-3 and make a hole and one \" , and i make a hole in one , ' nicklaus said afterwards . \nthe ace was nicklaus ' first on the hallowed turf of augusta , but the veteran saw his achievement eclipsed by that of camilo villegas on a day which saw five hole-in-ones , levelling the record from 2002 . \nthe colombian followed nicklaus with an ace on the fourth and also managed one on the eighth , but he could n't quite land the title , losing out to world no 74 kevin streelman in a play-off . \nnicklaus became the youngest person to wear a green jacket in 1963 , and collected his sixth in 1986 . \nhe is one of five men to complete the career grand slam , an accolade which favourite rory mcilroy can achieve if he wins his third major in succession .",
+      "summary": "At 75, Jack Nicklaus demonstrated his enduring skill by hitting a hole-in-one during the par-3 contest at Augusta National. On the 130-yard fourth hole, his shot spun back into the hole, thrilling the crowd. Playing alongside Gary Player and Ben Crenshaw, Nicklaus celebrated his first ace at Augusta, despite being overshadowed by Camilo Villegas, who made two aces that day. Nicklaus, a six-time Masters champion and one of five men to complete the career grand slam, reflected on his achievement with humor.",
+      "annotations": [
+        {
+          "annot_id": 64,
+          "annotator_id": "5e3dc734a1b7499d9c166bf020ef6ff8",
+          "annotator_name": "Matt",
+          "label": [
+            "Benign"
+          ],
+          "note": "This seems like a reasonable summary though the model is taking some liberties here. It's tough to know for certain if Nicklaus was being humorous but I think this is an acceptable inference",
+          "summary_span": "reflected on his achievement with humor.",
+          "summary_start": 470,
+          "summary_end": 510,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 102,
+          "annotator_id": "4bc88c2a6ac74237ac888f759feab282",
+          "annotator_name": "New User",
+          "label": [
+            "Benign"
+          ],
+          "note": "the source is six green jackets",
+          "summary_span": "a six-time Masters champion",
+          "summary_start": 387,
+          "summary_end": 414,
+          "source_span": "\nnicklaus became the youngest person to wear a green jacket in 1963 , and collected his sixth in 1986 .",
+          "source_start": 1368,
+          "source_end": 1471
+        },
+        {
+          "annot_id": 103,
+          "annotator_id": "4bc88c2a6ac74237ac888f759feab282",
+          "annotator_name": "New User",
+          "label": [
+            "Unwanted",
+            "Unwanted.Extrinsic"
+          ],
+          "note": "do not see humor in the source.",
+          "summary_span": "reflected on his achievement with humor.",
+          "summary_start": 470,
+          "summary_end": 510,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        }
+      ],
+      "metadata": {
+        "summarizer": "openai/gpt-4o",
+        "hhemv1": 0.08537,
+        "hhem-2.1": 0.2193,
+        "hhem-2.1-english": 0.19479,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 1125
+      }
+    },
+    {
+      "sample_id": 20,
+      "source": "at the grand old age of 75 , jack nicklaus is still capable of hitting aces . \nthe golden bear added another magic moment to his storied career at augusta national in the par-3 contest . \nstepping up to the tee on the 130-yard fourth , the greatest golfer of all time saw his shot sail beyond the flag before spinning back into the hole . \njack nicklaus gave the crowd something to cheer with a hole in one on the fourth during the par-3 contest\nnicklaus holds up his ball to an adoring crowd as gary player ( left ) and ben crenshaw salute the great\ncrenshaw and nicklaus fist pump following his ace on the 130-yard hole at augusta national\nnicklaus was playing alongside gary player and ben crenshaw as the first roar of masters week filled the skies in a sunswept georgia . \n` i had an interview this morning , and i said \" well , all i 've got to do is go out and win the par-3 and make a hole and one \" , and i make a hole in one , ' nicklaus said afterwards . \nthe ace was nicklaus ' first on the hallowed turf of augusta , but the veteran saw his achievement eclipsed by that of camilo villegas on a day which saw five hole-in-ones , levelling the record from 2002 . \nthe colombian followed nicklaus with an ace on the fourth and also managed one on the eighth , but he could n't quite land the title , losing out to world no 74 kevin streelman in a play-off . \n\nnicklaus became the youngest person to wear a green jacket in 1963 , and collected his sixth in 1986 . \nhe is one of five men to complete the career grand slam , an accolade which favourite rory mcilroy can achieve if he wins his third major in succession .",
+      "summary": " Jack Nicklaus, aged 75, achieved a hole-in-one on the 130-yard fourth hole during the Par-3 Contest at Augusta National. This was his first hole-in-one on the hallowed turf of Augusta. However, his achievement was eclipsed by Camilo Villegas, who also made two holes-in-one on the same day, one on the fourth and another on the eighth. Despite Villegas's performance, Kevin Streelman won the event in a play-off. Nicklaus is a renowned golfer, having won the Masters Tournament six times, with his first victory coming in 1963 at the age of 22, making him the youngest person to wear a green jacket. He is one of five men to complete the career Grand Slam. Rory McIlroy, a current favorite, can achieve this accolade if he wins his third major in succession.",
+      "annotations": [
+        {
+          "annot_id": 20,
+          "annotator_id": "3dbe982ebbaf46cfa500375857a5c2fd",
+          "annotator_name": "Rogger",
+          "label": [
+            "Benign"
+          ],
+          "note": "Subtle reasoning",
+          "summary_span": "Kevin Streelman won the event in a play-off",
+          "summary_start": 369,
+          "summary_end": 412,
+          "source_span": "losing out to world no 74 kevin streelman in a play-off ",
+          "source_start": 1310,
+          "source_end": 1366
+        },
+        {
+          "annot_id": 21,
+          "annotator_id": "3dbe982ebbaf46cfa500375857a5c2fd",
+          "annotator_name": "Rogger",
+          "label": [
+            "Unwanted",
+            "Unwanted.Extrinsic"
+          ],
+          "note": "No mention age 22",
+          "summary_span": "with his first victory coming in 1963 at the age of 22",
+          "summary_start": 490,
+          "summary_end": 544,
+          "source_span": "nicklaus became the youngest person to wear a green jacket in 1963 ,",
+          "source_start": 1370,
+          "source_end": 1438
+        },
+        {
+          "annot_id": 67,
+          "annotator_id": "5e3dc734a1b7499d9c166bf020ef6ff8",
+          "annotator_name": "Matt",
+          "label": [
+            "Unwanted",
+            "Unwanted.Extrinsic"
+          ],
+          "note": "I'm not sure how this information was derived and it doesn't seem meaningful for the summary",
+          "summary_span": "at the age of 22",
+          "summary_start": 528,
+          "summary_end": 544,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 104,
+          "annotator_id": "4bc88c2a6ac74237ac888f759feab282",
+          "annotator_name": "New User",
+          "label": [
+            "Benign"
+          ],
+          "note": "again, six jackets with external knowledge means six Masters. But it is hallucination.",
+          "summary_span": "Masters Tournament six times",
+          "summary_start": 460,
+          "summary_end": 488,
+          "source_span": "\n\nnicklaus became the youngest person to wear a green jacket in 1963 , and collected his sixth in 1986 .",
+          "source_start": 1368,
+          "source_end": 1472
+        }
+      ],
+      "metadata": {
+        "summarizer": "mistralai/Mistral-7B-Instruct-v0.3",
+        "hhemv1": 0.20435,
+        "hhem-2.1": 0.27894,
+        "hhem-2.1-english": 0.19875,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 66
+      }
+    },
+    {
+      "sample_id": 21,
+      "source": "at the grand old age of 75 , jack nicklaus is still capable of hitting aces . \nthe golden bear added another magic moment to his storied career at augusta national in the par-3 contest . \nstepping up to the tee on the 130-yard fourth , the greatest golfer of all time saw his shot sail beyond the flag before spinning back into the hole . \njack nicklaus gave the crowd something to cheer with a hole in one on the fourth during the par-3 contest\nnicklaus holds up his ball to an adoring crowd as gary player ( left ) and ben crenshaw salute the great\ncrenshaw and nicklaus fist pump following his ace on the 130-yard hole at augusta national\nnicklaus was playing alongside gary player and ben crenshaw as the first roar of masters week filled the skies in a sunswept georgia . \n` i had an interview this morning , and i said \" well , all i 've got to do is go out and win the par-3 and make a hole and one \" , and i make a hole in one , ' nicklaus said afterwards . \nthe ace was nicklaus ' first on the hallowed turf of augusta , but the veteran saw his achievement eclipsed by that of camilo villegas on a day which saw five hole-in-ones , levelling the record from 2002 . \nthe colombian followed nicklaus with an ace on the fourth and also managed one on the eighth , but he could n't quite land the title , losing out to world no 74 kevin streelman in a play-off . \n\nnicklaus became the youngest person to wear a green jacket in 1963 , and collected his sixth in 1986 . \nhe is one of five men to complete the career grand slam , an accolade which favourite rory mcilroy can achieve if he wins his third major in succession .",
+      "summary": " At 75 years old, Jack Nicklaus continues to impress with his golf skills, including a hole-in-one at the Par-3 contest during Masters Week at Augusta National. Playing alongside Gary Player and Ben Crenshaw, Nicklaus achieved his first hole-in-one on Augusta's hallowed turf, but was later surpassed by Camilo Villegas, who also scored a hole-in-one on the fourth and eighth holes. Nicklaus is one of five men to complete the career grand slam and holds the record for being the youngest person to wear a green jacket in 1963.",
+      "annotations": [
+        {
+          "annot_id": 105,
+          "annotator_id": "4bc88c2a6ac74237ac888f759feab282",
+          "annotator_name": "New User",
+          "label": [
+            "Unwanted",
+            "Unwanted.Extrinsic"
+          ],
+          "note": "no such information in the source",
+          "summary_span": "holds the record for being",
+          "summary_start": 449,
+          "summary_end": 475,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        }
+      ],
+      "metadata": {
+        "summarizer": "microsoft/Phi-3-mini-4k-instruct",
+        "hhemv1": 0.18782,
+        "hhem-2.1": 0.95402,
+        "hhem-2.1-english": 0.99165,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 181
+      }
+    },
+    {
+      "sample_id": 22,
+      "source": "at the grand old age of 75 , jack nicklaus is still capable of hitting aces . \nthe golden bear added another magic moment to his storied career at augusta national in the par-3 contest . \nstepping up to the tee on the 130-yard fourth , the greatest golfer of all time saw his shot sail beyond the flag before spinning back into the hole . \njack nicklaus gave the crowd something to cheer with a hole in one on the fourth during the par-3 contest\nnicklaus holds up his ball to an adoring crowd as gary player ( left ) and ben crenshaw salute the great\ncrenshaw and nicklaus fist pump following his ace on the 130-yard hole at augusta national\nnicklaus was playing alongside gary player and ben crenshaw as the first roar of masters week filled the skies in a sunswept georgia . \n` i had an interview this morning , and i said \" well , all i 've got to do is go out and win the par-3 and make a hole and one \" , and i make a hole in one , ' nicklaus said afterwards . \nthe ace was nicklaus ' first on the hallowed turf of augusta , but the veteran saw his achievement eclipsed by that of camilo villegas on a day which saw five hole-in-ones , levelling the record from 2002 . \nthe colombian followed nicklaus with an ace on the fourth and also managed one on the eighth , but he could n't quite land the title , losing out to world no 74 kevin streelman in a play-off . \n\nnicklaus became the youngest person to wear a green jacket in 1963 , and collected his sixth in 1986 . \nhe is one of five men to complete the career grand slam , an accolade which favourite rory mcilroy can achieve if he wins his third major in succession .",
+      "summary": "Here's a concise summary of the passage:\n\nJack Nicklaus, at 75 years old, hit a hole-in-one during the par-3 contest at Augusta National. This occurred on the 130-yard fourth hole while playing alongside Gary Player and Ben Crenshaw. It was Nicklaus' first ace at Augusta. The day saw a total of five hole-in-ones, tying a record from 2002. Camilo Villegas also hit two aces but lost the contest to Kevin Streelman in a playoff. The passage mentions Nicklaus' impressive career, including his six Masters wins and status as one of five men to complete the career grand slam. It also notes that Rory McIlroy could achieve this feat if he wins the upcoming Masters.",
+      "annotations": [
+        {
+          "annot_id": 18,
+          "annotator_id": "3dbe982ebbaf46cfa500375857a5c2fd",
+          "annotator_name": "Rogger",
+          "label": [
+            "Questionable"
+          ],
+          "note": "upcoming masters ? third major in succession",
+          "summary_span": " wins the upcoming Masters.",
+          "summary_start": 636,
+          "summary_end": 663,
+          "source_span": "\nhe is one of five men to complete the career grand slam , an accolade which favourite rory mcilroy can achieve if he wins his third major in succession .",
+          "source_start": 1473,
+          "source_end": 1627
+        },
+        {
+          "annot_id": 69,
+          "annotator_id": "5e3dc734a1b7499d9c166bf020ef6ff8",
+          "annotator_name": "Matt",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "I think this is mostly accurate but it's not clear from the source material if he needs to win the current or next Masters.",
+          "summary_span": "Rory McIlroy could achieve this feat if he wins the upcoming Masters.",
+          "summary_start": 594,
+          "summary_end": 663,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 106,
+          "annotator_id": "4bc88c2a6ac74237ac888f759feab282",
+          "annotator_name": "New User",
+          "label": [
+            "Benign"
+          ],
+          "note": "six masters not mentioned.",
+          "summary_span": " six Masters",
+          "summary_start": 492,
+          "summary_end": 504,
+          "source_span": "\n\nnicklaus became the youngest person to wear a green jacket in 1963 , and collected his sixth in 1986 .",
+          "source_start": 1368,
+          "source_end": 1472
+        }
+      ],
+      "metadata": {
+        "summarizer": "Anthropic/claude-3-5-sonnet-20240620",
+        "hhemv1": 0.29277,
+        "hhem-2.1": 0.60509,
+        "hhem-2.1-english": 0.89815,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 296
+      }
+    },
+    {
+      "sample_id": 23,
+      "source": "at the grand old age of 75 , jack nicklaus is still capable of hitting aces . \nthe golden bear added another magic moment to his storied career at augusta national in the par-3 contest . \nstepping up to the tee on the 130-yard fourth , the greatest golfer of all time saw his shot sail beyond the flag before spinning back into the hole . \njack nicklaus gave the crowd something to cheer with a hole in one on the fourth during the par-3 contest\nnicklaus holds up his ball to an adoring crowd as gary player ( left ) and ben crenshaw salute the great\ncrenshaw and nicklaus fist pump following his ace on the 130-yard hole at augusta national\nnicklaus was playing alongside gary player and ben crenshaw as the first roar of masters week filled the skies in a sunswept georgia . \n` i had an interview this morning , and i said \" well , all i 've got to do is go out and win the par-3 and make a hole and one \" , and i make a hole in one , ' nicklaus said afterwards . \nthe ace was nicklaus ' first on the hallowed turf of augusta , but the veteran saw his achievement eclipsed by that of camilo villegas on a day which saw five hole-in-ones , levelling the record from 2002 . \nthe colombian followed nicklaus with an ace on the fourth and also managed one on the eighth , but he could n't quite land the title , losing out to world no 74 kevin streelman in a play-off . \n\nnicklaus became the youngest person to wear a green jacket in 1963 , and collected his sixth in 1986 . \nhe is one of five men to complete the career grand slam , an accolade which favourite rory mcilroy can achieve if he wins his third major in succession .",
+      "summary": "Jack Nicklaus, aged 75, showcased his golfing prowess by achieving a hole-in-one during the Par-3 Contest at Augusta National. This remarkable feat, witnessed by Gary Player and Ben Crenshaw, added to Nicklaus' legendary career. Despite his achievement, Camilo Villegas stole the show by scoring two holes-in-one, tying the record. Nicklaus, the youngest Masters winner in 1963 and a six-time champion, is one of five golfers to achieve the career Grand Slam, a feat Rory McIlroy aims to replicate.",
+      "annotations": [
+        {
+          "annot_id": 22,
+          "annotator_id": "3dbe982ebbaf46cfa500375857a5c2fd",
+          "annotator_name": "Rogger",
+          "label": [
+            "Benign"
+          ],
+          "note": "subjective?",
+          "summary_span": "stole the show",
+          "summary_start": 270,
+          "summary_end": 284,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 23,
+          "annotator_id": "3dbe982ebbaf46cfa500375857a5c2fd",
+          "annotator_name": "Rogger",
+          "label": [
+            "Questionable"
+          ],
+          "note": "day record, not personal record?",
+          "summary_span": "tying the record",
+          "summary_start": 314,
+          "summary_end": 330,
+          "source_span": " which saw five hole-in-ones , levelling the record from 2002 ",
+          "source_start": 1110,
+          "source_end": 1172
+        },
+        {
+          "annot_id": 24,
+          "annotator_id": "3dbe982ebbaf46cfa500375857a5c2fd",
+          "annotator_name": "Rogger",
+          "label": [
+            "Questionable"
+          ],
+          "note": "Subjective?",
+          "summary_span": "aims to replicate.",
+          "summary_start": 480,
+          "summary_end": 498,
+          "source_span": "rory mcilroy can achieve if he wins his third major in succession .",
+          "source_start": 1560,
+          "source_end": 1627
+        },
+        {
+          "annot_id": 107,
+          "annotator_id": "4bc88c2a6ac74237ac888f759feab282",
+          "annotator_name": "New User",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "five hole-in-ones tye the record, but not camilo's performance on the day",
+          "summary_span": "tying the record.",
+          "summary_start": 314,
+          "summary_end": 331,
+          "source_span": "\nthe ace was nicklaus ' first on the hallowed turf of augusta , but the veteran saw his achievement eclipsed by that of camilo villegas on a day which saw five hole-in-ones , levelling the record from 2002 .",
+          "source_start": 966,
+          "source_end": 1173
+        },
+        {
+          "annot_id": 108,
+          "annotator_id": "4bc88c2a6ac74237ac888f759feab282",
+          "annotator_name": "New User",
+          "label": [
+            "Benign"
+          ],
+          "note": "six jacket using external knowledge is six champion. but it is hallucination",
+          "summary_span": "a six-time champion",
+          "summary_start": 382,
+          "summary_end": 401,
+          "source_span": "\n\nnicklaus became the youngest person to wear a green jacket in 1963 , and collected his sixth in 1986 .",
+          "source_start": 1368,
+          "source_end": 1472
+        },
+        {
+          "annot_id": 113,
+          "annotator_id": "5e3dc734a1b7499d9c166bf020ef6ff8",
+          "annotator_name": "Matt",
+          "label": [
+            "Questionable"
+          ],
+          "note": "Unclear if this means tying a personal or course day record",
+          "summary_span": "tying the record",
+          "summary_start": 314,
+          "summary_end": 330,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        }
+      ],
+      "metadata": {
+        "summarizer": "cohere/command-r-08-2024",
+        "hhemv1": 0.671,
+        "hhem-2.1": 0.74092,
+        "hhem-2.1-english": 0.86288,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 411
+      }
+    },
+    {
+      "sample_id": 24,
+      "source": "at the grand old age of 75 , jack nicklaus is still capable of hitting aces . \nthe golden bear added another magic moment to his storied career at augusta national in the par-3 contest . \nstepping up to the tee on the 130-yard fourth , the greatest golfer of all time saw his shot sail beyond the flag before spinning back into the hole . \njack nicklaus gave the crowd something to cheer with a hole in one on the fourth during the par-3 contest\nnicklaus holds up his ball to an adoring crowd as gary player ( left ) and ben crenshaw salute the great\ncrenshaw and nicklaus fist pump following his ace on the 130-yard hole at augusta national\nnicklaus was playing alongside gary player and ben crenshaw as the first roar of masters week filled the skies in a sunswept georgia . \n` i had an interview this morning , and i said \" well , all i 've got to do is go out and win the par-3 and make a hole and one \" , and i make a hole in one , ' nicklaus said afterwards . \nthe ace was nicklaus ' first on the hallowed turf of augusta , but the veteran saw his achievement eclipsed by that of camilo villegas on a day which saw five hole-in-ones , levelling the record from 2002 . \nthe colombian followed nicklaus with an ace on the fourth and also managed one on the eighth , but he could n't quite land the title , losing out to world no 74 kevin streelman in a play-off . \n\nnicklaus became the youngest person to wear a green jacket in 1963 , and collected his sixth in 1986 . \nhe is one of five men to complete the career grand slam , an accolade which favourite rory mcilroy can achieve if he wins his third major in succession .",
+      "summary": "Jack Nicklaus, at 75 years old, hit an ace during the par-3 contest at Augusta National, adding to his legendary golf career. He achieved this on the 130-yard fourth hole, impressing the crowd and fellow players Gary Player and Ben Crenshaw. This was Nicklaus's first hole-in-one at Augusta, though Camilo Villegas matched the feat on the same hole, along with another on the eighth, leading to a play-off where Kevin Streelman won. Nicklaus is known for his achievements, including being the youngest to wear a green jacket in 1963 and winning his sixth major in 1986. He is one of only five men to complete the career grand slam.",
+      "annotations": [
+        {
+          "annot_id": 25,
+          "annotator_id": "3dbe982ebbaf46cfa500375857a5c2fd",
+          "annotator_name": "Rogger",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "Weak causal relationship",
+          "summary_span": "leading to",
+          "summary_start": 384,
+          "summary_end": 394,
+          "source_span": "he could n't quite land the title , losing out to world no 74 kevin streelman in a play-off .",
+          "source_start": 1274,
+          "source_end": 1367
+        }
+      ],
+      "metadata": {
+        "summarizer": "Qwen/Qwen2.5-7B-Instruct",
+        "hhemv1": 0.25641,
+        "hhem-2.1": 0.95925,
+        "hhem-2.1-english": 0.97725,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 526
+      }
+    },
+    {
+      "sample_id": 25,
+      "source": "at the grand old age of 75 , jack nicklaus is still capable of hitting aces . \nthe golden bear added another magic moment to his storied career at augusta national in the par-3 contest . \nstepping up to the tee on the 130-yard fourth , the greatest golfer of all time saw his shot sail beyond the flag before spinning back into the hole . \njack nicklaus gave the crowd something to cheer with a hole in one on the fourth during the par-3 contest\nnicklaus holds up his ball to an adoring crowd as gary player ( left ) and ben crenshaw salute the great\ncrenshaw and nicklaus fist pump following his ace on the 130-yard hole at augusta national\nnicklaus was playing alongside gary player and ben crenshaw as the first roar of masters week filled the skies in a sunswept georgia . \n` i had an interview this morning , and i said \" well , all i 've got to do is go out and win the par-3 and make a hole and one \" , and i make a hole in one , ' nicklaus said afterwards . \nthe ace was nicklaus ' first on the hallowed turf of augusta , but the veteran saw his achievement eclipsed by that of camilo villegas on a day which saw five hole-in-ones , levelling the record from 2002 . \nthe colombian followed nicklaus with an ace on the fourth and also managed one on the eighth , but he could n't quite land the title , losing out to world no 74 kevin streelman in a play-off . \n\nnicklaus became the youngest person to wear a green jacket in 1963 , and collected his sixth in 1986 . \nhe is one of five men to complete the career grand slam , an accolade which favourite rory mcilroy can achieve if he wins his third major in succession .",
+      "summary": "Here is a concise summary of the passage, covering the core pieces of information described:\n\nJack Nicklaus, 75 years old, achieved a hole-in-one on the 130-yard fourth hole at Augusta National during the par-3 contest. This was his first ace on the hallowed turf of Augusta, but was eclipsed by Camilo Villegas who achieved two aces on the day. Nicklaus, a six-time Masters champion and one of five men to complete the career grand slam, was playing alongside Gary Player and Ben Crenshaw at the time of his achievement.",
+      "annotations": [],
+      "metadata": {
+        "summarizer": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+        "hhemv1": 0.14256,
+        "hhem-2.1": 0.41885,
+        "hhem-2.1-english": 0.55045,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 641
+      }
+    },
+    {
+      "sample_id": 26,
+      "source": "at the grand old age of 75 , jack nicklaus is still capable of hitting aces . \nthe golden bear added another magic moment to his storied career at augusta national in the par-3 contest . \nstepping up to the tee on the 130-yard fourth , the greatest golfer of all time saw his shot sail beyond the flag before spinning back into the hole . \njack nicklaus gave the crowd something to cheer with a hole in one on the fourth during the par-3 contest\nnicklaus holds up his ball to an adoring crowd as gary player ( left ) and ben crenshaw salute the great\ncrenshaw and nicklaus fist pump following his ace on the 130-yard hole at augusta national\nnicklaus was playing alongside gary player and ben crenshaw as the first roar of masters week filled the skies in a sunswept georgia . \n` i had an interview this morning , and i said \" well , all i 've got to do is go out and win the par-3 and make a hole and one \" , and i make a hole in one , ' nicklaus said afterwards . \nthe ace was nicklaus ' first on the hallowed turf of augusta , but the veteran saw his achievement eclipsed by that of camilo villegas on a day which saw five hole-in-ones , levelling the record from 2002 . \nthe colombian followed nicklaus with an ace on the fourth and also managed one on the eighth , but he could n't quite land the title , losing out to world no 74 kevin streelman in a play-off . \n\nnicklaus became the youngest person to wear a green jacket in 1963 , and collected his sixth in 1986 . \nhe is one of five men to complete the career grand slam , an accolade which favourite rory mcilroy can achieve if he wins his third major in succession .",
+      "summary": "Here is a concise summary of the passage:\n\nJack Nicklaus, 75, hit a hole-in-one on the 130-yard fourth hole at Augusta National during the par-3 contest, adding to his illustrious career. Nicklaus was playing alongside Gary Player and Ben Crenshaw. This was his first ace at Augusta, but not the only one of the day, as five hole-in-ones were recorded, tying the 2002 record. Camilo Villegas also hit two aces, but lost the title to Kevin Streelman in a playoff.",
+      "annotations": [],
+      "metadata": {
+        "summarizer": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+        "hhemv1": 0.26036,
+        "hhem-2.1": 0.88523,
+        "hhem-2.1-english": 0.89816,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 756
+      }
+    },
+    {
+      "sample_id": 27,
+      "source": "at the grand old age of 75 , jack nicklaus is still capable of hitting aces . \nthe golden bear added another magic moment to his storied career at augusta national in the par-3 contest . \nstepping up to the tee on the 130-yard fourth , the greatest golfer of all time saw his shot sail beyond the flag before spinning back into the hole . \njack nicklaus gave the crowd something to cheer with a hole in one on the fourth during the par-3 contest\nnicklaus holds up his ball to an adoring crowd as gary player ( left ) and ben crenshaw salute the great\ncrenshaw and nicklaus fist pump following his ace on the 130-yard hole at augusta national\nnicklaus was playing alongside gary player and ben crenshaw as the first roar of masters week filled the skies in a sunswept georgia . \n` i had an interview this morning , and i said \" well , all i 've got to do is go out and win the par-3 and make a hole and one \" , and i make a hole in one , ' nicklaus said afterwards . \nthe ace was nicklaus ' first on the hallowed turf of augusta , but the veteran saw his achievement eclipsed by that of camilo villegas on a day which saw five hole-in-ones , levelling the record from 2002 . \nthe colombian followed nicklaus with an ace on the fourth and also managed one on the eighth , but he could n't quite land the title , losing out to world no 74 kevin streelman in a play-off . \n\nnicklaus became the youngest person to wear a green jacket in 1963 , and collected his sixth in 1986 . \nhe is one of five men to complete the career grand slam , an accolade which favourite rory mcilroy can achieve if he wins his third major in succession .",
+      "summary": "Jack Nicklaus, at the age of 75, aced the fourth hole during the par-3 contest at Augusta National. This was his first ace on the course. Five aces were made during the contest, tying the record set in 2002. Camilo Villegas also aced the fourth hole and the eighth hole, but lost the contest to Kevin Streelman in a playoff. Nicklaus won his first Masters in 1963 and his sixth in 1986. He is one of five golfers to complete the career grand slam, which Rory McIlroy can achieve if he wins his third major in a row. \n",
+      "annotations": [
+        {
+          "annot_id": 26,
+          "annotator_id": "3dbe982ebbaf46cfa500375857a5c2fd",
+          "annotator_name": "Rogger",
+          "label": [
+            "Questionable"
+          ],
+          "note": "contest >= a day ?",
+          "summary_span": "Five aces were made during the contest",
+          "summary_start": 138,
+          "summary_end": 176,
+          "source_span": "on a day which saw five hole-in-ones",
+          "source_start": 1102,
+          "source_end": 1138
+        },
+        {
+          "annot_id": 27,
+          "annotator_id": "3dbe982ebbaf46cfa500375857a5c2fd",
+          "annotator_name": "Rogger",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "does not imply first master win",
+          "summary_span": "Nicklaus won his first Masters in 1963",
+          "summary_start": 325,
+          "summary_end": 363,
+          "source_span": "nicklaus became the youngest person to wear a green jacket in 1963",
+          "source_start": 1370,
+          "source_end": 1436
+        },
+        {
+          "annot_id": 28,
+          "annotator_id": "3dbe982ebbaf46cfa500375857a5c2fd",
+          "annotator_name": "Rogger",
+          "label": [
+            "Questionable"
+          ],
+          "note": "Sounds like first ace in the career.",
+          "summary_span": "This was his first ace on the course",
+          "summary_start": 100,
+          "summary_end": 136,
+          "source_span": "the ace was nicklaus ' first on the hallowed turf of augusta ,",
+          "source_start": 967,
+          "source_end": 1029
+        },
+        {
+          "annot_id": 114,
+          "annotator_id": "5e3dc734a1b7499d9c166bf020ef6ff8",
+          "annotator_name": "Matt",
+          "label": [
+            "Benign"
+          ],
+          "note": "This could be benign since the source mentions he won his first green jacket in 1963 and the green jacket is awarded for winning a Masters tournament.",
+          "summary_span": "Nicklaus won his first Masters in 1963",
+          "summary_start": 325,
+          "summary_end": 363,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        }
+      ],
+      "metadata": {
+        "summarizer": "google/gemini-1.5-flash-001",
+        "hhemv1": 0.31781,
+        "hhem-2.1": 0.95124,
+        "hhem-2.1-english": 0.98265,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 871
+      }
+    },
+    {
+      "sample_id": 28,
+      "source": "at the grand old age of 75 , jack nicklaus is still capable of hitting aces . \nthe golden bear added another magic moment to his storied career at augusta national in the par-3 contest . \nstepping up to the tee on the 130-yard fourth , the greatest golfer of all time saw his shot sail beyond the flag before spinning back into the hole . \njack nicklaus gave the crowd something to cheer with a hole in one on the fourth during the par-3 contest\nnicklaus holds up his ball to an adoring crowd as gary player ( left ) and ben crenshaw salute the great\ncrenshaw and nicklaus fist pump following his ace on the 130-yard hole at augusta national\nnicklaus was playing alongside gary player and ben crenshaw as the first roar of masters week filled the skies in a sunswept georgia . \n` i had an interview this morning , and i said \" well , all i 've got to do is go out and win the par-3 and make a hole and one \" , and i make a hole in one , ' nicklaus said afterwards . \nthe ace was nicklaus ' first on the hallowed turf of augusta , but the veteran saw his achievement eclipsed by that of camilo villegas on a day which saw five hole-in-ones , levelling the record from 2002 . \nthe colombian followed nicklaus with an ace on the fourth and also managed one on the eighth , but he could n't quite land the title , losing out to world no 74 kevin streelman in a play-off . \n\nnicklaus became the youngest person to wear a green jacket in 1963 , and collected his sixth in 1986 . \nhe is one of five men to complete the career grand slam , an accolade which favourite rory mcilroy can achieve if he wins his third major in succession .",
+      "summary": "The passage describes how Jack Nicklaus, at the age of 75, hit a hole-in-one during the par-3 contest at Augusta National. This was his first hole-in-one at Augusta and was followed by another hole-in-one by Camilo Villegas. However, Villegas did not win the contest, losing to Kevin Streelman in a playoff. The passage also mentions that Nicklaus became the youngest person to wear a green jacket in 1963 and collected his sixth in 1986. He is one of five men to complete the career grand slam.",
+      "annotations": [
+        {
+          "annot_id": 29,
+          "annotator_id": "3dbe982ebbaf46cfa500375857a5c2fd",
+          "annotator_name": "Rogger",
+          "label": [
+            "Benign"
+          ],
+          "note": "two another hole-in-ones",
+          "summary_span": "was followed by another hole-in-one by Camilo Villegas",
+          "summary_start": 169,
+          "summary_end": 223,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 72,
+          "annotator_id": "5e3dc734a1b7499d9c166bf020ef6ff8",
+          "annotator_name": "Matt",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "This seems like an intrinsic hallucination because Villegas did also score an ace but it omits the contextual highlight of scoring a second ace.\n\nThis also makes it sound like Villegas scored only one ace.",
+          "summary_span": "was followed by another hole-in-one by Camilo Villegas.",
+          "summary_start": 169,
+          "summary_end": 224,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        }
+      ],
+      "metadata": {
+        "summarizer": "openai/GPT-3.5-Turbo",
+        "hhemv1": 0.04498,
+        "hhem-2.1": 0.96444,
+        "hhem-2.1-english": 0.98197,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 998
+      }
+    },
+    {
+      "sample_id": 29,
+      "source": "at the grand old age of 75 , jack nicklaus is still capable of hitting aces . \nthe golden bear added another magic moment to his storied career at augusta national in the par-3 contest . \nstepping up to the tee on the 130-yard fourth , the greatest golfer of all time saw his shot sail beyond the flag before spinning back into the hole . \njack nicklaus gave the crowd something to cheer with a hole in one on the fourth during the par-3 contest\nnicklaus holds up his ball to an adoring crowd as gary player ( left ) and ben crenshaw salute the great\ncrenshaw and nicklaus fist pump following his ace on the 130-yard hole at augusta national\nnicklaus was playing alongside gary player and ben crenshaw as the first roar of masters week filled the skies in a sunswept georgia . \n` i had an interview this morning , and i said \" well , all i 've got to do is go out and win the par-3 and make a hole and one \" , and i make a hole in one , ' nicklaus said afterwards . \nthe ace was nicklaus ' first on the hallowed turf of augusta , but the veteran saw his achievement eclipsed by that of camilo villegas on a day which saw five hole-in-ones , levelling the record from 2002 . \nthe colombian followed nicklaus with an ace on the fourth and also managed one on the eighth , but he could n't quite land the title , losing out to world no 74 kevin streelman in a play-off . \n\nnicklaus became the youngest person to wear a green jacket in 1963 , and collected his sixth in 1986 . \nhe is one of five men to complete the career grand slam , an accolade which favourite rory mcilroy can achieve if he wins his third major in succession .",
+      "summary": "At 75, Jack Nicklaus demonstrated his enduring skill by hitting a hole-in-one during the par-3 contest at Augusta National. On the 130-yard fourth hole, his shot sailed past the flag before spinning back into the hole, thrilling the crowd. Playing alongside Gary Player and Ben Crenshaw, Nicklaus celebrated with a fist pump. This was his first ace at Augusta, though the day saw five hole-in-ones, including two by Camilo Villegas. Nicklaus, who first won a green jacket in 1963 and his sixth in 1986, is one of five men to complete the career grand slam. Rory McIlroy could join this elite group if he wins his third major in succession.",
+      "annotations": [],
+      "metadata": {
+        "summarizer": "openai/gpt-4o",
+        "hhemv1": 0.49943,
+        "hhem-2.1": 0.79129,
+        "hhem-2.1-english": 0.76358,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 1101
+      }
+    },
+    {
+      "sample_id": 30,
+      "source": "a species of whale that was feared to be extinct has been found washed up on a west australian beach , giving scientists an opportunity to learn more about the mammal . \nthe omura 's whale was discovered on a remote exmouth beach , at the tip of the state 's north west cape , after tropical cyclone olwyn tore through the area last month . \nit is the first sighting of the species in wa and only the second in australia . \nidentifying the 5.68 m juvenile female was at first difficult for department of parks and wildlife staff , who eventually confirmed it was an omura 's whale with dna profiling . \nan omura 's whale was discovered on a remote exmouth beach in wa ( pictured ) . \nit left authorities confused as they struggled to identify the rare species\nenvironment minister albert jacob said the find was ` highly significant ' for whale scientists because very little was known about the species . \n` omura 's whale was only described in scientific journals for the first time in 2003 and is apparently restricted to tropical and subtropical waters , ' he said . \n` the knowledge we gain from this whale will help to improve field identification guides to better understand the whale 's regional distribution . ' \nthe species is usually found in indonesian waters , the philippines and the sea of japan . \nomura 's whales have a sleek body shape and several unique skeletal features , including 53 vertebrae and four digits on each pectoral fin . \nthe carcass has been buried and the skeleton will be recovered in a few years for further scientific investigation and possibly for public display in museums . \nthe omura 's is usually found in indonesian waters , the philippines and the sea of japan\nthe whale has a sleek body shape and several unique skeletal features , including 67 vertebrae",
+      "summary": " A juvenile female Omura's whale, a rare species believed to be restricted to tropical and subtropical waters, was found washed up on a remote Exmouth beach in Western Australia (WA). This is the first sighting of the species in WA and only the second in Australia. The discovery was initially challenging for the Department of Parks and Wildlife staff to identify, but DNA profiling confirmed it as an Omura's whale. The find is significant for whale scientists as very little is known about the species, which is usually found in Indonesian waters, the Philippines, and the Sea of Japan. The carcass has been buried, and the skeleton will be recovered in a few years for further scientific investigation and potential public display in museums.",
+      "annotations": [],
+      "metadata": {
+        "summarizer": "mistralai/Mistral-7B-Instruct-v0.3",
+        "hhemv1": 0.99778,
+        "hhem-2.1": 0.89415,
+        "hhem-2.1-english": 0.98069,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 0,
+        "gpt_4o": 1,
+        "raw_sample_id": 74
+      }
+    },
+    {
+      "sample_id": 31,
+      "source": "a species of whale that was feared to be extinct has been found washed up on a west australian beach , giving scientists an opportunity to learn more about the mammal . \nthe omura 's whale was discovered on a remote exmouth beach , at the tip of the state 's north west cape , after tropical cyclone olwyn tore through the area last month . \nit is the first sighting of the species in wa and only the second in australia . \nidentifying the 5.68 m juvenile female was at first difficult for department of parks and wildlife staff , who eventually confirmed it was an omura 's whale with dna profiling . \nan omura 's whale was discovered on a remote exmouth beach in wa ( pictured ) . \nit left authorities confused as they struggled to identify the rare species\nenvironment minister albert jacob said the find was ` highly significant ' for whale scientists because very little was known about the species . \n` omura 's whale was only described in scientific journals for the first time in 2003 and is apparently restricted to tropical and subtropical waters , ' he said . \n` the knowledge we gain from this whale will help to improve field identification guides to better understand the whale 's regional distribution . ' \nthe species is usually found in indonesian waters , the philippines and the sea of japan . \nomura 's whales have a sleek body shape and several unique skeletal features , including 53 vertebrae and four digits on each pectoral fin . \nthe carcass has been buried and the skeleton will be recovered in a few years for further scientific investigation and possibly for public display in museums . \nthe omura 's is usually found in indonesian waters , the philippines and the sea of japan\nthe whale has a sleek body shape and several unique skeletal features , including 67 vertebrae",
+      "summary": " An Omura's whale, previously feared extinct, washed up on a remote Eighty Mile Beach in Western Australia. This is the first sighting in the region and only the second in Australia. The discovery, made after Tropical Cyclone Olwyn, provided scientists with an opportunity to learn more about the species, which was only described in scientific journals in 2003. The whale, a juvenile female, has unique features such as 53 vertebrae and four digits on each pectoral fin. The carcass has been buried, and the skeleton will be recovered for further study and possible public display. The species is usually found in Indonesian waters, the Philippines, and the Sea of Japan. \n\nNote: The passage mentions 67 vertebrae, but the correct number is 53. This has been corrected in the summary. \n\nSummary:\nA previously feared extinct Omura's whale washed up on a remote beach in Western Australia, providing scientists with a chance to learn more about the species. This is the first sighting in the region and only the second in Australia. The wh",
+      "annotations": [
+        {
+          "annot_id": 30,
+          "annotator_id": "3dbe982ebbaf46cfa500375857a5c2fd",
+          "annotator_name": "Rogger",
+          "label": [
+            "Unwanted",
+            "Unwanted.Extrinsic"
+          ],
+          "note": "not mentioned",
+          "summary_span": "Eighty Mile",
+          "summary_start": 68,
+          "summary_end": 79,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 83,
+          "annotator_id": "5e3dc734a1b7499d9c166bf020ef6ff8",
+          "annotator_name": "Matt",
+          "label": [
+            "Benign"
+          ],
+          "note": "According to Google Eighty Mile Beach is an AKA for Exmouth beach so, if true, this seems to add helpful context for readers",
+          "summary_span": "washed up on a remote Eighty Mile Beach in Western Australia",
+          "summary_start": 46,
+          "summary_end": 106,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        }
+      ],
+      "metadata": {
+        "summarizer": "microsoft/Phi-3-mini-4k-instruct",
+        "hhemv1": 0.93077,
+        "hhem-2.1": 0.59502,
+        "hhem-2.1-english": 0.3852,
+        "trueteacher": 0,
+        "true_nli": 0,
+        "gpt-3.5-turbo": 0,
+        "gpt-4-turbo": 0,
+        "gpt_4o": 0,
+        "raw_sample_id": 189
+      }
+    },
+    {
+      "sample_id": 32,
+      "source": "a species of whale that was feared to be extinct has been found washed up on a west australian beach , giving scientists an opportunity to learn more about the mammal . \nthe omura 's whale was discovered on a remote exmouth beach , at the tip of the state 's north west cape , after tropical cyclone olwyn tore through the area last month . \nit is the first sighting of the species in wa and only the second in australia . \nidentifying the 5.68 m juvenile female was at first difficult for department of parks and wildlife staff , who eventually confirmed it was an omura 's whale with dna profiling . \nan omura 's whale was discovered on a remote exmouth beach in wa ( pictured ) . \nit left authorities confused as they struggled to identify the rare species\nenvironment minister albert jacob said the find was ` highly significant ' for whale scientists because very little was known about the species . \n` omura 's whale was only described in scientific journals for the first time in 2003 and is apparently restricted to tropical and subtropical waters , ' he said . \n` the knowledge we gain from this whale will help to improve field identification guides to better understand the whale 's regional distribution . ' \nthe species is usually found in indonesian waters , the philippines and the sea of japan . \nomura 's whales have a sleek body shape and several unique skeletal features , including 53 vertebrae and four digits on each pectoral fin . \nthe carcass has been buried and the skeleton will be recovered in a few years for further scientific investigation and possibly for public display in museums . \nthe omura 's is usually found in indonesian waters , the philippines and the sea of japan\nthe whale has a sleek body shape and several unique skeletal features , including 67 vertebrae",
+      "summary": "Here's a concise summary of the passage, covering the core pieces of information:\n\nAn Omura's whale, a rare species once feared extinct, was found washed up on a remote beach in Exmouth, Western Australia, following Cyclone Olwyn. This is the first sighting in Western Australia and only the second in Australia. The 5.68m juvenile female was identified through DNA profiling. The discovery is significant for scientists as little is known about this species, which was first described in 2003. Omura's whales typically inhabit tropical and subtropical waters, including Indonesian waters, the Philippines, and the Sea of Japan. They have unique features, including a sleek body shape and 53 vertebrae. The carcass has been buried, and the skeleton will be recovered later for further research and possible museum display.",
+      "annotations": [
+        {
+          "annot_id": 32,
+          "annotator_id": "3dbe982ebbaf46cfa500375857a5c2fd",
+          "annotator_name": "Rogger",
+          "label": [
+            "Questionable"
+          ],
+          "note": "sleek body shape not unique",
+          "summary_span": "a sleek body shape",
+          "summary_start": 666,
+          "summary_end": 684,
+          "source_span": "omura 's whales have a sleek body shape and several unique skeletal features , including 53 vertebrae and four digits on each pectoral fin ",
+          "source_start": 1314,
+          "source_end": 1453
+        }
+      ],
+      "metadata": {
+        "summarizer": "Anthropic/claude-3-5-sonnet-20240620",
+        "hhemv1": 0.98592,
+        "hhem-2.1": 0.85203,
+        "hhem-2.1-english": 0.9611,
+        "trueteacher": 1,
+        "true_nli": 0,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 0,
+        "gpt_4o": 1,
+        "raw_sample_id": 304
+      }
+    },
+    {
+      "sample_id": 33,
+      "source": "a species of whale that was feared to be extinct has been found washed up on a west australian beach , giving scientists an opportunity to learn more about the mammal . \nthe omura 's whale was discovered on a remote exmouth beach , at the tip of the state 's north west cape , after tropical cyclone olwyn tore through the area last month . \nit is the first sighting of the species in wa and only the second in australia . \nidentifying the 5.68 m juvenile female was at first difficult for department of parks and wildlife staff , who eventually confirmed it was an omura 's whale with dna profiling . \nan omura 's whale was discovered on a remote exmouth beach in wa ( pictured ) . \nit left authorities confused as they struggled to identify the rare species\nenvironment minister albert jacob said the find was ` highly significant ' for whale scientists because very little was known about the species . \n` omura 's whale was only described in scientific journals for the first time in 2003 and is apparently restricted to tropical and subtropical waters , ' he said . \n` the knowledge we gain from this whale will help to improve field identification guides to better understand the whale 's regional distribution . ' \nthe species is usually found in indonesian waters , the philippines and the sea of japan . \nomura 's whales have a sleek body shape and several unique skeletal features , including 53 vertebrae and four digits on each pectoral fin . \nthe carcass has been buried and the skeleton will be recovered in a few years for further scientific investigation and possibly for public display in museums . \nthe omura 's is usually found in indonesian waters , the philippines and the sea of japan\nthe whale has a sleek body shape and several unique skeletal features , including 67 vertebrae",
+      "summary": "A rare Omura's whale, previously thought to be extinct, was discovered on a beach in Western Australia after a cyclone. This is the first sighting in the state and only the second in Australia. The juvenile female was initially difficult to identify due to its rarity, but DNA profiling confirmed the species. Scientists are excited about this find as it provides an opportunity to learn more about the whale, which was only scientifically described in 2003. The species is typically found in tropical and subtropical waters, and its unique skeletal features include a high number of vertebrae and digits on its fins. The skeleton will be recovered for scientific study and potential public display.",
+      "annotations": [
+        {
+          "annot_id": 33,
+          "annotator_id": "3dbe982ebbaf46cfa500375857a5c2fd",
+          "annotator_name": "Rogger",
+          "label": [
+            "Questionable"
+          ],
+          "note": "is 53 high number?",
+          "summary_span": "a high number of vertebrae and digits on its fins",
+          "summary_start": 567,
+          "summary_end": 616,
+          "source_span": " 53 vertebrae and four digits on each pectoral fin ",
+          "source_start": 1402,
+          "source_end": 1453
+        },
+        {
+          "annot_id": 76,
+          "annotator_id": "5e3dc734a1b7499d9c166bf020ef6ff8",
+          "annotator_name": "Matt",
+          "label": [
+            "Benign"
+          ],
+          "note": "This adds appropriate context that Western Australia is a state in Australia",
+          "summary_span": "This is the first sighting in the state",
+          "summary_start": 120,
+          "summary_end": 159,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 77,
+          "annotator_id": "5e3dc734a1b7499d9c166bf020ef6ff8",
+          "annotator_name": "Matt",
+          "label": [
+            "Benign"
+          ],
+          "note": "This seems benign because it reasonably correlates the difficulty of identification with the rarity of the species, previously thought to be extinct.\n\nI think this adds helpful, accurate context for a reader",
+          "summary_span": "The juvenile female was initially difficult to identify due to its rarity",
+          "summary_start": 194,
+          "summary_end": 267,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        }
+      ],
+      "metadata": {
+        "summarizer": "cohere/command-r-08-2024",
+        "hhemv1": 0.99725,
+        "hhem-2.1": 0.90465,
+        "hhem-2.1-english": 0.96118,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 0,
+        "gpt_4o": 1,
+        "raw_sample_id": 419
+      }
+    },
+    {
+      "sample_id": 34,
+      "source": "a species of whale that was feared to be extinct has been found washed up on a west australian beach , giving scientists an opportunity to learn more about the mammal . \nthe omura 's whale was discovered on a remote exmouth beach , at the tip of the state 's north west cape , after tropical cyclone olwyn tore through the area last month . \nit is the first sighting of the species in wa and only the second in australia . \nidentifying the 5.68 m juvenile female was at first difficult for department of parks and wildlife staff , who eventually confirmed it was an omura 's whale with dna profiling . \nan omura 's whale was discovered on a remote exmouth beach in wa ( pictured ) . \nit left authorities confused as they struggled to identify the rare species\nenvironment minister albert jacob said the find was ` highly significant ' for whale scientists because very little was known about the species . \n` omura 's whale was only described in scientific journals for the first time in 2003 and is apparently restricted to tropical and subtropical waters , ' he said . \n` the knowledge we gain from this whale will help to improve field identification guides to better understand the whale 's regional distribution . ' \nthe species is usually found in indonesian waters , the philippines and the sea of japan . \nomura 's whales have a sleek body shape and several unique skeletal features , including 53 vertebrae and four digits on each pectoral fin . \nthe carcass has been buried and the skeleton will be recovered in a few years for further scientific investigation and possibly for public display in museums . \nthe omura 's is usually found in indonesian waters , the philippines and the sea of japan\nthe whale has a sleek body shape and several unique skeletal features , including 67 vertebrae",
+      "summary": "A juvenile female Omura's whale, previously thought to be extinct in Western Australia, was discovered washed up on a remote Exmouth beach after Tropical Cyclone Olwyn. This is the first sighting of the species in Western Australia and only the second in Australia. The whale, identified through DNA profiling, is significant for whale scientists due to the limited knowledge about the species, which was only described scientifically in 2003. The find will aid in improving field identification guides and understanding the whale's regional distribution. The carcass has been buried, and the skeleton will be recovered later for further scientific study and potential museum display.",
+      "annotations": [
+        {
+          "annot_id": 34,
+          "annotator_id": "3dbe982ebbaf46cfa500375857a5c2fd",
+          "annotator_name": "Rogger",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "Not extinct in WA but worldwide",
+          "summary_span": "thought to be extinct in Western Australia",
+          "summary_start": 44,
+          "summary_end": 86,
+          "source_span": "was feared to be extinct has been found washed up on a west australian beach ",
+          "source_start": 24,
+          "source_end": 101
+        },
+        {
+          "annot_id": 78,
+          "annotator_id": "5e3dc734a1b7499d9c166bf020ef6ff8",
+          "annotator_name": "Matt",
+          "label": [
+            "Unwanted"
+          ],
+          "note": "This summary seems to inaccurately describe the extinction as being localized to Western Australia where it's actually a global classification",
+          "summary_span": "previously thought to be extinct in Western Australia",
+          "summary_start": 33,
+          "summary_end": 86,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 79,
+          "annotator_id": "5e3dc734a1b7499d9c166bf020ef6ff8",
+          "annotator_name": "Matt",
+          "label": [
+            "Unwanted"
+          ],
+          "note": "In my opinion, this summary changes the context of the source material since it was only described in \"scientific journals\" and inserting \"scientifically\" here can carry different meanings",
+          "summary_span": "which was only described scientifically in 2003",
+          "summary_start": 395,
+          "summary_end": 442,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        }
+      ],
+      "metadata": {
+        "summarizer": "Qwen/Qwen2.5-7B-Instruct",
+        "hhemv1": 0.99847,
+        "hhem-2.1": 0.91561,
+        "hhem-2.1-english": 0.98501,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 0,
+        "gpt_4o": 1,
+        "raw_sample_id": 534
+      }
+    },
+    {
+      "sample_id": 35,
+      "source": "a species of whale that was feared to be extinct has been found washed up on a west australian beach , giving scientists an opportunity to learn more about the mammal . \nthe omura 's whale was discovered on a remote exmouth beach , at the tip of the state 's north west cape , after tropical cyclone olwyn tore through the area last month . \nit is the first sighting of the species in wa and only the second in australia . \nidentifying the 5.68 m juvenile female was at first difficult for department of parks and wildlife staff , who eventually confirmed it was an omura 's whale with dna profiling . \nan omura 's whale was discovered on a remote exmouth beach in wa ( pictured ) . \nit left authorities confused as they struggled to identify the rare species\nenvironment minister albert jacob said the find was ` highly significant ' for whale scientists because very little was known about the species . \n` omura 's whale was only described in scientific journals for the first time in 2003 and is apparently restricted to tropical and subtropical waters , ' he said . \n` the knowledge we gain from this whale will help to improve field identification guides to better understand the whale 's regional distribution . ' \nthe species is usually found in indonesian waters , the philippines and the sea of japan . \nomura 's whales have a sleek body shape and several unique skeletal features , including 53 vertebrae and four digits on each pectoral fin . \nthe carcass has been buried and the skeleton will be recovered in a few years for further scientific investigation and possibly for public display in museums . \nthe omura 's is usually found in indonesian waters , the philippines and the sea of japan\nthe whale has a sleek body shape and several unique skeletal features , including 67 vertebrae",
+      "summary": "Here is a concise summary of the passage:\n\nA juvenile female Omura's whale, a species thought to be extinct in Australia, was found washed up on a remote beach in Western Australia after a tropical cyclone. The whale was identified through DNA profiling and is the first sighting of the species in Western Australia and only the second in Australia. The find is significant for scientists as very little is known about the species, which is usually found in Indonesian waters, the Philippines, and the Sea of Japan. The carcass has been buried, and the skeleton will be recovered for further scientific investigation and possible public display.",
+      "annotations": [
+        {
+          "annot_id": 35,
+          "annotator_id": "3dbe982ebbaf46cfa500375857a5c2fd",
+          "annotator_name": "Rogger",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "Not extinct in Aus but worldwide",
+          "summary_span": "a species thought to be extinct in Australia",
+          "summary_start": 76,
+          "summary_end": 120,
+          "source_span": " species of whale that was feared to be extinct has been found washed up on a west australian beach ",
+          "source_start": 1,
+          "source_end": 101
+        },
+        {
+          "annot_id": 81,
+          "annotator_id": "5e3dc734a1b7499d9c166bf020ef6ff8",
+          "annotator_name": "Matt",
+          "label": [
+            "Unwanted"
+          ],
+          "note": "The species was thought to be extinct, period, and not specific to Australia",
+          "summary_span": "a species thought to be extinct in Australia",
+          "summary_start": 76,
+          "summary_end": 120,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        }
+      ],
+      "metadata": {
+        "summarizer": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+        "hhemv1": 0.98489,
+        "hhem-2.1": 0.86742,
+        "hhem-2.1-english": 0.98315,
+        "trueteacher": 0,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 0,
+        "gpt_4o": 1,
+        "raw_sample_id": 649
+      }
+    },
+    {
+      "sample_id": 36,
+      "source": "a species of whale that was feared to be extinct has been found washed up on a west australian beach , giving scientists an opportunity to learn more about the mammal . \nthe omura 's whale was discovered on a remote exmouth beach , at the tip of the state 's north west cape , after tropical cyclone olwyn tore through the area last month . \nit is the first sighting of the species in wa and only the second in australia . \nidentifying the 5.68 m juvenile female was at first difficult for department of parks and wildlife staff , who eventually confirmed it was an omura 's whale with dna profiling . \nan omura 's whale was discovered on a remote exmouth beach in wa ( pictured ) . \nit left authorities confused as they struggled to identify the rare species\nenvironment minister albert jacob said the find was ` highly significant ' for whale scientists because very little was known about the species . \n` omura 's whale was only described in scientific journals for the first time in 2003 and is apparently restricted to tropical and subtropical waters , ' he said . \n` the knowledge we gain from this whale will help to improve field identification guides to better understand the whale 's regional distribution . ' \nthe species is usually found in indonesian waters , the philippines and the sea of japan . \nomura 's whales have a sleek body shape and several unique skeletal features , including 53 vertebrae and four digits on each pectoral fin . \nthe carcass has been buried and the skeleton will be recovered in a few years for further scientific investigation and possibly for public display in museums . \nthe omura 's is usually found in indonesian waters , the philippines and the sea of japan\nthe whale has a sleek body shape and several unique skeletal features , including 67 vertebrae",
+      "summary": "Here is a concise summary of the passage:\n\nA species of whale thought to be extinct, the Omura's whale, was found washed up on a remote beach in Western Australia. The 5.68m juvenile female was identified through DNA profiling, marking the first sighting of the species in WA and only the second in Australia. The discovery is significant as very little is known about the species, which was first described in scientific journals in 2003. The whale's skeleton will be recovered in a few years for further scientific investigation and possible public display in museums.",
+      "annotations": [],
+      "metadata": {
+        "summarizer": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+        "hhemv1": 0.99561,
+        "hhem-2.1": 0.87875,
+        "hhem-2.1-english": 0.97233,
+        "trueteacher": 0,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 0,
+        "gpt_4o": 1,
+        "raw_sample_id": 764
+      }
+    },
+    {
+      "sample_id": 37,
+      "source": "a species of whale that was feared to be extinct has been found washed up on a west australian beach , giving scientists an opportunity to learn more about the mammal . \nthe omura 's whale was discovered on a remote exmouth beach , at the tip of the state 's north west cape , after tropical cyclone olwyn tore through the area last month . \nit is the first sighting of the species in wa and only the second in australia . \nidentifying the 5.68 m juvenile female was at first difficult for department of parks and wildlife staff , who eventually confirmed it was an omura 's whale with dna profiling . \nan omura 's whale was discovered on a remote exmouth beach in wa ( pictured ) . \nit left authorities confused as they struggled to identify the rare species\nenvironment minister albert jacob said the find was ` highly significant ' for whale scientists because very little was known about the species . \n` omura 's whale was only described in scientific journals for the first time in 2003 and is apparently restricted to tropical and subtropical waters , ' he said . \n` the knowledge we gain from this whale will help to improve field identification guides to better understand the whale 's regional distribution . ' \nthe species is usually found in indonesian waters , the philippines and the sea of japan . \nomura 's whales have a sleek body shape and several unique skeletal features , including 53 vertebrae and four digits on each pectoral fin . \nthe carcass has been buried and the skeleton will be recovered in a few years for further scientific investigation and possibly for public display in museums . \nthe omura 's is usually found in indonesian waters , the philippines and the sea of japan\nthe whale has a sleek body shape and several unique skeletal features , including 67 vertebrae",
+      "summary": "An Omura's whale, a species rarely seen and thought to be extinct, was found washed up on a beach in Western Australia. This is the first sighting of the species in Western Australia and only the second in Australia. The whale was a juvenile female and was identified through DNA profiling. The discovery is significant because very little is known about the species, which was only first described in scientific journals in 2003. The whale's carcass has been buried and will be recovered in a few years for further scientific investigation. \n",
+      "annotations": [],
+      "metadata": {
+        "summarizer": "google/gemini-1.5-flash-001",
+        "hhemv1": 0.99891,
+        "hhem-2.1": 0.9263,
+        "hhem-2.1-english": 0.98041,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 0,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 879
+      }
+    },
+    {
+      "sample_id": 38,
+      "source": "a species of whale that was feared to be extinct has been found washed up on a west australian beach , giving scientists an opportunity to learn more about the mammal . \nthe omura 's whale was discovered on a remote exmouth beach , at the tip of the state 's north west cape , after tropical cyclone olwyn tore through the area last month . \nit is the first sighting of the species in wa and only the second in australia . \nidentifying the 5.68 m juvenile female was at first difficult for department of parks and wildlife staff , who eventually confirmed it was an omura 's whale with dna profiling . \nan omura 's whale was discovered on a remote exmouth beach in wa ( pictured ) . \nit left authorities confused as they struggled to identify the rare species\nenvironment minister albert jacob said the find was ` highly significant ' for whale scientists because very little was known about the species . \n` omura 's whale was only described in scientific journals for the first time in 2003 and is apparently restricted to tropical and subtropical waters , ' he said . \n` the knowledge we gain from this whale will help to improve field identification guides to better understand the whale 's regional distribution . ' \nthe species is usually found in indonesian waters , the philippines and the sea of japan . \nomura 's whales have a sleek body shape and several unique skeletal features , including 53 vertebrae and four digits on each pectoral fin . \nthe carcass has been buried and the skeleton will be recovered in a few years for further scientific investigation and possibly for public display in museums . \nthe omura 's is usually found in indonesian waters , the philippines and the sea of japan\nthe whale has a sleek body shape and several unique skeletal features , including 67 vertebrae",
+      "summary": "A species of whale called the Omura's whale, which was thought to be extinct, has been found washed up on a beach in Western Australia. This is the first sighting of the species in Western Australia and only the second in Australia. The discovery is significant for scientists as very little is known about the species, which was only described in scientific journals in 2003. The whale has unique skeletal features and is usually found in Indonesian waters, the Philippines, and the Sea of Japan. The carcass has been buried, and the skeleton will be recovered in a few years for further scientific investigation and possibly for public display in museums.",
+      "annotations": [],
+      "metadata": {
+        "summarizer": "openai/GPT-3.5-Turbo",
+        "hhemv1": 0.99937,
+        "hhem-2.1": 0.86105,
+        "hhem-2.1-english": 0.97408,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 0,
+        "gpt_4o": 1,
+        "raw_sample_id": 994
+      }
+    },
+    {
+      "sample_id": 39,
+      "source": "a species of whale that was feared to be extinct has been found washed up on a west australian beach , giving scientists an opportunity to learn more about the mammal . \nthe omura 's whale was discovered on a remote exmouth beach , at the tip of the state 's north west cape , after tropical cyclone olwyn tore through the area last month . \nit is the first sighting of the species in wa and only the second in australia . \nidentifying the 5.68 m juvenile female was at first difficult for department of parks and wildlife staff , who eventually confirmed it was an omura 's whale with dna profiling . \nan omura 's whale was discovered on a remote exmouth beach in wa ( pictured ) . \nit left authorities confused as they struggled to identify the rare species\nenvironment minister albert jacob said the find was ` highly significant ' for whale scientists because very little was known about the species . \n` omura 's whale was only described in scientific journals for the first time in 2003 and is apparently restricted to tropical and subtropical waters , ' he said . \n` the knowledge we gain from this whale will help to improve field identification guides to better understand the whale 's regional distribution . ' \nthe species is usually found in indonesian waters , the philippines and the sea of japan . \nomura 's whales have a sleek body shape and several unique skeletal features , including 53 vertebrae and four digits on each pectoral fin . \nthe carcass has been buried and the skeleton will be recovered in a few years for further scientific investigation and possibly for public display in museums . \nthe omura 's is usually found in indonesian waters , the philippines and the sea of japan\nthe whale has a sleek body shape and several unique skeletal features , including 67 vertebrae",
+      "summary": "A species of whale, the Omura's whale, previously feared extinct, was found on a beach in Western Australia after a cyclone. This is the first sighting in Western Australia and the second in Australia. The juvenile female was identified through DNA profiling. The discovery is significant for scientists as little is known about the species, which was first described in 2003 and is typically found in tropical and subtropical waters. The whale has unique skeletal features, including 53 vertebrae and four digits on each pectoral fin. The carcass has been buried, with plans to recover the skeleton for further study and possible museum display.",
+      "annotations": [],
+      "metadata": {
+        "summarizer": "openai/gpt-4o",
+        "hhemv1": 0.99823,
+        "hhem-2.1": 0.9431,
+        "hhem-2.1-english": 0.98644,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 0,
+        "gpt_4o": 1,
+        "raw_sample_id": 1109
+      }
+    },
+    {
+      "sample_id": 40,
+      "source": "a species of whale that was feared to be extinct has been found washed up on a west australian beach , giving scientists an opportunity to learn more about the mammal . \nthe omura 's whale was discovered on a remote exmouth beach , at the tip of the state 's north west cape , after tropical cyclone olwyn tore through the area last month . \nit is the first sighting of the species in wa and only the second in australia . \nidentifying the 5.68 m juvenile female was at first difficult for department of parks and wildlife staff , who eventually confirmed it was an omura 's whale with dna profiling . \nan omura 's whale was discovered on a remote exmouth beach in wa ( pictured ) . \nit left authorities confused as they struggled to identify the rare species\nenvironment minister albert jacob said the find was ` highly significant ' for whale scientists because very little was known about the species . \n` omura 's whale was only described in scientific journals for the first time in 2003 and is apparently restricted to tropical and subtropical waters , ' he said . \n` the knowledge we gain from this whale will help to improve field identification guides to better understand the whale 's regional distribution . ' \nthe species is usually found in indonesian waters , the philippines and the sea of japan . \nomura 's whales have a sleek body shape and several unique skeletal features , including 53 vertebrae and four digits on each pectoral fin . \nthe carcass has been buried and the skeleton will be recovered in a few years for further scientific investigation and possibly for public display in museums . \nthe omura 's is usually found in indonesian waters , the philippines and the sea of japan\nthe whale has a sleek body shape and several unique skeletal features , including 63 vertebrae",
+      "summary": " A juvenile female Omura's whale, a rare species believed to be restricted to tropical and subtropical waters, was found washed up on a remote Exmouth beach in Western Australia (WA). This is the first sighting of the species in WA and only the second in Australia. The discovery was initially challenging for the Department of Parks and Wildlife staff to identify, but DNA profiling confirmed it as an Omura's whale. The find is significant for whale scientists as very little is known about the species, which is usually found in Indonesian waters, the Philippines, and the Sea of Japan. The carcass has been buried, and the skeleton will be recovered in a few years for further scientific investigation and potential public display in museums.",
+      "annotations": [],
+      "metadata": {
+        "summarizer": "mistralai/Mistral-7B-Instruct-v0.3",
+        "hhemv1": 0.99778,
+        "hhem-2.1": 0.92947,
+        "hhem-2.1-english": 0.99022,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 95
+      }
+    },
+    {
+      "sample_id": 41,
+      "source": "a species of whale that was feared to be extinct has been found washed up on a west australian beach , giving scientists an opportunity to learn more about the mammal . \nthe omura 's whale was discovered on a remote exmouth beach , at the tip of the state 's north west cape , after tropical cyclone olwyn tore through the area last month . \nit is the first sighting of the species in wa and only the second in australia . \nidentifying the 5.68 m juvenile female was at first difficult for department of parks and wildlife staff , who eventually confirmed it was an omura 's whale with dna profiling . \nan omura 's whale was discovered on a remote exmouth beach in wa ( pictured ) . \nit left authorities confused as they struggled to identify the rare species\nenvironment minister albert jacob said the find was ` highly significant ' for whale scientists because very little was known about the species . \n` omura 's whale was only described in scientific journals for the first time in 2003 and is apparently restricted to tropical and subtropical waters , ' he said . \n` the knowledge we gain from this whale will help to improve field identification guides to better understand the whale 's regional distribution . ' \nthe species is usually found in indonesian waters , the philippines and the sea of japan . \nomura 's whales have a sleek body shape and several unique skeletal features , including 53 vertebrae and four digits on each pectoral fin . \nthe carcass has been buried and the skeleton will be recovered in a few years for further scientific investigation and possibly for public display in museums . \nthe omura 's is usually found in indonesian waters , the philippines and the sea of japan\nthe whale has a sleek body shape and several unique skeletal features , including 63 vertebrae",
+      "summary": " An Omura's whale, previously thought extinct, washed up on a remote Eighty Mile Beach in Western Australia. This is the first sighting in the region and only the second in Australia. The discovery, made after Tropical Cyclone Olwyn, provided scientists with an opportunity to learn more about the species, which was only described in scientific journals in 2003. The whale, a juvenile female, has unique features such as 53 vertebrae and four digits on each pectoral fin. The carcass has been buried, and the skeleton will be recovered for further study and possible public display. The species is usually found in Indonesian waters, the Philippines, and the Sea of Japan. \n\nNote: The passage mentions \"53 vertebrae\" but the original text states \"5.68 m juvenile female was at first difficult for Department of Parks and Wildlife staff, who eventually confirmed it was an Omura's whale with DNA profiling.\" This seems to be an error, as the number of vertebrae should be 53, not 5.68. I have retained the",
+      "annotations": [
+        {
+          "annot_id": 36,
+          "annotator_id": "3dbe982ebbaf46cfa500375857a5c2fd",
+          "annotator_name": "Rogger",
+          "label": [
+            "Unwanted",
+            "Unwanted.Extrinsic"
+          ],
+          "note": "Not mentioned",
+          "summary_span": "Eighty Mile",
+          "summary_start": 69,
+          "summary_end": 80,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        },
+        {
+          "annot_id": 37,
+          "annotator_id": "3dbe982ebbaf46cfa500375857a5c2fd",
+          "annotator_name": "Rogger",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "Extra note, misinterpreting the numbers ",
+          "summary_span": "Note: The passage mentions \"53 vertebrae\" but the original text states \"5.68 m juvenile female was at first difficult for Department of Parks and Wildlife staff, who eventually confirmed it was an Omura's whale with DNA profiling.\" This seems to be an error, as the number of vertebrae should be 53, not 5.68. I have retained the",
+          "summary_start": 676,
+          "summary_end": 1005,
+          "source_span": "identifying the 5.68 m juvenile female was at first difficult for department of parks and wildlife staff , who eventually confirmed it was an omura 's whale with dna profiling . \nan omura 's whale was discovered on a remote exmouth beach in wa ( pictured ) . \nit left authorities confused as they struggled to identify the rare species\nenvironment minister albert jacob said the find was ` highly significant ' for whale scientists because very little was known about the species . \n` omura 's whale was only described in scientific journals for the first time in 2003 and is apparently restricted to tropical and subtropical waters , ' he said . \n` the knowledge we gain from this whale will help to improve field identification guides to better understand the whale 's regional distribution . ' \nthe species is usually found in indonesian waters , the philippines and the sea of japan . \nomura 's whales have a sleek body shape and several unique skeletal features , including 53 vertebrae and four digits on each pectoral fin .",
+          "source_start": 424,
+          "source_end": 1454
+        },
+        {
+          "annot_id": 84,
+          "annotator_id": "5e3dc734a1b7499d9c166bf020ef6ff8",
+          "annotator_name": "Matt",
+          "label": [
+            "Benign"
+          ],
+          "note": "Exmouth beach is allegedly also known as Eighty Mile Beach, which means this is adding helpful context for readers despite not being present in the source material",
+          "summary_span": "washed up on a remote Eighty Mile Beach in Western Australia",
+          "summary_start": 47,
+          "summary_end": 107,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        }
+      ],
+      "metadata": {
+        "summarizer": "microsoft/Phi-3-mini-4k-instruct",
+        "hhemv1": 0.9069,
+        "hhem-2.1": 0.5977,
+        "hhem-2.1-english": 0.24896,
+        "trueteacher": 1,
+        "true_nli": 0,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 0,
+        "gpt_4o": 0,
+        "raw_sample_id": 210
+      }
+    },
+    {
+      "sample_id": 42,
+      "source": "a species of whale that was feared to be extinct has been found washed up on a west australian beach , giving scientists an opportunity to learn more about the mammal . \nthe omura 's whale was discovered on a remote exmouth beach , at the tip of the state 's north west cape , after tropical cyclone olwyn tore through the area last month . \nit is the first sighting of the species in wa and only the second in australia . \nidentifying the 5.68 m juvenile female was at first difficult for department of parks and wildlife staff , who eventually confirmed it was an omura 's whale with dna profiling . \nan omura 's whale was discovered on a remote exmouth beach in wa ( pictured ) . \nit left authorities confused as they struggled to identify the rare species\nenvironment minister albert jacob said the find was ` highly significant ' for whale scientists because very little was known about the species . \n` omura 's whale was only described in scientific journals for the first time in 2003 and is apparently restricted to tropical and subtropical waters , ' he said . \n` the knowledge we gain from this whale will help to improve field identification guides to better understand the whale 's regional distribution . ' \nthe species is usually found in indonesian waters , the philippines and the sea of japan . \nomura 's whales have a sleek body shape and several unique skeletal features , including 53 vertebrae and four digits on each pectoral fin . \nthe carcass has been buried and the skeleton will be recovered in a few years for further scientific investigation and possibly for public display in museums . \nthe omura 's is usually found in indonesian waters , the philippines and the sea of japan\nthe whale has a sleek body shape and several unique skeletal features , including 63 vertebrae",
+      "summary": "Here's a concise summary of the passage, covering the core pieces of information:\n\nAn Omura's whale, a rare species once feared extinct, was found washed up on a remote beach in Exmouth, Western Australia, following Cyclone Olwyn. This is the first sighting in Western Australia and only the second in Australia. The 5.68m juvenile female was identified through DNA profiling. The discovery is significant for scientists as little is known about this species, which was first described in 2003. Omura's whales typically inhabit tropical and subtropical waters, including Indonesian waters, the Philippines, and the Sea of Japan. They have unique features, including 53 vertebrae and four digits on each pectoral fin. The carcass has been buried, and the skeleton will be recovered later for further research and possible museum display.",
+      "annotations": [],
+      "metadata": {
+        "summarizer": "Anthropic/claude-3-5-sonnet-20240620",
+        "hhemv1": 0.98534,
+        "hhem-2.1": 0.92244,
+        "hhem-2.1-english": 0.96859,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 0,
+        "gpt_4o": 1,
+        "raw_sample_id": 325
+      }
+    },
+    {
+      "sample_id": 43,
+      "source": "a species of whale that was feared to be extinct has been found washed up on a west australian beach , giving scientists an opportunity to learn more about the mammal . \nthe omura 's whale was discovered on a remote exmouth beach , at the tip of the state 's north west cape , after tropical cyclone olwyn tore through the area last month . \nit is the first sighting of the species in wa and only the second in australia . \nidentifying the 5.68 m juvenile female was at first difficult for department of parks and wildlife staff , who eventually confirmed it was an omura 's whale with dna profiling . \nan omura 's whale was discovered on a remote exmouth beach in wa ( pictured ) . \nit left authorities confused as they struggled to identify the rare species\nenvironment minister albert jacob said the find was ` highly significant ' for whale scientists because very little was known about the species . \n` omura 's whale was only described in scientific journals for the first time in 2003 and is apparently restricted to tropical and subtropical waters , ' he said . \n` the knowledge we gain from this whale will help to improve field identification guides to better understand the whale 's regional distribution . ' \nthe species is usually found in indonesian waters , the philippines and the sea of japan . \nomura 's whales have a sleek body shape and several unique skeletal features , including 53 vertebrae and four digits on each pectoral fin . \nthe carcass has been buried and the skeleton will be recovered in a few years for further scientific investigation and possibly for public display in museums . \nthe omura 's is usually found in indonesian waters , the philippines and the sea of japan\nthe whale has a sleek body shape and several unique skeletal features , including 63 vertebrae",
+      "summary": "The Omura's whale, a species once thought to be extinct, has been discovered on a beach in Western Australia, marking the first sighting in the state and only the second in the country. The juvenile female, measuring 5.68 meters, was initially challenging to identify due to its rarity, but DNA profiling confirmed its species. This find is significant for scientists as knowledge about the Omura's whale is limited. The species was first described in 2003 and is typically found in tropical and subtropical waters, such as Indonesia, the Philippines, and the Sea of Japan. Its distinct features include a sleek body, 53 vertebrae, and four digits on each pectoral fin. The whale's remains have been buried, and its skeleton will be exhumed for scientific study and potential museum display.",
+      "annotations": [
+        {
+          "annot_id": 39,
+          "annotator_id": "3dbe982ebbaf46cfa500375857a5c2fd",
+          "annotator_name": "Rogger",
+          "label": [
+            "Questionable"
+          ],
+          "note": "sleek body not distinct?",
+          "summary_span": "distinct features include a sleek body",
+          "summary_start": 578,
+          "summary_end": 616,
+          "source_span": "\nomura 's whales have a sleek body shape and several unique skeletal features , including 53 vertebrae and four digits on each pectoral fin .",
+          "source_start": 1313,
+          "source_end": 1454
+        },
+        {
+          "annot_id": 87,
+          "annotator_id": "5e3dc734a1b7499d9c166bf020ef6ff8",
+          "annotator_name": "Matt",
+          "label": [
+            "Benign"
+          ],
+          "note": "This is helpful context that doesn't exist in the source material (explicitly) and also doesn't change the original meaning of the source material.",
+          "summary_span": "marking the first sighting in the state and only the second in the country",
+          "summary_start": 110,
+          "summary_end": 184,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        }
+      ],
+      "metadata": {
+        "summarizer": "cohere/command-r-08-2024",
+        "hhemv1": 0.98998,
+        "hhem-2.1": 0.96679,
+        "hhem-2.1-english": 0.98036,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 0,
+        "gpt_4o": 1,
+        "raw_sample_id": 440
+      }
+    },
+    {
+      "sample_id": 44,
+      "source": "a species of whale that was feared to be extinct has been found washed up on a west australian beach , giving scientists an opportunity to learn more about the mammal . \nthe omura 's whale was discovered on a remote exmouth beach , at the tip of the state 's north west cape , after tropical cyclone olwyn tore through the area last month . \nit is the first sighting of the species in wa and only the second in australia . \nidentifying the 5.68 m juvenile female was at first difficult for department of parks and wildlife staff , who eventually confirmed it was an omura 's whale with dna profiling . \nan omura 's whale was discovered on a remote exmouth beach in wa ( pictured ) . \nit left authorities confused as they struggled to identify the rare species\nenvironment minister albert jacob said the find was ` highly significant ' for whale scientists because very little was known about the species . \n` omura 's whale was only described in scientific journals for the first time in 2003 and is apparently restricted to tropical and subtropical waters , ' he said . \n` the knowledge we gain from this whale will help to improve field identification guides to better understand the whale 's regional distribution . ' \nthe species is usually found in indonesian waters , the philippines and the sea of japan . \nomura 's whales have a sleek body shape and several unique skeletal features , including 53 vertebrae and four digits on each pectoral fin . \nthe carcass has been buried and the skeleton will be recovered in a few years for further scientific investigation and possibly for public display in museums . \nthe omura 's is usually found in indonesian waters , the philippines and the sea of japan\nthe whale has a sleek body shape and several unique skeletal features , including 63 vertebrae",
+      "summary": "A juvenile female Omura's whale, previously thought to be extinct in Western Australia, was discovered washed up on a remote Exmouth beach after Tropical Cyclone Olwyn. This is the first sighting of the species in Western Australia and only the second in Australia. The whale, identified through DNA profiling, is significant for whale scientists due to the limited knowledge about the species, which was only described scientifically in 2003. The find will aid in improving field identification guides and understanding the whale's regional distribution. The carcass has been buried, and the skeleton will be recovered later for further scientific study and potential museum display.",
+      "annotations": [
+        {
+          "annot_id": 41,
+          "annotator_id": "3dbe982ebbaf46cfa500375857a5c2fd",
+          "annotator_name": "Rogger",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "Not extinct in WA but worldwide",
+          "summary_span": "previously thought to be extinct in Western Australia",
+          "summary_start": 33,
+          "summary_end": 86,
+          "source_span": "a species of whale that was feared to be extinct has been found washed up on a west australian beach , giving scientists an opportunity to learn more about the mammal .",
+          "source_start": 0,
+          "source_end": 168
+        },
+        {
+          "annot_id": 115,
+          "annotator_id": "5e3dc734a1b7499d9c166bf020ef6ff8",
+          "annotator_name": "Matt",
+          "label": [
+            "Unwanted",
+            "Unwanted.Intrinsic"
+          ],
+          "note": "Previously thought to be extinct worldwide, not specifically in Western Australia",
+          "summary_span": "previously thought to be extinct in Western Australia",
+          "summary_start": 33,
+          "summary_end": 86,
+          "source_span": null,
+          "source_start": null,
+          "source_end": null
+        }
+      ],
+      "metadata": {
+        "summarizer": "Qwen/Qwen2.5-7B-Instruct",
+        "hhemv1": 0.99847,
+        "hhem-2.1": 0.9375,
+        "hhem-2.1-english": 0.99271,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 555
+      }
+    },
+    {
+      "sample_id": 45,
+      "source": "a species of whale that was feared to be extinct has been found washed up on a west australian beach , giving scientists an opportunity to learn more about the mammal . \nthe omura 's whale was discovered on a remote exmouth beach , at the tip of the state 's north west cape , after tropical cyclone olwyn tore through the area last month . \nit is the first sighting of the species in wa and only the second in australia . \nidentifying the 5.68 m juvenile female was at first difficult for department of parks and wildlife staff , who eventually confirmed it was an omura 's whale with dna profiling . \nan omura 's whale was discovered on a remote exmouth beach in wa ( pictured ) . \nit left authorities confused as they struggled to identify the rare species\nenvironment minister albert jacob said the find was ` highly significant ' for whale scientists because very little was known about the species . \n` omura 's whale was only described in scientific journals for the first time in 2003 and is apparently restricted to tropical and subtropical waters , ' he said . \n` the knowledge we gain from this whale will help to improve field identification guides to better understand the whale 's regional distribution . ' \nthe species is usually found in indonesian waters , the philippines and the sea of japan . \nomura 's whales have a sleek body shape and several unique skeletal features , including 53 vertebrae and four digits on each pectoral fin . \nthe carcass has been buried and the skeleton will be recovered in a few years for further scientific investigation and possibly for public display in museums . \nthe omura 's is usually found in indonesian waters , the philippines and the sea of japan\nthe whale has a sleek body shape and several unique skeletal features , including 63 vertebrae",
+      "summary": "Here is a concise summary of the passage:\n\nA juvenile female Omura's whale, a species thought to be extinct, was found washed up on a West Australian beach after a tropical cyclone. It is the first sighting of the species in Western Australia and only the second in Australia. The whale was identified through DNA profiling and is significant for scientists as little is known about the species. The carcass has been buried, and the skeleton will be recovered in a few years for further study and possible display in museums.",
+      "annotations": [],
+      "metadata": {
+        "summarizer": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+        "hhemv1": 0.99552,
+        "hhem-2.1": 0.90765,
+        "hhem-2.1-english": 0.98995,
+        "trueteacher": 0,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 0,
+        "gpt_4o": 1,
+        "raw_sample_id": 670
+      }
+    },
+    {
+      "sample_id": 46,
+      "source": "a species of whale that was feared to be extinct has been found washed up on a west australian beach , giving scientists an opportunity to learn more about the mammal . \nthe omura 's whale was discovered on a remote exmouth beach , at the tip of the state 's north west cape , after tropical cyclone olwyn tore through the area last month . \nit is the first sighting of the species in wa and only the second in australia . \nidentifying the 5.68 m juvenile female was at first difficult for department of parks and wildlife staff , who eventually confirmed it was an omura 's whale with dna profiling . \nan omura 's whale was discovered on a remote exmouth beach in wa ( pictured ) . \nit left authorities confused as they struggled to identify the rare species\nenvironment minister albert jacob said the find was ` highly significant ' for whale scientists because very little was known about the species . \n` omura 's whale was only described in scientific journals for the first time in 2003 and is apparently restricted to tropical and subtropical waters , ' he said . \n` the knowledge we gain from this whale will help to improve field identification guides to better understand the whale 's regional distribution . ' \nthe species is usually found in indonesian waters , the philippines and the sea of japan . \nomura 's whales have a sleek body shape and several unique skeletal features , including 53 vertebrae and four digits on each pectoral fin . \nthe carcass has been buried and the skeleton will be recovered in a few years for further scientific investigation and possibly for public display in museums . \nthe omura 's is usually found in indonesian waters , the philippines and the sea of japan\nthe whale has a sleek body shape and several unique skeletal features , including 63 vertebrae",
+      "summary": "Here is a concise summary of the passage:\n\nA rare Omura's whale, feared to be extinct, was found washed up on a remote beach in Western Australia, marking the first sighting in WA and only the second in Australia. The 5.68m juvenile female was identified through DNA profiling after initial difficulty. The discovery is significant for scientists, who know little about the species, which is usually found in Indonesian waters, the Philippines, and the Sea of Japan. The whale has unique skeletal features, including 53 vertebrae and four digits on each pectoral fin. The carcass has been buried, and the skeleton will be recovered for further scientific investigation and possible public display.",
+      "annotations": [],
+      "metadata": {
+        "summarizer": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+        "hhemv1": 0.99593,
+        "hhem-2.1": 0.92327,
+        "hhem-2.1-english": 0.9722,
+        "trueteacher": 0,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 0,
+        "gpt_4o": 1,
+        "raw_sample_id": 785
+      }
+    },
+    {
+      "sample_id": 47,
+      "source": "a species of whale that was feared to be extinct has been found washed up on a west australian beach , giving scientists an opportunity to learn more about the mammal . \nthe omura 's whale was discovered on a remote exmouth beach , at the tip of the state 's north west cape , after tropical cyclone olwyn tore through the area last month . \nit is the first sighting of the species in wa and only the second in australia . \nidentifying the 5.68 m juvenile female was at first difficult for department of parks and wildlife staff , who eventually confirmed it was an omura 's whale with dna profiling . \nan omura 's whale was discovered on a remote exmouth beach in wa ( pictured ) . \nit left authorities confused as they struggled to identify the rare species\nenvironment minister albert jacob said the find was ` highly significant ' for whale scientists because very little was known about the species . \n` omura 's whale was only described in scientific journals for the first time in 2003 and is apparently restricted to tropical and subtropical waters , ' he said . \n` the knowledge we gain from this whale will help to improve field identification guides to better understand the whale 's regional distribution . ' \nthe species is usually found in indonesian waters , the philippines and the sea of japan . \nomura 's whales have a sleek body shape and several unique skeletal features , including 53 vertebrae and four digits on each pectoral fin . \nthe carcass has been buried and the skeleton will be recovered in a few years for further scientific investigation and possibly for public display in museums . \nthe omura 's is usually found in indonesian waters , the philippines and the sea of japan\nthe whale has a sleek body shape and several unique skeletal features , including 63 vertebrae",
+      "summary": "An Omura's whale, a species rarely seen and thought to be extinct, was found washed up on a beach in Western Australia. This is the first sighting of the species in Western Australia and only the second in Australia. The whale was identified through DNA profiling and is a juvenile female. The discovery is significant because very little is known about the species, which was only first described in scientific journals in 2003. The whale's carcass has been buried and will be recovered in a few years for further scientific investigation. \n",
+      "annotations": [],
+      "metadata": {
+        "summarizer": "google/gemini-1.5-flash-001",
+        "hhemv1": 0.99888,
+        "hhem-2.1": 0.93587,
+        "hhem-2.1-english": 0.98948,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 0,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 900
+      }
+    },
+    {
+      "sample_id": 48,
+      "source": "a species of whale that was feared to be extinct has been found washed up on a west australian beach , giving scientists an opportunity to learn more about the mammal . \nthe omura 's whale was discovered on a remote exmouth beach , at the tip of the state 's north west cape , after tropical cyclone olwyn tore through the area last month . \nit is the first sighting of the species in wa and only the second in australia . \nidentifying the 5.68 m juvenile female was at first difficult for department of parks and wildlife staff , who eventually confirmed it was an omura 's whale with dna profiling . \nan omura 's whale was discovered on a remote exmouth beach in wa ( pictured ) . \nit left authorities confused as they struggled to identify the rare species\nenvironment minister albert jacob said the find was ` highly significant ' for whale scientists because very little was known about the species . \n` omura 's whale was only described in scientific journals for the first time in 2003 and is apparently restricted to tropical and subtropical waters , ' he said . \n` the knowledge we gain from this whale will help to improve field identification guides to better understand the whale 's regional distribution . ' \nthe species is usually found in indonesian waters , the philippines and the sea of japan . \nomura 's whales have a sleek body shape and several unique skeletal features , including 53 vertebrae and four digits on each pectoral fin . \nthe carcass has been buried and the skeleton will be recovered in a few years for further scientific investigation and possibly for public display in museums . \nthe omura 's is usually found in indonesian waters , the philippines and the sea of japan\nthe whale has a sleek body shape and several unique skeletal features , including 63 vertebrae",
+      "summary": "A species of whale, known as the Omura's whale, which was previously feared to be extinct, has been found washed up on a beach in Western Australia. This discovery provides scientists with an opportunity to learn more about the mammal. It is the first sighting of the species in Western Australia and only the second in Australia. The identification of the whale was initially difficult, but it was eventually confirmed to be an Omura's whale through DNA profiling. This find is considered highly significant for whale scientists, as very little is known about the species. The knowledge gained from this whale will help improve field identification guides and better understand its regional distribution. The Omura's whale is usually found in Indonesian waters, the Philippines, and the Sea of Japan. It has a sleek body shape and several unique skeletal features. The carcass has been buried, and the skeleton will be recovered in a few years for further scientific investigation and possibly for public display in museums.",
+      "annotations": [],
+      "metadata": {
+        "summarizer": "openai/GPT-3.5-Turbo",
+        "hhemv1": 0.9991,
+        "hhem-2.1": 0.89348,
+        "hhem-2.1-english": 0.96405,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 0,
+        "gpt_4o": 1,
+        "raw_sample_id": 993
+      }
+    },
+    {
+      "sample_id": 49,
+      "source": "a species of whale that was feared to be extinct has been found washed up on a west australian beach , giving scientists an opportunity to learn more about the mammal . \nthe omura 's whale was discovered on a remote exmouth beach , at the tip of the state 's north west cape , after tropical cyclone olwyn tore through the area last month . \nit is the first sighting of the species in wa and only the second in australia . \nidentifying the 5.68 m juvenile female was at first difficult for department of parks and wildlife staff , who eventually confirmed it was an omura 's whale with dna profiling . \nan omura 's whale was discovered on a remote exmouth beach in wa ( pictured ) . \nit left authorities confused as they struggled to identify the rare species\nenvironment minister albert jacob said the find was ` highly significant ' for whale scientists because very little was known about the species . \n` omura 's whale was only described in scientific journals for the first time in 2003 and is apparently restricted to tropical and subtropical waters , ' he said . \n` the knowledge we gain from this whale will help to improve field identification guides to better understand the whale 's regional distribution . ' \nthe species is usually found in indonesian waters , the philippines and the sea of japan . \nomura 's whales have a sleek body shape and several unique skeletal features , including 53 vertebrae and four digits on each pectoral fin . \nthe carcass has been buried and the skeleton will be recovered in a few years for further scientific investigation and possibly for public display in museums . \nthe omura 's is usually found in indonesian waters , the philippines and the sea of japan\nthe whale has a sleek body shape and several unique skeletal features , including 63 vertebrae",
+      "summary": "A species of whale, feared extinct, was found on a West Australian beach, providing scientists a chance to study it. The Omura's whale, discovered on Exmouth beach after Cyclone Olwyn, marks the first sighting in Western Australia and the second in Australia. Initially difficult to identify, it was confirmed through DNA profiling. Environment Minister Albert Jacob highlighted the significance of the find, noting the species was first described in 2003 and is typically found in tropical waters like Indonesia, the Philippines, and the Sea of Japan. The whale has a sleek body and unique skeletal features. The carcass has been buried, with plans to recover the skeleton for further study and potential museum display.",
+      "annotations": [],
+      "metadata": {
+        "summarizer": "openai/gpt-4o",
+        "hhemv1": 0.99875,
+        "hhem-2.1": 0.94691,
+        "hhem-2.1-english": 0.99216,
+        "trueteacher": 1,
+        "true_nli": 1,
+        "gpt-3.5-turbo": 1,
+        "gpt-4-turbo": 1,
+        "gpt_4o": 1,
+        "raw_sample_id": 1130
+      }
+    }
+  ]
+}
