@@ -2,9 +2,15 @@
 
 This repo releases the final data for the NAACL 2025 paper: [FaithBench: A Diverse Hallucination Benchmark for Summarization by Modern LLMs](https://aclanthology.org/2025.naacl-short.38/). A more detailed repo is [here](https://github.com/forrestbao/faithbench).
 
+## Utility scripts
+
+Under the folder [`./scripts/`](./scripts/), the following scripts are to help you process the data. 
+* [`./scripts/binarize.py`](./scripts/binarize.py) is to aggregate the annotations to sample-level labels, and binarize the labels to 0/1 for binary classification.
+* [`./scripts/how_to_load.py`](./scripts/how_to_load.py) is an example of how to load the data.
+
 ## Data format
 
-Human-annotated samples are released under [`./data_for_release/`](./data_for_release/), of the name `batch_{batch_id}.json`, where `{batch_id}` ranges from 1 to 16, except 13. To see how to load the data, see [`./scripts/how_to_load.py`](./scripts/how_to_load.py).
+Human-annotated samples are released under [`./data_for_release/`](./data_for_release/), of the name `batch_{batch_id}.json`, where `{batch_id}` ranges from 1 to 16, except 13.
 
 The data schema is defined in [`./scripts/faithbench_schema.py`](./scripts/faithbench_schema.py). In short, a sample contains:
 * `sample_id`: the id of the sample **in this batch**
