@@ -87,22 +87,55 @@ def binarize_batch(
         return []
 
 # %%
+def gen_config_short_name(
+    aggregation_strategy: Literal["majority", "worst", "best"], 
+    hallucinated_classes: List[FaithBenchLabel]
+    ) -> str:
+
+    mapping_hallucinated_classes_to_short_name = {
+        FaithBenchLabel.Unwanted: "U",
+        FaithBenchLabel.Unwanted_Intrinsic: "UI",
+        FaithBenchLabel.Unwanted_Extrinsic: "UE",
+        FaithBenchLabel.Questionable: "Q",
+        FaithBenchLabel.Benign: "B"
+    }
+
+    hallucinated_classes_short_names = [mapping_hallucinated_classes_to_short_name[cls] for cls in hallucinated_classes]
+
+    if "UI" in hallucinated_classes_short_names and "UE" in hallucinated_classes_short_names:
+        hallucinated_classes_short_names.remove("UI")
+        hallucinated_classes_short_names.remove("UE")
+
+    print (hallucinated_classes_short_names)
+
+    return f"{aggregation_strategy}_{'+'.join(hallucinated_classes_short_names)}"    
+
+# %%
+def binarize_all_batches(
+    aggregation_strategy: Literal["majority", "worst", "best"], 
+    hallucinated_classes: List[FaithBenchLabel], 
+    dump_dir: str
+    ) -> List[FaithBenchTextPair]:
+
+    binarized_samples: List[FaithBenchTextPair] = []
+    for batch in tqdm(range(1, 16+1)):
+        binarized_samples.extend(binarize_batch(batch_id = batch, aggregation_strategy=aggregation_strategy, hallucinated_classes=hallucinated_classes))
+
+    config_short_name = gen_config_short_name(aggregation_strategy, hallucinated_classes)
+    with open(f"{dump_dir}/faithbench_binarized_{config_short_name}.jsonl", "w") as f:
+        for sample in binarized_samples:
+            f.write(json.dumps(sample.model_dump()) + "\n")   
+
+    return binarized_samples
+
+# %%
 config = {
     "aggregation_strategy": "worst",
-    "hallucinated_classes": [FaithBenchLabel.Questionable, FaithBenchLabel.Unwanted, FaithBenchLabel.Unwanted_Intrinsic, FaithBenchLabel.Unwanted_Extrinsic]
+    "hallucinated_classes": [FaithBenchLabel.Questionable, FaithBenchLabel.Unwanted, FaithBenchLabel.Unwanted_Intrinsic, FaithBenchLabel.Unwanted_Extrinsic], 
+    "dump_dir": "../data_for_release"
 }
 
-binarized_samples: List[FaithBenchTextPair] = []
-for batch in tqdm(range(1, 16+1)):
-    binarized_samples.extend(binarize_batch(batch_id = batch, **config))
-
-with open(f"../data_for_release/binarized_samples.jsonl", "w") as f:
-    for sample in binarized_samples:
-        f.write(json.dumps(sample.model_dump()) + "\n")   
-
-"""
-A binarized sample is a tuple of (source, summary, label), where label is 0 or 1.
-"""
+_ =binarize_all_batches(**config)
 
 # %%
 

@@ -52,3 +52,8 @@ class FaithBenchSample(BaseModel):
 
 class FaithBenchBatch(BaseModel):
     samples: List[FaithBenchSample]
+
+class FaithBenchTextPair(BaseModel):
+    source: str
+    summary: str
+    label: Literal[0,1]
